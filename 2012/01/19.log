@@ -103,3 +103,52 @@
 [01-19-2012 14:58:42] <percent20> groovecoder:  don't you have a google key card?
 [15:09:48] <percent20> test message. :)
 [15:09:58] <Destos> another test message
+[15:10:44] <percent20> ty
+[15:11:23] <Destos> another belated test message
+[15:11:27] <percent20> https://github.com/tulsawebdevs/irclogs/blob/master/2012/01/19.log <- bottom looks much better now.
+[15:12:19] <percent20> still off by an hour since server is on eastcoast
+[15:16:18] <percent20> would be cool to do each line in markdown so we can get some rich text and linkify links and make it easier to consume
+[15:23:25] <sephillips> So what you are saying is that everything I say in here is preserved for posterity?
+[15:23:36] <percent20> http://www.neowin.net/news/megaupload-charged-with-piracy-shut-down
+[15:23:48] <percent20> yes. mostly though I am after saving links
+[15:24:10] <percent20> we have lost a few to the void.
+[15:25:32] <sephillips> hmm...the Megaupload story makes me wonder why anyone thought they needed SOPA/PIPA?
+[15:28:06] <percent20> well, we "need" it to block foreign pirates.
+[15:28:47] <percent20> that is why the whole "great firewall of america" was going around. We can just remove dns stuff from foreign sites so we can't get there.
+[15:39:14] <percent20> groovecoder: I removed the mozilla code from C25k app and now it partially works as local app.
+[15:39:32] <percent20> getting closer
+[15:43:39] <percent20> I like how I update the code on github and it essentially updates everyone elses app in the world.
+[15:50:47] <percent20> https://github.com/applidium/Vim <- vim for ioss
+[15:50:49] <percent20> ios*
+[15:52:52] <groovecoder> if I catch anyone writing code on their iOS device, I'm revoking their github access :)
+[15:53:13] <percent20> even on my iPad in a doctors office?
+[15:54:16] <percent20> I have wanted vim on my iPad for a while now.
+[15:54:59] <percent20> http://itunes.apple.com/us/app/vim/id492668168?mt=8&ls=1
+[16:02:54] <percent20> groovecoder: its amazing the amount of effort going into building vagrant up at mozilla.
+[16:08:30] <groovecoder> I thought apple denied gpl software from app store?
+[16:09:07] <groovecoder> percent20: what do you mean?
+[16:09:28] <percent20> groovecoder: me too. apparently they forgot their own gpl policy.
+[16:09:40] <percent20> groovecoder: it seems like everytime I jump into a mozilla channel they are talkign about bagrant
+[16:09:44] <percent20> vagrant*
+[16:10:17] <groovecoder> yeah
+[16:10:42] <groovecoder> I'm using it now too, but I don't know that I like it any better than just a sane README and requirements.txt
+[16:11:44] <groovecoder> there's stuff you can do with vagrant & puppet that you just can't automate any other way though. e.g., import a scrubbed dump of production data locally, automatically set up MindTouch integration, etc.
+[16:12:25] <groovecoder> https://www.youtube.com/watch?v=iIuTnhdTzK0 is making the rounds in Mozilla now
+[16:26:55] <sephillips> So who wants the access info for the first VM for Okiedata.org
+[16:27:29] <groovecoder> what OS is it running? ;)
+[16:27:36] <groovecoder> (also, incredible: https://developer.mozilla.org/en-US/demos/detail/bouncy-and-the-apple)
+[16:28:55] <sephillips> MS of course!
+[16:29:27] <groovecoder> hmm ... I got nothing for it then :(
+[16:29:32] <sephillips> ...Centos 6.2
+[16:29:41] <groovecoder> better, better ...
+[16:30:14] <groovecoder> sephillips: email me the access creds. I might try to throw couchdb up there when I do more scraper hacking tonight
+[16:30:36] <percent20> groovecoder: you should do some scraper blogging too ;)
+[16:31:28] <groovecoder> percent20: I plan to write a python + github + heroku + socrata blog post at tulsawebdevs.org. the last one actually brought a comment from the Socrata dev evangelist! and might have given us a lead into some hackathon sponsorship money! :)
+[16:31:47] <percent20> yay :)
+[16:32:42] <sephillips> groovecoder: your wish is my command...
+[16:33:36] <percent20> well I am off to school not sure which is going to be more fun school or the django docs I have read for the last couple of hours.
+[16:33:45] <percent20> ttyl
+[16:34:05] <Destos> cya tomorrow percent20
+[16:51:19] <groovecoder> sephillips: i386? x86_64?
+[17:35:09] <percent20> i like when textbooks ask cliched math questions of which I already know the answer.
+[18:10:14] <percent20> you can tell its 5pm ;)

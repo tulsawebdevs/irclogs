@@ -1,0 +1,16 @@
+[01-19-2012 06:45:21] <percent20> heh
+[01-19-2012 06:45:58] <percent20> it is done
+[01-19-2012 06:46:01] <percent20> :D
+[01-19-2012 06:46:28] <percent20> https://github.com/tulsawebdevs/ircbot
+[01-19-2012 10:16:35] <percent20> soooo quite.
+[01-19-2012 10:16:49] <groovecoder> percent20: just got my scraper running on heroku
+[01-19-2012 10:16:53] <percent20> :D
+[01-19-2012 10:17:01] <percent20> how much effort did it take?
+[01-19-2012 10:19:02] <groovecoder> https://github.com/tulsawebdevs/python-scrapers
+[01-19-2012 10:19:22] <groovecoder> that much. about an hour of moving stuff around and making sure I had all the requirements.txt and Procfile correct
+[01-19-2012 10:20:22] <groovecoder> but now we should be able to just add more ___.py scraper files, and any more libraries we need to requirements.txt
+[01-19-2012 10:20:37] <groovecoder> next step is to make the scraper load into socrata
+[01-19-2012 10:21:02] <groovecoder> they have a python library with an example loader
+[01-19-2012 10:21:03] <groovecoder> https://github.com/socrata/socrata-python/blob/master/rss_capturer.py
+[01-19-2012 10:22:04] <percent20> so hereis a question do we want to build and intermediary service that everyone dumps data to and that service pushes everything out to other services.
+[01-19-2012 10:59:20] <groovecoder> percent20: if we do just github + heroku + socrata/buzzdata/qrimp/etc. then we don't have to host anything yourselves

@@ -1,0 +1,69 @@
+[01-19-2012 11:03:25] <percent20> agreed, but I think sephillips is going to loan us a server, at least last I heard anyway.
+[01-19-2012 11:22:10] <groovecoder> if so right now I'm tempted to use it to just host a big couchdb or something
+[01-19-2012 11:34:38] <percent20> groovecoder: I think that would be a good idea.
+[01-19-2012 11:35:49] <groovecoder> just wached the end of the thunder game
+[01-19-2012 11:36:09] <percent20> was it any good?
+[01-19-2012 11:37:12] <groovecoder> pretty good game, bad result :(
+[01-19-2012 11:37:52] <percent20> ah. Someone should be shot because of this page. http://oklahomathunder.net/about.htm
+[01-19-2012 11:44:50] <percent20> dang you groovecoder adding "honest feedback only" to facebook.
+[01-19-2012 20:35:03] <esdev> g'morning sleepy heads
+[01-19-2012 20:35:26] <groovecoder> morning
+[01-19-2012 20:42:06] <groovecoder> pretty good discussion going on facebook
+[01-19-2012 20:42:29] <esdev> tulsawebdevs page?
+[01-19-2012 20:42:54] <groovecoder> yeah
+[01-19-2012 20:43:04] <groovecoder> re: why u no show up to meetings?
+[01-19-2012 20:43:14] <esdev> o yea. lol
+[01-19-2012 20:51:33] <esdev> github vs. bitbucket? what's the diff and who cares?
+[01-19-2012 20:52:27] <esdev> vs. launchpad vs. koders...
+[01-19-2012 20:52:38] <codelahoma> I don't care, but I think bitbucket has more for free and also supports mercurial and svn
+[01-19-2012 20:53:00] <codelahoma> scratch SVN
+[01-19-2012 20:53:13] <esdev> it doesn't support svn?
+[01-19-2012 20:53:33] <esdev> o yea. git and mercurial
+[01-19-2012 20:53:36] <codelahoma> github is very popular with ruby and node projects.
+[01-19-2012 20:54:06] <codelahoma> social features are strong on github, but I have no experience with bitbucket
+[01-19-2012 20:54:21] <codelahoma> I think percent20 uses them.
+[01-19-2012 20:56:09] <codelahoma> I should probably move my private repos to bitbucket and save myself $7 a month.
+[01-19-2012 20:56:21] <esdev> which is easier for the noob-types aka folks like me?
+[01-19-2012 20:57:05] <codelahoma> I've only used github.
+[01-19-2012 20:57:07] <esdev> hey $7 is $84/yr it adds up
+[01-19-2012 20:57:18] <esdev> me too
+[01-19-2012 21:02:03] <codelahoma> those recurring sub-$10 expenses are so easy to procrastinate on eliminating. It's the fitness club business model.
+[01-19-2012 21:02:23] <esdev> yep
+[01-19-2012 21:20:58] <groovecoder> codelahoma++ I have about 4 or 5 different sub-$10 monthly cloud costs.
+[01-19-2012 21:21:04] <zerokarmaleft> except the fitness club adds to closer to $1000/yr
+[01-19-2012 21:21:23] <codelahoma> groovecoder: same here
+[01-19-2012 21:22:08] <zerokarmaleft> i'm happy with rdio and netflix replacing tv and my cd-purchasing habit
+[01-19-2012 21:23:06] <codelahoma> http://aws.amazon.com/dynamodb/
+[01-19-2012 21:23:21] <codelahoma> zerokarmaleft: Netflix, Hulu+, and MOG here.
+[01-19-2012 21:23:42] <codelahoma> with two Roku, one Apple TV, and one XBox-360
+[01-19-2012 21:30:33] <groovecoder> mm ... I just cancelled my (premium) github.com, screencast.com, and quantact.com accounts
+[01-19-2012 21:30:38] <groovecoder> feels great
+[01-19-2012 21:30:45] <groovecoder> I'm keeping Pandora
+[01-19-2012 21:30:51] <groovecoder> and Rackspace
+[01-19-2012 21:30:55] <esdev> lunch is on groovecoder
+[01-19-2012 21:31:38] <codelahoma> what's the benefit of premium Pandora?
+[01-19-2012 21:32:39] <groovecoder> codelahoma: no commercials
+[01-19-2012 21:35:14] <codelahoma> ahh...I guess I don't listen to it enough to notice the commercials
+[01-19-2012 21:44:31] <esdev> django installed. movin' on up
+[01-19-2012 21:46:05] <esdev> bbl folks
+[01-19-2012 22:17:58] <zerokarmaleft> how much interest do you guys have in something like hadoop?
+[01-19-2012 22:18:22] <zerokarmaleft> for a meeting presentation
+[01-19-2012 22:18:38] <codelahoma> my interest is only academic
+[01-19-2012 22:18:59] <zerokarmaleft> it's not quite webdev, but more data-centric
+[01-19-2012 22:21:59] <zerokarmaleft> barring that, i could talk about scraping since i don't think i'll be able to make the hack day
+[01-19-2012 22:26:59] <groovecoder> zerokarmaleft: I've done *some* hadoop ... I don't know if any of us are dealing with that much data?
+[01-19-2012 22:27:15] <groovecoder> zerokarmaleft: I thought you wanted to talk about clojure in Feb?
+[01-19-2012 22:28:01] <zerokarmaleft> groovecoder: clojure+hadoop or clojure+scraping
+[01-19-2012 22:28:21] <groovecoder> zerokarmaleft: ooo, if you can do clojure+scraping on heroku that would rock
+[01-19-2012 22:28:47] <groovecoder> we could invite Tulsa Java to the meeting and might get some Java hackathon signups
+[01-19-2012 22:29:42] <zerokarmaleft> ok
+[01-19-2012 22:31:34] <zerokarmaleft> "Scraping the Web with Clojure on Heroku" it is, then
+[01-19-2012 22:33:56] <groovecoder> cool
+[01-19-2012 22:34:00] <zerokarmaleft> apropos of nothing, i'm idly wondering if i just installed some draconian adobe drm shit on my windows partition
+[01-19-2012 22:35:20] <groovecoder> though I have to say going thru http://tryclj.com/ I don't really like typing all these () characters ... I guess there are just as many in python, but they feel like they're in a more sane location in python? ;)
+[01-19-2012 22:40:10] <zerokarmaleft> groovecoder: that's a minor syntax issue
+[01-19-2012 22:40:38] <zerokarmaleft> easily remedied with editor support, similar to enforced whitespace :P
+[01-19-2012 22:53:49] <zerokarmaleft> http://seclists.org/oss-sec/2012/q1/200 <= wtf
+[01-19-2012 22:55:36] <groovecoder> holy crap
+[01-20-2012 00:14:18] <groovecoder> ACTION loves refactoring code when there are tests around it
+[01-19-2012 13:37:55] <percent20> tulsabot: why you disconnect and reconnect?

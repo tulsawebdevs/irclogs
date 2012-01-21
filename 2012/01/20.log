@@ -4,3 +4,160 @@
 [00:37:11] <percent20> !zerokarmaleft++
 [00:37:16] <percent20> !weather tulsa
 [00:37:42] <percent20> no wonder I am so cold.
+[01:55:54] <percent20> I want a 404 page this awesome. http://kvartirakrasivo.ru/404/index.php
+[03:04:01] <shanecowherd> so whats this bot guy do
+[03:04:08] <shanecowherd> tulsabot hello
+[03:05:40] <shanecowherd> !weather Colorado Springs
+[03:05:43] <shanecowherd> nice
+[03:05:47] <shanecowherd> !weather help
+[03:05:50] <shanecowherd> lol
+[03:16:58] <shanecowherd> Haha http://www.theverge.com/2012/1/18/2717898/this-is-how-you-market-a-graphics-card
+[09:16:17] <esdev> wakey, wakey
+[09:25:47] <danf1_> I want awesome points, too!
+[09:26:01] <danf1_> !danf1_++
+[09:26:26] <esdev> did i miss half of this conversation?
+[09:26:32] <danf1_> !tulsabot--
+[09:26:58] <danf1_> esdev: Last night, zerokarmaleft got an awesome point. I want an awesome point.
+[09:39:09] <groovecoder> whoa. http://data.ok.gov exists! and it's Socrata!
+[09:39:25] <groovecoder> so we can spend some time building apps instead of just mining data!
+[09:39:30] <esdev> groovecoder: +1
+[09:52:17] <groovecoder> heading to fab lab, brb
+[09:54:41] <zerokarmaleft> groovecoder: holy crap, that's awesome
+[10:38:16] <zerokarmaleft> !groovecoder++
+[10:38:24] <zerokarmaleft> for finding data.ok.gov
+[10:59:59] <groovecoder> zerokarmaleft: heh
+[11:00:02] <groovecoder> nice
+[11:00:18] <groovecoder> so you have to start it with !<username> ?
+[11:17:27] <zerokarmaleft> groovecoder: yea
+[11:50:24] <groovecoder> esdev: https://github.com/tulsawebdevs/tulsa-road-issues-feed
+[11:58:50] <esdev> I think I should adopt the title Michael Stelly MBA (mobile badass). sounds good to me.
+[12:30:23] <esdev> *chirp*
+[12:41:34] <PhatBoyG> How-do
+[12:41:47] <PhatBoyG> UMMMMM CANCUN WOULD BE SO GOODY
+[12:44:46] <timmorgan> groovecoder: should we bring lunch to FabLab?
+[12:44:53] <groovecoder> timmorgan: yeah :(
+[12:44:56] <groovecoder> dropped the ball on that
+[12:44:57] <timmorgan> ok just making sure
+[12:44:59] <esdev> yes, for all of us
+[12:45:00] <timmorgan> no not at all
+[12:45:01] <groovecoder> next time we'll buy lunch for everyone
+[12:45:09] <timmorgan> I assumed it was BYOL
+[12:45:19] <timmorgan> be there in a sec...
+[12:45:33] <esdev> it's a BMAL (bring me a lunch) day. :D
+[12:47:53] <PhatBoyG> I thought it was bring your mom for lunch day.
+[14:09:35] <percent20> !Destos++
+[14:09:45] <percent20> !weather tulsa
+[14:09:56] <percent20> zerokarmaleft: karma doesn't work
+[14:09:59] <percent20> Destos++
+[14:10:10] <Destos> Edwwarrrrdddd
+[14:15:28] <percent20> http://kvartirakrasivo.ru/404/index.php
+[14:17:53] <zerokarmaleft> percent20: can you check to see if an exception got thrown?
+[14:28:05] <percent20> zerokarmaleft: no exceptions
+[14:36:03] <zerokarmaleft> hmm, i bet it's the caps
+[14:36:56] <zerokarmaleft> i've mucked with it a little since last night, i'll make another push sometime today
+[14:37:54] <percent20> okay.
+[14:38:53] <zerokarmaleft> !destos++
+[14:39:16] <groovecoder> case-sensitive?
+[14:39:31] <zerokarmaleft> yea, only lowercase letters for the first letter in the old regex
+[14:46:41] <Randall> !weather vancouver
+[14:55:06] <zerokarmaleft> Randall: a bit dry there, eh? :D
+[14:55:34] <Randall> it's probably raining... rains every day there in the winter :(
+[15:17:51] <Randall> !weather seattle
+[15:18:30] <esdev> !weather shanghai
+[15:18:34] <Randall> !gavelhound good deals
+[15:18:39] <Randall> hmph
+[16:21:44] <Destos> !weather jupiter
+[16:29:08] <percent20> !destos--
+[16:29:12] <Destos> damnit
+[16:29:18] <Destos> ha
+[16:29:23] <percent20> !destos++
+[16:29:26] <percent20> !destos--
+[16:31:36] <percent20> zerokarmaleft: we can't take away karma.
+[16:31:52] <percent20> !percent20
+[16:31:56] <percent20> !percent20++
+[16:39:03] <sephillips1> http://www.ok.gov/gogreen/go_green_data_center/
+[16:43:03] <zerokarmaleft> percent20: patches welcome :P
+[16:44:37] <Randall> !destos++
+[16:44:43] <Randall> for the pizza
+[16:45:13] <percent20> zerokarmaleft: I agree ;)
+[16:53:27] <groovecoder> !tulsabot++
+[16:54:25] <zerokarmaleft> percent20: i pushed the fix
+[16:54:35] <percent20> thanks.
+[16:54:46] <percent20> i'll add it here in a sec. I am finishing up a new plugin
+[17:00:24] <percent20> !weather tulsa
+[17:00:29] <percent20> !hello
+[17:00:47] <percent20> !groovercoder++
+[17:00:56] <percent20> !destos--
+[17:03:31] <zerokarmaleft> !Destos++
+[17:13:36] <zerokarmaleft> percent20: do you have mongodb on your linode vm?
+[17:13:46] <percent20> no.
+[17:14:24] <zerokarmaleft> it'd be nice to able to persist the scores between bot uptimes
+[17:14:58] <percent20> can you save it to a textfile?
+[17:15:12] <zerokarmaleft> yes, but i want to overengineer it dammit
+[17:15:26] <zerokarmaleft> :D
+[17:15:54] <percent20> heh I understand the urge.
+[17:16:11] <zerokarmaleft> it needs to scale! for up to 10 nicks!
+[17:16:38] <percent20> we might have to spend some time on our hackday and we can rewrite some of it to all use mongodb and then save all logs to mongodb and we can really do some cool stuff.
+[17:17:46] <groovecoder> percent20: mongodb boo!
+[17:17:59] <percent20> you have another you recommend?
+[17:18:19] <groovecoder> hadoop w/ hive :)
+[17:18:26] <percent20> o_O
+[17:18:33] <zerokarmaleft> hive, gross
+[17:18:38] <percent20> !groovcoder--
+[17:18:42] <percent20> !groovecoder--
+[17:19:02] <percent20> we could use Redis
+[17:19:08] <groovecoder> percent20: Redis++
+[17:19:21] <percent20> too bad I don't know how to use either
+[17:19:32] <groovecoder> I don't know how to use Redis either but I want to
+[17:19:44] <zerokarmaleft> same here, haven't checked it out yet
+[17:19:58] <groovecoder> sounds perfect then :)
+[17:20:35] <percent20> okay. i'd rather not experiment on a production VPS
+[17:20:57] <Randall> those cops over there are dealing with an "Assault with a Deadly weapon" http://www.gavelhound.com/db.aspx?t=Crimes&orderby=1,1
+[17:21:21] <percent20> O_O
+[17:21:31] <percent20> !Randall++
+[17:22:21] <percent20> in South Tulsa you don't deal with assault with a deadly weapons across the street.
+[17:22:40] <Randall> the hound got this one too, which was going on while Luke was talking at the meeting http://www.gavelhound.com/db.aspx?t=Crimes&id=36218&vid=11
+[17:22:54] <shanecowherd> Whoa, those are live stats, cool
+[17:23:07] <Randall> updates every 5 minutes
+[17:23:43] <shanecowherd> Thats awesome
+[17:23:49] <Randall> there are about 6 cop cars and people talking to them
+[17:24:02] <Randall> thanks :)
+[17:24:35] <groovecoder> !Randall++
+[17:25:57] <Randall> this shows the 50 most recent calls on a map, color coded by ROYGBIV with R being the oldest  and V the newest http://www.gavelhound.com/db.aspx?t=Crimes&vid=crimemap&pagesize=50&orderby=1,1
+[17:27:56] <Randall> and you can filter by crime level as well, this is only violent crimes http://www.gavelhound.com/db.aspx?t=Crimes&vid=crimemap&pagesize=50&orderby=1,1&crimelevelop=%3E&crimelevelquery=700
+[17:28:57] <shanecowherd> so many crimes, lol
+[17:28:58] <shanecowherd> wow
+[17:30:22] <shanecowherd> i live near sex offenders lol
+[17:30:52] <Randall> it's amazing how many there are  here are the crimes by level http://www.gavelhound.com/db.aspx?t=crimes&qid=crimesbylevel&pagesize=1000
+[17:31:22] <percent20> !hello
+[17:31:24] <shanecowherd> wow
+[17:31:33] <shanecowherd> hahahaha
+[17:31:34] <shanecowherd> open door
+[17:31:37] <shanecowherd> and fireworks
+[17:31:42] <percent20> ???
+[17:32:46] <Randall> the fireworks calls were all for new years eve
+[17:33:09] <Randall> click on the suicide link. they're almost ALL in south tulsa
+[17:34:36] <Randall> That  was the most striking thing I learned from the map
+[17:36:24] <shanecowherd> this is incredible
+[17:36:41] <shanecowherd> tulsamugs.com
+[18:05:35] <percent20> http://www.youtube.com/watch?v=lbgHwSJJqXk
+[18:05:42] <percent20> ahhhh wrong channel
+[18:16:13] <Randall> you should say nsffl
+[18:16:14] <Randall> lol
+[18:20:56] <percent20> sorry.
+[18:44:59] <percent20> shanecowherd: you around?
+[18:45:24] <shanecowherd> hi
+[18:45:26] <shanecowherd> on phone
+[18:45:34] <percent20> let me know when you are off.
+[21:13:48] <sephillips> percent20: Whats your email address?
+[21:14:22] <percent20> messaged it to you. :)
+[22:30:50] <percent20> finally found a word I was looking for and the people I was talking with about it aren't here. :(
+[22:54:19] <percent20> groovecoder: so you working on tulsabot?
+[22:54:29] <groovecoder> not yet
+[22:54:32] <groovecoder> just got my girls to bed
+[22:55:00] <percent20> ah. was only joking though.
+[22:55:14] <percent20> unless you want to work on it that is. heh
+[22:58:03] <percent20> you know. I wish the django community was more active discussion wise. The ruby on rails community wont shut up, but the djanog community almost doesn't talk by comparison.
+[23:15:15] <percent20> O_O Justin.tv is porting from rails to django. http://www.djangohire.com/a/jbb/job-details/612877
+[23:17:49] <percent20> more on the why http://news.ycombinator.com/item?id=3461476
+[23:39:09] <percent20> http://confess.herokuapp.com/

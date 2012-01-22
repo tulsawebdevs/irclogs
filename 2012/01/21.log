@@ -1,1 +1,228 @@
 [00:43:36] <percent20> I love how when people don't like your answer they all become smartasses.
+[01:15:53] <shanecowherd> I dont like that idea
+[01:18:09] <percent20> what idea.
+[01:18:25] <shanecowherd> lol
+[01:18:29] <shanecowherd> i'm just being a smartass
+[01:19:19] <percent20> oh. heh. I have been digging through django framework code for the last 30 minutes humor was lost on me.
+[01:20:21] <shanecowherd> i gotta get up early tomorrow
+[01:20:49] <shanecowherd> going on a 6 (or 12, not sure if he ment each leg or total) mile hike tomorrow to see a plane crash
+[01:21:11] <percent20> cool. have fun.
+[01:21:15] <percent20> take pictures. :)
+[01:21:31] <shanecowherd> absolutely
+[01:21:40] <shanecowherd> i wish i woulda got that camera from dads before i left
+[01:21:52] <percent20> :(
+[01:22:04] <percent20> could have your dad ship it to you.
+[01:22:14] <percent20> not by tomorrow though. lol.
+[01:22:21] <shanecowherd> lol yeah
+[01:22:27] <shanecowherd> sounds like a great idea
+[01:22:38] <percent20> :D
+[01:24:24] <shanecowherd> any luck on the django app to collect routes?
+[01:25:05] <percent20> no.
+[01:25:20] <percent20> A guy i threw the idea to a while back is working on it so I am going to let him keep at it.
+[01:25:23] <shanecowherd> yeah, i wont be able to work on it at all
+[01:25:33] <shanecowherd> and the earliest I could do css is sat night or sun
+[01:25:38] <percent20> that is fine.
+[01:25:40] <shanecowherd> sorry man
+[01:25:44] <percent20> no problem.
+[01:25:55] <shanecowherd> i dissapoint you enough, lol
+[01:26:16] <percent20> don't worry about it. You are busy and I move at high velocity.
+[01:26:40] <shanecowherd> highvelocity.com hrmm
+[01:27:40] <shanecowherd> techlocity.net is available
+[01:28:17] <percent20> sounds like a name for our podcast
+[01:28:43] <shanecowherd> i want to get a 3 digit domain
+[01:28:46] <shanecowherd> i have shane.pro
+[01:28:58] <shanecowherd> but i am nervous about investing a lot into it, just incase they decide to revoke it
+[01:29:15] <percent20> like t.co
+[01:29:30] <shanecowherd> yeah
+[01:29:43] <percent20> problem with some of those domains is they are just plain expensive
+[01:29:54] <percent20> i wanted to get a .jp but it is $100 a year
+[01:30:13] <shanecowherd> mx is expensive too
+[01:31:56] <percent20> have you thought of any names for the podcast?
+[01:32:06] <shanecowherd> nope
+[01:32:24] <shanecowherd> noyourwrong
+[01:32:34] <percent20> heh
+[01:38:57] <shanecowherd> precocity
+[01:39:28] <percent20> nuh-uh
+[13:53:35] <percent20> groovecoder: http://www.neowin.net/news/google-to-shut-down-picnik-and-more-side-projects <- goes along with the thing you gist you posted the other day.
+[15:35:20] <zerokarmaleft> hmm sky maps is getting open-sourced
+[16:25:10] <RandallM> anyone here? i am strugglin with an anonymous function :(
+[16:37:47] <percent20> http://raganwald.posterous.com/form-letter-template-for-open-source-abandonw
+[16:37:57] <percent20> RandallM: was they one you showed me yesterday?
+[16:38:05] <RandallM> yeah
+[16:38:12] <percent20> ah.
+[16:38:16] <percent20> Destos:  might be here.
+[16:39:13] <percent20> or not
+[16:39:56] <RandallM> lol
+[16:44:36] <percent20> reading docs and reading framework code are 2 different beasts. neither are fun right now.
+[16:45:35] <RandallM> what are you working on?
+[16:47:14] <percent20> Django does a few cool things with some of their forms capabilities. I am trying to figure out how they are doing it, but there is soooooo much code that it is kind of difficult. What I have found so far I don't see how they are accomplishing it in any sane way.
+[16:54:37] <RandallM> are they using reflection?
+[16:54:53] <RandallM> like you define a class and the render the HTML for an input form for it automatically?
+[16:55:38] <percent20> i'm not sure. that is what I am trying to figure out, but I don't think so. once I figure it out I am going to do a blog post on it.
+[16:57:05] <percent20> Destos: might be here now ;)
+[16:57:16] <Destos> MAYBe
+[16:57:25] <percent20> heh was thinking you might leave again. lol.
+[16:57:25] <RandallM> hey destos
+[16:57:35] <Destos> I was at the fab lab,
+[16:57:38] <RandallM> remember that anonymous function problem I mentioned a while back? It's resurfaced
+[16:57:45] <Destos> I believe so
+[16:58:06] <RandallM> http://www.gavelhound.com/db.aspx?t=Properties&city=tulsa&selectcolumns=id,status,assessorphoto,propertytype,acres,zillowaddress,yearbuilt,address,city,zipcode,baths,bedrooms,minimumbid,crime,longitude,latitude&hidecolumns=id&vid=zoommap2&orderby=14,14
+[16:58:15] <RandallM> click the map to make more pins appear
+[16:58:36] <RandallM> then click a pin, then the pin popup to show the bigger popup
+[16:58:58] <Destos> alright
+[16:59:00] <RandallM> well, hover over a pin, then click it
+[16:59:13] <RandallM> notice how it opens some other pins popup?
+[16:59:40] <Destos> it brought me to a property page
+[16:59:44] <Destos> maybe I clicked the wrong thing
+[16:59:57] <RandallM> okay, go back, hover over a pin, when the little window opens, click the window
+[17:00:03] <RandallM> but it has to be a new pin
+[17:00:12] <RandallM> http://www.gavelhound.com/db.aspx?t=Properties&city=tulsa&selectcolumns=id,status,assessorphoto,propertytype,acres,zillowaddress,yearbuilt,address,city,zipcode,baths,bedrooms,minimumbid,crime,longitude,latitude&hidecolumns=id&vid=zoommap2&orderby=14,14&pagesize=0 try this one
+[17:01:09] <Destos> alright, so whats the issue?
+[17:01:44] <Destos> what was happening before is I was clicking view details on the little popup
+[17:02:33] <RandallM> this line
+[17:02:35] <RandallM>      YEvent.Capture(marker, EventsList.MouseClick,function(){ marker.openSmartWindow(marker.details);});
+[17:02:51] <RandallM> that's in a loop of houses that i bring back via AJAX
+[17:03:10] <RandallM> the anonymous function always calls openSmartWindow on the last house in the list, rather than the house of the pin that is clicked
+[17:04:06] <Destos> could you paste the JS somewhere?
+[17:04:10] <RandallM>    for(var i = 0;i<props.length;i++){      p = props[i];      d = details(p);      marker = new YMarker(new YGeoPoint(p.Latitude, p.Longitude),createCustomMarkerImage(p.minimumbid));      marker.addAutoExpand(d.desc);      marker.details = getPropClickDetails(p);      YEvent.Capture(marker, EventsList.MouseClick,function(){ marker.openSmartWindow(marker.details);});       try{         map.addOverlay(marker);           }catch(e
+[17:04:13] <RandallM> eek
+[17:04:17] <Destos> I think I may know what is going on
+[17:04:24] <RandallM> http://www.gavelhound.com/map2.js
+[17:04:24] <Destos> yeah use a pasting service
+[17:04:26] <Destos> like gists
+[17:04:29] <Destos> or that
+[17:04:40] <RandallM> it's in the addIcons function
+[17:05:03] <Destos> alright add a var in front of marker
+[17:05:11] <Destos> var marker = new YMarker(new YGeoPoint
+[17:05:36] <Destos> and you may need to wrap it in a function that is called right away
+[17:06:13] <Destos> so (function(){ /* all the inside of the for loop JS here */ })();
+[17:06:26] <Destos> that will scope marker correctly
+[17:06:41] <RandallM> samet hing
+[17:07:09] <RandallM> i tried adding each new marker to an array too, but that didn't work either
+[17:07:24] <Destos> did you add the function wrap? I don't see it
+[17:08:01] <RandallM> no, what do I wrap?
+[17:08:08] <Destos> just a sec
+[17:08:09] <RandallM> ok, i see
+[17:09:06] <Destos> make sure you add the ending ()
+[17:09:15] <Destos> that calls the function, ( just looked at your code )
+[17:10:22] <RandallM> ok, that did it!
+[17:10:24] <RandallM> you're the man!
+[17:10:32] <RandallM> !Destos++
+[17:10:43] <Destos> yay more awesomeness
+[17:11:01] <Destos> we have to persist the points so I can horde em
+[17:11:17] <RandallM> that's what i was thinking too, you have more than one
+[17:14:47] <RandallM> so my code, before your mod, was remembering the instance of the marker last passed into the new anonymous function?
+[17:15:11] <RandallM> and wrapping it with the (function(){})(); isolated each marker into its own unique scope?
+[17:15:31] <Destos> the anon function was scoped in such a way that changing marker would repoint "its" marker variable to the new one
+[17:15:42] <Destos> pretty much
+[17:16:05] <RandallM> so is it possible then to create a new instance of the anonymous function? That's how it seemed in my brain
+[17:16:07] <Destos> I built this at the fab lab today http://todbot.com/blog/2009/07/15/quickie-laser-cut-iphoneipod-dock/
+[17:16:20] <RandallM> maybe with something like new function(){marker.openSmartWindow();} ??
+[17:16:43] <Destos> well think of it this way. That anon wasn't being called till its clicked, so anything inside its scope could change before its clicked
+[17:16:48] <Destos> which is what was happening.
+[17:17:36] <Destos> that may work, I'm still a little bad with instantiated javascript functions
+[17:17:45] <RandallM> that's a nice dock
+[17:17:51] <RandallM> i'm going to try it! :)
+[17:19:34] <RandallM> nope.. putting the new there immediately calls the function, rather than simply declaring it
+[17:25:04] <RandallM> you could put an RGB led in that dock!
+[17:25:22] <Destos> how would you power it? tap into the cable? :P
+[17:25:32] <RandallM> i've always wanted to play with those, but never have.  yeah, tap into the cable
+[17:25:45] <RandallM> was even thinkingmaybe you could change the color of it based on activities, like email or text msgs
+[17:26:50] <Destos> heh, might take some scripting then.
+[17:27:23] <RandallM> something like this http://www.youritronics.com/rgb-led-email-notifier/
+[17:29:36] <RandallM> I'd love to build something like http://www.youtube.com/watch?v=dixgNJ84ig8
+[17:33:30] <Destos> yeah those volumetric led installations are pretty nifty
+[17:35:24] <Destos> I ordered a kit of http://www.kickstarter.com/projects/1969365167/clockos-rgb-led-clock-arduino-programable-0?ref=live
+[17:35:53] <Destos> which hopefully isn't too challenging to put together. have to build my own PCB and buy the IC's.
+[17:37:37] <Destos> cmd+w accidentally…
+[17:44:06] <RandallM> that'sa nice looking clock. I'd love to see it once you get it made
+[17:44:09] <RandallM> or before even.
+[17:50:44] <percent20> am I online?
+[17:50:53] <Destos> you are very much offline
+[17:50:56] <percent20> okay.
+[17:50:59] <percent20> !hello
+[18:01:07] <RandallM> it's really fun to create stuff and see people using it
+[18:01:15] <Destos> Its a good feeling
+[18:01:49] <RandallM> yesterday i had 125 unique ip addresses, today i'm at about 110 already
+[18:02:17] <RandallM> and they are real people out there in the world really looking at stuff
+[18:02:34] <RandallM> it seems amazing that this is even possible
+[18:04:23] <percent20> I concur.
+[18:04:40] <percent20> I also like feedback when people want to actually say something about it. That is why I like to blog so much.
+[18:05:25] <percent20> Destos: do you know of any SEO testing tools?
+[18:06:18] <RandallM> SEO moz has some http://pro.seomoz.org/tools/crawl-test
+[18:06:29] <RandallM> and the google webmaster tools, do you use those?
+[18:06:55] <percent20> Last time i used the webmaster tools they didn't actuall work, but that was like 2 years ago.
+[18:07:10] <Destos> I've used a couple but none currently.
+[18:08:02] <Destos> http://www.notableapp.com/ included one when you post screens of a webpage mockup ( with markup )
+[18:14:47] <RandallM> maybe we should build one
+[18:14:55] <RandallM> there was one i saw the other day, but can't find it now
+[18:15:51] <percent20> I don't know enough about SEO to build my own. Just enough to do some basic stuff and not look stupid.
+[18:16:31] <Destos> gone restart, having some graphical issues… My GPU may be on the way out :/
+[18:17:08] <RandallM> I have a few bookmarks: http://www.vaughns-1-pagers.com/internet/google-ranking-factors.htm is an awesome list
+[18:17:08] <percent20> :(
+[18:17:56] <RandallM> http://www.seomoz.org/blog/the-web-developers-seo-cheat-sheet
+[18:18:04] <RandallM> http://blog.dogster.com/2008/01/29/recommended-free-online-seo-tools/
+[18:18:09] <RandallM> why sad?
+[18:18:21] <percent20> i like that seo moz blogger one.
+[18:18:30] <percent20> sad because Destos GPU might be on the way out.
+[18:21:36] <percent20> bbiab i need to go find some food.
+[19:16:59] <percent20> https://www.destroyallsoftware.com/talks/wat
+[19:29:50] <shanecowherd> hi all
+[19:39:35] <percent20> hello.
+[19:39:47] <percent20> check out this. https://www.destroyallsoftware.com/talks/wat
+[19:43:49] <shanecowherd> did you finish your app?
+[19:46:10] <percent20> which one?
+[19:46:17] <shanecowherd> routes
+[19:46:43] <percent20> oh no. Someone else is working on it. so I used that as an excuse to not work on it afer all.
+[19:46:45] <percent20> after*
+[19:46:51] <shanecowherd> im watching that video, they laugh at everything
+[19:47:44] <percent20> yeah. if my understand around it is accurate from reading twitter they were basically all getting up on stage for quick lighting rounds doing stupid stuff.
+[19:48:51] <shanecowherd> i gotcha
+[19:48:54] <shanecowherd> i had to finish watching it
+[19:49:26] <percent20> I liked the end.
+[19:49:35] <shanecowherd> same here
+[19:50:45] <percent20> I think I am finally understanding how django form stuff works in the framework. At least on a basic level. Only took 4 to 5 hours of hunting down code
+[19:51:32] <percent20> well I guess I understood how they worked based on "how" you use it, but now I have been able to verify via code how it works.
+[19:51:56] <shanecowherd> cool
+[19:52:03] <shanecowherd> did you look at the source?
+[19:52:46] <percent20> yeah.
+[19:52:59] <percent20> been dug through it for a few hours last night and couple hours today.
+[19:53:14] <shanecowherd> cool
+[19:53:20] <percent20> after finding where it all is I feel stupid about how long it took though.
+[19:53:22] <shanecowherd> i gotta go, i'll be back on later
+[19:53:26] <percent20> k ttyl.
+[19:53:30] <shanecowherd> good luck man
+[19:53:34] <percent20> thx
+[21:18:54] <zerokarmaleft> percent20: http://progit.org/book/ch8-1.html
+[21:19:27] <zerokarmaleft> useful for using git over numerical's svn repo
+[21:36:52] <percent20> yeah. i'll be submitting it on the dropbox in protest.
+[21:43:29] <zerokarmaleft> why? all you have to do is do a git svn clone
+[21:44:00] <zerokarmaleft> then you're working locally in git and it invisibly pushes commits up to the svn repo
+[21:44:08] <percent20> because I am obstinate about some stuff.
+[21:45:04] <zerokarmaleft> fair enough
+[21:45:33] <percent20> this book sucks
+[21:46:03] <zerokarmaleft>  /shrug, it's free
+[21:46:51] <percent20> sorry. I like Pro Git read the whole thing about 2 days last year on my kindle. I meant the numerical methods book.
+[21:48:33] <zerokarmaleft> percent20: oh
+[21:48:47] <zerokarmaleft> yea, it's not a fun read
+[21:49:20] <zerokarmaleft> i'm working on the second hw assignment now
+[21:50:13] <percent20> have you done the programming?
+[21:50:13] <zerokarmaleft> rather, i took a diversion getting my TDD python workflow, and git-svn setup
+[21:50:40] <zerokarmaleft> and now i'm starting the programming
+[21:51:02] <percent20> ah okay.
+[22:00:29] <zerokarmaleft> percent20: how about you?
+[22:00:45] <percent20> I am on page 11. reading the book.
+[22:00:52] <percent20> well his copied pages of the book.
+[22:01:14] <percent20> I don't understand a lot of it. :(
+[22:03:44] <percent20> garrr he didn't include like 7 pages.
+[22:04:08] <percent20> wait no he did he just can't staple them correctly.
+[22:18:53] <percent20> not sure your familiarity with python, but these are some good videos if you want to brush up. http://www.youtube.com/playlist?list=PL26BA8B9FC33789FF&feature=plcp
+[23:19:40] <zerokarmaleft> percent20: thanks
+[23:19:56] <zerokarmaleft> mostly what's slowing me down is being unfamiliar with numpy
+[23:28:51] <percent20> twitter is full of amazing and insightful information. Apprently Dolph Lundgren was a masters in chemical engineering and studied at MIT before he dropped out to be an actor.
+[23:29:01] <percent20> was == has
+[23:35:40] <zerokarmaleft> i remember reading that somewhere and being amazed considering his film role stereotype
+[23:47:10] <percent20> yeah.
+[23:50:39] <zerokarmaleft> "I COME IN PEACE...YOU GO IN PIECES." /facepalm
+[23:53:35] <zerokarmaleft> percent20: can you do an svn co of the class repo and see if you can read my commit messages?
+[23:54:05] <percent20> if you will remind me tomorrow I will. I can't right now.

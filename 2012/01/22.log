@@ -1,0 +1,18 @@
+[12:50:52] <percent20> !weather
+[12:50:56] <percent20> !weather tulsa
+[12:56:23] <Destos> It is kinda windy
+[13:06:15] <percent20> yeah
+[13:45:32] <Destos> That was a nice walk.
+[13:49:07] <percent20> you went for a walk?
+[13:53:40] <Destos> I did
+[13:54:31] <percent20> cool.
+[16:25:02] <percent20> groovecoder: are your html5 slides on your site?
+[16:25:14] <groovecoder> hmm .. maybe not?
+[16:25:31] <groovecoder> oh wait, yeah?
+[16:25:32] <groovecoder> http://groovecoder.com/presentations/
+[16:25:37] <groovecoder> er, not slides. but a video
+[16:26:11] <percent20> okay. Mostly after seeing what others have done for HTML5 presentations so i can prep mine.
+[16:27:37] <percent20> groovecoder: btw how are you liking evernote?
+[16:27:44] <groovecoder> pretty well so far
+[16:27:50] <percent20> cool :)
+[23:08:22] <zerokarmaleft> woot, autorunning python unit tests on file change with growl notifications

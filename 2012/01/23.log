@@ -1,2 +1,94 @@
 [00:59:02] <percent20> !weather
 [00:59:06] <percent20> !weather tulsa
+[08:35:25] <groovecoder> mmm ... couchdb
+[08:35:50] <groovecoder> just need sephillips to figure out why the box won't let me ssh this morning
+[10:31:28] <esdev> Mormon folks
+[10:31:56] <esdev> Lol. I typed Morning'
+[10:32:52] <esdev> Trying out colloquy for iPhone
+[10:34:35] <zerokarmaleft> god donut auto cucumber
+[11:15:07] <esdev> That stinks. The app times out if idle. Boo
+[12:20:26] <esdev> ok. back to the mac.
+[12:33:42] <esdev> crap. can't concentrate on work when son is home from school...grrr
+[14:53:56] <percent20_> !weather tulsa
+[15:29:46] <groovecoder> this neatly summarizes what I dislike about other developer groups: http://www.theaccidentalgeek.com/image.axd?picture=WindowsLiveWriter/CallingallSpeakersDotNetNukeOpenForceWan_7562/CallForSpeakersBlog_533ba482-4912-465c-9837-cdd361df3829.png
+[15:34:32] <Destos> but luke, thats what you do!
+[16:12:30] <groovecoder> Destos: I know :(
+[16:12:40] <groovecoder> need less of that.
+[16:12:48] <Destos> heh, mostly in jest though.
+[16:16:02] <groovecoder> lately I've been doing too much of the talking. need to spread the discussions around more
+[16:16:13] <groovecoder> which reminds me, Carlos is giving a design talk at March meeting
+[16:16:55] <percent20_> cool.
+[16:18:45] <percent20_> I am going to shoot for a 7 minute video today.
+[16:27:29] <Destos> percent20: on a django topic?
+[16:31:11] <percent20> Destos: yes. Most of mine tend to be 10 to 12 minutes. I wanted them to originally be 5 to 10
+[16:34:17] <percent20> I know this is kind of out of left field, but does anyone know if there is a shop in town that sells juggling stuff? Like pins, workout juggling balls, and/or juggling knives?
+[16:35:31] <zerokarmaleft> no idea here
+[16:37:04] <shanecowherd> shop?
+[16:37:45] <percent20> shanecowherd: yes. I was hoping there was a local store that sold juggling stuff.
+[16:37:53] <shanecowherd> http://maps.google.com/maps/place?q=juggling&hl=en&cid=7761164922787076492
+[16:38:10] <shanecowherd> http://maps.google.com/maps/place?q=juggling&hl=en&cid=11902788121482646810
+[16:38:22] <shanecowherd> any local clown shop should do
+[16:39:24] <percent20> um, booboos is in bartlesville
+[16:40:07] <shanecowherd> 2nd one
+[16:42:04] <percent20> I think the second one is just an service because google maps is putting them in a neiborhood. :(
+[16:42:32] <percent20> i'll look at their site more maybe there is a retail part ot it.
+[16:43:42] <percent20> yeah doesn't look like they have a storefront, they are selling stuff through paintandglitter.com though
+[16:45:40] <percent20> I want these: http://www.jugglingstore.com/store/detail.aspx?ID=155
+[16:46:47] <percent20> found what I was after online at least. http://www.jugglingstore.com/store/detail.aspx?ID=143
+[17:56:40] <percent20> http://www.zerobundle.com/ <- free design resources :)
+[17:56:47] <percent20> too bad I have no idea how to use them.
+[20:21:52] <percent20> http://buddylindsey.com/7-databases-in-7-weeks-8-week-review-and-experience/
+[21:40:28] <percent20> groovecoder: is there going to be coworking tomorrow?
+[22:03:23] <zerokarmaleft> what kind of display connection is available at fab lab for the projector?
+[22:03:46] <zerokarmaleft> DVI, VGA?
+[22:20:47] <percent20> i think vga
+[22:24:43] <groovecoder> zerokarmaleft: VGA
+[22:25:07] <groovecoder> percent20: oh yeah. we can/should make a coworking event, but I'll be late
+[22:26:04] <percent20> I am not sure when i'll get there my sleep schedule is more off than usual. Hoping i can get there before 11, heh.
+[22:26:05] <groovecoder> yeesh. any mac users install couchdb recently?
+[22:26:15] <percent20> I have for couch card.
+[22:26:21] <percent20> use hombrew to do it.
+[22:26:26] <groovecoder> trying to
+[22:26:29] <groovecoder> it hangs forever
+[22:26:38] <groovecoder> I have terrible luck with homebrew
+[22:26:43] <percent20> :(
+[22:26:48] <percent20> sounds like me with java.
+[22:27:14] <percent20> what specifically is the problem?
+[22:27:19] <groovecoder> now I can't get it to install either either macports nor homebrew
+[22:27:26] <zerokarmaleft> groovecoder: what version of erlang do you have?
+[22:27:45] <groovecoder> zerokarmaleft: no idea. whatever version brew and/or macports installs as dependency
+[22:28:10] <groovecoder> trying brew install erlang
+[22:28:48] <groovecoder> it cracks me up that it was easier to add couchdb to my production environment (heroku w/ cloudant) than my local
+[22:30:02] <percent20> heh
+[22:34:32] <groovecoder> well, it *was* easier, until I tried to change my cloudant password
+[22:34:44] <groovecoder> I blame NoSQL in general
+[22:34:45] <groovecoder> :)
+[22:35:14] <zerokarmaleft> working fine here with erlang R14B04 and couchdb 1.1.1
+[22:35:39] <groovecoder> zerokarmaleft: how did you install?
+[22:35:43] <groovecoder> macports? brew? source?
+[22:35:52] <zerokarmaleft> groovecoder: homebrew
+[22:36:13] <groovecoder> did you have to brew install erlang separately?
+[22:36:24] <zerokarmaleft> nope, it got pulled in automatically
+[22:36:35] <groovecoder> ACTION sighs
+[22:36:49] <zerokarmaleft> but i did run into problems before (with replication, i think) when i updated erlang independently of couchdb
+[22:39:29] <zerokarmaleft> that probably doesn't help any :P
+[22:40:34] <zerokarmaleft> it just hangs on launch?
+[22:40:46] <zerokarmaleft> or after a certain operation
+[22:41:22] <groovecoder> when I try to install w/ brew it hangs while downloading
+[22:41:34] <groovecoder> when I install and run w/ macports it spews all kinds of errors on startup
+[22:42:07] <zerokarmaleft> that's odd, brew just uses curl to d/l stuff
+[22:44:44] <zerokarmaleft> groovecoder: delete any erlang tarballs in ~/Library/Caches/Homebrew/
+[22:45:06] <groovecoder> I think I'll just throw my laptop out the window
+[22:45:07] <zerokarmaleft> so it'll try again from scratch
+[22:45:31] <zerokarmaleft> that's been known to work on rare occassions
+[22:46:09] <zerokarmaleft> wow, freed up 1.9G by clearing that cache
+[22:46:30] <zerokarmaleft> had like 15 git tarballs in there
+[22:46:58] <percent20> groovecoder: sounds like a fresh OS install time.
+[22:49:26] <zerokarmaleft> nah, just sounds like a broken formula/port
+[22:49:43] <percent20> heh I use almost any excuse to nuke my laptop and re-install fresh.
+[22:55:00] <groovecoder> I removed all of homebrew and re-installing that
+[22:55:10] <groovecoder> doesn't help my cloudant.com account
+[23:25:54] <percent20> I think I might just be able to hit my 7 minute mark.
+[23:26:03] <percent20> ACTION keeps fingers crossed
+[23:53:34] <zerokarmaleft> powering up my old dual PIII-700 box to get old data off of it
+[23:53:51] <zerokarmaleft> it's like turning on a window A/C unit, it's so loud

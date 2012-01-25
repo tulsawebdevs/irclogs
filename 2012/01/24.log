@@ -1,0 +1,229 @@
+[09:24:42] <groovecoder> finally cleared up my couchdb issues. something in macports had installed erlang already and couchdb was using that one but it was a bad version
+[09:24:56] <groovecoder> er, bad version for couchdb
+[09:53:39] <esdev> g'mornin TWD
+[09:57:35] <groovecoder> lulz. I just typed 'gitbucket'
+[09:57:38] <groovecoder> hey esdev
+[09:57:49] <zerokarmaleft> groovecoder: glad you got it working again
+[10:18:04] <esdev> i cant believe i hit a snag already. in the first task of the tutorial! can someone look at this to see if i'm missing something http://pastie.org/3243889. the html and js files are in the same directory
+[10:20:41] <danf1_> esdev: Hmmm... works fine for me.
+[10:21:11] <esdev> u get an alert?
+[10:21:15] <danf1_> yes
+[10:21:28] <esdev> crap. in what browser?
+[10:21:32] <danf1_> Chrome
+[10:21:52] <esdev> i launched it in FF. lemme try that.  thx
+[10:24:32] <esdev> ok. then i'm doing something wrong. not working in chrome either.
+[10:31:20] <esdev> i lied. html and js were not in same dir. works now.
+[10:33:00] <groovecoder> esdev: also, you can us http://jsfiddle.net/ for quick learn-by-doing javascript programming
+[10:33:14] <esdev> thx
+[10:52:11] <esdev> i'll need 2 cans of wd-40 to melt the rust off my js skillz. jeesh
+[12:36:51] <esdev> groovecoder: which google api are we using for TRIF?
+[12:37:07] <groovecoder> esdev: google maps?
+[12:37:11] <esdev> is it the web services api?
+[12:37:11] <groovecoder> what do you mean?
+[12:37:15] <groovecoder> hrm
+[12:37:23] <groovecoder> not sure what the difference is ...
+[12:37:34] <groovecoder> I just used the jquery gmap extension
+[12:38:00] <esdev> ok. i've been looking for api doc. maybe it's there then. thx
+[12:39:22] <esdev> ok. that makes more sense
+[12:40:14] <esdev> didn't realize that was this: src="/static/jquery.fn.gmap.full.min.js"
+[13:11:52] <esdev> do we have a google maps api key?
+[13:12:08] <esdev> for TRIF
+[13:12:31] <groovecoder> esdev: I don't think so
+[13:12:35] <groovecoder> using the vanilla
+[13:12:43] <groovecoder> unless you see it somewhere in the code
+[13:13:00] <esdev> from gmap api doc
+[13:13:01] <esdev> Don't forget to replace "API_KEY" with your actual API key or the map won't work when used on a real domain!
+[13:13:52] <percent20> I wont be able to make it today :(
+[13:14:10] <esdev> i'm at home, too
+[13:15:29] <groovecoder> percent20: esdev: lulz, me too :)
+[13:15:44] <esdev> looks like we'll need to get one to go live with it. idk, maybe vanilla is ok. that also may be why the site doesn't zoom to tulsa like it's supposed to.
+[13:20:33] <groovecoder> esdev: I'm pretty sure it zooms out because there's a stray point somehow
+[13:20:40] <groovecoder> because it drops a pin in Africa
+[13:21:17] <esdev> groovecoder: so it's the data then?
+[13:34:59] <groovecoder> esdev: I think so
+[13:35:11] <groovecoder> esdev: I think the mobile version just simply doesn't do any zoom
+[13:35:20] <groovecoder> so you could ignore the data and just zoom to the right location and level
+[13:35:28] <esdev> groovecoder: i'll keep checking
+[13:50:16] <esdev> groovecoder: how do i run the TRIF code to debug it?
+[13:50:31] <esdev> from my own fork?
+[13:50:32] <groovecoder> esdev: afk 10m
+[13:50:34] <groovecoder> esdev: yeah
+[14:00:02] <groovecoder> esdev: back
+[14:00:23] <groovecoder> esdev: (also, you should ping Carlos Moreno and Trisha Salas re: mobile web stuff. they're starting to do lots of it)
+[14:00:43] <esdev> groovecoder: already had a meeting w/ carlos. thx
+[14:00:51] <groovecoder> sweet
+[14:08:06] <esdev> how do i sync my repo using github for mac?
+[14:08:33] <esdev> i have unsynced commits but don't see how to sync them
+[14:22:34] <zerokarmaleft> esdev: http://mac.github.com/help.html <= Repository | Sync?
+[14:24:00] <zerokarmaleft> i use git directly, so i'm not sure what differences there are in the workflow with github:mac
+[14:25:08] <esdev> me either. just trying to figure out how to sync. not obvious to me
+[14:26:30] <esdev> it was something obvious, as always. cmd-s. doh!
+[14:28:34] <groovecoder> cmd-s in git? gross. ;)
+[14:28:56] <randall> hi all. no ones at java daves :(
+[14:29:30] <esdev> yea, i didnt see anything on calendar. so i stayed home
+[14:29:37] <zerokarmaleft> what about the douchebag with a moleskine writing poetry? he needs friends, too :(
+[14:31:23] <randall> can poets have friends?
+[14:33:17] <esdev> groovecoder: next question. how do i test my fork of TRIF. what url points to my github repo?
+[14:34:33] <esdev> well, for my branch, anyway
+[14:44:08] <groovecoder> randall: sorry, I didn't know percent20 and esdev were staying home too or I would have come
+[14:44:28] <randall> no worries.  i may go over to the hardesty library
+[14:44:29] <groovecoder> esdev: what do you mean?
+[14:44:55] <esdev> i can load trif.tulsawebdevs.org, but that's the master
+[14:44:56] <percent20> I wasn't expecting to, but my mom kept me up until 5 am trying to figure out how to fix my dads old laptop.
+[14:44:59] <randall> i'm presenting tonight as part of my application to the Launch program
+[14:45:01] <groovecoder> if you want to test your code, you can just do manage.py runserver on your local
+[14:45:10] <percent20> randall: nice.
+[14:45:19] <groovecoder> randall: presenting what? gavelhound?
+[14:45:46] <randall> yeah
+[14:45:50] <zerokarmaleft> wow, i just got an unsolicited resume in the mail with no formatting except for line breaks
+[14:46:04] <esdev> lol
+[14:46:09] <randall> i showed it to a guy at the auction today and he liked it :)
+[14:46:26] <randall> i hope it wasn't for a design job!
+[14:46:33] <esdev> zerokarmaleft: sounds like it's meant to forward to /null
+[14:47:13] <esdev> groovecoder: -bash: manage.py: command not found
+[14:49:15] <randall> wireless is real bad here today
+[14:50:49] <groovecoder> esdev: you in the trif/ directory? i.e., with manage.py
+[14:51:26] <groovecoder> oh, you need to do `./manage.py` or `python manage.py`
+[14:51:49] <esdev> python: can't open file 'manage.py': [Errno 2] No such file or directory
+[14:52:13] <groovecoder> esdev: dang, this is when we should be coworking ;)
+[14:52:35] <groovecoder> make sure you're in the trif directory along with the manage.py file, then try `python manage.py runserver`
+[14:52:36] <esdev> yep. don't worry about it. i'll figure it out eventually
+[14:52:40] <esdev> ok
+[14:52:57] <groovecoder> it's the main django script file, so there's lots of django docs re: manage.py
+[14:53:37] <esdev> devbook:tulsa-road-issues-feed mjstelly$ ./manage.py runserver
+[14:53:37] <esdev> -bash: ./manage.py: No such file or directory :(
+[14:53:54] <esdev> crapola
+[14:54:27] <esdev> config issues are the bane of my existence
+[14:58:54] <percent20> my django video is 8.5 minutes. finally got another one under 10 minutes.
+[14:59:47] <esdev> percent20: how do i config django so  i can run the manage.py file?
+[15:00:13] <percent20> esdev: you can run it with pythong manage.py or
+[15:00:22] <esdev> tried that. fails
+[15:00:23] <percent20> run chmod +x manage.py
+[15:00:29] <percent20> then do ./manage.py
+[15:00:54] <percent20> if it is saying the file doesn't exist do an ls to see if it is there.
+[15:01:37] <esdev> i'm in the TRIF folder, no file found
+[15:02:26] <esdev> wait, not down enough levels
+[15:03:19] <esdev> devbook:trif mjstelly$ ./manage.py runserver
+[15:03:19] <esdev>   "use STATIC_URL instead.", DeprecationWarning)
+[15:03:19] <esdev> Error: No module named south
+[15:03:52] <percent20> back up a folder see if it has requirements.txt and if it does do pip install -r requirements.txt
+[15:04:45] <esdev> pip not found
+[15:04:55] <percent20> do easy_install pip
+[15:05:03] <esdev> easy_install pip
+[15:05:06] <esdev> k
+[15:05:55] <esdev> error: /usr/local/bin/pip: Permission denied
+[15:06:04] <esdev> do i need to sudo
+[15:06:04] <percent20> sudo easy_install pip
+[15:06:48] <esdev> k. downloading django
+[15:08:46] <percent20> you might want to give this a watch. http://godjango.com/1-getting-started-with-virtualenv/
+[15:08:55] <esdev> k
+[15:11:52] <esdev> after all that, i still get: devbook:trif mjstelly$ python manage.py runserver
+[15:11:52] <esdev> Error: No module named south
+[15:12:34] <groovecoder> after easy install pip, then do pip install -r requirements.txt
+[15:12:47] <groovecoder> and yeah, watch percent20's django vid's :)
+[15:13:29] <percent20> i am hoping to finish writing my demo app this week and I can start recording my intro to django video next week. I hope.
+[15:18:09] <esdev> percent20: getting closer
+[15:18:11] <esdev> There is no South database module 'south.db.None' for your database. Please either choose a supported database, check for SOUTH_DATABASE_ADAPTER[S] settings, or remove South from INSTALLED_APPS.
+[15:18:37] <percent20> watch the south migrations video.
+[15:18:46] <percent20> http://godjango.com/3-introduction-to-south-migrations/
+[15:20:29] <esdev> ok. brain is full. i've had to backpedal so far that i'm on overload. bbl folks.
+[15:22:10] <percent20> garrrrrrrrrr.
+[15:22:46] <percent20> I have a $100 mic, but I really need a new/better one. lol.
+[15:23:16] <percent20> too bad the one other screencastsers suggest is $250 bucks.
+[15:26:48] <groovecoder> w00t. heroku has no problems running my entire scraper
+[15:32:46] <percent20> awesome. :)
+[15:33:08] <groovecoder> yeah this experience is making me even more pro-heroku
+[15:33:37] <percent20> so are you now able to just scrap and write everything to a couchdb data store?
+[15:34:32] <groovecoder> done and done
+[15:34:49] <groovecoder> and cloudant.com gives you a pretty big bucket for free
+[15:34:52] <groovecoder> 2g
+[15:35:10] <percent20> nice.
+[15:35:27] <groovecoder> of which the thd inspection data takes up 1.57MB
+[15:35:28] <percent20> you want to write a guest blog post for buddylindsey.com on how to do that? :D
+[15:35:35] <percent20> O_O
+[15:35:37] <groovecoder> I'm writing it on tulsawebdevs.org
+[15:35:45] <percent20> k
+[15:35:45] <groovecoder> well, I'm writing an overview
+[15:50:36] <groovecoder> http://tulsawebdevs.org/2012/01/scraping-data-at-home-and-in-the-cloud/
+[15:57:10] <percent20> good post. are there going to be implementation details coming? If you don't want to write it up i'll write up a blog post on it friday if you will walk me through the steps on getting it working.
+[15:57:36] <groovecoder> what kind of details?
+[15:57:49] <groovecoder> a "how to start doing your own scraping" sort of post?
+[15:58:25] <percent20> well, how to configure heroku+cloudant and deploy etc.
+[15:58:26] <randall> why do you think it only made it to 3781 records? that seems very odd
+[15:58:56] <randall> do you kniow how many records there are?
+[15:59:37] <randall> percent20: I can let you try out my blue yeti mic to see if you like it
+[15:59:45] <randall> I'll bring it to the lab friday
+[16:00:13] <randall> it's the first/only THX certified USB mic on the market
+[16:00:42] <percent20> that is the main one I see recommended.
+[16:01:09] <randall> there's also the blue snowball. The yeti is enormous.
+[16:01:24] <percent20> yetti's generally are ;)
+[16:01:32] <randall> thus the name! haa yes
+[16:05:17] <randall> guys I'm heading out. See you all friday if not sooner here.
+[16:09:06] <codelahoma> jgmize_: you there?
+[16:10:21] <groovecoder> never
+[16:10:34] <groovecoder> none of the j's are ever paying attention ;)
+[16:47:41] <percent20> getting sooooo close to getting episode 8 live
+[16:49:05] <groovecoder> what's episode 8?
+[16:53:14] <percent20> Model Based forms
+[16:53:25] <groovecoder> ah cool
+[16:53:46] <percent20> yeah and it came it at 8.5 minutes so it is a quicker watch.
+[16:55:01] <groovecoder> cool
+[16:55:39] <percent20> just one or two more weeks and forms will be wrapped up
+[16:56:04] <percent20> I know I want to hit on validation and csrf, but not sure if i want to do that int he same video or not.
+[17:07:02] <groovecoder> nah, validation should be its own
+[17:18:36] <percent20> http://godjango.com/8-forms-part-3-model-based-forms/
+[17:18:41] <percent20> that is what I was thinking.
+[17:19:40] <percent20> you are getting it 10 minutes before everyone else :)
+[17:48:19] <percent20> O_O just found out what Rails Casts uses a month in video bandwidth. 5 TB.
+[17:57:14] <codelahoma> wonder how many pro subscribers he's got
+[17:57:27] <zerokarmaleft> percent20: did you see that rbates uses http://shinywhitebox.com/ishowu-v1/ for recording?
+[17:57:53] <percent20> zerokarmaleft: yes. I have been eyeing it for a while. heh.
+[17:58:00] <percent20> it has a lot of cool features. :)
+[17:58:15] <percent20> codelahoma: no idea, but he told me he uses dreamhost for file hosting so has unlimited bandwidth for 10 a month
+[17:58:33] <percent20> I am willing to bet DreamHost hates him, but they can't back out on it.
+[17:58:38] <codelahoma> nice
+[17:58:47] <codelahoma> $600+ if he used S3
+[17:58:55] <percent20> yeah.
+[17:59:15] <percent20> I am going to move all my files to dreamhost as well. its a great idea.
+[18:00:59] <codelahoma> unlimited bandwidth AND storage? What's the catch?
+[18:01:26] <percent20> they assume most people will be using wordpress blogs
+[18:01:31] <percent20> and most of their customers do.
+[18:11:44] <zerokarmaleft> percent20: have you done the second hw for numerical?
+[18:12:09] <percent20> was on my agenda for tonight.
+[18:12:36] <shanecowherd> percent20 does he really use dreamhost?
+[18:12:39] <shanecowherd> thats cheating lol
+[18:12:46] <percent20> heh yeah he does.
+[18:12:47] <zerokarmaleft> ping me when you get to #17
+[18:12:54] <percent20> zerokarmaleft: okay.
+[18:13:42] <percent20> shanecowherd: I like how you texted me I responded in email and you responded back in irc. lol.
+[18:13:50] <shanecowherd> i'll skype you
+[18:13:58] <shanecowherd> tweet me back
+[18:14:03] <percent20> lol
+[18:14:24] <percent20> then you need to tumbl it.
+[18:14:53] <shanecowherd> read my geocities page
+[18:15:05] <codelahoma> meet me in the MUD
+[18:15:10] <shanecowherd> hahahaha
+[18:15:48] <shanecowherd> did you all hear about the apple earnings call today
+[18:15:58] <codelahoma> after hours trading is going nuts
+[18:16:17] <codelahoma> even though they new the accounting change was going to do this
+[18:16:17] <shanecowherd> its great news
+[18:16:19] <percent20> https://twitter.com/ryanbigg/status/161945574747291648
+[18:16:25] <codelahoma> wall street is nuts
+[18:16:38] <shanecowherd> occupy!
+[18:16:48] <percent20> um... no.
+[18:17:29] <shanecowherd> lol
+[18:17:50] <percent20> shanecowherd: oh I saw a blog post the other day comparing stripe with other gateways
+[18:17:59] <shanecowherd> cool
+[18:18:06] <shanecowherd> I wish SquareUP had web payments
+[18:18:10] <percent20> from some of the charts it looks like in the long term, like 5 years stripe is a slight bit more expensive.
+[18:18:11] <shanecowherd> I'd like to use it for everything
+[18:18:47] <percent20> because of that they can keep costs lower upfront offering flat 2.5% + $0.30 and no other surcharges
+[18:18:48] <shanecowherd> Earnings Call: http://www.apple.com/quicktime/qtv/earningsq112/
+[18:31:24] <percent20> I hate holding back sometimes, I so badly want to tear some people a new one when it comes to politics and their stupid assertions based on ignorance.
+[18:32:22] <shanecowherd> your wroong
+[18:32:46] <shanecowherd> jk
+[18:32:48] <shanecowherd> lol
+[18:32:52] <percent20> only on days that don't end in y
+[18:33:05] <shanecowherd> i just used vim to convert a bunch of emails into a pretty organized list
+[18:33:07] <shanecowherd> using :s
+[18:33:52] <percent20> cool.

@@ -1,0 +1,231 @@
+[03:11:47] <percent20> !weather
+[03:11:50] <percent20> !weather tulsa
+[08:27:18] <groovecoder> html5 games #winning: http://worldsbiggestpacman.com/play/#0,-5
+[08:29:42] <codelahoma> I've always found Pac•Man unplayable without an arcade quality joystick.
+[08:29:46] <codelahoma> cool idea, though.
+[08:31:28] <groovecoder> the #winning part is the ability to create your own levels and they're all linked together
+[09:13:56] <groovecoder1> mmm .... HUD
+[09:13:57] <groovecoder1> http://www.markshuttleworth.com/archives/939
+[09:39:29] <groovecoder> percent20: http://lifehacker.com/5876794/going-google+free-the-best-alternatives-to-google-services-on-the-web
+[11:16:21] <zerokarmaleft> any recommendations for alternatives to matplotlib?
+[11:30:20] <zerokarmaleft> so apparently OSX 10.7 ships with a new version of libpng with API breakage for matplotlib
+[11:31:07] <groovecoder> 10.7 ships with lots of breakage, IMO :)
+[11:31:19] <zerokarmaleft> patches are already in head, so i'm trying to install matplotlib via pip like so: pip install git+https://github.com/matplotlib/matplotlib.git matplotlib
+[11:31:25] <zerokarmaleft> am i doing that right?
+[11:32:05] <groovecoder> zerokarmaleft: do you need an #egg on the end of the github url?
+[11:32:07] <zerokarmaleft> i haven't really run into much breakage for anything except python stuff, honestly
+[11:32:25] <zerokarmaleft> i dunno?
+[11:32:33] <groovecoder> zerokarmaleft: oh, you need -e
+[11:32:35] <groovecoder> -e git://github.com/jbalogh/django-multidb-router.git@25ca0c68929144ed9020d89f2ea1e941c7f9aeca#egg=django-multidb-router
+[11:32:51] <groovecoder> is what we have in our pip requirements files for github url's
+[11:33:02] <groovecoder> (the commit refspec is optional)
+[11:33:29] <zerokarmaleft> https://gist.github.com/1677098
+[11:34:29] <zerokarmaleft> trying that, then
+[11:34:35] <zerokarmaleft> this repo must be friggin huge
+[11:35:02] <groovecoder> zerokarmaleft: :(
+[11:44:45] <zerokarmaleft> hmm, success!...i think
+[11:50:04] <zerokarmaleft> victory is mine!
+[11:50:18] <groovecoder> w00t
+[11:50:31] <zerokarmaleft> now to export this plot to latex...
+[11:50:35] <groovecoder> zerokarmaleft: so what's your primary language? ruby? python? clojure?
+[11:52:39] <zerokarmaleft> groovecoder: started with BASIC on the apple II, turbo pascal after i built my first PC, then C/C++, then java, then C#, then ruby, now clojure & ruby
+[11:53:25] <groovecoder> I'm impressed. about the same here, except I slacked off during my C/C++ classes and skipped C# and ruby
+[11:53:31] <zerokarmaleft> with plenty of dabbling in python, erlang, ML, javascript, scheme, obj-c, smalltalk
+[11:54:23] <zerokarmaleft> guido's rejection of FP is really my main beef with python
+[11:54:56] <groovecoder> I'm not smart enough to have beef's with things
+[11:54:56] <groovecoder> :)
+[11:56:17] <zerokarmaleft> i keep meaning to get around to haskell, but i fear i may go off the deep end when i do :D
+[11:58:03] <zerokarmaleft> but for now i really like the combination of interop+open source in JVM languages
+[11:58:24] <zerokarmaleft> the JVM as a platform is awesome even if java the language sucks
+[12:02:11] <groovecoder> zerokarmaleft: really? I always associate JVM with resource hogging
+[12:02:22] <groovecoder> seems like every app that runs on jvm takes 2x-3x the resources
+[12:02:42] <groovecoder> Eclipse, Spring, Minecraft(?), etc.
+[12:03:51] <zerokarmaleft> there's certainly overhead, but i think that becomes less of an issue in server environments
+[12:04:05] <zerokarmaleft> and as desktops get stuffed with more RAM
+[12:06:40] <zerokarmaleft> a lot of people also don't know how to work with the GC on their chosen VM
+[12:09:04] <groovecoder> zerokarmaleft: I hate GC. and one of the promises of Java was that I wouldn't have to worry about it.
+[12:10:16] <zerokarmaleft> groovecoder: true
+[12:11:38] <zerokarmaleft> otoh, stuff like malloc/free, [[Foo alloc] init]/[foo_ptr release] can get bent
+[12:17:14] <groovecoder> zerokarmaleft: what language is that in? I've never touched GC in python and it seems to run snip-snap.
+[12:17:27] <groovecoder> ACTION is getting excited about Saturday's hack day
+[12:17:27] <zerokarmaleft> C and Obj-C, respectively
+[12:17:33] <groovecoder> zerokarmaleft: gross.
+[12:17:34] <groovecoder> :)
+[12:17:55] <zerokarmaleft> or shit like casting a void**
+[12:19:28] <groovecoder> ACTION vomits all over his keyboard
+[12:19:35] <groovecoder> stop, stop!
+[12:19:47] <zerokarmaleft> heh
+[12:42:31] <zerokarmaleft> groovecoder: do you always use import with as to keep namespaces tidy?
+[12:45:24] <groovecoder> hardly ever
+[12:45:57] <groovecoder> I only use "as" when I want to shorten something I'm going to use a bunch
+[12:46:08] <groovecoder> e.g., import PyQuery as pq or import gettext as _
+[12:47:07] <zerokarmaleft> oh ok, nvm i misunderstood how import pulled in stuff
+[12:47:44] <groovecoder> yeah that took me a while too
+[12:47:53] <groovecoder> esp. coming from a no-namespace language like PHP
+[12:48:00] <groovecoder> er, PHP <5.3
+[12:49:16] <zerokarmaleft> it's different in every language
+[13:38:25] <groovecoder> hmm ... I'm not wholly impressed with okcCoCo's plea for funds
+[13:41:26] <Randall> what's the plea?
+[13:42:38] <Randall> groovecoder: btw I'm going to OSSM next week and may be able to get TheDiv there as well, but need to talk to them first
+[13:46:07] <groovecoder> Randall: cool! you can look for lindsey in #thediv too
+[13:46:30] <Randall> Okay. I'm emailing OSSM now
+[13:46:42] <Randall> I nee dto make sure they'll have time to meet with them Tuesday
+[13:53:25] <Randall> what's going on with okccoco?
+[13:53:31] <Randall> i'm not to familiar with them actually
+[14:13:31] <percent20> rawrrrr
+[14:17:02] <Randall> whats up?
+[14:18:59] <Destos> morning rawr
+[14:19:26] <Randall> just now waking up??
+[14:19:33] <percent20> a, I am at work and needed something different to do for a moment while a daily script ran.
+[14:19:50] <percent20> been up for almost 2 hours now.
+[14:20:02] <percent20> just at work now.
+[14:21:39] <percent20> it has been cool having irclogs up on github. :) you can tell how busy the day has been by the number of lines.
+[14:23:25] <Randall> yesterday was busy huh
+[14:24:43] <percent20> little above average since it broke 200 lines.
+[14:28:32] <Randall> i'm watching Obama's state of the union address
+[14:30:02] <percent20> ACTION shall not comment
+[14:30:37] <Randall> at least not with the logs going to github! ha!
+[14:31:52] <percent20> ACTION shall not comment either way. wants to avoid getting mad by talking politics.
+[14:32:53] <Randall> i'm politically agnostic, so I don't get mad
+[14:33:07] <Randall> still like to know what's going on tho
+[14:34:34] <percent20> ???
+[14:34:38] <percent20> hrm.
+[14:34:54] <percent20> ACTION understands and is not politically agnostic, at all. He has very strong opinions most people probably don't want to hear.
+[14:35:07] <percent20> lol.
+[14:36:23] <Randall> oooohpinions
+[14:37:42] <percent20> groovecoder: installing django on windows is an adventure.
+[14:39:13] <Randall> oh, tilemill is out for windows too
+[15:01:48] <percent20> I wish all the good developers would blog more. and not about complex problems they solved, but things they think are mundane. most of the times those are the things us mere mortals want to know about.
+[15:02:47] <Randall> i had a guy tell me once, "You should to video about connection strings and simple things like that. people would pay for that@!"
+[15:02:50] <Randall> so i think you are right
+[15:03:39] <Randall> there is a hurdle to get over
+[15:03:45] <Randall> and it's boring to help people with that hurdle
+[15:03:50] <Randall> but it's the biggest hurdle
+[15:04:21] <Randall> it's like http://en.wikipedia.org/wiki/Activation_energy
+[15:04:28] <percent20> agreed. most of my high trafficed blog posts are just that.
+[15:05:03] <Randall> one thing i wanted to do is pick something i haven't done yet
+[15:05:06] <percent20> my number 1 trafficed blog post for the last few months: http://buddylindsey.com/sql-parameters-in-c/
+[15:05:11] <Randall> then, video the whole thing, including how i find answers
+[15:05:17] <Randall> so people can become self-sufficient
+[15:05:27] <Randall> like, "how to search the web for programming answers"
+[15:05:41] <Randall> newbs don't even know what words to use to find their answers
+[15:06:39] <percent20> yeah. however, that really can't be taught. that just comes with time since you essentially would have to teach vocabulary.
+[15:06:45] <zerokarmaleft> or don't use multiple search queries with different terms if their first search doesn't work
+[15:07:18] <percent20> this is my second most trafficed blog post: http://buddylindsey.com/write-to-xml-file-using-c/
+[15:07:37] <Randall> that's a great post
+[15:07:40] <percent20> both of those are extremely basic.
+[15:08:37] <Randall> but can you imagine writing a blog post called, "What is a for loop?"
+[15:09:05] <Randall> and if someone wanted a for loop, like they knew what they were doing woud fit that model,how would they know to search for loop
+[15:09:27] <Randall> what WOULD they search for?
+[15:10:12] <percent20> I am not too worried about that because most people don't search for a for loop without knowing what it is. People generally need to use some soert of walkthrough to get them through the very basics.
+[15:10:21] <zerokarmaleft> percent20: how much did you get done on the hw?
+[15:10:38] <Randall> read both posts, both are great
+[15:11:01] <percent20> zerokarmaleft: not a lot, am very very confused.
+[15:11:04] <percent20> Randall: thanks.
+[15:11:52] <zerokarmaleft> percent20: i'm stuck on #10 a) atm
+[15:12:32] <Randall> i'm curious, whats the homework for?
+[15:12:50] <percent20> Randall: Numerical Methods class at OSU-Tulsa
+[15:13:18] <percent20> the first chapter is on floating point math/algorithms
+[15:13:43] <Randall> fun
+[15:13:48] <percent20> or first 2 chapters are on floating point math.
+[15:15:21] <percent20> as soon as I leave work I am going to go get my book from the bookstore. Going through his copies is hard since he copied them out of order.
+[15:51:18] <groovecoder> can you tell what I dislike about this mode of thinking? "We see this new facility as huge opportunity to create a bigger and stronger community of technical, creative and entrepreneurial individuals."
+[15:55:34] <Destos> groovecoder: please elaborate.
+[15:57:28] <groovecoder> "this facility ... to create a bigger ... community."
+[15:57:43] <Destos> figured
+[15:57:45] <groovecoder> i.e., facility > community
+[15:57:46] <percent20> group think at its finest ;)
+[15:57:56] <groovecoder> rather than community > facility
+[15:58:11] <percent20> where did you get this blurb from?
+[15:58:18] <Destos> okcoco email blast
+[15:58:20] <groovecoder> okcCoCo email
+[15:58:27] <percent20> ah
+[15:58:45] <percent20> you should email them back with your opinion.
+[15:59:26] <groovecoder> Derrick's not interested in my opinion. he didn't want to talk even when I made the effort to drive all the way over there
+[15:59:34] <groovecoder> meh
+[16:00:52] <percent20> most people aren't interested in my opinion, but they sometimes get it anyway ;)
+[16:01:12] <percent20> can't figure out whether it is because I am stubborn, or thick headed.
+[16:02:10] <groovecoder> traffic to tulsawebdevs.org seems like it's consistently higher since I've been doing the open data blog posts there ;)
+[16:02:24] <percent20> awesome.
+[16:02:38] <percent20> You should throw in a couple of technical posts.
+[16:02:57] <percent20> what is the traffic like?
+[16:03:49] <groovecoder> 291 visits in the last month
+[16:03:57] <groovecoder> 753 pageviews
+[16:06:18] <percent20> cool.
+[16:07:10] <percent20> an average of 10 hits a day isn't too bad for a "blog" that isn't very active and with not a lot of stuff there.
+[16:08:27] <groovecoder> maybe it'll grow
+[16:10:04] <Randall> it's the topic more than anything
+[16:10:10] <Randall> the programmer market in tulsa is tiny
+[16:10:13] <percent20> open data seems to be a big thing. I would say do a couple of posts on it a month and it will.
+[16:10:41] <percent20> i could give a blogging dissertation, but I wont.
+[16:11:19] <groovecoder> heh
+[16:11:22] <Destos> I've been itching to make a nice theme for the TWD wordpress site
+[16:11:34] <Destos> maybe we could discuss it this Friday
+[16:11:51] <groovecoder> Destos: that would be awesome! this Saturday Carlos is (I think) going to do a wordpress site for the hackathon website
+[16:12:23] <Destos> Alright cool, would just have to go over requirements if any
+[16:12:25] <percent20> that is cool.
+[16:12:26] <zerokarmaleft> Destos: i endorse this plan
+[16:12:34] <Destos> heh
+[16:13:09] <zerokarmaleft> percent20: 10a and 10b finally figured out
+[16:13:20] <percent20> cool.
+[16:14:13] <zerokarmaleft> ~15 years since i've touched product-sum formulas from trig, and that's where it went
+[16:15:02] <zerokarmaleft> how do you express something like 1E-11 in numpy?
+[16:15:09] <percent20> dunno.
+[16:15:53] <zerokarmaleft> derp, that works
+[16:16:02] <zerokarmaleft> as a regular python literal
+[16:16:16] <zerokarmaleft> i'm getting fried
+[16:17:58] <percent20> grrr I can't find my hw
+[16:18:09] <percent20> or what I am supposed to do.
+[16:20:53] <percent20> zerokarmaleft: what is our homework?
+[16:21:25] <percent20> nm found it finally. scared the hell out of myself.
+[16:23:04] <percent20> i just totally screwed myself. I deleted my python folder which had my homework in it.
+[16:23:21] <zerokarmaleft> 4, 11, 15, 19, 6, 10, 17
+[16:24:12] <zerokarmaleft> doh!
+[16:26:55] <percent20> i was trying to delete my folder pythong which i created by mistake with a typo.
+[16:28:27] <zerokarmaleft> might i recommend osx-trash instead of rm
+[16:28:29] <groovecoder> so I guess Google doesn't really sponsor dev groups
+[16:28:57] <groovecoder> http://www.google.com/corporate/sponsorships.html
+[16:31:33] <percent20> lol that is a nicely worded. No GTFO
+[16:31:37] <groovecoder> I bet we'll have more luck selling sponsorship to local companies. all the bigger national org's seem to want to do "in kind" sponsorship
+[16:32:06] <groovecoder> but I've already told Anspire they are the exclusive staffing company sponsor
+[16:33:05] <percent20> you could always ask consumer affairs.
+[16:33:36] <groovecoder> will do. and interworks, and isocentric
+[16:33:51] <groovecoder> actually, everyone should ask their employer(s) :)
+[16:38:16] <percent20> was the venue ever figured out?
+[16:41:29] <percent20> i can read entire pages of this stupid book and not understand anything on it.
+[16:46:18] <percent20> zerokarmaleft: you around?
+[16:51:53] <zerokarmaleft> percent20: yea
+[16:58:38] <percent20> what does << mean?
+[16:59:55] <Randall> shift left?
+[16:59:56] <percent20> page 26
+[17:00:13] <percent20> oh.hrm
+[17:00:24] <percent20> I wonder if it is to late to switch majors.
+[17:00:25] <Randall> total guess
+[17:00:26] <zerokarmaleft> percent20: significantly less than
+[17:00:43] <Randall> ACTION pwned
+[17:00:45] <percent20> really? that, is annoying.
+[17:00:51] <groovecoder> percent20: venue for school of dev? not yet
+[17:01:13] <Randall> how many people will be at school of dev?
+[17:01:38] <zerokarmaleft> e.g. 1E-30 << 1E30
+[17:04:21] <percent20> some dr pepper rep is handing out DP and just passed right over me :( not that I would take it but I feelz bad that they passed me.
+[17:08:43] <groovecoder> Randall: don't know. depends how much promotion we can do. and we can't promote until date & venue are known.
+[18:24:11] <groovecoder> ACTION celebrates MDN project just had our 100th PR
+[18:24:13] <groovecoder> https://github.com/mozilla/kuma/pull/100
+[18:31:54] <zerokarmaleft> http://www.tug.org/mactex/2011/ <= for percent20
+[18:32:26] <codelahoma> ACTION celebrates getting his ZNC bouncer up and running. 
+[18:32:38] <groovecoder> codelahoma: nice
+[18:33:04] <codelahoma> That was from the phone, this is from the iPad. :-)
+[18:33:17] <codelahoma> Me like a lot.
+[18:36:58] <codelahoma> Hmm. Looks like I've got some auto-away settings to adjust on clients.
+[18:41:39] <codelahoma> I also need to set up znc to auto-restart, but if I know myself (and I do) I won't bother with that until the next time my server reboots.
+[19:20:46] <percent20> zerokarmaleft: is eating a snickers and now I am hungry because it smells really really good.
+[19:37:50] <percent20> godaddy has raised comission rates for affiliates. Just got an email about it. I signed up to sell through them, but never did.
+[19:50:48] <Destos> hurting possibly
+[20:01:59] <percent20> yeah.
+[20:02:31] <percent20> groovecoder: has your average traffic increased to your blog by a few hits a day by chance?
+[20:03:09] <percent20> I am going through my logs and it looks like people are averageing 1 to 2 clicks on your site a day from my site. so was curios if you have seen that.
+[22:18:08] <groovecoder> percent20: which site?
+[22:18:26] <percent20> groovecoder.com
+[22:22:39] <groovecoder> got some extra traffic on tuesday yeah
+[22:24:05] <groovecoder> scratching my head a bit - I think I want to have id's for each restaurant, but I don't know if I just want to auto-generate integers or what
+[22:24:46] <groovecoder> THD seems to have a big-ass id of some kind for each restaurant in the url

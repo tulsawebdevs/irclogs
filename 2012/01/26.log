@@ -1,0 +1,357 @@
+[10:32:21] <codelahoma> zerokarmaleft: http://codelahoma.com/post/16522481576/structure-and-interpretation-of-computer-programs
+[10:47:34] <zerokarmaleft> codelahoma: yea, i have all of those archived :D
+[10:57:42] <codelahoma> zerokarmaleft: Thanks for the ZNC tip, btw. Loving it.
+[11:00:03] <groovecoder> codelahoma: where are you running your znc server? on rackspace or something?
+[11:00:59] <danf1> groovecoder: I'm running mine on my friend's slice.
+[11:01:02] <codelahoma> Just on my iMac for now.
+[11:01:13] <groovecoder> danf1: slice?
+[11:01:21] <danf1> http://www.slicehost.com/
+[11:01:49] <danf1> He's had it since before Rackspace took over.
+[12:20:53] <zerokarmaleft> codelahoma: http://dspace.mit.edu/handle/1721.1/44215 <= this is basically a missing chapter from SICP
+[12:27:45] <percent20_> http://h30565.www3.hp.com/t5/Feature-Articles/A-New-Mathematics-for-Computing/ba-p/1390
+[12:27:51] <percent20_> do not want. ^
+[14:39:48] <percent20> Its MattGalloway the local mobile guru :)
+[14:40:10] <MattGalloway> Um. Yeah. Whatever.
+[14:40:42] <percent20> hehe on facebook Carlos called you the local mobile guru.
+[14:40:56] <groovecoder> MattGalloway++
+[14:41:05] <groovecoder> !MattGalloway++
+[14:41:17] <MattGalloway> Oh yes. I saw it. I always appreciate compliments. I just wish they didn't involve the word "guru".
+[14:41:27] <percent20> it goes back to that discussion about how you don't feel like you are, but you are to everyone else around.
+[14:41:45] <groovecoder> http://www.hanselman.com/blog/ImAPhonyAreYou.aspx
+[14:42:06] <percent20> groovecoder: love that post
+[14:44:34] <zerokarmaleft> yea, it's really futile to try and get a grasp on everything
+[14:44:40] <groovecoder> whoa cool. http://www.ustream.tv/user/thedivorg/videos
+[14:45:50] <percent20> groovecoder: can i buy a sponsrship to school of dev with moral support instead of monetary support? ;)
+[14:47:26] <MattGalloway> I dunno. I feel more like everyone else is a phony and I'm just really disappointed that my mediocrity passes for above average.
+[14:48:03] <MattGalloway> It's more of a self-deprecating narcissism than anything else.
+[14:48:58] <percent20> lol.
+[14:56:21] <groovecoder> heh
+[14:56:36] <groovecoder> percent20: moral support == give one of the sessions. :)
+[14:58:20] <percent20> groovecoder: I was curios if when i get done with my app for my new video if you could take a look at it and see if it can be improved or if I should include anything else in it. I am writing something basic for my "Getting up to Speed with Django" video.
+[14:58:37] <groovecoder> what's the app?
+[14:59:30] <percent20> just a basic app that lets you find lan parties and rsvp to them. It is kind of bloggish in style, but not a blog.
+[14:59:36] <percent20> very basic.
+[14:59:49] <groovecoder> cool. you should show saif
+[15:00:59] <percent20> heh it isn't going to be what he is after.
+[15:01:52] <groovecoder> ah
+[15:04:37] <percent20> I wanted something blog style since it is basic enough to hit a lot of parts, but people are tired of blogs so I had to figure something elseo ut.
+[15:04:39] <percent20> out*
+[15:10:58] <kellymahan> ACTION waves
+[15:12:21] <percent20> ACTION waves back
+[15:13:00] <kellymahan> so how many ruby people in here?
+[15:13:14] <percent20> 0.5
+[15:13:20] <percent20> I know some ruby but not the greatest
+[15:13:43] <groovecoder> I thought zerokarmaleft does some ruby too?
+[15:14:10] <percent20> I can do ruby on rails just fine and normal ruby, but if you want some awesome advanced cool looking Ruby not so much.
+[15:14:12] <Destos> Tim is in here sometimes too…
+[15:14:28] <groovecoder> kellymahan: I heard the ruby group/community in OKC was really big?
+[15:15:04] <groovecoder> (I found kellymahan in #thediv)
+[15:15:25] <kellymahan> ya, @JEG2 (aka James Gray) heads it up.
+[15:15:46] <percent20> ah
+[15:15:49] <kellymahan> he also heads up the Red Dirt Ruby conf
+[15:16:26] <groovecoder> we need to cross-promote our Tulsa Hackathon event to Ruby dev's. I'd like to have a ruby-scrapers repos too
+[15:17:01] <kellymahan> ruby -scrapers?
+[15:17:14] <percent20> I can probably do scrapers better in ruby than in python since I have done it with ruby.
+[15:17:33] <percent20> am more comfortable with ruby than python.
+[15:17:37] <kellymahan> like site scrapers?
+[15:17:45] <percent20> kellymahan: yes.
+[15:17:46] <kellymahan> thats super easy in ruby
+[15:17:50] <groovecoder> kellymahan: yeah. theme for our hackathon is public/open data.
+[15:17:57] <kellymahan> there are tons of gems for it
+[15:18:03] <percent20> kellymahan: yeah nokogiri is amazing for it.
+[15:18:17] <groovecoder> I've played around with python scraping of Tulsa Health Department inspection data - https://github.com/tulsawebdevs/python-scrapers
+[15:18:40] <groovecoder> kellymahan: we want to get a bunch of dev's together to write scrapers for all of Oklahoma's public/government data
+[15:19:14] <groovecoder> and store the data ... well, we're still deciding. :) I'm storing to cloudant.com right now, but we're trying to get access into data.ok.gov too
+[15:21:40] <percent20> groovecoder: what is the plan for saturday?
+[15:23:38] <kellymahan> if anyones interested this coming tues i'm doing a presentation on using amazon's ec2 service to show how we scale our servers for our digimedia shopping sites. Jerky.com, heater.com, bobbleheads.com, etc..
+[15:23:51] <kellymahan> it will be at the div 6:30pm
+[15:24:51] <percent20> sounds interesting. Not sure I could make the jump down to OKC anytime soon :(
+[15:26:34] <kellymahan> currently we have the ability to spin up a server and add it to our stack with just one command. Our next step is to automate the process.
+[15:28:34] <groovecoder> kellymahan: is it ruby-specific? will you be doing video? my brother in Dallas is very interested in spinning up new servers quickly and easily :)
+[15:29:11] <kellymahan> the automation part is written in ruby, but no it doesn't have to be for ruby based servers
+[15:29:24] <groovecoder> kellymahan: cool. will it be on ustream?
+[15:29:35] <kellymahan> and not sure how to setup up the video stuff, i'll have to ask lindsey
+[15:29:40] <percent20> groovecoder: amazons libraries are fairly consistent accross all languages and they have php stuff you can use.
+[15:29:58] <groovecoder> kellymahan: that'd be awesome
+[15:30:04] <zerokarmaleft> kellymahan: greetings
+[15:30:57] <kellymahan> hello zerokarmaleft
+[15:32:21] <zerokarmaleft> is early registration already open for red dirt rubyconf '11?
+[15:32:35] <zerokarmaleft> doh, the site is jacked right now
+[15:32:43] <kellymahan> I don't think so.. not sure if they've set a date yet
+[15:33:54] <zerokarmaleft> er '12
+[15:40:46] <codelahoma> Sure would be nice if OKC.rb meetings were streamed for tulsans. ;)
+[15:41:12] <kellymahan> they used to, not sure why they stopped.
+[15:42:12] <codelahoma> zerokarmaleft: Were you at '11?
+[15:56:14] <groovecoder> mwic: welcome!
+[15:56:17] <groovecoder> !mwic++
+[15:56:34] <mwic> sweet
+[15:56:38] <mwic> ~mwic--
+[15:56:41] <mwic> !mwic--
+[15:56:46] <mwic> can't demote myself?
+[15:56:51] <groovecoder> they are irrevocable
+[15:57:06] <zerokarmaleft> codelahoma: no, i've never been to a rubyconf unfortunately, regional or otherwise
+[15:57:13] <groovecoder> unless you want to change the bot's code: https://github.com/tulsawebdevs/ircbot
+[15:57:51] <groovecoder> !groovecoder
+[15:58:10] <kellymahan> ohhh ruby irc bot.. I got to give you my wolfram alpha stuff
+[15:58:35] <groovecoder> !weather Dallas
+[15:58:56] <zerokarmaleft> !weather Manila
+[16:10:25] <mwic> !weather Nairobi
+[16:10:55] <mwic> !weather Kolob
+[16:11:00] <mwic> ?
+[16:11:14] <mwic> was expecting Salt Lake City or something
+[16:12:59] <groovecoder> where the heck is Kolob?
+[16:13:26] <mwic> http://en.wikipedia.org/wiki/Kolob
+[16:13:38] <mwic> dude, you should try wikipedia; you'd love it
+[16:13:47] <mwic> it has all kinds of information and stuff in it
+[16:15:40] <mwic> :( NXDOMAIN: http://www.letmewikipediathatforyou.com/
+[16:15:42] <percent20> !weather tulsa
+[16:16:08] <percent20> yes we accept pull requests for the ircbot it uses the cinch gem.
+[16:17:20] <kellymahan> digi-bot: ?? whats the weather in tulsa
+[16:17:43] <kellymahan> bah hes not working in other channels atm
+[16:18:23] <percent20> here is our logs too. https://github.com/tulsawebdevs/irclogs
+[16:19:38] <groovecoder> mwic: https://twitter.com/#!/gabie53/status/159688586126573572
+[16:20:32] <percent20> ACTION holds his tongue on that tweet, again.
+[16:20:50] <mwic> i'm not going to read it
+[16:21:08] <mwic> 'cause you're prolly mad at me and doing whatever the 2012 equivalent of rickrolling is
+[16:21:25] <percent20> mwic: oh its funny and about wikipedia+sopa
+[16:21:57] <percent20> mwic: I just have very strong opinions about the thought process and actions that lead to the tweet.
+[16:22:57] <mwic> http://www.facebook.com/permalink.php?story_fbid=220731898011364&id=100002503329659
+[16:23:05] <mwic> for groovecoder and percent20
+[16:23:21] <mwic> "Wik's link explaining the situation says "Learn More". Consequently, none of those people are clicking on it. When they want things explained, they go to twitter"
+[16:24:05] <percent20> yeah I like that.
+[16:24:10] <percent20> similar to that tweet.
+[16:25:14] <kellymahan> trying again
+[16:25:28] <kellymahan> digi-bot: ?? whats the temp in tulsa, ok
+[16:26:16] <percent20> groovecoder: I love this response to your facebook post "i started using mozilla"
+[16:28:27] <percent20> !hello
+[16:33:49] <groovecoder> alright if I want to make a quick little plugin to the ircbot, what's the best way to test 'im?
+[16:34:30] <percent20> what I did was used hombrew to install ngircd
+[16:34:36] <percent20> then ran that and connected to localhost
+[16:34:42] <percent20> for the irc server
+[16:35:03] <percent20> that way I don't keep pounding freenode to reconnect and local connections are much quicker
+[16:35:33] <percent20> to run ngircd just run the command and it starts and sets it to the background
+[16:43:30] <zerokarmaleft> percent20: is !hello saying something in japanese?
+[16:44:33] <zerokarmaleft> hmm, still fuxxored in utf-8
+[16:44:39] <zerokarmaleft> i thought i fixed this already ><
+[16:45:12] <percent20> zerokarmaleft: yes it is
+[16:45:34] <kellymahan> digi-bot: ?? temp in tulsa, ok
+[16:45:39] <digi-bot>  61 °F
+[16:45:40] <digi-bot>  (53 minutes ago)
+[16:45:41] <digi-bot>  For more info, tell digi-bot 'more'
+[16:45:48] <kellymahan> there we go
+[16:46:02] <kellymahan> digi-bot: ?? who created ruby
+[16:46:04] <digi-bot>  undefined method `plaintext' for nil:NilClass
+[16:46:13] <kellymahan> still some bugs with unknown answers
+[16:46:36] <kellymahan> digi-bot: ?? population of tulsa, ok
+[16:46:39] <digi-bot>  391906 people  (country rank: 45th)  (2010 estimate)
+[16:46:40] <digi-bot>  For more info, tell digi-bot 'more'
+[16:46:46] <kellymahan> digi-bot: more
+[16:46:47] <digi-bot>  a: City,USState (assumptions: )
+[16:46:47] <digi-bot>    - Input interpretation: Tulsa, Oklahoma | city population
+[16:46:48] <digi-bot>    - Result: 391906 people  (country rank: 45th)  (2010 estimate)
+[16:46:49] <digi-bot>    - Population history:  [Log scale...]
+[16:46:49] <digi-bot>    - Urban area population: 558329 people  (Tulsa, OK urban area)
+[16:46:50] <digi-bot>      (2000 estimate) [Show cities...]
+[16:46:51] <digi-bot>    - Metropolitan area population: 929015 people  (Tulsa, OK metro area)
+[16:46:51] <digi-bot>      (2009 estimate) [Show cities...]
+[16:46:52] <digi-bot>    - Nearby cities: Broken Arrow, Oklahoma | 9 miles southeast | 98850 people
+[16:46:53] <digi-bot>      Owasso, Oklahoma | 12 miles north-northeast | 28915 people
+[16:46:54] <digi-bot>      Oklahoma City, Oklahoma | 101 miles west-southwest | 579999 people
+[16:46:54] <digi-bot>      Wichita, Kansas | 134 miles northwest | 382368 people
+[16:46:55] <digi-bot>      (straight-line distances between city centers) [Show metric...], [More...]
+[16:46:56] <digi-bot>    - Comparison:  ~~ 0.8 × number of people who attended the Woodstock Music & Art Fair (~~ 500000 people )
+[16:47:01] <kellymahan> sorry for the spam =)
+[16:48:24] <groovecoder> ooo
+[16:48:34] <kellymahan> so thats the bot I wrote that does our ec2 server monitoring, automation, and has a wolfram alpha lookup
+[16:48:55] <zerokarmaleft> nice
+[16:49:03] <zerokarmaleft> digi-bot: put it in a gist
+[16:49:09] <zerokarmaleft> :P
+[16:49:34] <groovecoder> kellymahan: powerful. where's digi-bit's source code? I suspect it's actually a cylon
+[16:49:36] <kellymahan> he's password protected, but ill show you a list of his commands
+[16:50:47] <kellymahan> digi-bot: help
+[16:51:08] <kellymahan> digi-bot: help
+[16:51:36] <kellymahan> nm it's all sent over private message
+[16:51:43] <groovecoder> percent20: did you follow a ngircd guide? I brew installed, but I'm missing motd file?
+[16:51:47] <groovecoder> digi-bot: help
+[16:52:06] <percent20> groovecoder: I am too, but the irc server still  started and i can test.
+[16:52:22] <groovecoder> just ran ngircd?
+[16:52:26] <percent20> yes
+[16:52:41] <percent20> it starts up as a background process, but doesn't tell you it does. at least that is what it did for me.
+[16:53:01] <kellymahan> heres his command list
+[16:53:05] <kellymahan> "help", "list certs", "upload cert", "delete cert", "list domains", "list servers", "create domain", "delete domain", "whats for lunch", "more", "set cert", "get ns", "lookup", "lb", "spinup staging", "teardown staging", "google verify", "change your name to", "teardown app", "spinup app", "spinup util", "teardown util", "cmd test"
+[16:53:22] <groovecoder> percent20: when I try to connect to localhost it says my account name was rejected by server
+[16:53:23] <groovecoder> ?
+[16:53:33] <percent20> not had that happen.
+[16:53:43] <percent20> change the username
+[16:53:51] <zerokarmaleft> kellymahan: do you manage your ec2 server in traditional ways too?
+[16:54:21] <kellymahan> we try not to actually.. we wrote the bot because it took us a whole day to manually setup a new server
+[16:54:21] <percent20> zerokarmaleft: how traditional? not sure he can flip switches on the box in person ;)
+[16:54:23] <zerokarmaleft> or you just wanted those hooks available on irc, too
+[16:54:42] <kellymahan> we just chose irc as our command interface
+[16:54:55] <zerokarmaleft> percent20: a regular script
+[16:54:56] <groovecoder> really? it doesn't like 'groovecoder'
+[16:54:57] <kellymahan> now a new server can be up in a few minutes
+[16:55:16] <zerokarmaleft> kellymahan: fair enough
+[16:55:19] <percent20> groovecoder: your name is just oo awesome for it.
+[16:55:27] <percent20> oo == too
+[16:55:57] <zerokarmaleft> groovecoder: max nick length config setting?
+[16:56:11] <kellymahan> it also alerts us when anyone deploys, when a server goes down or comes up, and a few other things
+[16:58:08] <kellymahan> we also have staging spinup and teardown so we only use it when we need it. clones the db, fires up an app server and util server then deploys code
+[16:58:39] <kellymahan> when were done, we tear it down with the bot
+[16:59:05] <percent20> i am generally against random regulation, but I am really starting to favor a bill that limits how much email your own college can send you.
+[16:59:11] <percent20> without unsubscribe buttons.
+[17:01:29] <percent20> wait. there is a spam button. hehehehehe
+[17:04:04] <zerokarmaleft> "You have been denied your financial aid for this term" has been marked as spam.
+[17:04:12] <zerokarmaleft> just sayin'
+[17:04:38] <percent20> well this is from tulsa.news@okstate.edu
+[17:05:23] <percent20> this line at the bottom though pisses me off.
+[17:05:25] <percent20> Students, faculty and staff associated with the OSU-Tulsa campus in the OSU email database automatically receive The Current and cannot be unsubscribed.
+[17:05:45] <percent20> That is just lazyiness.
+[17:05:51] <percent20> so is my spelling
+[17:07:39] <zerokarmaleft> started working on my slides for feb's talk today
+[17:08:21] <percent20> cool. I should start my slides for my html5 talk on monday
+[17:08:35] <percent20> I like researching content, hate making slides. lol.
+[17:10:44] <groovecoder> lulz. mozilla renamed our "vibrator api" to "vibration api" because one of our evangelists got sick of all the sex jokes. :)
+[17:11:09] <percent20> they wont stop.
+[17:11:17] <percent20> its too easy of a target.
+[17:11:37] <groovecoder> yeah, at least this way it's not the "official" name anymore
+[17:11:40] <percent20> its like opening a big hole for everyone to go through on it.
+[17:11:50] <groovecoder> zerokarmaleft: cool
+[17:12:00] <groovecoder> percent20: twss
+[17:13:52] <percent20> this should not be the start of any question in a text book: A man, a wolf, a goat, and a cabbage...
+[17:14:42] <groovecoder> alright, so how do I run gem using my ruby1.9 instead of ruby 1.8?
+[17:14:53] <percent20> you need rvm
+[17:15:20] <percent20> http://buddylindsey.com/fresh-os-x-install-to-running-rvm/
+[17:15:41] <percent20> skip homebrew stuff not relevant to you.
+[17:26:16] <groovecoder> LoadError at require 'active_support/core_ext/object/blank'
+[17:26:41] <groovecoder> gem install active_support ?
+[17:26:55] <percent20> install rails that will cover it for sure.
+[17:27:15] <percent20> gem install rails
+[17:28:29] <groovecoder> no
+[17:28:30] <groovecoder> :)
+[17:28:45] <groovecoder> I'm not ready for that level of commitment yet
+[17:28:55] <percent20> lol its not that big
+[17:29:11] <groovecoder> rails is much more than just file-size
+[17:29:25] <groovecoder> it's a ... culture ... that I'm not ready to enter
+[17:29:31] <groovecoder> some day
+[17:30:01] <percent20> then go ahead and try active_support
+[17:30:04] <groovecoder> "More information can be found in the {Cinch::Plugin} documentation." I assume there's an easy way to look that up in ruby-land?
+[17:30:22] <percent20> i just know rails would handle all of it.
+[17:32:44] <groovecoder> how do I find "{Cinch::Plugin} documentation" ?
+[17:33:46] <percent20> I would go to the cinch github and find the doc link there. Probably an easier way to do it. I just don't know how.
+[17:33:53] <Destos> https://code.google.com/p/hash-identifier/
+[17:34:26] <percent20> http://rubydoc.info/github/cinchrb/cinch/
+[17:47:39] <groovecoder> !groovecoder+++
+[17:47:44] <groovecoder> !groovecoder+++
+[17:47:46] <groovecoder> pwned
+[17:47:55] <groovecoder> !groovecoder+++
+[17:51:42] <groovecoder> !groovecoder+++
+[17:54:05] <groovecoder> okay, does ruby have some kind of magic regex engine or am I dumb?
+[17:54:38] <groovecoder> ﻿﻿tokens = cmd.match(/[!](\S+)([+\?]{2})/) should match !groovecoder++ and !groovecoder?? right?
+[17:54:56] <groovecoder> percent20: zerokarmaleft: kellymahan: ^ ?
+[17:55:22] <percent20> me and regular expressions are not aquatinted. :(
+[17:55:57] <percent20> !percent20++++
+[17:56:06] <percent20> !percent20+++
+[18:11:05] <percent20> man i can't remember some of my rubyfoo
+[18:18:28] <groovecoder> https://github.com/tulsawebdevs/ircbot/pull/4
+[18:18:34] <Destos> luke is a ruby master now
+[18:18:39] <groovecoder> lulz
+[18:19:44] <groovecoder> though doing something in a new language for the first time is still kind of a rush
+[18:20:08] <groovecoder> maybe there's something to that whole polyglot programmer thing
+[18:20:44] <percent20> hehe.
+[18:20:50] <percent20> looks good. i'll merge it in.
+[18:21:35] <groovecoder> tested locally. have 0 clue how to write ruby test code
+[18:24:59] <percent20> !github repos
+[18:25:12] <percent20> !groovecoder++
+[18:25:19] <percent20> !percent20++
+[18:25:24] <percent20> !tulsabot++
+[18:25:30] <percent20> !groovecoder--
+[18:25:57] <percent20> we now have the start of a github feature.
+[18:27:18] <percent20> !github help
+[18:27:33] <percent20> !github repo
+[18:28:03] <zerokarmaleft> groovecoder: for the record
+[18:28:23] <zerokarmaleft> that regex is a hack fix
+[18:28:44] <groovecoder> !karma??
+[18:28:56] <percent20> !karma??
+[18:28:59] <groovecoder> we need to persist the points somewhere permanent
+[18:29:04] <groovecoder> !percent20??
+[18:29:18] <zerokarmaleft> file an issue, heh
+[18:30:02] <percent20> wish we could get tim in here to plow through our ruby code and fix it up to be more rubyish.
+[18:30:04] <groovecoder> okay, right after this other pull request :)
+[18:30:12] <percent20> hehe
+[18:31:26] <groovecoder> https://github.com/tulsawebdevs/ircbot/pull/5
+[18:32:24] <groovecoder> okay, I'm done monkeying with ruby for a while
+[18:32:26] <zerokarmaleft> percent20: that's about as idiomatic as it gets
+[18:32:37] <percent20> groovecoder
+[18:32:46] <percent20> pull the latest changes local and repush that pll request
+[18:32:49] <percent20> i added some code
+[18:32:54] <groovecoder> ACTION sighs
+[18:33:05] <percent20> zerokarmaleft: i am more talking about my code than anyone elses.
+[18:34:02] <zerokarmaleft> groovecoder: i think you could just set up another handler for !karma?
+[18:34:51] <groovecoder> zerokarmaleft: I couldn't see a way to do 2 "match" properties in a cinch plugin
+[18:35:15] <zerokarmaleft> hmm, ok, i'll take a look later
+[18:36:04] <zerokarmaleft> !zerokarmaleft++
+[18:36:09] <zerokarmaleft> !zerokarmaleft+++
+[18:36:25] <zerokarmaleft> that shouldn't happen :-/
+[18:36:52] <percent20> groovecoder: did you submit another pull request?
+[18:37:02] <groovecoder> not yet, testing merged branch
+[18:37:09] <percent20> ah okay.
+[18:37:20] <zerokarmaleft> oh, it inc'd "zerokarmaleft+"
+[18:37:31] <groovecoder> zerokarmaleft: yeah I noticed that. though I was giving myself extra points but it makes a new nick and gives them points
+[18:37:39] <groovecoder> !karma??
+[18:37:45] <zerokarmaleft> !zerokarmaleft ++
+[18:38:48] <zerokarmaleft> once TWD achieves world domination and has billions of members, that'll flood the channel :P
+[18:39:20] <groovecoder> https://github.com/tulsawebdevs/ircbot/pull/7
+[18:40:21] <groovecoder> zerokarmaleft: percent20: what are your opinions - to rebase or not to rebase?
+[18:41:04] <percent20> rebase still scares me because I still mess it up so I don't generally, but if you want to you can :)
+[18:41:23] <groovecoder> I personally consider rebase as a form of lying
+[18:41:29] <zerokarmaleft> lol
+[18:41:54] <percent20> you should listen to the latest herding code podcast about git they talk about that.
+[18:42:07] <groovecoder> link?
+[18:42:46] <zerokarmaleft> it's not really necessary in this case, the conflict is easy to fix
+[18:42:58] <groovecoder> I think we need to include chris's git/github session as part of our Hacking Data track @ School of Dev
+[18:43:09] <percent20> http://herdingcode.com/?p=384
+[18:43:35] <groovecoder> how long is this?
+[18:43:44] <percent20> um.....
+[18:43:46] <percent20> long
+[18:43:54] <percent20> like 1:20 ish
+[18:43:57] <percent20> hour 20
+[18:44:26] <percent20> !botstack
+[18:44:30] <groovecoder> nvm, I'll read notes
+[18:44:30] <percent20> !botsnack
+[18:44:57] <percent20> !github repos asdf
+[18:45:00] <percent20> hehe
+[18:45:04] <percent20> !github repos
+[18:46:09] <groovecoder> mwic: http://think-like-a-git.net/
+[18:47:11] <zerokarmaleft> do you guys have github:issues on your phones?
+[18:47:27] <percent20> i don't have a smartphone
+[18:48:33] <percent20> is anyone else getting a unicorn fail image on githug?
+[18:50:50] <groovecoder> I have github issues all the time, everywhere
+[18:58:11] <percent20> just tweeted this: @BillGates I understand you want to do more giving & pay a lot more taxes instead of complaining why not start writing bigger checks to both
+[19:00:21] <percent20> not expecting an answer
+[19:05:07] <percent20_> !hello
+[19:05:15] <percent20_> phew still works.
+[19:24:26] <zerokarmaleft> what was bill gates complaining about?
+[22:16:57] <percent20> shanecowherd: lol I just thought "is shane on" then you joined. welcome to irc. lol.
+[22:17:09] <shanecowherd> lol
+[22:17:10] <shanecowherd> hi
+[22:17:17] <shanecowherd> driving to oklahoma in the morning
+[22:17:25] <shanecowherd> gall bladder surgery scheduled Feb 9th
+[22:17:30] <percent20> eek.
+[22:17:52] <percent20> what you doing on saturday?
+[22:17:52] <percent20> we are having a hack day if youw ould like to attend
+[22:18:10] <percent20> how long you going to be out of commission with the surgery?
+[22:19:29] <shanecowherd> 5 days
+[22:19:35] <shanecowherd> what time is hack day
+[22:20:09] <percent20> 10:00 am - ... ( you don't need to be there on time or the whole day )
+[22:20:39] <shanecowherd> i'll know tomorrow
+[22:20:49] <shanecowherd> im meeting with chad at 4
+[22:21:13] <percent20> ah okay.
+[22:22:21] <percent20> did you ever figure out what was causing the stomach pain?
+[22:23:30] <shanecowherd> gallbladder
+[22:23:33] <shanecowherd> gallstones
+[22:23:47] <percent20> ah okay. wasn't sure if they were connected or not.
+[22:24:48] <percent20> how long you going to be in OK you think?
+[22:25:00] <shanecowherd> until next wednesday
+[22:25:17] <percent20> ah.
+[22:25:43] <percent20> !weather tulsa

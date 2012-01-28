@@ -1,0 +1,47 @@
+[01:29:52] <percent20> wow we had over 350 lines of conversation. It was an active day today.
+[10:19:21] <percent20> !weather tulsa
+[11:36:01] <Destos> https://www.destroyallsoftware.com/talks/wat
+[12:51:47] <codelahoma> Destos: that's a fun little talk. Ever seen his peepcode episode?
+[13:48:20] <Destos> codelahoma: I have not
+[14:02:51] <percent20> !weather
+[14:02:55] <percent20> !weather tulsa
+[14:29:35] <percent20> http://www.tax.ok.gov/it2010/511-BAT-10.pdf
+[15:27:58] <Destos> https://code.google.com/p/hash-identifier/
+[15:49:28] <zerokarmaleft> along those lines: http://www.freerainbowtables.com/
+[15:51:02] <codelahoma> secrecyisdead.com is available.
+[15:51:19] <codelahoma> if you want to put together a single-serving site. :-)
+[16:11:37] <codelahoma> anyone transferred away from godaddy lately?
+[17:34:25] <percent20> !github repos
+[17:53:16] <percent20> !weather tulsa
+[17:55:01] <codelahoma> !weather Mount Washington
+[17:55:08] <codelahoma> !weather Mount Washington, NH
+[17:55:32] <codelahoma> that's actually pretty nice for there
+[17:55:45] <codelahoma> !weather north conway, nh
+[17:56:39] <codelahoma> hmm…there's usually a pretty sizeable temperature differential. Check that wind diff, though.
+[23:06:35] <percent20> shanecowherd: sent you message over IM
+[23:17:06] <shanecowherd> i didn't get it
+[23:17:08] <shanecowherd> what service is it on
+[23:17:13] <percent20> gmail
+[23:17:39] <shanecowherd> did i hit your trash can earlier?
+[23:17:40] <shanecowherd> lol
+[23:17:53] <percent20> no you were maybe 2 feet away
+[23:17:58] <shanecowherd> kk
+[23:18:00] <percent20> !weather
+[23:18:03] <percent20> !weather tulsa
+[23:18:04] <shanecowherd> you looked at me like i hit it
+[23:18:10] <shanecowherd> !weather 90210
+[23:18:27] <percent20> no I was just watching with amusement.
+[23:19:29] <shanecowherd> internet is so slow here
+[23:19:30] <shanecowherd> lol
+[23:19:38] <percent20> that sucks.
+[23:19:44] <shanecowherd> i'm use to 30-40mbit
+[23:19:57] <shanecowherd> its like 10-15 here
+[23:20:16] <percent20> ah
+[23:22:21] <shanecowherd> weird
+[23:22:28] <shanecowherd> i got your message on gchat
+[23:22:34] <shanecowherd> but i had to manually check gmail
+[23:22:40] <percent20> very odd.
+[23:51:20] <groovecoder> dear pymongo documentation: stop being such a big fat liar.
+[23:51:28] <groovecoder> "Note that documents can contain native Python types (like datetime.datetime instances) which will be automatically converted to and from the appropriate BSON types."
+[23:51:41] <groovecoder> oh really? because
+[23:51:41] <groovecoder> bson.errors.InvalidDocument: Cannot encode object: datetime.date(2012, 1, 19)

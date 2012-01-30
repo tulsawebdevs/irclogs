@@ -1,0 +1,70 @@
+[13:49:53] <Randall> Help!
+[13:50:12] <Randall> anyone familiar with service hooks to github?
+[14:59:10] <percent20> Randall: know of them not how to use them.
+[14:59:39] <Randall> i think i figured that part out. Now i need to make github play well with visual studio
+[15:00:05] <percent20> ah. cool. what are you making it do?
+[15:09:35] <Randall> trying to integrate with appharbor to run some .net scrapers
+[15:10:11] <percent20> ah, cool.
+[15:42:35] <Randall> anyone listen to RSU Radio 91.3 out of claremore?
+[15:43:52] <Randall> They put their playlists online  http://rsuradio.com/index.php/programming
+[15:45:49] <Destos> their live stream appears to not be working for me, at least in vlc
+[15:45:59] <Randall> I imported one and if you click on the tracklist it searches youtube so you can replay the radio show.  http://okdata.qrimp.com/db.aspx?t=1001&gotopage=25
+[15:46:45] <Randall> it's not in line with the typical data sets we're discussin, but it is fun
+[15:47:30] <percent20> garr. meh twitta app is leh broken.
+[15:47:42] <Destos> notwitter4u
+[15:52:35] <percent20> the node.js keeps crashing.
+[15:54:45] <Destos> failure
+[15:55:07] <percent20> I guess I need to actually sit down and figure it out at some point.
+[15:56:17] <Destos> percent20: add this: process.on('uncaughtException', function (err) {
+[15:56:17] <Destos>   console.log('Caught exception: ' + err);
+[15:56:18] <Destos>   console.log(err.msg,err.stack);
+[15:56:19] <Destos> });
+[15:56:24] <Destos> to your server file
+[15:57:07] <Destos> it will prevent node from crashing due to uncaught exceptions, of course if you have Catastrophic failures, that won't help
+[15:57:17] <percent20> https://gist.github.com/1700604
+[15:57:25] <percent20> that was the error
+[16:05:21] <Destos> https://github.com/buddylindsey/latest-twitter-images/commit/52b5afe1bef5014795cd76ad2ed181ec6a9a495c
+[16:05:43] <Destos> should fix it
+[16:05:47] <percent20> :D
+[16:05:52] <groovecoder> Destos: has commit access to your repos?!
+[16:06:00] <Destos> I DOoooo
+[16:06:03] <percent20> to that one.
+[16:06:07] <groovecoder> we're doomed.
+[16:06:14] <Destos> sub par code for all!
+[16:07:26] <jaeger> It's ok, I don't have access. you should be safe
+[16:08:28] <percent20> hrm http://evening-light-2225.herokuapp.com/ no seem to work.
+[16:08:41] <percent20> it never gets any images
+[16:09:09] <groovecoder>  /whois jaeger
+[16:09:12] <groovecoder> :)
+[16:10:06] <jaeger> nobody important :)
+[16:10:28] <Destos> percent20: I don't think heroku supports sockets ?
+[16:10:34] <groovecoder> !karma??
+[16:10:44] <percent20> !weather tulsa
+[16:10:56] <groovecoder> !percent20++
+[16:11:01] <groovecoder> !karma??
+[16:11:13] <groovecoder> yeah, we really need to persist those points
+[16:11:45] <groovecoder> percent20: so, 7 databases?
+[16:11:47] <percent20> hehe need to write some ruby code to save to a yaml file or something
+[16:12:12] <Destos> ACTION gives self millions of points via a commit
+[16:12:50] <percent20> groovecoder: yup. going to write up post number 1 tonight. but I don't think we quite need a db yet for our ircbot
+[16:13:07] <groovecoder> Destos: well-played
+[16:13:12] <groovecoder> Destos++
+[16:13:16] <groovecoder> !Destos++
+[16:14:27] <percent20> groovecoder: have you done any screencasts before? I ask because I can't seem to figure out how to use the python repl with django. seems i keep doing crap wrong so was curios if you could do some stuff and show how you use it.
+[16:14:51] <groovecoder> percent20: manage.py shell?
+[16:15:28] <percent20> i know that, but I can't seem to figure out how to test stuff other than models.
+[16:15:44] <percent20> like how do you interact with views int he repl
+[16:17:58] <groovecoder> hrm. I'm not sure either. :(
+[16:18:30] <groovecoder> you'd probably have to build up request objects to throw at them
+[16:19:17] <percent20> what do you usually test in your repl?
+[16:40:28] <percent20> groovecoder: where did you get your html presentation templates at?
+[17:13:30] <groovecoder> percent20: sorry, I'm mostly unplugged today :)
+[17:13:59] <percent20> noworries. I found html5slides on google code.
+[17:14:07] <groovecoder> I've used both http://paulrouget.com/dzslides/ and http://slides.html5rocks.com/#landing-slide
+[17:14:28] <groovecoder> and I've used html5slides
+[17:14:35] <groovecoder> they're all about the same
+[17:17:44] <percent20> I like HTML5 rocks. I might use that instead of making my own.
+[17:18:14] <percent20> they are much better content wise than mine are.
+[18:15:26] <percent20> !weather tulsa
+[18:40:43] <groovecoder> okay, wtf? https://gist.github.com/1701382
+[21:31:37] <codelahoma> groovecoder: Tossed in a file and it worked here, fwiw.

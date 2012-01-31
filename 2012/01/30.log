@@ -1,0 +1,90 @@
+[10:10:29] <zerokarmaleft> morning
+[10:13:16] <codelahoma> morning
+[10:13:36] <groovecoder> morning
+[10:13:45] <esdev> hey
+[12:12:51] <zerokarmaleft> groovecoder: figured out how to route multiple matches for the karma plugin
+[12:13:17] <zerokarmaleft> making fixes now, i think i'll add some basic persistence too
+[12:21:45] <zerokarmaleft> groovecoder: the !karma?? comand will change to !karma? if you're ok with that
+[12:41:20] <groovecoder> zerokarmaleft: w00t
+[13:39:32] <percent20> anyone around?
+[13:39:51] <esdev> no one but us nerds
+[13:40:15] <percent20> Destos, groovecoder, zerokarmaleft you here too?
+[13:40:24] <percent20> I am having trouble comeup with a title.
+[13:40:29] <Destos> yesums
+[13:40:45] <percent20> I have my "7 databases in 7 weeks" review I am doing, but I can't think of a title
+[13:41:23] <percent20> so my initial thoughts were "PostgreSQL Week of 7 Databases in 7 Weeks Review"
+[13:41:55] <percent20> that hits all the keywords and tells you what it is, but is very odd.
+[13:41:57] <esdev> that's too long
+[13:42:40] <esdev> 7d7w - PostrgresSQL Week?
+[13:42:57] <percent20> PostgresSQL needs to be first.
+[13:43:34] <percent20> PostgreSQL Review - 7db7w
+[13:43:49] <esdev> 7DB7W
+[13:44:02] <Destos> hmm
+[13:44:04] <esdev> is that too cryptic?
+[13:44:20] <esdev> 7DB-7W
+[13:44:27] <percent20> PostgreSQL Review - 7 Databases in 7 Weeks
+[13:44:53] <Destos> I would add the week in there
+[13:45:15] <Destos> like PostSQL Reivew - first week - 7 DB in 7  weeks
+[13:47:25] <percent20> PostgreSQL - Week 1 of 7 Databases in 7 Weeks
+[13:48:29] <Destos> looks good
+[13:51:58] <percent20> i am leaning on arm chairs too much. my shoulder is killing me.
+[13:54:26] <percent20> one of the things that bugs me about the RoR community is the idolic like following of DHH by many in the rails community.
+[13:56:25] <codelahoma> percent20: I'm recovering from a pretty bad case of couch shoulder myself.
+[14:13:21] <groovecoder> percent20: that's basically THE thing that bugs me about RoR :)
+[14:13:53] <percent20> groovecoder: heh.
+[14:15:02] <percent20> to play devils advocate though, I wish the Django community had someone similar they could rally around more. There is a severe lack of vocal community with Django.
+[14:20:11] <percent20> alright rough draft written. now to let it stew for an hour or so and proofread it.
+[14:51:09] <shanecowherd> Anyone know how to "delay" a few milliseconds between actions in javascript?
+[14:51:56] <shanecowherd> setInterval?
+[14:52:01] <groovecoder> setTimeout?
+[14:52:11] <shanecowherd> thanks, I'll checkout timeout
+[14:57:06] <zerokarmaleft> percent20: i think DHH is a self-absorbed prick myself
+[14:57:29] <zerokarmaleft> i also don't let him define the RoR community
+[14:57:53] <percent20> zerokarmaleft: I don't either, but when i ask for advice i often get "Well DHH..."
+[14:57:57] <zerokarmaleft> there's plenty of other smart guys leading the way
+[14:58:18] <percent20> agreed.
+[15:00:01] <percent20> groovecoder: do you still have a link to that css3 animation that was similar to what people normally do in flash?
+[15:00:26] <groovecoder> https://developer.mozilla.org/en-US/demos/detail/battlefield-css3/launch
+[15:00:35] <percent20> :D
+[15:01:21] <groovecoder> also http://animatable.com/demos/madmanimation/
+[15:01:51] <groovecoder> and animatable.com is a Flash-like dev environment for css3 animations
+[15:03:45] <percent20> :)
+[15:28:44] <zerokarmaleft> much cleaner
+[15:28:58] <percent20> you get karma working better?
+[15:33:42] <zerokarmaleft> yea, just refactored it and added a decrement command
+[15:33:54] <zerokarmaleft> adding persistence now
+[15:38:02] <percent20> :)
+[16:16:49] <zerokarmaleft> oops, should've attached the persistence stuff to the right issue
+[16:48:50] <percent20> groovecoder: you here? I am curios if you know what aria is? and how to explain it? Not finding good descriptions.
+[16:50:05] <groovecoder> aria is accessibility stuff. i.e., building pages in ways that an e-reader can read them aloud for blind users
+[16:50:57] <groovecoder> https://developer.mozilla.org/en/ARIA
+[16:52:18] <zerokarmaleft> how do you attach commits to a github issue that wasn't created by a pull request?
+[16:52:31] <percent20> ah. why couldn't the other descriptions I was finding actually use the full text and not just the acronym.
+[17:05:50] <codelahoma> zerokarmaleft: I'm not sure you can, but I think the short SHA will automagically link.
+[17:06:26] <zerokarmaleft> yea, pull reqs will automagically create a request...i was just wondering how people submit a patch against a particular issue
+[17:06:43] <zerokarmaleft> er, automagically create an issue*
+[17:07:34] <codelahoma> mention the issue number in your pull request, with a hash sign preppended
+[17:08:03] <zerokarmaleft> ah let me try that
+[17:08:56] <codelahoma> Or, in a comment on the issue, use user@SHA
+[17:09:23] <codelahoma> http://github.github.com/github-flavored-markdown, about halfway down.
+[17:14:50] <zerokarmaleft> https://github.com/tulsawebdevs/ircbot/issues?sort=created&direction=desc&state=open
+[17:14:56] <zerokarmaleft> not quite, but whatever heh
+[17:15:35] <zerokarmaleft> ah, i see, the pull request gets added to the issue thread b/c of the reference
+[17:15:41] <zerokarmaleft> nifty
+[17:16:05] <codelahoma> right
+[17:16:45] <codelahoma> mentioning an issue anywhere results in a pointer comment on the issue itself. Pretty cleverr.
+[17:17:04] <zerokarmaleft> indeed, thanks :D
+[17:22:40] <zerokarmaleft> hmm, the upstream history looks weird now
+[17:27:44] <zerokarmaleft> http://groups.google.com/group/nodejs/browse_thread/thread/85f6a3829bc64cb6?pli=1
+[17:42:11] <percent20> lol my talk tonight is title: Why HTML5 Affects You Now, and How to Start Using It
+[17:42:28] <percent20> but I realized you can also say it: How HTML5 Affects You Now, and Why to Start Using It
+[17:42:43] <codelahoma> where you speaking?
+[17:42:54] <percent20> Tulsa .NET Developers Meeting
+[17:42:57] <percent20> at OU Tulsa
+[17:46:44] <codelahoma> How HTML5 Affects You, and Why to Start Using It Now
+[17:47:03] <codelahoma> It's a very flexible title :-)
+[17:47:16] <percent20> yeah.
+[17:57:41] <zerokarmaleft> percent20: when you get a chance, can you reboot tulsabot?
+[17:58:04] <percent20> zerokarmaleft: yeah, going to have to be later tonight since there is no SSH access at OU Tulsa
+[22:24:42] <> [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+[22:30:25] <percent20> !zerokarmaleft++

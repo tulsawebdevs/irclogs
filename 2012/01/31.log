@@ -1,0 +1,86 @@
+[01:06:12] <percent20> http://smarxblog.blob.core.windows.net/guess/index.html
+[02:38:39] <percent20> !destos++
+[02:39:27] <percent20> !karma?
+[02:40:04] <percent20> !karma?
+[02:40:15] <percent20> :D
+[08:23:02] <groovecoder> percent20: cheeky monkey
+[08:54:09] <groovecoder> percent20: quick, make an arecibo heroku addon!
+[09:39:03] <esdev> rise n shine
+[10:09:49] <zkl> !zerokarmaleft--
+[10:09:54] <zkl> as it should be
+[10:10:15] <esdev> !esdev--
+[10:10:24] <esdev> lol
+[11:34:12] <esdev> no one showed at java dave's. :(
+[11:35:02] <Destos> Buddy said something came up on facebook
+[11:35:06] <Destos> d
+[11:35:12] <Destos> but that he would be in later
+[11:36:01] <groovecoder> esdev: yeah, Tuesday's may not work out best for me after-all
+[11:36:18] <esdev> yea, i had a 10am and 2pm meeting. so i had to leave anyway.
+[11:36:46] <esdev> no worries. i'm easy like that. ;)
+[15:12:58] <percent20> well I am testing out zencoders ability to push converted videos back to s3
+[15:13:07] <percent20> that way I don't have to download and re-upload them
+[15:13:31] <percent20> we shall see how good at figuring things out I am when there are no instructions.
+[15:16:40] <percent20> yay it worked.
+[15:29:57] <groovecoder> percent20: cool
+[15:30:31] <percent20> This video is on formsets
+[15:30:32] <percent20> :)
+[15:30:43] <percent20> going to do validation for the next video then call it good on forms.
+[15:31:28] <percent20> its a fun subject but I am even tired of them lol.
+[15:39:00] <percent20> well video quality sucks.
+[15:39:17] <percent20> :( not too bad, bearable, but I need to figure out how to encode better.
+[16:22:18] <groovecoder> jsatt: jwhitlock_zzz: wow I never noticed how you were fetching the road closure data for trif. that's an impressive regex.
+[16:22:56] <groovecoder> for the curious: https://github.com/tulsawebdevs/tulsa-road-issues-feed/blob/master/trif/trif_feeds/utils.py#L60
+[16:28:11] <percent20> my eyes are bleeding now.
+[16:28:44] <percent20> and my brain exploded a bit on that trying to read it.
+[16:29:38] <groovecoder> !jsatt++
+[16:29:44] <groovecoder> !jwhitlock++
+[16:29:52] <groovecoder> not that they ever show up in here
+[16:35:36] <percent20> hehe
+[16:36:41] <percent20> oh my blogs traffic has gone up by a total 1000 hits this last month :) that is a 25% increase in total traffic over december.
+[16:38:30] <jsatt> wow, I forgot about that, thanks
+[16:44:05] <Destos> groovecoder: looking into your email qs
+[16:44:28] <groovecoder> percent20: what's with the increase?
+[16:44:36] <groovecoder> Destos: whoa cool, thanks. that was quick
+[16:45:38] <groovecoder> percent20: if you want to really melt your brain you should check out Les's diagram of implementing "KumaScript" django/nodejs: https://wiki.mozilla.org/MDN/Kuma/Scripting#Proposed_solution_.231
+[16:46:07] <percent20> groovecoder: I think more consistent posting over the last 3 months, and talking about more modern tech. While google weights older content more heavily than newer they do rate sites based on how often they update.
+[16:46:43] <percent20> groovecoder: I am afraid to. lol. I saw him create the repo yesterday, but didn't dare click on it.
+[16:47:22] <Destos> sliders images use the title attribute on the image to grab the text.
+[16:47:50] <groovecoder> hrm
+[16:48:10] <percent20> groovecoder: is he going to create a custom middleware for it?
+[16:48:25] <groovecoder> I changed the title to "Join us to build data apps that make Tulsa and Oklahoma awesome." but slider is still showing old title. wonder if it's cached
+[16:49:27] <percent20> groovecoder: I am trying to develop some questions to ask in a survey can I shoot them your way to ask what your opinion of the questions are?
+[16:49:33] <Destos> groovecoder: on the last image?
+[16:49:40] <groovecoder> Destos: yeah
+[16:49:46] <groovecoder> percent20: sure, what kind of survey?
+[16:50:20] <percent20> groovecoder: django one. I am trying to better define what I need to teach and how I can refine what all I am doing with godjango and content.
+[16:50:31] <groovecoder> percent20: ah, sure
+[16:50:48] <groovecoder> you should send it to esdev too. isn't he starting to get into django?
+[16:50:51] <Destos> groovecoder: updated it, what method did you use to change the title? If you click on the image in the visual editor and then click the image icon in the top left it lets you set image meta data, editing it in the html might have been the issues?
+[16:51:04] <zerokarmaleft> is there an outline or something about how we're putting together github + heroku + x for okdata?
+[16:51:07] <groovecoder> Destos: ah, I went to the media library
+[16:51:13] <groovecoder> zerokarmaleft: not yet. should there be?
+[16:51:35] <zerokarmaleft> i see that luke was "going to work on" it from the hack day blog post
+[16:51:53] <groovecoder> zerokarmaleft: I ended up working with randall on pushing data to qrimp.
+[16:51:58] <groovecoder> now that's changing to csv files
+[16:52:32] <percent20> groovecoder: email sent to your gmail. once I can get some good questions I am going to add them to survey monkey to try and get other people to answer.
+[16:52:40] <groovecoder> but yeah, I can write up a post/page about our x-scrapers repositories on github, how to run the scrapers on heroku, and how we'll store them
+[16:52:46] <Destos> groovecoder: Yeah, media is instanced when inserting it into a post.
+[16:53:14] <Destos> groovecoder: how long do you want the pause between slides? I have to manually edit it. ( the theme hs everything inline >_< )
+[16:53:23] <Destos> currently 3s
+[16:53:29] <groovecoder> I'd say 4-5s
+[16:53:36] <groovecoder> 5s
+[16:53:37] <groovecoder> :)
+[16:54:01] <Destos> updated
+[17:12:41] <percent20> I am not sure why, but pandora keeps wanting me to listen to Paris Hilton.
+[17:17:08] <percent20> only a few more results and i'll own the entire front page of google for "buddy lindsey"
+[17:21:05] <Destos> hah
+[17:21:35] <Destos> Capt Buddy Lindsey of Rockport, Texas.
+[17:21:41] <Destos> I didn't know you were a capn
+[17:21:50] <percent20> Yes. I can do everything :)
+[17:22:38] <percent20> I also died 2003 as well.
+[17:23:13] <percent20> http://blip.tv/communitycast/tulsatechfest-wrap-up-with-buddy-lindsey-466240
+[17:25:39] <groovecoder> percent20: you like Silverlight that much eh?
+[17:25:50] <percent20> you will want to skip to 2 minutes
+[17:26:25] <percent20> SilverLight is a really cool technology.
+[17:28:52] <groovecoder> time to brush off my Android tablet, fire up Firefox 10, and check out the orientation demos: https://developer.mozilla.org/en-US/demos/devderby
+[22:17:58] <percent20> !weather tulsa

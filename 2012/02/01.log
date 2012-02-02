@@ -1,0 +1,56 @@
+[09:28:10] <groovecoder> man, socrata is niiiice
+[09:28:18] <groovecoder> http://opendata.socrata.com/dataset/THD-Facilities-Map/xzm5-swz7
+[09:28:24] <groovecoder> (just 5 rows of data)
+[10:08:01] <zerokarmaleft> http://www.sublimetext.com/docs/2/vintage.html <= vim mode in sublime
+[10:12:07] <zerokarmaleft> nice features, but not quite there for me in a lot of ways
+[10:18:39] <codelahoma> I find that vim mode in vim is pretty nice.
+[10:20:22] <danf1> If vim had emacs mode, I might try it.
+[10:20:45] <codelahoma> haha
+[10:40:10] <zerokarmaleft> morning timmorgan
+[10:42:00] <timmorgan> morning
+[11:02:34] <groovecoder> whoa, timmorgan is here?!
+[11:02:38] <groovecoder> I feel special
+[11:06:37] <timmorgan> haha
+[11:07:01] <timmorgan> sorry, work has been a bitch
+[11:07:40] <timmorgan> what did I miss at the hack day
+[11:11:04] <zerokarmaleft> carlos busting out of his proverbial pants
+[11:11:17] <zerokarmaleft> http://tulsahackathon.com/
+[11:11:50] <timmorgan> nice
+[11:14:42] <groovecoder> timmorgan: and percent20 started a ruby-scrapers repos! https://github.com/tulsawebdevs/ruby-scrapers
+[11:15:20] <groovecoder> I'm still constantly refactoring my python code but hopefully I'll have a stable little python scraper model
+[11:16:34] <timmorgan> cool
+[11:17:48] <groovecoder> and got the restaurant data dumping to csv files for qrimp and socrata: http://okdata.qrimp.com/db.aspx?t=Inspections and http://opendata.socrata.com/dataset/Thd-Inspections/iin4-ndmt (sample)
+[13:37:35] <groovecoder> talking to Ryan Merkley re: toronto.ca/open
+[13:45:53] <percent20> I am sporting a cold fusion shirt today :D
+[13:46:00] <groovecoder> whoa
+[13:48:06] <percent20> I forgot I had it until I pulled it out of the dresser. is nice quality t-shirt too.
+[13:50:17] <percent20> hehe looks like github has the same bug I ran into with sourcehold.
+[13:50:31] <percent20> their line numbers don't work right on really big files.
+[13:50:40] <percent20> at least in firefox.
+[13:51:30] <percent20> nor IE on windows XP
+[14:03:56] <percent20> hello and good bye sephillips :(
+[14:46:22] <percent20> Destos: you around?
+[14:46:28] <Destos> yeah
+[14:46:41] <percent20> have you ever done anything with the Thesis theme for wordpress?
+[14:48:19] <Destos> I've messed with it a while ago, I usually don't use a child theme unless a client already has something built onto of one
+[14:49:26] <percent20> ah, I use it for my blogs and am wanting to add a some custom stuff to it, but my css-fu is lacking. I was curios if thesis does any think funky with css or not that you are aware of.
+[14:50:23] <percent20> most of my twekas haven't involved any custom css or adding stuff, mostly just moving widgets around with custom hooks in thesis.
+[14:51:32] <Destos> I forget whether it requires you create a child theme to serve modified CSS or not. Looking over the site it doesn't appear to
+[14:52:10] <Destos> A child theme just lets you specify which files you want overwritten over the base theme. and most of the time the php has to be structured in a certain way if you are overwriting functions
+[14:52:13] <percent20> okay. I couldn't find anything on it either so I just thought i'd ask before I made myself look stupid while doing some coding.
+[14:52:38] <Destos> It I remember it just has a freak ton of options that one must configure to change anything.
+[14:53:25] <percent20> yeah the hooks can be annoying at times.
+[18:59:56] <groovecoder|afk> percent20: anything in your 7 databases book about the best database(s) for gis?
+[19:00:27] <percent20> I think there will be. I'll let you know if I hit something on it for sure.
+[19:01:50] <percent20> I dont know much about gis so I wont know if something will relate in someway. So the book will need to tell me explicitly whether it is good or not. Is there something i can read somewhere that is like a 3 or 4 paragraph summary of what I might need to know about gis data?
+[19:02:16] <groovecoder|afk> hmm ... latitude, longitude, and shapes related to them?
+[19:02:23] <groovecoder|afk> I don't know either :(
+[19:08:08] <percent20> okay.
+[19:13:21] <percent20> the unfortunate thing about some of this stuff is we want to accomplish xyz with open data, but we are avoiding learning about parts of it like gis and mapping.
+[19:39:36] <percent20> !weather tulsa
+[19:42:32] <zerokarmaleft> i think it's better just to have the data in a consumable format and let GIS experts transform the data if they need to
+[21:28:27] <zerokarmaleft> percent20: i pushed a fix for the log timestamps being off by an hour
+[21:28:44] <percent20> zerokarmaleft: thanks. :)
+[21:29:17] <zerokarmaleft> you might want to reboot it whenever and then doublecheck the log entries to see if it's working as expected
+[21:29:39] <zerokarmaleft> i left the issue open so you could do that
+[21:51:42] <percent20> thanks. i'll mess with that a little later tonight I need to log into my server anyway tonight.

@@ -6,3 +6,82 @@
 [00:53:12] <groovecoder> percent20: nope. don't think we have a new twd design
 [00:53:33] <percent20> ah I thought that is what Destos was working on.
 [00:53:38] <percent20> or was it just tulsa hackathon
+[01:01:55] <percent20> heh, just saw ubernostrom said something in #django-dev heh forgot he was in there was confused at the channel for a moment.
+[11:18:18] <esdev> hi folks
+[11:18:30] <esdev> percent20: u around?
+[11:25:15] <esdev> can someone provide links for wrapping existing websites for mobile devices? can we take an existing site, filter through jquery-mobile for that?
+[11:34:05] <Destos> jQuery('body').makeMobile()
+[13:32:14] <percent20> groovecoder: have you ever messed with the Form Preview stuff in Django?
+[13:33:05] <percent20> if you have am curios as to what you think of it.
+[13:35:08] <percent20> Destos: http://buddylindsey.com/postgresql-week-1-of-7-databases-in-7-weeks/ <- scroll below the post where you see my picture and rss image. That is what I was wanting to do with thesis.
+[13:41:12] <groovecoder> Form Preview? nope
+[13:41:19] <groovecoder> ACTION sighs
+[13:42:35] <groovecoder> Someone went to https://www.mozilla.org/contribute/, and filled in the "Want to help?" form with this (Area of interest: Web development): "Hello. Firefox is doesnt correctly work with devexpress. present to your info"
+[13:46:31] <percent20> o_O that is an odd thing to write. much less do.
+[15:30:47] <percent20> Destos: you around?
+[15:50:24] <percent20> shanecowherd: you around?
+[15:55:28] <Destos> percent20: am now
+[15:55:46] <percent20> yay someone does like me :D
+[15:55:50] <Destos> :x
+[15:55:51] <percent20> at least I think :(
+[15:55:52] <shanecowherd> hi
+[15:55:54] <Destos> hah
+[15:56:08] <Destos> I like everybody, unless you are killing kittens
+[15:56:26] <percent20> Destos: I was curios if tomorrow you could show me your setup on how you do wordpress theme development locally
+[15:56:40] <percent20> shanecowherd: can I send you an email and you give me your opinion of about 5 or 6 sentences?
+[15:57:13] <Destos> Sure, It isn't anything special.
+[15:58:26] <percent20> Destos: okay. I am just fighting different things and I think my thoughts are getting in my way.
+[15:59:06] <Destos> I'll probably be working on a theme tomorrow so it probably will be a good time to watch.
+[16:00:33] <percent20> :) thank you.
+[16:01:19] <percent20> shanecowherd: instead of an email i shared a notebook with you in evernote so we can collab on other stuff as well.
+[16:01:45] <shanecowherd> back
+[16:02:25] <shanecowherd> checking evernote
+[16:03:15] <percent20> :)
+[16:04:01] <Destos> groovecoder: how was the tracking code being inserted before?
+[16:05:02] <groovecoder> Destos: I think I just added it in the template footer :)
+[16:05:08] <groovecoder> I can go get it again
+[16:05:21] <Destos> there are better ways!
+[16:05:27] <Destos> just a sec, I'll install a plugin
+[16:06:16] <percent20> noooooo a plugin.
+[16:06:17] <percent20> heh
+[16:06:18] <groovecoder> heh, cool
+[16:06:32] <groovecoder> is the plugin vetted for xss, csrf, etc.? :)
+[16:06:46] <percent20> they are wordpress plugins no one cares ;)
+[16:07:04] <Destos> >:F
+[16:07:45] <percent20> I actually simple plugins and build them into the themes themselves for premature optimization purposes.
+[16:09:56] <percent20> there is supposed to be the word take in that last message, but I decided I didn't need it atm
+[16:10:09] <percent20> now I am thinking it is a good idea to have had it
+[16:11:37] <Destos> you often a word?
+[16:12:45] <percent20> well .
+[16:20:49] <percent20> Shit Programmers Say: http://www.youtube.com/watch?feature=player_embedded&v=8WZr6fvtEgk
+[16:29:45] <Destos> IT ISUNT FUNYyyy
+[16:33:35] <percent20> yes it is.
+[16:37:55] <Destos> So is there a rash of Shit <insert thing here> Say memes going about?
+[16:39:35] <percent20> not sure though I did watch a couple more. I only got that link from twitter. I avoid random YouTube Browsing
+[17:24:36] <groovecoder> percent20: lulz
+[17:24:43] <groovecoder> I thought it was kinda funny
+[17:27:33] <Destos> I did as well :|
+[17:30:21] <percent20> ACTION sighs
+[17:30:28] <percent20> if only developerrage.com had more commics.
+[17:32:33] <groovecoder> percent20: yeah :/
+[17:37:46] <percent20> http://www.spherexx.com/pages/we-are-hiring.asp <- this seemed interesting until this: (Skillset Required) Knowledge of classic ASP, Javascript and VB (asp.net nice but not required)
+[17:43:10] <Destos> Spherexx spams craigslist so hard
+[17:45:46] <percent20> poking around their site more I definitely wouldn't want to work for them. Why are so many companies around town sketchy?
+[17:46:41] <groovecoder> wth is spherexx ?
+[17:47:02] <percent20> tulsa needs web company that isn't all icky when you research them.
+[17:47:09] <percent20> groovecoder: another local web consulting company.
+[17:57:35] <Destos> So my dad wants to create a native font that uses color… HOW?!?!
+[17:58:03] <Destos> how do I let him down gently :(
+[17:59:18] <percent20> say it isn't possible.
+[18:02:37] <groovecoder> how does your dad know what a "native font" is without knowing that's not possible?
+[18:03:27] <Destos> He didn't use that phrasing.
+[18:04:13] <Destos> He wants to make an alphabet that consists of different colors. Wants to see if one can read faster by analyzing colors instead of the glyphs of the alphabet
+[18:06:30] <percent20> Destos: that would work about as well has glyphs since your brain can interpret them faster than you can think/read in your head. So you would just be replacing colors with glyphs and have to spend years training yourself withthe colors.
+[18:06:45] <Destos> I'm quite aware :)
+[18:07:07] <Destos> This is my dad's mid life crisis.
+[18:07:20] <percent20> um... okay.
+[18:10:48] <percent20> http://blog.programmableweb.com/2012/02/02/jobseekers-invited-to-apply-via-api/
+[18:12:35] <percent20> looks like django admin might be pulled out in a future release of django
+[18:16:11] <percent20> shanecowherd: http://johnkeylooksatthings.tumblr.com/ <- your candidates need one of these. ;)
+[19:06:47] <zerokarmaleft> lol, apply via API so we can automate rejecting resumes easier
+[20:02:07] <percent20> groovecoder: is this you? http://www.youtube.com/watch?v=fZa7hU6tP_s

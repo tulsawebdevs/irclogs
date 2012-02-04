@@ -1,0 +1,138 @@
+[10:51:44] <Destos> No one is at the fab lab :o
+[10:52:43] <Destos> except for sephillips
+[10:59:05] <codelahoma> If all goes as planned, I'll be there two weeks from now.
+[11:11:03] <Destos> codelahoma: put in your two weeks?
+[11:11:34] <codelahoma> Nah. I'm just planning on taking a few Fridays off here and there so I can cowork. :-)
+[11:31:12] <percent20> groovecoder: http://www.youtube.com/watch?v=fZa7hU6tP_s
+[11:49:07] <danf1> percent20: That video is from my church... It's amazing how popular it has become.
+[11:51:10] <zerokarmaleft> http://mac.appstorm.net/reviews/utilities/netspot-wifi-site-survey-for-the-rest-of-us/
+[12:07:03] <Randall> destos: where are these guys from?
+[12:07:14] <shat> Africa
+[12:07:16] <Destos> No idea, around I guess
+[12:07:26] <Destos> YES
+[12:09:59] <percent20> i am me
+[12:10:09] <percent20> you are you.
+[12:11:06] <Randall> you are NOT you
+[12:11:11] <Randall> i know better
+[12:12:42] <zerokarmaleft> shat: shattuck?
+[12:24:35] <codelahoma> groovecoder: HELP! Just installed FF 10.0 from the release channel on my new work laptop and the page paints are so slow they look like a curtain drop effect.
+[12:24:51] <groovecoder> codelahoma: install beta or aurora? :)
+[12:25:50] <codelahoma> ACTION fixed it
+[12:26:19] <codelahoma> by turning OFF "use hardware acceleration when available.
+[12:26:24] <groovecoder> ah, dang.
+[12:26:27] <groovecoder> file a bug?
+[12:26:38] <groovecoder> codelahoma: windows? mac? linux?
+[12:26:44] <codelahoma> windows
+[12:26:55] <codelahoma> lemme check what the graphics chipset is...
+[12:27:04] <codelahoma> XP, Service Pack 3
+[12:27:19] <groovecoder> codelahoma: extra fun wrinkle - yesterday was FF 10 release AND a Microsoft patch tuesday
+[12:28:10] <codelahoma> I had no idea. I just happened to need FF for the first time on this machine today.
+[12:28:25] <codelahoma> all windows will tell me is that it's Intel HD Graphics
+[12:28:37] <codelahoma> Lenovo Thinkpad T410
+[12:35:41] <codelahoma> ahhh...it's the graphics built into the Core i5 processor.
+[12:35:51] <codelahoma> (I didn't know they'd done such a thing)
+[13:05:14] <percent20> http://www.surveymonkey.com/s/ZYK3SLH <- if you have done any django can you please do this survey?
+[13:09:16] <zerokarmaleft> i was tempted to fill in both form entries with "Hello. Firefox is doesnt correctly work with devexpress. present to your info"
+[13:11:01] <percent20> lol
+[13:13:40] <zerokarmaleft> !karma?
+[13:14:16] <percent20> ACTION flexes
+[13:14:23] <zerokarmaleft> riiight.
+[13:14:28] <percent20> !zerokarmaleft++
+[13:15:34] <groovecoder> zerokarmaleft: I got an even better one today: "creating an interactive platform about mathematical games to guess italian superenalotto using sense of music to extract signals from noise. In general the topic is valuable in a lot of things, not only guessing the italian superenalotto"
+[13:21:37] <MrMakeIt> what is the current project?
+[13:30:20] <groovecoder> MrMakeIt: what current project?
+[13:30:41] <MrMakeIt> Sorry wrong room.
+[13:30:47] <groovecoder> heh
+[13:31:17] <MrMakeIt> So how is Hack-a--Thon prep coming?
+[13:31:27] <groovecoder> pretty good
+[13:31:35] <MrMakeIt> Good to know.
+[13:31:58] <MrMakeIt> You guys have anything a lowly python programmer could do?
+[13:33:29] <groovecoder> MrMakeIt: sure. https://github.com/tulsawebdevs/python-scrapers ? :)
+[13:33:41] <MrMakeIt> cool thanks.
+[13:33:50] <groovecoder> jsatt: jwhitlock_zzz: jsatt: you all done lunch yet?
+[13:34:04] <groovecoder> want to come to Fab Lab for a photo-shoot of coworking? need to stage more people
+[13:34:21] <MrMakeIt> I am planing to be there at about 4
+[13:34:39] <MrMakeIt> would that be too late?
+[13:35:41] <MrMakeIt> Destos: could you send me an answer to that on gmail?  i got to go.
+[13:36:17] <Destos> ?
+[15:03:14] <shat> Everyone still at Freddie's?
+[15:27:45] <shat> perfect time to connect the new battery backup... right after the power went out ;/
+[15:35:01] <groovecoder> Randall: https://developer.mozilla.org/En/HTTP_access_control
+[15:39:42] <MrMakeIt> Destos: hey
+[15:40:21] <Destos> Yo
+[15:50:35] <Randall> yo
+[15:51:19] <percent20> !weather tulsa
+[15:53:50] <Destos> percent20: what could the command be to use pbcopy to write to a new file?
+[15:54:16] <Destos> echo > file.txt | pbcopy
+[15:54:19] <Destos> I duno my pipes!
+[15:55:16] <percent20> pbpaste > file.txt
+[15:55:20] <Destos> so simple
+[15:55:32] <percent20> i just looked it up. ;)
+[15:55:42] <Destos> I could've too
+[15:55:48] <Destos> but me lazy
+[15:55:53] <percent20> well, sorta. I did man pbcopy
+[15:55:59] <percent20> then it told me about pbpaste
+[15:56:08] <percent20> so I just guessed and did pbpaste > file.txt and it worked
+[15:56:54] <Destos> ah, forgot about the alternate command
+[15:57:02] <Destos> watch this, I'm sitting right next to him but I'll message luke on irc
+[15:57:12] <Destos> groovecoder: I might need my power brick back in 30 minutes.
+[15:57:34] <percent20> lol
+[15:57:50] <percent20> and thus the great power exchange has finished
+[15:58:06] <Destos> my mac thanks ye
+[16:07:46] <percent20> groovecoder: how do  you stop mysql
+[16:07:55] <codelahoma> aaaand...just like that, I won't be at coworking in two weeks. Emerson's out of school that day.
+[16:08:03] <percent20> i stared msyqld in cli without setting it as background process and now I can't get it to stop.
+[16:08:05] <codelahoma> we might come down for lunch, though.
+[16:08:42] <codelahoma> percent20: what kind of system?
+[16:08:54] <percent20> on my mac. ctrl+c doesn't work
+[16:09:27] <codelahoma> open another terminal and 'ps aux | grep mysql', then 'kill $PID'
+[16:09:43] <codelahoma> I'm sure there's a cleaner way, but that would do it.
+[16:09:59] <percent20> i was thinking about that. was hoping there was a shortcut I didn't know about.
+[16:10:32] <percent20> http://thread.gmane.org/gmane.comp.version-control.git/189776 <- git is to slow for facebook.
+[16:10:36] <codelahoma> Ctrl-Z to background it, then exit could do it.
+[16:13:16] <codelahoma> percent20: in another terminal: 'mysqladmin -u root shutdown'
+[16:13:38] <codelahoma> also '-p' if there's a password on mysql's root
+[16:14:02] <percent20> :D it worked. you the man.
+[16:14:07] <percent20> never thought of that before.
+[16:16:30] <codelahoma> google is your friend :-)
+[16:17:31] <codelahoma> groovecoder: weirdest thing. Can't login to github in FF 10 or FF 10.06b....installing aurora now
+[16:17:50] <groovecoder> 10.06b ?
+[16:18:12] <codelahoma> whatever the beta version is. I don't have it open (I'm installing aurora)
+[16:18:44] <percent20> Destos: um.... is PHP supposed to work with OSX apache by default?
+[16:18:56] <percent20> nevermind
+[16:18:58] <codelahoma> 10.0b6
+[16:23:50] <percent20> Destos: I did some googling on the dummy data for wordpress couldn't find it.
+[16:23:53] <percent20> any ideas?
+[16:31:19] <shat> percent20: you needing a .xml file of just random content?
+[16:31:47] <percent20> shat: i think i found one to download just was using the wrong search terms.
+[16:32:28] <shat> Okay.  I think we have one laying around some where we use.
+[16:32:34] <shat> It has some silly place holder images and such.
+[16:32:54] <shat> I really don't know why I don't have this yet... or why I can't find one that works the way I want it to ..
+[16:33:06] <shat> But a simple php script I can drop into a folder, specify $imagepath = "whatever/"
+[16:33:24] <shat> and it use timthumb to just create a simple simple gallery of the photos in $imagepath.
+[16:33:38] <shat> Don't care about thickbox, modal or any of that non sense, just something minimal.
+[16:33:54] <percent20> sounds like a cool idea.
+[16:35:15] <shat> surely it been done,
+[16:35:29] <shat> ha, love when my pops shows up randomly at the office with something.  Today he "found a neat paper" haha
+[16:35:32] <shat> brb
+[16:36:26] <shat> actually, I think I"m going to head out.  Maybe be on later when I am at home.
+[16:37:13] <shat> It was great chatting with you guys (girl) today.  I'll get everyone's email info later or if you want, shoot me your info individually justin@justtheweb.com -- I'll jump on FB and the google group etc.
+[16:38:22] <Destos> coolio, was great meeting you today shat
+[16:44:24] <percent20> WOOHOO got it all working :D
+[16:44:52] <percent20> now I don't have to kill myself everytime I want to do wordpress with 1000 differing possible solutions. Destos wins the game.
+[16:45:10] <Destos> karma? :D
+[16:45:54] <percent20> !Destos++
+[16:45:55] <percent20> !Destos++
+[16:46:01] <percent20> !Destos++
+[16:46:02] <percent20> !Destos++
+[16:46:06] <percent20> !karma
+[16:46:07] <percent20> !karma?
+[16:47:50] <percent20> !karma?
+[17:16:07] <percent20> !Destos++
+[17:23:13] <MrMakeIt> groovecoder: what's the link again?
+[17:23:36] <groovecoder> MrMakeIt: https://github.com/tulsawebdevs/python-scrapers
+[18:10:59] <shat> bah
+[18:11:08] <shat> leave it to UPS to screw up yet anotehr delivery, bah.
+[20:27:12] <MrMakeIt> see ya
+[22:14:13] <MrMakeIt> !weather tulsa
+[23:27:26] <MrMakeIt> g'nite all

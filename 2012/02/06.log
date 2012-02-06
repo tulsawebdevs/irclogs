@@ -1,0 +1,60 @@
+[00:12:05] <MattGalloway> Uh, is this thing on?
+[00:12:08] <percent20> yes
+[00:21:53] <shat> no
+[00:35:14] <zerokarmaleft> !shat++
+[00:35:24] <MattGalloway> percent20, I mentioned your name to someone asking about a web dev who could do a variety of programming tasks - sounded like mostly php, word press mods, etc. but also an interest in the development of FaceBook apps.
+[00:35:25] <shat> lol
+[00:36:00] <shat> not to you Matt.
+[00:36:02] <shat> to the karma.
+[00:36:14] <shat> Anyone tried Crucial, Samsung or Plextor's ssds?
+[00:36:22] <MattGalloway> shat ya ya. I get it.
+[00:36:59] <MattGalloway> Not me.  All of my disks still spin.
+[00:37:00] <shat> I currently have (2) OCZs, a RevoDrive and an intel. All are great, especially the Revo, but the Plextor 256gb is pretty cheap right now compared to the intel or the octanes.
+[00:37:03] <percent20> MattGalloway: Thanks.
+[00:37:16] <percent20> shat: you like my karma level? :D
+[00:37:18] <shat> I am trying to remember who percent20 is... Buddy?
+[00:37:27] <percent20> shat: yes
+[00:37:42] <shat> percent20: not sure what your karma is. oh 10000000
+[00:37:43] <shat> lol
+[00:37:52] <shat> I should my my wraith net over to freenode, actually not, but stil be funny
+[00:38:02] <MattGalloway> You silly punks and your secret nicknames.
+[00:38:05] <shat> I don't know why, but I still have a huge botnet on EFnet protecting some old school channels.
+[00:38:12] <shat> ACTION is shat, Justin Shattuck, itsmeshat.
+[00:38:13] <percent20> My facebook is blowing up about someone from my old high school commiting suicide. My problem is I have no idea who they are. lol.
+[00:38:27] <shat> ACTION uses shat in just about everything, shat.in, itsmeshat(xbox), sh4t(twitter) shatt(fb)
+[00:38:31] <shat> lol
+[00:38:35] <percent20> no one will use his actual name just nickname
+[00:38:37] <shat> percent20: that sucks.
+[00:38:50] <shat> percent20: do you have a new high school?
+[00:39:28] <shat> BANDWIDTH: ( UP: 6 at 16.8MB/s )-( DN: 8 at 1.0MB/s )-( IDLE: 3 )-( TOTAL: 14 at 17.8MB/s )
+[00:39:32] <percent20> shat: no just meant my high school I graduated from.
+[00:39:43] <MattGalloway> percent20: well if you don't know who they are, you've probably missed your window.
+[00:39:44] <shat> I know.  I was just being an ass.
+[00:40:14] <shat> I do not ever know what to say when someone passes on.  Even for people I knew or to their family members.  "Sorry for your loss" always seems to get a 'thank you'
+[00:40:22] <shat> Not sure if there is anything really to be said.. just send a <pat on the back>
+[00:40:25] <shat> or something.
+[00:40:41] <percent20> MattGalloway: I think I might know who it is, but not sure. he was part of the "cool" crown, I think.
+[00:40:53] <percent20> shanecowherd: just texted you
+[00:40:59] <percent20> check your facebook for glenpool people
+[00:42:07] <MattGalloway> Suicide's always a particularly tricky one. Both my older brother and a good friend of mine committed suicide.  It's can be a pretty weird ordeal.
+[00:42:07] <percent20> shat: I am a bit of an ass i never give sorries for loss on suicide only that I am sorry they are having a hard time.
+[00:42:37] <percent20> I don't like to draw attention to the person whom committed suicide.
+[00:43:11] <shat> I stay away from that stuff in general.
+[00:43:39] <MattGalloway> In my experience, with suicide there tends to be a little more idol worship than with accidental or natural death. It'd weird.
+[00:43:41] <shat> I think I've only ever known 1 person who did the deed.  Weird too, was the CFO at my fiance's office.  Nice guy, seemed like one of the "cool kids" but one day.. no more.
+[00:47:06] <percent20> I have read the same status like 3 times now I never read this line correctly.
+[00:47:07] <percent20> I can not wait to give BJ a hug
+[00:47:28] <shat> who wants to build an app this week?
+[00:47:39] <shat> I want to call it something... namer namegame named nammmmmmmmy
+[00:47:40] <shat> lol
+[00:47:57] <shat> Essentially, a quick and dirty tool to allow individuals to form groups that assist in naming projects.
+[00:48:06] <shat> No signup or login bs.
+[00:48:21] <shat> maybe auth against oauth, but ultimately, just maintain a hash with the uri
+[00:48:35] <shat> allow people to up/dn a word in a list, add new ones, etc.
+[00:48:50] <shat> give it a topic/summary and then begin the naming.
+[00:49:07] <shat> stupid simple, but using backbone or node could make it a bit fun to watch people submit names.
+[00:51:54] <percent20> you know facebook is usually really really fast with data, except when you want people to update really really fast.
+[00:52:14] <shat> I prefer to keep things off FB
+[00:52:24] <shat> Definitely not looking to write an extension/app for facebook to do it.
+[00:52:35] <shat> Although I guess it shouldn't be too difficult, just be fun to make it quick and dirty.
+[00:52:40] <shat> I miss apps like thingler being dev'd heh

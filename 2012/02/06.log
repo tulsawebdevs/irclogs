@@ -58,3 +58,312 @@
 [00:52:24] <shat> Definitely not looking to write an extension/app for facebook to do it.
 [00:52:35] <shat> Although I guess it shouldn't be too difficult, just be fun to make it quick and dirty.
 [00:52:40] <shat> I miss apps like thingler being dev'd heh
+[01:06:35] <percent20> heh now that I have wasted an hour on FB I am going to do something more productive like reading a book. Normally I don't get sucked in but when you find out someone died you gotta figure that out.
+[01:07:01] <shat> I am headed to bed.
+[01:07:15] <shat> Meeting at 9am, coffee at 8 ;)
+[01:07:37] <MattGalloway> Night shat.
+[01:08:08] <MattGalloway> I got a meeting at 9am but I gotta finish the project we're meeting about between now and then. :)
+[01:45:56] <percent20> alright. I think I am going to go read now.
+[01:46:42] <percent20> no i'm not i need to install some software first.
+[01:48:54] <percent20> MattGalloway: which is better to get an iMac or a Mac Pro?
+[01:50:13] <MattGalloway> percent20: Depends. I have Mac Pro and a Mac Book. I really like the flexibility, power and expandability of a Mac Pro for everything I do (dev, sound recording, etc.)
+[01:51:15] <percent20> I am getting more into video tutorials so video editing is becoming fairly important. Not sure if i want to get an iMac or spring for a Mac Pro sometime in the future. I like the idea of the 27" monitor though.
+[01:51:41] <MattGalloway> My Mac Pro is a 2006 model and there's no reason for me to upgrade in the near future. I never thought I'd say that about a desktop computer after 4+ years.
+[01:53:45] <MattGalloway> You have lots of display flexibility with the Mac Pro. You could have 6 monitors if you wanted. I have a 30" Apple Cinema display and an old Dell 19" LCD off to the side.
+[01:54:17] <MattGalloway> You can run 2 displays on a iMac too, but that's it. And, of course, you're ties to your original monitor because it IS your computer.
+[01:54:57] <percent20> hrm. I like both for different reasons. lol.
+[01:55:29] <MattGalloway> With MacPro you can run RAID in the box too.
+[01:56:28] <MattGalloway> And if you wanna spend the money - you can have 12 CPU cores. :)
+[01:57:30] <MattGalloway> I have 4 cores - 2 dual core CPUs. It's possible to upgrade CPUs but it's non-trivial and probably warranty voiding.
+[01:57:31] <percent20> yeah just saw the money for that one.
+[01:58:29] <percent20> doesn't look like the even sell the 30" anymore
+[01:58:50] <MattGalloway> I dunno how much memory you can put in an iMac but I just upgraded my MacPro to 12GB. SOOO NICE.
+[01:59:47] <percent20> looks like the iMac can get up to 16 gig of ram
+[01:59:57] <MattGalloway> No they discontinued the 30" a year or so ago. It was replaced with the 27" but there's not that much difference in size. Although if I was buying today I might consider 3rd party monitor(s).
+[02:00:43] <percent20> from who?
+[02:02:21] <percent20> I want a monitor that is 27" or 30" with a minimum resolution of: 2560x1440
+[02:02:33] <shanecowherd> yeah
+[02:02:37] <shanecowherd> you want a NEC
+[02:03:40] <MattGalloway> I'd have to look but I'd check out LG, Samsung, Viewsonic, etc. Ultimately and I'd prolly break down and buy Apple but you can get way more bang for the buck with another monitor vendor.
+[02:04:55] <MattGalloway> If I went Mac Book Pro only I'd definitely use Apple because there're some nice integration features.
+[02:05:08] <MattGalloway> Yeah, NEC makes some nice stuff.
+[02:05:41] <shanecowherd> http://www.necdisplay.com/p/desktop%20-monitors/pa301w-bk-sv
+[02:06:03] <shanecowherd> but ugly as sin
+[02:06:18] <percent20> and expensive as crap too
+[02:07:54] <percent20> the biggest problem in finding monitors is something over 1920x1080
+[02:10:09] <percent20> I have only found 1 so far on new egg that is larger than that
+[02:17:33] <percent20> looks like 1 27" monitor and all the 30" monitors have larger than 1080 resolutions.
+[08:45:25] <groovecoder> percent20: did you have any DNS issues when you moved domains to hover.com? I moved groovecoder.com but a traceroute is still going to the old IP
+[09:57:48] <jaeger> we have a bunch of NEC's ugly ass monitors here, they're damned nice
+[09:58:12] <jaeger> they're huge but they're supposed to retain their color fidelity through their entire lifetime
+[12:08:10] <groovecoder> percent20: were you able to use hover.com's nameservers? or did you have to use rackspace or dreamhost or someone else?
+[12:49:57] <shanecowherd> hiya
+[12:55:35] <groovecoder> hey
+[13:28:11] <shat> Afternoon.
+[13:29:46] <groovecoder> hey
+[13:30:06] <shat> groovecoder = luke?
+[13:30:11] <groovecoder> yup
+[13:30:17] <shat> Trying to keep my mental list updated ;)
+[13:31:07] <shat> Working on anything productive tody?
+[13:31:13] <shat> s/tody/today
+[13:32:02] <groovecoder> https://bugzilla.mozilla.org/show_bug.cgi?id=715492 and https://bugzilla.mozilla.org/show_bug.cgi?id=721172
+[13:32:08] <groovecoder> :)
+[13:35:12] <shat> What is your title with Mozilla?
+[13:35:27] <shat> I remember a career posting on their site last year, in the fall, that you seem to fit the role of.
+[13:35:51] <shat> But, looking at the site now I don't see it.  It was a developer user network oriented position on helping to promote their network etc.
+[13:36:01] <shat> Like a evangelical go mozilla position.
+[13:37:20] <groovecoder> shat: I'm just "Web developer"
+[13:37:35] <groovecoder> but I work on MDN, so I work on the site for all the developer evangelism :)
+[13:38:05] <groovecoder> shat: I still want to find these elusive Mozilla employees we have in Tulsa ...
+[13:47:44] <shat> I'll have to ask Matt.
+[13:47:46] <shat> He said he saw some.
+[13:47:51] <shat> let me see if he's online ...
+[13:49:10] <shat> I know Brad Vernon mentioned one before. But I some how think he said your name, but this was a year ago.
+[13:49:17] <shat> When did you start with Moz?  Wasn't it pretty recent?
+[13:49:56] <shat> sheesh, these people are destroying my FTPd heh
+[13:51:05] <groovecoder> shat: I started a year ago.
+[13:51:11] <groovecoder> Jan 7th, 2011
+[13:51:21] <shat> anyone know of a decent* PHP-based search engine solution that can index the contents of PDF docs?
+[13:51:33] <groovecoder> why php-based?
+[13:51:36] <shat> I have about 10,000 PDFs I want to throw online and make a ?library?
+[13:51:38] <shat> it doens't have to be.
+[13:51:40] <shat> Just easier to host.
+[13:51:44] <shat> internally.
+[13:52:10] <shat> More established platform for hosting PHP internally over Ruby based apps.
+[13:52:15] <groovecoder> I think http://framework.zend.com/manual/en/zend.search.lucene.html is the only php-based search "engine" I know
+[13:52:17] <shat> However, we do have a pretty robust ruby plat form..
+[13:53:19] <groovecoder> nice thing about that is if you want to move to Solr or ElasticSearch later you can theoretically import the data files
+[13:53:22] <shat> Any other suggestions outside of PHP?
+[13:53:34] <groovecoder> Apache Solr or ElasticSearch (both java-based)
+[13:54:34] <shat> can Elastic index pdfs?
+[13:54:39] <shat> just scanned in docs for example.
+[13:54:48] <shat> I scan a pdf that has the word "Justin"
+[13:54:55] <shat> and it can index it?  I haven't worked much with OCR.
+[13:55:13] <shat> I could have the wrong assumptions all together.
+[13:55:19] <groovecoder> solr can: https://wiki.apache.org/solr/ExtractingRequestHandler I'm not sure if that handler is in the lucene stack
+[13:56:15] <shat> I think it is in lucene, but php in general I know you can use a few libraries to do it.
+[13:56:18] <shat> Outside of zend.. etc.
+[13:56:24] <shat> pdftotext.. i think its called
+[13:56:46] <shat> ..hrmn.. catdoc
+[13:58:02] <shat> http://www.foolabs.com/xpdf/download.html
+[14:03:16] <percent20> groovecoder: i am using hover's name servers everyting went fairly smoothly
+[14:12:02] <groovecoder> heh, new mozilla datacenter: http://cf.cdn.vid.ly/2s7x7e/webm.webm
+[14:12:11] <groovecoder> percent20: what are they?
+[14:12:26] <percent20> ns1.hover.com and ns2.hover.com iirc
+[14:12:30] <percent20> let me double check.
+[14:13:08] <groovecoder> okay. seems like it imported some weird name servers or something
+[14:13:12] <percent20> yup
+[14:13:51] <groovecoder> okay, I'll try that
+[14:14:04] <percent20> yeah they use the original nameservers that you had in case they were custom nameservers, and they don't tell you, easily, what the hover nameservers are. I had to hunt for them and then guess based on things I found.
+[14:16:17] <groovecoder> :( http://guide.opendns.com/main?url=groovecoder.com&servfail=&nref=&w=1920&h=1064
+[14:16:46] <percent20> wait about 15 minutes.
+[14:17:23] <groovecoder> in other news, I did my first git rebase re-ordering commits. git rebase is way too powerful/dirty
+[14:17:54] <percent20> I like rebase I am just scared of it.
+[14:24:34] <codelahoma> rebase should be reserved to local, non-public, repos.
+[14:25:02] <codelahoma> when your upstream rebases, it's a PITA.
+[14:25:24] <percent20> definitely should be a local thing from your own commits
+[14:25:43] <percent20> once you push it to a remote you shouldn't try again.
+[14:27:59] <codelahoma> it's also not for Windows, at least on sizable repos. I've never successfully rebased on my work machine (thankfully the git is only for my own sanity).
+[14:31:47] <percent20> groovecoder: site works.
+[14:33:15] <shanecowherd> i like that datacenter video
+[14:36:46] <percent20> I want to watch, but i have to finish reading proof reading this stupid blog posts.
+[14:46:48] <groovecoder> percent20: it's just guys installing racks set to epic music
+[14:49:01] <percent20> http://buddylindsey.com/riak-week-2-of-7-databases-in-7-weeks/
+[14:50:08] <percent20> I want one of those rooms in my house.
+[14:50:19] <percent20> they are fairly cheap right?
+[14:51:06] <percent20> groovecoder: so this is the datacenter where Mozilla will start storing all your data eh? ;)
+[14:51:46] <groovecoder> storing *and selling*
+[14:52:10] <percent20> then profit.
+[15:17:59] <shat> damn internet
+[15:18:01] <shat> is lagging.
+[15:21:10] <shanecowherd> what is the overall best country in the world?
+[15:24:04] <percent20> shanecowherd: why?
+[15:24:19] <shanecowherd> good idea
+[15:24:28] <shanecowherd> what is the overall best country in the world? and way?
+[15:24:31] <shanecowherd> *why
+[15:24:42] <percent20> why do you ask?
+[15:25:10] <shanecowherd> just thinking about startups and how we focus on such a small percentage of the world
+[15:25:34] <percent20> in what way?
+[15:26:19] <shanecowherd> like foursquare
+[15:27:49] <percent20> is that too localized?
+[15:28:15] <shanecowherd> back to my question
+[15:28:20] <shanecowherd> what country is the best
+[15:29:21] <percent20> you already know my opinion.
+[15:31:19] <shanecowherd> haha
+[15:35:51] <groovecoder> "what country is the best" is as close to a meaningless question as you can get.
+[15:36:01] <groovecoder> best *for what*?
+[15:36:06] <shanecowherd> I'm trolling percent20 :)
+[15:36:09] <groovecoder> oh
+[15:36:33] <percent20> groovecoder: And i am aware of that. heh.
+[15:36:47] <groovecoder> shanecowherd: l10n and i18n are important even in this country
+[15:37:11] <shanecowherd> lol
+[15:37:16] <percent20> i love how nerdy l10n and i18n are.
+[15:38:17] <groovecoder> sorry, 'localization' and 'internationalization'
+[15:38:23] <groovecoder> those take too long to type :)
+[15:39:00] <percent20> So someone made the argument to me that broccli could give you the amount of protien you need so you don't need to eat a lot of meats. I just did the math. You would need to eat 20 cups of broccli to hit the protien needed for 1 meal. no thank you.
+[15:39:14] <shat> lol.
+[15:39:24] <percent20> I like broccli, but not that much.
+[15:39:30] <shat> I am a big juicer... I have to really supplement up to get protein.
+[15:39:59] <shat> However, I've lost ~ 40lbs in 2 months from balancing out my diet with juices.  Haven't had any typical meals in a while.
+[15:40:09] <zerokarmaleft> shat: when did you start that?
+[15:40:17] <shat> My typical meal now is vegetables (raw) and juice or salad.
+[15:40:29] <shat> zerokarmaleft: I juiced for about 21 days Dec-Jan end of Dec.
+[15:40:41] <shat> then added chicken breast, tuna and a touch of turkey for a while
+[15:40:49] <shat> then Feb 1 went back to primarily juice and raw vegetables again.
+[15:40:56] <shat> Straight juice.. wow, yeah lost a bunch of weight.
+[15:41:04] <percent20> i cringe at canned tuna. I'll eat it but it is disgusting.
+[15:41:08] <shat> It was fine, I got used to it no problem, but I do not believe it is a very sustainable plan.
+[15:41:20] <shat> percent20: I was buying the tuna filets from Sam's Club.
+[15:41:39] <shat> and just throwing them on the forman grill for a few mins with a bit of miso paste and seeds.
+[15:41:56] <shat> I keep forgeting I have a client timer running and chatting, lol. whoops
+[15:42:04] <percent20> the one time I had those they weren't bad. I like the salmon you can get frozen in a box. Just bake for 20 minutes and 40 grams of protien and some of the best protien you can get.
+[15:42:15] <zerokarmaleft> shat: heh, you're "checking the API reference"
+[15:42:19] <shat> protein from yogurt is good too.
+[15:42:20] <groovecoder> holy crap, 40 lbs?! that's awesome
+[15:42:32] <shat> I've officially lost 51, but 40 has stayed off for 30 days
+[15:42:37] <shat> so it it my "official" number.
+[15:42:40] <zerokarmaleft> nicely done
+[15:42:40] <shat> so-to-speak
+[15:42:42] <percent20> shanecowherd: what are you up to lose wise?
+[15:42:45] <zerokarmaleft> are you exercising too?
+[15:42:46] <percent20> loss*
+[15:42:48] <shat> Also helps I walk 3-5 miles a day
+[15:42:55] <zerokarmaleft> that'll do it
+[15:43:08] <shanecowherd> 38ish
+[15:43:09] <shat> percent20: dont really have any goal weight.  Just continue to keep the balanced lifestyle and meal choices.
+[15:43:21] <percent20> shat: is a good plane.
+[15:43:25] <percent20> plan*
+[15:43:32] <shat> I'll gradually add in a hamburger or pizza down the road, but not until I am to the point that my cardio can at minimum burn those calories.
+[15:43:39] <percent20> i'd like to walk or run, but with a cracked toe it is kind of hard to do that.
+[15:43:43] <shat> Yeah.
+[15:43:55] <shat> I've had 3 knee surgeries on my right knee, 2 back surgeries.
+[15:44:01] <percent20> ouch.
+[15:44:02] <zerokarmaleft> i'm embarassed to admit that i'm a garbage disposal and my metabolism has barely slowed down from my 20s
+[15:44:10] <shat> I feel like the majority of my medical issues, experiences over the last 5 years is a side effect of gaining weight.
+[15:44:27] <shat> zerokarmaleft: thats nice, my THS or whatever came out normal from the blood work I had done.
+[15:44:39] <shat> Helps my soon to be mother-in-law owns a lab.  So she takes blood and runs it for me every other week.
+[15:44:48] <zerokarmaleft> shat: i'm actually trying to gain weight, and it's ridiculously hard for me
+[15:44:49] <shat> My cholestrol and everything is completely in check and my blood pressure is great.
+[15:44:53] <percent20> http://i.qkme.me/35tnct.jpg
+[15:45:02] <shat> I've noticed my heart-rate starting to stabalize more when I am walking or jogging.  Its nice.
+[15:45:09] <shat> Need to quit smoking and I will be even better.
+[15:45:33] <shat> zerokarmaleft: My brother had the same issue.  He could eat anything he wanted, never do anything and still not gain weight.  You can gain it, I helped him (not much of a surprise there..)
+[15:45:35] <percent20> zerokarmaleft:  start consuming 4000 calories a day and you will gain weight. :D
+[15:45:46] <shat> You need to up your protein and saturated fats, but not from meat or starch.
+[15:45:52] <shat> Eat non-fat-free yogurt.
+[15:46:07] <shat> Foods with saturated fat, low sodium but high protein.
+[15:46:18] <shat> Peanut butter, 2% milk or vitamin d if you can stand it.
+[15:46:21] <percent20> also depends on the type of weight you want to gain as well.
+[15:46:25] <shat> yeah.
+[15:46:37] <shat> Just natural weight gain for high metabolism people is a mother effer usually.
+[15:46:49] <shat> You can always just add two cans of that weight loss crap to your meals.
+[15:46:51] <zerokarmaleft> a healthy 10 lbs is all, really
+[15:46:52] <shat> slim fast .. thats it.
+[15:47:07] <shat> drink a can of slim fast with every meal or shortly after, heh.
+[15:47:33] <zerokarmaleft> i actually had a decent run in 2010 when i was lifting for awhile
+[15:47:43] <shat> ever since the damn mac apple store thing opened
+[15:47:46] <percent20> or, grab a McD's burger after every meal that'll help too.
+[15:48:05] <shat> app store on mac, it makes me mad.  People have stopped using sparkle to update their apps and I am completely bored with havin to open the silly App Store app to update crap like Growl and Droplr.
+[15:49:05] <shat> opinions. http://is.oss.im/NqB1
+[15:49:10] <shat> left is old, right is new.
+[15:49:19] <shat> doing a quick re-align with their new branding.
+[15:49:43] <shat> I miss having something useful in the hero space.
+[15:49:44] <shat> ;(
+[15:49:50] <zerokarmaleft> bright is certainly better
+[15:49:51] <shat> whoa, old image crap, the new one is different now.
+[15:50:01] <shat> their audience is age 59-74 lol
+[15:50:33] <groovecoder> shat: then make the font 3x larger
+[15:50:39] <groovecoder> and call it a day
+[15:50:39] <shat> ha
+[15:50:44] <shat> I worked on that...
+[15:50:54] <shat> I cannot stand large fonts, over 18pt and I am about to vommit.
+[15:51:01] <shat> however, hashrocket does a great job at it.
+[15:51:12] <shat> I've been working on a new JTW site for a while now and it has some larger font usage.
+[15:55:59] <percent20> groovecoder: are you going to be able to make it to co-working tomorrow? I need a bit of help on the "right way" of doing something in django.
+[16:39:11] <percent20> Am exploring Open Web Analytics. Pretty cool so far.
+[16:40:22] <shat> Man.
+[16:40:29] <shat> I am having to work with the developers from Rushcard..
+[16:40:50] <shat> Their API documentation is already extremely horrible.  I've asked them very very simple questions every day for weeks and they answer with "the url you gave us is forbidden."
+[16:41:14] <shat> Of course it is forbidden you doofs, I told you it was.  You have to nav to the full path I gave you lol.  Why they want shit to live in the root dir/ i have no idea.
+[16:41:35] <shat> We need proper API documentation to determine how we are supposed to
+[16:41:35] <shat> transmit the JSON data, since the request must be POSTed, and a POST
+[16:41:36] <shat> requires a field name for the payload.  Current RushCard Documentation
+[16:41:36] <shat> does not mention being able to use a straight up POST to the RushCard
+[16:41:36] <shat> API.
+[16:41:47] <shat> that is one thing i asked them, they just responded with "we support json, yes."
+[16:41:51] <shat> lol
+[16:42:02] <shat> "Do you require us to use a specific CA or can we self-sign for the purpose of sending the data to you?"
+[16:43:54] <shat> </end of rant>
+[16:43:56] <percent20> lol.
+[16:44:04] <shat> people are idiots.
+[16:44:20] <shat> They continually try to email me back as though I am the one who doesn't "get it."
+[16:44:44] <shat> yet, I asked them if they could white list a /28 of IP addresses for the cluster we'll be using to serve up the mobile ads and they said "we can whitelist an ip address."
+[16:44:48] <shat> lol
+[16:45:01] <shat> 100.100.0.1/28 is what I need whitelisted you clowns ;) surely they can google subnets hehe
+[16:46:53] <percent20> heh. Sounds like you need to place a nice email to a sales manager or the CEO.
+[16:48:00] <shat> i think I am talking to the manager lol
+[16:48:06] <shat> I need to email their bank who owns the thing
+[16:48:14] <shat> oh btw, if anyone is looking for a part-time php gig
+[16:48:21] <shat> the client I'm ding this for needs a part-time developer.
+[16:48:30] <shat> its fun though, you'll report to the Shat and I = the best.
+[16:48:42] <shat> very little interaction with them actually other than the occasional meeting.
+[16:49:01] <shat> They need a PHP developer that doesn't need their hand held.  That is all ;)
+[16:49:11] <shat> $20/hr is their budget I think.
+[16:49:25] <shat> and I write great briefs, scopes and technical specs. ;)
+[16:49:37] <shat> brb call time. man i am chatty, timer paused ;)
+[16:51:25] <groovecoder> <shudder>mobile ads?</shudder>
+[17:00:07] <MattGalloway> groovecoder: I met with the librarians today. Finally making progress on the Hack-A-Thon app. New goal is to submit to Apple by end of February.
+[17:00:27] <MattGalloway> That's aggressive but it won't be much after that if we miss it.
+[17:03:45] <MattGalloway> shat: Well then, you should just send them a list of all of the IPs in the /28 subnet so they can do their job. :)
+[17:04:59] <MattGalloway> shat: Of course, it would be a lot funnier if it was a bigger subnet.
+[17:07:24] <shat> lol
+[17:07:30] <shat> Please add 89.39.144.0/19
+[17:07:31] <shat> lol
+[17:07:41] <shat> which is my actual block, well for that sequential set hehe
+[17:07:56] <MattGalloway> shat: Now you're thinking positive.
+[17:09:11] <MattGalloway> shat: and if you want to have a lot of fun send them in a random order so it's not obvious that they're sequential to the hopelessly clueless.
+[17:10:59] <MattGalloway> Do you guys know of the musician Jonathan Coulton?  He opened for They Might Be Giants the other night. I'd never heard of him but he has some awesomely geeky songs. One called "Code Monkey" that you guys would appreciate in particular.
+[17:11:43] <shanecowherd> He has a cover of Baby Got Back that is amazing
+[17:12:13] <groovecoder> MattGalloway: omg
+[17:12:15] <shanecowherd> http://www.youtube.com/watch?v=lyJeC99QO8A
+[17:12:23] <groovecoder> I had tickets for that original show and I missed it! :(
+[17:12:28] <MattGalloway> He releases him music under Creative Commons Attribution-Non-Commercial 3.0 Unported License. So awesome.
+[17:12:30] <groovecoder> jsatt: you were supposed to remind me!
+[17:13:27] <MattGalloway> I bought 2 of his CDs - one has Baby's Got Back.
+[17:14:13] <MattGalloway> Although... I LOVE Richard Cheese and Lounge Against the Machine's version of Baby's Got Back. Hard to beat.
+[17:15:45] <MattGalloway> I ended up with 3 extra tickets that I couldn't use. They just went to waste. I didn't know...I was trying to GIVE them away.  So sad.
+[17:23:53] <groovecoder> MattGalloway: wow. I was in a huge Coulton kick when I heard they were coming. then I forgot about it after they re-scheduled the show
+[17:58:23] <percent20> I love configuring new sites in apache. Something always seems to go wrong.
+[18:10:33] <zerokarmaleft> good grief, macfuse
+[18:10:46] <zerokarmaleft> thanks for going unmaintained with a crappy uninstaller script
+[18:15:06] <zerokarmaleft> victory is mine!
+[18:17:09] <jsatt> groovecoder: sorry man. Forgot to remind you.
+[18:31:06] <shat> headed out.  ttygiab.
+[18:33:44] <percent20> wow Jeff Atwood is leaving Stack Exchange.
+[18:38:48] <groovecoder> to go where?
+[18:39:05] <danf1> percent20:  As a dad, I can certainly applaud him.
+[18:39:38] <danf1> groovecoder: Nowhere yet: http://www.codinghorror.com/blog/
+[18:40:31] <percent20> I shall be interested to see what he will do. He makes enough from blogging he doesn't have to work.
+[18:44:59] <groovecoder> danf1++
+[18:45:04] <groovecoder> !danf1++
+[18:45:18] <groovecoder> percent20: so you bloggers don't ever work?
+[18:45:49] <danf1> Woot! I have an awesome point!
+[18:45:51] <percent20> hahaha we never stop working. However, he doesn't have to really _do_ anything but blogging.
+[18:46:38] <percent20> until I can get my blogging to pay for more than hosting costs I must continue to do other stuff.
+[18:50:48] <groovecoder> I would *hate* to blog for a living
+[19:22:03] <percent20> alright Open Web Analytics is installed we shall see how it goes.
+[19:37:07] <percent20> the herd is back :)
+[19:44:17] <shanecowherd> hiya
+[20:01:59] <percent20> can someone go to my website? http://buddylindsey.com and http://godjango.com
+[20:02:16] <percent20> am testing something
+[20:24:44] <zerokarmaleft> percent20: just hit both, godjango is jacked
+[20:24:44] <zerokarmaleft> er
+[20:24:44] <zerokarmaleft> no, there we go
+[20:25:25] <percent20> you about gave me a heart attack there.
+[20:49:42] <zerokarmaleft> percent20: sorry, the URL got mangled when i copy/pasted it
+[20:50:12] <percent20> no worries.
+[22:21:03] <sephillips> OMG MattGalloway is hanging out here?
+[22:40:28] <MattGalloway> sephillips: Oh yeah, baby, It's where all the cool kids are.
+[23:40:39] <percent20> it is amazing how much more lively this channel as gotten.
+[23:43:52] <MattGalloway> percent20: I have that effect on a lot people.
+[23:44:05] <percent20> :)

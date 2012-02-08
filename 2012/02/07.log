@@ -1,0 +1,92 @@
+[09:32:11] <groovecoder|afk> OMG sephillips is hanging out here?!
+[10:28:51] <MattGalloway> In case you were wondering, yes. Yes, I am one bad a*s wire framing mother f*cker.
+[10:30:42] <groovecoder|afk> I was wondering that just a bit ago
+[10:31:40] <MattGalloway> I thought you might be. I get that a lot.
+[13:20:22] <groovecoder|afk> I want to make a linux distro called PieceOS
+[13:21:10] <danf1> groovecoder|afk: Your international version could be called WorldPieceOS (mixing metaphors).
+[13:26:18] <codelahoma> WhirledPeasOS
+[13:27:17] <groovecoder|afk> tulsabot_: why do you have an underscore after your name?
+[13:29:18] <percent20> groovecoder|afk: i guess at somepoint it had to reconnect. I didn't know it could do that.
+[13:29:58] <percent20> groovecoder: making your own distro isn't hard. Maintiaing it, now that is the other issue.
+[13:30:14] <groovecoder> why would I maintain it? it's a PieceOS
+[13:30:47] <percent20> true, but that would take a way from the fun of it.
+[13:40:38] <danf1> groovecoder: I have PieceOS installed on a laptop here at the office already. Some call it Windows 7.
+[13:41:23] <groovecoder> !danf1++
+[13:41:28] <groovecoder> !karma
+[13:41:35] <groovecoder> !karma?
+[13:41:55] <percent20> damn you groovecoder you scared the hell out of me.
+[13:41:58] <groovecoder> and danf1 jumps into 2nd place
+[13:42:04] <Destos> hah
+[13:42:16] <percent20> I am previewing my video and all of a sudden a pop was there.
+[13:42:19] <groovecoder> that karma command is also nice to ping everyone
+[13:42:27] <groovecoder> except me.
+[13:42:37] <percent20> !groovecoder++
+[13:42:46] <groovecoder> bah! I don't want your pity points!
+[13:42:50] <groovecoder> !groovecoder--
+[13:42:58] <percent20> it was a + because of that idea
+[13:43:27] <percent20> !percent20++
+[13:43:46] <Destos> -- should say "self-immolation"
+[13:44:52] <percent20> garrr even a video I meant to be 5 minutes on validation in django might not turn out to be 5 minutes
+[14:17:01] <zerokarmaleft> percent20: did you ever follow up on https://github.com/tulsawebdevs/ircbot/issues/2?
+[14:18:32] <percent20> I played with it a little bit something is still odd, but I didn't have time to dig any closer. I am thinking I need to change the time on the server then that will solve all the irregularities.
+[14:19:04] <zerokarmaleft> is it still off by an hour?
+[14:19:39] <zerokarmaleft> it should be recording each log with CST timestamps regardless of where the server is
+[14:20:13] <MattGalloway> So was there supposed to be southside co-working today at Java Dave's? I just stopped by and the place was geekless.
+[14:20:20] <percent20> i agree, but it still didn't seem to log it correctly.
+[14:21:25] <percent20> MattGalloway: yes, however, it is turning out to not be as convenient as it was originally supposed to be. I can't do mornings on tuesdays anymore and depending on what I am doing I might not be able to make afternoons.
+[14:22:07] <zerokarmaleft> percent20: it got restarted after i pushed those changes, yea?
+[14:22:27] <MattGalloway> percent20: It was no big deal, I was working out at the YMCA next door and was just gonna stop by for moral support and a bowl of soup anyhow.
+[14:22:49] <percent20> MattGalloway: ah.
+[14:23:00] <MattGalloway> Percent20
+[14:23:23] <percent20> zerokarmaleft: I tested it in a test channel because I had tried something similar, but wasn't getting results.
+[14:23:27] <percent20> MattGalloway:
+[14:23:31] <MattGalloway> Percent20: Of course, I'm always available for immoral support as well. You know, if you're into that sort of thing.
+[14:23:40] <percent20> lol
+[14:23:43] <MattGalloway> Damn these fingers.
+[14:28:51] <groovecoder> MattGalloway: percent20: I'd also like to find a better location than Java Dave's, honestly
+[14:29:02] <groovecoder> Hardesty Library would be perfect if their wifi was better
+[14:30:06] <MattGalloway> groovecoder: I'll talk to our friends at the library and see what I can find out. I'm supposed to be talking to the IT director soon about the Hack-a-Thon app.
+[14:30:07] <percent20> the only wireless problem i have ever had was you can't ssh. However, that isn't that big of a deal if all you are doing is coding and don't use your git remotes
+[14:30:57] <zerokarmaleft> that's pretty annoying, actually
+[14:32:08] <MattGalloway> groovecoder: Another location idea is Yolatti (sp?) - self serve frozen yorgurt place at 96th-ish and Riverside. They have posters up encouraging to hang out and work there. Lots of space, tables, etc.
+[14:32:52] <zerokarmaleft> that's a good idea
+[14:33:00] <zerokarmaleft> big wall benches too so you guys can sprawl
+[14:48:57] <percent20> and let the encoding begin
+[14:54:27] <Destos> may your threads spin
+[14:55:10] <Destos> Spent 40 min on an issue where WP wasn't loading scripts in the header. find out I misspelled a ensue script handler :/
+[15:01:17] <MattGalloway> Destos you know, you just don't have that problem with compiled languages. ;)
+[15:01:18] <percent20> i hate when I do stuff like that. It happened to be when I was importing bootstrap css into site finally figured out i misspelled bootstrap.css to boostrap.css
+[15:02:23] <percent20> MattGalloway: sitll doesn't help that it was more of a runtime error ;)
+[15:03:08] <groovecoder> Destos: MattGalloway: mm ... less/sass = compiled css
+[15:03:50] <Destos> It is and I've used it, in this case I just keep spelling cufon, cufron
+[15:04:10] <Destos> CUFFFRONNN
+[15:04:25] <MattGalloway> percent20: Yeah, more of an id-ten-t error. ;)
+[15:05:17] <percent20> I really really want to kick something right now. This stupid encode crapped out.
+[15:38:37] <percent20> In order to actually use IShowU I might actually have to buy FinalCut pro to do video editing.
+[15:39:28] <percent20> and i don't have anywhere near $300 to spend on it.
+[15:47:50] <percent20> I am going to re-record this video with my old screen recording software I hate. I am so very pissed right now it might not be a good idea to record until later.
+[15:53:41] <percent20> maybe I do'nt have to use old crappy software I might have just found the setting I need :D
+[16:04:13] <percent20> nope looks like I am back to old software until I can figure out wtf I am doing.
+[16:41:43] <percent20> my stubbornness might prove to help me win in the end. :D
+[16:57:17] <codelahoma> Vim fans: http://learnvimscriptthehardway.stevelosh.com/
+[16:57:39] <codelahoma> even if you don't want to program vimscript, it's worth a run through the first third.
+[17:12:08] <percent20> yup I have to re-record. This is annoying.
+[17:21:44] <groovecoder> percent20: that sucks :(
+[17:36:05] <codelahoma> groovecoder: any idea why I can't login to github from a fresh install of Aurora?
+[17:36:49] <groovecoder> right username/pass? :)
+[17:37:36] <codelahoma> haha yep. It doesn't even complain. It just redirects to the page I was on before I clicked 'login'
+[17:37:36] <groovecoder> some sites control sessions via hashes of user agent string, so it might require you to log in again, but I'm signed into github on Aurora right now
+[17:37:53] <codelahoma> hmmm
+[17:38:28] <codelahoma> blowing away all history and starting fresh...
+[17:39:16] <codelahoma> that did it.
+[17:39:32] <codelahoma> plus choosing to clear 'Everything' didn't. It auto-filled my password.
+[17:40:31] <codelahoma> I guess "saved passwords" aren't listed in the dialog, though.
+[17:46:29] <zerokarmaleft> http://article.gmane.org/gmane.emacs.devel/103569/ <= man, this is annoyin
+[17:46:31] <zerokarmaleft> annoying*
+[17:51:25] <danf1> zerokarmaleft: That looks like ancient history. How it is still affecting you?
+[17:51:39] <jaeger> rawr
+[17:51:44] <jaeger> I win, ACLs!
+[19:29:11] <groovecoder> codelahoma: yeah, saved passwords are under the security tab
+[19:36:32] <groovecoder> also, for all of you Chrome users, please use LastPass and/or lock your computers when you're away: http://www.geek.com/articles/news/google-chrome-passwords-can-be-seen-by-anyone-who-sits-in-your-chair-2012021/
+[19:38:04] <jaeger> I can't even imagine letting a browser save passwords, to be honest
+[23:31:37] <percent20> I understand now. I think don't think I need to review my calculus much more. Now to review Linear Algebra.

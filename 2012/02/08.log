@@ -1,0 +1,136 @@
+[09:36:55] <groovecoder> jgmize: jsatt: jwhitlock_zzz: grr! can one of you come to fab lab on Friday to help me figure out python unicode/encode('utf-8') issues?
+[11:17:40] <zerokarmaleft> morning
+[11:29:04] <codelahoma> morning
+[11:29:20] <groovecoder> yo
+[11:30:00] <codelahoma> groovecoder: should the meetings be FB events, too? Google Calendar isn't in my normal internet-keepin-in-touch workflow, so they sneak up on me there.
+[11:30:31] <groovecoder> codelahoma: yeah, they usually are
+[11:30:38] <groovecoder> I need to make them for Feb though
+[11:31:13] <codelahoma> cool. That explains why I hadn't had this problem before. :-)
+[11:32:35] <zerokarmaleft> wait wha? there's a google calendar for twd events?
+[11:36:33] <groovecoder> zerokarmaleft: yeah. it's on the website :)
+[11:36:56] <zerokarmaleft> wait wha? there's a website?! :P
+[11:38:47] <groovecoder> I know, right?
+[11:52:54] <zerokarmaleft> wow, that article Randall linked about MacroSolve mentions a law firm i've worked with in the past
+[13:21:55] <percent20> Never fear for I am here... now.
+[13:22:19] <percent20> I was reading some random comments on facebook, yeah i really fear for the future of our society
+[13:31:56] <danf1> percent20: Just don't read any comments on tulsaworld.com.
+[13:33:19] <percent20> danf1: I learned a long time ago to not read comments on any news site, ever. I get very very enraged when I do. However, news site comments are at least half intelligent, most crap on facebook isn't  nearing that realm
+[13:40:41] <percent20> I miss being able to "geek out" on camping philosphy and concepts :( I need to do some boy scout camping again.
+[13:44:56] <groovecoder> just don't read the internet. http://www.penny-arcade.com/comic/2004/03/19
+[13:46:15] <percent20> crap now I am debating with myself about camping.
+[13:46:51] <percent20> groovecoder: I like that very true. I used to play UT2k4 quite often. Never quite took the step to do any major tournaments, but thought about it.
+[13:48:20] <groovecoder> percent20: camping? http://images4.wikia.nocookie.net/__cb20110425005016/halofanon/images/6/62/Camping-Motivation.jpeg
+[13:49:35] <percent20> groovecoder: this camping http://www.troop28bsa.com/pics/Camp%20Wah-tut-ca.JPG
+[13:49:50] <groovecoder> camping in meat-space? gross.
+[13:51:02] <percent20> meat-space?
+[13:52:12] <zerokarmaleft> vs. cyberspace
+[13:52:54] <percent20> ah
+[13:52:55] <zerokarmaleft> apropos of nothing, http://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200/ref=sr_1_1?ie=UTF8&qid=1328727159&sr=8-1 <= this book is badass
+[13:54:09] <percent20> zerokarmaleft: looks cool. do you have it?
+[13:54:41] <zerokarmaleft> yea, i got my copy yesterday
+[13:55:45] <percent20> am curios why you got it? general use or you have a goal with it?
+[13:57:58] <zerokarmaleft> general use, but i'm also interested specifically in the linux implementation of System V and POSIX IPC
+[13:58:09] <percent20> zerokarmaleft: ah
+[13:58:21] <percent20> don't know what those are, specifically.
+[13:58:38] <zerokarmaleft> IPC = interprocess communication
+[13:58:43] <percent20> groovecoder: I would suggest doing a tulsawebdevs camping trip, but I am not sure how many people could hack it.
+[13:58:58] <percent20> zerokarmaleft: ah.
+[14:00:45] <codelahoma> zerokarmaleft: an old favorite of mine, also apropos nothing: http://www.amazon.com/New-KornShell-Command-Programming-Language/dp/0131827006/
+[14:00:52] <codelahoma> Korn on KornShell
+[14:01:27] <zerokarmaleft> these days, most things in user space use dbus, but i like how APIs were designed by the old neckbeards
+[14:01:35] <zerokarmaleft> like knowing*
+[14:03:50] <codelahoma> "The AWK Programming Language" by (A)ho, (W)einberg, and (K)ernigan is pretty awesome, too. (available brand new for $88 on amazon)
+[14:04:19] <codelahoma> I need to see if Tulsa City County Library still has that.
+[14:10:48] <percent20> The state of public camping facilities is depressing, they all have way to many amenties and modernization.
+[14:11:43] <codelahoma> my favorite public camping facilities are Courtyard by Mariott™
+[14:13:09] <danf1> percent20: Have you been to Devil's Den State Park in Arkansas? I don't mind amenities, but they also have some hike-in spots. It's a beautiful place.
+[14:13:16] <percent20> that is the problem, campgrounds are trying to compete for that. So you get these campgrounds with showers, and running water at every other spot. And the spots all have big cement table and everyone is crammed in like sardines.
+[14:14:10] <percent20> danf1: I went there a loooooong time ago what I do remember I liked. However, we stayed at a boy scout camp and hopped over iirc.
+[14:17:05] <percent20> this is my idea of a camping spot. http://farm1.staticflickr.com/46/142442901_2dc48055ed_z.jpg
+[14:17:58] <danf1> percent20: That looks a LOT like the hike-in spots at DD. The only "amenities" are a pit toilet and a hook for a lantern, IIRC.
+[14:18:53] <percent20> sounds good, I can't get most people to do a hike camp area. That is why i'd like to find a place similar that you can drive up to, or within 50 yards.
+[14:19:26] <percent20> well I at least want to get my box trailer into the camping spot so I have all my gear.
+[14:19:37] <danf1> Yeah, it's a short hike... if you really needed a shower, you could walk to the drive-in camping area in about 10 minutes.
+[14:20:10] <percent20> its camping we don't need no showers.
+[14:21:20] <danf1> This is the only shot I could find... If you look past my bro-in-law, you'll see a tent in the background. Wish I had better shots... http://danf.org/etpsp
+[14:22:23] <percent20> danf1: I like that. how far from where you park to the area?
+[14:22:55] <danf1> You park in the drive-in camping area, then about a 10-minute hike, IIRC.
+[14:23:36] <percent20> ah akay.
+[14:25:12] <danf1> My bro-in-law and his dad camped there once when the creek flooded, closing off the path back to their car. The hike was MUCH longer on that trip. :-O
+[14:25:38] <percent20> 3 hour drive isn't bad.
+[14:25:44] <percent20> heh
+[14:26:31] <percent20> did a roaring river trip once and the wind was bad enough we were laying on our cots and the tent was laying on us. every minute or so the tent would spring back up when the wind died down then blow right back on top of us.
+[14:26:33] <danf1> It's just a little more than 2 hours from my house in BA. A pretty easy drive.
+[14:27:23] <percent20> my being in sapulpa adds that extra 30 minutes. its amazing how just being across town can add extra time.
+[14:28:00] <danf1> Ah, OK. Just move to BA first, then you'll be all set!
+[14:29:04] <percent20> lol.
+[14:29:49] <percent20> not sure why I didn't ink of it before. my grandparents have owned 270 acres of land for over 50 years in bristow. I could always go camping up there, maybe.
+[14:29:51] <danf1> The aforementioned amenities: http://danf.org/vwqde
+[14:31:14] <percent20> see that is all you need.
+[14:31:21] <percent20> however we do this up there: http://www.flickr.com/photos/buddylindsey/sets/72157618692212674/
+[14:32:21] <percent20> !karma?
+[14:32:54] <percent20> I need to restart tulsabot
+[14:33:02] <percent20> !botcookie
+[14:33:13] <percent20> !weather tulsa
+[15:41:16] <groovecoder> !botsnack
+[16:05:52] <groovecoder> cool: http://coderwall.com/groovecoder
+[16:06:01] <groovecoder> want to build something like that using open badges
+[16:10:20] <percent20> well do it :) you can tie it into developerrage by creating some badges for using it ;)
+[16:51:42] <codelahoma> coderwall thinks my specialty is VimL
+[16:54:08] <codelahoma> touch typing question: which finger is supposed to type "b"?
+[17:01:26] <danf1> codelahoma: left index finger
+[17:03:07] <codelahoma> yet another thing I do wrong :-)
+[17:04:01] <danf1> codelahoma: Nah. Just something you do your own way. :-)
+[17:47:11] <codelahoma> x  ``\
+[17:47:14] <codelahoma> \\\\\\\\\\\\\\\\
+[17:47:53] <jaeger> I think that's what my cat says when he gets on my keyboard
+[18:23:14] <percent20> SOPA is back.
+[18:23:15] <percent20> http://www.neowin.net/news/zombified-kill-switchsopa-bill-in-the-works
+[19:11:34] <ZiggyTheHamster> ACTION is joining this channel, but then is going to go away because I'm leaving work now
+[19:13:21] <percent20> ZiggyTheHamster: well comeback and talk with us sometime Keith
+[19:14:22] <ZiggyTheHamster> well I plan on it, but I'm starving and don't intend on being on my home PC at all tonight :P
+[19:16:43] <percent20> ah. well have fun then and eat some good food.
+[22:10:07] <MrMakeIt> percent20: where can i get a copy of the pantry foo source?
+[22:11:00] <MrMakeIt> Destos: We should make this: http://www.chordite.com
+[22:12:24] <Destos> MrMakeIt: I don't think I could ever learn how to use it. If I lost a hand then yes we should make it
+[22:13:26] <MrMakeIt> Destos: Well I still think it would be fun to make.
+[22:13:42] <MrMakeIt> Destos: practical or not
+[22:16:28] <shat> haha mrmakeit, thats great, literally.. last night when I was going to sleep
+[22:16:43] <shat> well in the process of going to sleep, I was thinking about how I could make a keyboard that would allow me to type during presentations..
+[22:17:08] <shat> with a key modifier that allowed my right hand to push both h -> and also a -> meaning everything from the h over, then a over
+[22:17:45] <shat> in my head, I know the key positions, so typing with one hand doesn't seem to be an issue, I gave it a whirl this morning on my keyboard, its just a matter of creating a modifier that my right thumb could use, or pinky.. or wrist.. something heh
+[22:18:19] <shat> I know it isn't anything new, but I think it could be useful under certain circumstances.
+[22:18:32] <Destos> points and type? :P
+[22:18:34] <MrMakeIt> ya,  before the my laptops digitizer broke, I had been looking for a one handed keyboard.  Typing with a stylius is HARD
+[22:18:35] <Destos> point*
+[22:21:35] <MrMakeIt> Destos: yes
+[22:22:07] <Destos> I was responding to Justin
+[22:22:13] <shat> lies.
+[22:22:21] <MrMakeIt> DestosL ah
+[22:22:28] <Destos> It feels like a cool project, but I think I'll finish my silly magic mouse thing before anything else.
+[22:22:44] <shat> not easy to point, walk to a keybaord, type, etc when you're walking across a platform back and forth
+[22:22:48] <shat> heh
+[22:22:55] <Destos> Indeed
+[22:22:57] <shat> be better to just say, and blah blah.. type blah blah blah bleah bursha.
+[22:23:08] <shat> and not have to do all the back and forth OMG MY DOG FARTED BELOW THE DESK
+[22:23:09] <shat> omg
+[22:23:21] <shat> EVACUATE. bbiam
+[22:23:33] <MrMakeIt> Destos: well I'm going to see about starting it tomorrow.  Maybe i can "convince" you to help? :P
+[22:23:45] <Destos> lolz
+[22:24:12] <Destos> My Dog has projectile farts, and he sits on the couch behind me… and sometimes its pointing my way… :(
+[22:24:23] <Destos> MrMakeIt: possibly
+[22:24:59] <MrMakeIt> Got to go.  see you guys tomorrow.
+[22:26:00] <Destos> cya!
+[23:01:38] <groovecoder> !shat++
+[23:01:58] <groovecoder> the randomness factor in this channel has improved 10-fold since shat started joining
+[23:02:15] <shat> lol.
+[23:02:24] <groovecoder> !karma?
+[23:02:26] <shat> I am a very random person.  Its not too unfortunate. lol
+[23:02:32] <Destos> nooooo
+[23:02:38] <shat> I call it 'ferrot' syndrome.
+[23:03:00] <shat> Occasionally, I must be 'pulled' back down to earth or at least shine a light my direction so I know where to look. haha
+[23:03:12] <shat> I'm working on my boxfox project.
+[23:03:17] <shat> One of these days I will open her up to the world to use.
+[23:03:25] <shat> Err.  I will open her up for people I know to use ;)
+[23:04:54] <shat> groovecoder: doing anything interesting this evening?
+[23:17:36] <percent20> IMO groovecoder should help me with a django issue this evening.

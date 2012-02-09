@@ -1,0 +1,146 @@
+[02:45:03] <percent20> submitted my first pull request to django
+[09:09:43] <groovecoder> percent20: whoa cool. what was it?
+[10:49:47] <groovecoder> trolling: "Programming with .NET is like cooking in a McDonalds kitchen.  It is full of amazing tools that automate absolutely everything.  Just press the right button and follow the beeping lights, and you can churn out flawless 1.6 oz burgers faster than anybody else on the planet." http://blog.expensify.com/2011/03/25/ceo-friday-why-we-dont-hire-net-programmers/
+[11:00:54] <danf1> groovecoder: Coming from a former McDonald's employee, that's awesome. And thankfully, I'm NOT a current or former .NET programmer.
+[11:03:26] <groovecoder> percent20 or any other python dev's: did you already apply for this? http://careers.mozilla.org/en-US/position/oIkXVfwE
+[11:30:46] <ZiggyTheHamster> groovecoder: for truth. and I'm not even a .NET programmer
+[11:38:17] <groovecoder> ACTION tries to whois ZiggyTheHamster 
+[11:42:14] <ZiggyTheHamster> ACTION quietly admits to using Adium instead of a real IRC client
+[11:42:50] <zerokarmaleft> groovecoder: interesting analogy
+[11:43:24] <groovecoder> ZiggyTheHamster: so, who are you? (we've been getting more and more new people here!)
+[11:43:46] <ZiggyTheHamster> well, I'm Keith Gable (per whois ;) )
+[11:44:03] <ZiggyTheHamster> I'm a mobile application developer for macrosolve/illume mobile
+[11:44:20] <groovecoder> oh, okay
+[11:44:30] <groovecoder> maybe /whois isn't working in InstantBird
+[11:44:50] <MattGalloway> ZiggyTheHamster: I thought you crazy kids were dropping the "Illume" moniker?
+[11:45:53] <ZiggyTheHamster> well uh, I went from working for Illume Mobile to working for MacroSolve to working for Illume Mobile
+[11:46:17] <zerokarmaleft> i like his commentary on posted comments
+[11:46:55] <zerokarmaleft> here's a statistical breakdown of the fucktardery that happens when your HN post explodes
+[11:47:09] <MattGalloway> ZiggyTheHamster: I wish they'd just pick a damn name already.
+[11:47:49] <ZiggyTheHamster> they did, finally. Macrosolve = Illume Mobile :P
+[11:47:55] <MattGalloway> Well, I'm off to take a shower.
+[11:48:21] <groovecoder> zerokarmaleft: ?
+[11:48:23] <MattGalloway> Oh, sorry, I meant to post that to Twitter.
+[11:48:30] <groovecoder> MattGalloway: lulz
+[11:48:50] <zerokarmaleft> groovecoder: the expensify blog about .NET
+[11:51:50] <groovecoder> zerokarmaleft: ah, yeah
+[11:52:14] <percent20> groovecoder: that expensify article is full of shit. They guy is a dumbass who doesn't know what he is talking about. I remember that article.
+[11:52:44] <groovecoder> percent20: finally my trolling worked!
+[11:53:03] <percent20> no I just hate that article, more than most.
+[11:53:26] <percent20> groovecoder: https://github.com/django/django/pull/111
+[11:53:51] <groovecoder> right or wrong, it does pretty much capture my (as an open-source web programmer) perspective of the .NET platform
+[11:54:07] <groovecoder> I'm sure I have a bad perspective, but that's what it is
+[11:54:52] <zerokarmaleft> it's more or less correct, the mono representation is there, but it's pretty insignificant compared to every other web platform
+[11:56:54] <groovecoder> percent20: I didn't know django was on github! I thought they were still on svn
+[11:57:28] <percent20> groovecoder: they are in the process of migrating to github. They plan to finish the migration after 1.4 is rtm'd
+[12:02:51] <percent20> about that article. If you refuse to hire someone because of your own incompetence at understanding what a platform does and can offer. And also refusing to investigate developers based just on that then I wouldn't want to work there. There is a lot more to .NET than just nob twisting and gui a gui builder, and some of the better .NET devs in the industry would kick the shit out of a lot of OSS devs on any platform in abi
+[12:02:51] <percent20> lity.
+[12:09:28] <groovecoder> percent20: that sounds like lots of the comments he got and he spoke to that. he's also hiring a .net developer now so I think things have changed in the last year for sure. he doesn't refuse developers on that basis, but he says startups should ask about a developer's .net experience, and that's fair. if I had a startup I wouldn't want to hire a ".net 9-to-5'er" as we so lovingly call them
+[12:09:46] <groovecoder> and I'd say the % of .net developers who are 9-to-5'ers is higher than the % of oss developers who are
+[12:10:12] <groovecoder> hah, sephillips you just missed me quoting you!
+[12:18:50] <groovecoder> sephillips is an IRC pogo-stick
+[12:25:19] <percent20> groovecoder: he has done some editing beyond updates to that article. Very creative edits. I can understand not wanting to hire 9 to 5ers for sure. However, his original post, I saw it then, didn't even talk about that or anything close.
+[12:26:07] <percent20> He ate humble pie very very quickly that week.
+[12:26:49] <percent20> I tend to be like an elephant, I don't forget.
+[12:29:44] <groovecoder> he hasn't added anything about 9-to-5er's, that's just my take on it
+[12:30:06] <groovecoder> he makes the parallel to McDonald's
+[12:30:21] <groovecoder> but that's what I mean when I think of 9 to 5er's
+[12:31:09] <zerokarmaleft> i think he has a point about some .net skills not translating very well to other platforms
+[12:31:13] <groovecoder> we notice this every time at Tulsa Tech Fest don't we? there are hundreds of dev's in Tulsa, but a small handful of them ever do anything outside of work
+[12:31:30] <groovecoder> and most of the dev's in Tulsa are .net dev's
+[12:31:59] <percent20> groovecoder: you have the right take on it after edits, yes.
+[12:32:56] <percent20> zerokarmaleft: there are always some skills that don't transfer well to other platforms. That doesn't mean they can't be learned especially if skill is there in the first place.
+[12:33:36] <zerokarmaleft> if i were a hiring manager, i'd be assessing the risk assessment of fresh employees
+[12:34:06] <zerokarmaleft> the more they have to learn, the more risk
+[12:34:43] <zerokarmaleft> of course, good programmers will *always* be learning
+[12:34:45] <percent20> but that doesn't mean the are incapable of doing the job. His assertion was that doesn't even matter, because they do .NET they aren't even capable, ever.
+[12:34:52] <ZiggyTheHamster> if I were a hiring manager, I wouldn't be a programmer, so I wouldn't be able to know if the person is full of shit or not
+[12:35:47] <ZiggyTheHamster> if you were a non-programmer hiring manager, ".NET alone is to be avoided" sounds like good advice to me. good .NET programmers are going to know other languages and concepts.
+[12:35:49] <zerokarmaleft> i don't agree with that, but if i had a thousand resumes to get through and i were looking for certain values then i would equate an entrenched .net developer with higher risk
+[12:36:08] <ZiggyTheHamster> bad .NET programmers just know .NET, IIS, SOAP, and the other tools it comes with
+[12:36:28] <ZiggyTheHamster> pick a .NET programmer that knows Ruby, Python, shell scripting, has made some WoW mods in Lua, etc.
+[12:37:12] <zerokarmaleft> actually, fwiw i am a hiring manager, but i don't hire programmers
+[12:37:54] <ZiggyTheHamster> I will say, the author does say "all .NET programmers are to be avoided", which I disagree with. guy next to me is a .NET programmer (hates it) and also a Rails programmer and a HTML5/JS programmer
+[12:38:23] <zerokarmaleft> ZiggyTheHamster: in that case i'd be looking to see what he did outside of work
+[12:38:37] <zerokarmaleft> if he's really passionate about programming yet he hates his day job, then he'll find other outlets
+[12:38:50] <ZiggyTheHamster> that's absolutely true, and why I work at macrosolve :P
+[12:38:52] <ZiggyTheHamster> er
+[12:38:53] <ZiggyTheHamster> illume mobile
+[12:38:56] <zerokarmaleft> heh
+[12:39:25] <percent20> like I said there were people using expensify that stopped because of that article. He figured out what a mistake his opinion was really fast when he started losing customers.
+[12:39:44] <ZiggyTheHamster> got sick and tired of dealing with the drama and buracracy(sp?) of working for OSU Institute of Technology Okmulgee :P
+[12:40:25] <percent20> drama and buracracy(sp?) == all colleges.
+[12:40:26] <percent20> heh
+[12:40:30] <ZiggyTheHamster> +++
+[12:40:36] <ZiggyTheHamster> absolutely
+[12:40:41] <percent20> especially ones I go to where they regularly screw my shit up.
+[12:42:25] <ZiggyTheHamster> imagine being on the admin side of things and seeing the trainwreck happen in the mainframe. it's insane. you have no idea how simple it is to withdraw someone properly, yet every end of semester, people don't do it right and you end up with someone having inconsistent database records and being locked out of services… and it's MY fault, because I personally deleted the guy
+[12:42:54] <percent20> lol I love how python devs seem to get their feelings hurt when a project moves to github instead of bitbucket.
+[12:43:24] <ZiggyTheHamster> honestly, I don't prefer hg over git, and I really dislike bitbucket's project tools/ticketing
+[12:43:31] <ZiggyTheHamster> I can't reference issues in commit messages, WTF?
+[12:43:40] <ZiggyTheHamster> so I would go with github
+[12:43:57] <ZiggyTheHamster> also, I've just been told to attend a scrum meeting, so I'm going to go afk :p
+[12:44:23] <percent20> django is moving to github, but one of the guys on the django-dev mailing list is complaining it isn't moving to bitbucket.
+[12:46:27] <percent20> well i am off bbl
+[13:34:47] <percent20> !hello
+[14:38:45] <percent20_> I am so confused, it seems /. is becoming more reasonable over the last couple of years in their comments.
+[14:39:05] <percent20_> I think all the annoying people left for Hacker News
+[14:39:46] <Randall> mhm
+[14:40:19] <Randall> did you get a chance to try out that mic?
+[14:40:39] <percent20_> yeah. I like it.
+[14:40:49] <Randall> I got an email from amazon with a list of other ones for sale
+[14:41:07] <percent20_> hehe. It is a bit too big, but was fun to use.
+[14:41:14] <percent20_> I could hardly type while talking with it.
+[14:42:19] <Randall> When I use it, I put it about 3 feet away
+[14:42:29] <Randall> it sits behind my laptop
+[14:42:49] <Randall> I may get a stand for it so it'll be up off my desk
+[14:43:23] <percent20_> That is what I suggest. I need to build a new desk though so I can account for doing this video stuff.
+[14:44:53] <Randall> can I email buddy@ your domain name and you'll get it? I'll forward this Amazon list of mics on sale they sent me
+[14:46:31] <Randall> one of them is a $300 mic on sale for $100 usb condenser mic
+[14:46:33] <percent20_> okay, thank you.
+[14:46:43] <percent20_> yes youc an email that.
+[14:46:57] <Destos>  Cya guys Friday!
+[14:47:15] <percent20_> byebye Destos too bad i can't say good bye to you.
+[14:47:59] <Randall> email sent.
+[14:48:12] <percent20_> thank you. i'll check it out later.
+[14:48:15] <Randall> if you are finished with it, I'll be at the fablab friday. Can pick it up from you there if you're going
+[14:48:29] <percent20_> yeah, i'll be there.
+[14:48:40] <percent20_> i'll bring the mic
+[14:50:07] <Randall> cool, thanks
+[14:50:20] <percent20_> np. thanks for letting me play with it.
+[14:51:01] <Randall> absolutely. Did you record any screencasts with it?
+[14:51:15] <percent20_> yes and no.
+[14:52:02] <percent20_> I did, but i used IShowU and IShowU doesn't work well with iMovie so got some very bad results on encoding it so I haven't been able to get this last weeks show done. I need to re-record it altogether.
+[14:53:49] <Randall> ah, that's a new one. I saw this the other day and the sound is terrible. A $1.5B company too... http://realist.com/Home/RealistPresentation/
+[14:55:41] <percent20_> part of the issue is when it comes to video stuff I have no idea what I am doing. I just kind of try crap until it works.
+[14:56:22] <Randall> wouldn't know it from the quality of your work. Your presentations are really nice, man.
+[14:57:16] <percent20_> Thank you. :)
+[15:45:51] <MrMakeIt> percent20: Where can i find the Pantry Foo source?
+[15:46:38] <percent20> message me your email and i'll email you a link to it. I need to zip it up and i'll make it available to you.
+[15:49:41] <percent20> wait do you still have access to the pantryfoo dropbox share folder?
+[15:51:44] <percent20> MrMakeIt: I put it in the dropbox for pantryfoo if that doesn't work let me know.
+[15:52:40] <MrMakeIt> percent20: that's fine.
+[16:21:38] <groovecoder|afk> "Tom Cruise is Tom Cruise crazy - just be glad it's him not you." man I love Coulton
+[16:27:18] <percent20> groovecoder|afk: have you used ipython at all?
+[16:39:58] <groovecoder|afk> percent20: yes. <3
+[16:41:01] <percent20> I am very much prefering it over the native repl
+[16:50:05] <MattGalloway> percent20: What kind of mic are you looking for? I have a collections of fairly nice mics that I'm not using much right now. I could lone you something if that'd be helpful.
+[16:52:43] <MattGalloway> Does anyone have any experience or know of anyone with experience with implementing image recognition stuff?  Specifically, examining black and white rastered line drawings to identify the location of well defined symbols.
+[16:53:58] <MattGalloway> The actual application is automatically examining construction drawings in a PDF to identify the appearance of certain symbols. (This soulds like "take-offs" but it's not - but the idea is the same.)
+[16:55:34] <groovecoder> MattGalloway: nope. :( any open-source libraries out there?
+[16:56:42] <MattGalloway> groovecoder: Haven't even Googled yet. I'm sure there's something though. There's gotta be.
+[16:58:28] <MattGalloway> groovecoder: I just met with someone at this was the topic of conversation, so I thought I'd ask the crowd.
+[16:58:48] <MattGalloway> s/at/and/
+[16:59:42] <groovecoder> now *that* would be a cool bot feature. if someone asks something and doesn't get a response in ___ minutes, tulsabot puts in a link to a google search :)
+[16:59:54] <ZiggyTheHamster> uh
+[17:00:02] <ZiggyTheHamster> you might be able to use imagemagick
+[17:01:07] <MattGalloway> groovecoder: If the machines start to run Google for us then we'll no longer need people at all.
+[17:02:00] <groovecoder> do we need them now?
+[17:02:00] <MattGalloway> groovecoder: Besides we don't ask questions that we haven't Googled because we need help with the answer, we do it to avoid whatever we're suppose to be doing otherwise.
+[17:02:14] <groovecoder> !MattGalloway++
+[17:02:29] <MattGalloway> groovecoder: Apparently, only to ask stupid, Googlable questions.
+[17:02:56] <percent20> MattGalloway: What i have now is fine. What I "want" is a mic that feeds into a mixer which feeds into the computer.
+[17:03:04] <groovecoder> zerokarmaleft: percent20: I forget - is there some reason tulsabot has to have '!' in front of commands?
+[17:03:20] <percent20> groovecoder: because that is how it was made. ;)
+[17:03:39] <groovecoder> but is that a requirement of cinch (or whatever that ruby bot framework is)
+[17:03:42] <MattGalloway> Everybody be quiet...I'm Googling imagemagick.

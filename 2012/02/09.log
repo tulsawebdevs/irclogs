@@ -144,3 +144,41 @@
 [17:03:20] <percent20> groovecoder: because that is how it was made. ;)
 [17:03:39] <groovecoder> but is that a requirement of cinch (or whatever that ruby bot framework is)
 [17:03:42] <MattGalloway> Everybody be quiet...I'm Googling imagemagick.
+[17:04:41] <percent20> groovecoder: yes.
+[17:09:01] <MattGalloway> Ah... http://opencv.willowgarage.com/wiki/ & http://www.vlfeat.org/ look promising for object detection.  Now only if I spoke gibberish.
+[17:19:15] <zerokarmaleft> groovecoder: dunno for sure, but i bet you could configure the command prefix to be nothing
+[17:22:20] <zerokarmaleft> hmm...does tulsabot match commands in the !karma? zerokarmaleft message?
+[17:39:47] <percent20> apprently not
+[17:39:51] <percent20> !karma?
+[17:40:00] <percent20> that is getting long
+[17:40:28] <MattGalloway> !percent20--
+[17:40:37] <MattGalloway> !percent20--
+[17:40:38] <MattGalloway> !percent20--
+[17:40:40] <MattGalloway> !percent20--
+[17:40:41] <groovecoder> !MattGalloway++
+[17:41:24] <groovecoder> oh, I thought YOU killed it, percent20 - to protect your points
+[17:41:38] <MattGalloway> !percent20--
+[17:41:47] <percent20> heh actually I did kill it, but I was trying to fix something else.
+[17:41:49] <MattGalloway> Nope. Still alive.
+[17:41:54] <groovecoder> percent20: suuuure
+[17:42:15] <groovecoder> we need a way to mark off great quotes in the irc logs
+[17:42:24] <groovecoder> I guess we can link straight to the line on github
+[17:42:37] <percent20> yeah.
+[17:43:00] <percent20> what would be cool is save the logs to markdown that way links are linky.
+[17:43:36] <MattGalloway> How very Suessian.
+[18:36:09] <MattGalloway> Message redacted.
+[18:38:19] <percent20> o_O
+[18:41:52] <shat> Wooot.  Booked a new project today.  Going to be visiting Miami, FL in a few weeks to meet with the client.  Oh, how I love Miami.
+[18:42:08] <shat> I went in November for a wedding and been a few times before.  Freaking love cuban food ;)
+[18:42:21] <shat> It is going to wreck havoc on my diet though.  Totally worth it.
+[18:42:45] <percent20> heh
+[18:56:18] <MattGalloway> shat: No worries. You're burn a lot of calories with all that flying.
+[21:27:34] <shat> anyone got some clever ideas I could incorporate into our wedding website?
+[21:27:46] <shat> I have the design mostly done, there is a splash up
+[21:27:48] <shat> ourday.info
+[21:27:54] <shat> let me find the screen shot of the design.
+[21:28:12] <shat> not sure why i dont have creative suite at home installed, wth
+[21:29:13] <shat> I need to incorporate this weird "lace" style she has on our cake.
+[21:29:30] <shat> as well I am going to change the say hello a bit because I stumbled across another site that had a style that was too damn similar
+[21:29:33] <shat> http://is.oss.im/iUCG
+[21:29:36] <shat> chapped mah butt.

@@ -1,0 +1,51 @@
+[02:05:04] <MattGalloway> sephillips: Man, you're up late.
+[10:50:03] <percent20> !hello
+[11:09:49] <Destos> percent20: is listening to paris hilton
+[11:10:41] <Destos> and now lady gaga
+[11:52:20] <percent20> groovecoder: http://www.seoworkers.com/tools/analyzer.html
+[12:10:13] <percent20> Malcolm Gladwell
+[12:11:51] <percent20> http://www.flickr.com/photos/buddylindsey/sets/72157627862646033/
+[13:13:10] <ZiggyTheHamster> ni hao, tulsabot_!
+[13:58:07] <jaeger> http://jaeger.morpheus.net/misc/bargl.png <-- I should probably fix this
+[13:58:51] <ZiggyTheHamster> enable console UTF-8. kind of a PITA, but once you do it, it's much nicer
+[13:59:03] <ZiggyTheHamster> and wget prints out smart quotes (not really a pro, but worth mentioning)
+[14:00:35] <jaeger> I thought I had it enabled, I must be missing something
+[14:01:45] <jaeger> irssi's term_charset is utf-8, LANG is en_US.UTF-8, screen -U
+[14:03:54] <ZiggyTheHamster> maybe your font doesn't have unicode
+[14:04:08] <jaeger> It should, I checked that... Liberation Mono
+[14:04:31] <jaeger> I wonder if my local locales are wrong or if xfce terminal is built wrong, perhaps
+[14:05:27] <jaeger> It's aggravating because I've had it working before, not sure what I changed
+[14:06:03] <jaeger> hrmm... it looks different in xterm but still wrong
+[14:11:01] <jaeger> Any of you happen to have an archlinux or gentoo install handy?
+[14:13:42] <jaeger> ooh, never mind, I found what I was looking for in an ubuntu install
+[15:17:55] <percent20> http://coderwall.com/buddylindsey
+[15:36:50] <jaeger> coding achievements? what the fuck, internet?
+[15:41:52] <percent20> we need achievements too.
+[16:52:01] <groovecoder> Destos: http://web.archive.org/web/20110413094308/http://blog.expensify.com/2011/03/25/ceo-friday-why-we-dont-hire-net-programmers/ (April)
+[16:52:10] <groovecoder> http://web.archive.org/web/20110512210323/http://blog.expensify.com/2011/03/25/ceo-friday-why-we-dont-hire-net-programmers/ (May)
+[17:24:45] <percent20> !Destos--
+[17:24:58] <Destos> :<
+[17:25:08] <percent20> !karam?
+[17:25:12] <percent20> !karma?
+[17:28:07] <percent20> !karma?
+[17:28:25] <Destos> !percent20 --
+[17:28:48] <Destos> !percent20--
+[17:29:14] <groovecoder> !percent20--
+[17:29:15] <groovecoder> !percent20--
+[17:29:17] <groovecoder> !percent20--
+[17:30:35] <danf1> Dang. percent20 is going down fast.
+[17:35:25] <jaeger> Now you need a bot to repeatedly lower karma
+[17:35:29] <jaeger> otherwise that's gonna take a while
+[17:54:38] <percent20> heh
+[21:09:09] <chimchim237> mic check
+[21:53:32] <percent20> i'm here. :)
+[22:23:47] <chimchim237> instantbird works after all.
+[22:23:49] <chimchim237> nea.
+[22:23:52] <chimchim237> neat*
+[23:15:59] <shat_> well this blows.
+[23:16:11] <shat_> someone broke into my truck while we were in cheesecake factory at dinner
+[23:16:38] <chimchim237> shit
+[23:16:43] <shat_> yup.
+[23:16:47] <shat_> bad bad bad
+[23:17:03] <shat_> because Transmit for example at least the version on my laptop doesn't prompt for admin password to unlock the keys
+[23:17:07] <shat_> it just keeps them

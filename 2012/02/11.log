@@ -1,0 +1,41 @@
+[15:13:36] <percent20_> groovecoder: BrowserID support was just added to django-social-auth
+[15:13:53] <groovecoder> percent20_: oh yeah? link?
+[15:14:26] <percent20_> https://github.com/omab/django-social-auth/issues/228
+[15:15:22] <groovecoder> cool!
+[15:15:28] <groovecoder> how'd you track that so close? :)
+[15:16:05] <percent20_> I watch django-social-auth repo and was going through the github stream.
+[15:16:37] <percent20_> Someone else is also doing a heroku script: https://github.com/jgorset/kingpin
+[15:17:00] <percent20_> his is more elegant though
+[15:17:19] <MattGalloway> percent20_: And you wonder why you can't find a date.
+[15:17:42] <percent20_> MattGalloway: I have never wondered, I am quite well aware.
+[15:18:13] <percent20_> My problem is more finding a woman who meets my standards.
+[15:19:19] <percent20_> groovecoder: I still want to do a browser id video for godjango. However I might make it a bit longer and do browser id using the mozilla gem then at the end implement it using django-social-auth.
+[15:19:44] <groovecoder> percent20_: yeah I'd say compare all the implementations
+[15:22:27] <percent20_> well I want to highlight the mozilla library because some people might not want to have the overhead of django-social-auth. I personally am excited it is baked in because it will make it easier to do godjango auth with browser id and github
+[15:24:15] <percent20_> https://twitter.com/buddylindsey/status/168430084317921280
+[15:26:01] <shat_> Afternoon.
+[15:28:52] <percent20_> that sucks. It looks like the django devs half ignore documentation pull requests. :(
+[15:28:59] <percent20_> shat_: hello
+[15:30:57] <shat_> How goes it?
+[15:31:53] <MattGalloway> shat_: Sorry to hear about your truck. That's sucks.
+[15:32:02] <shat_> Thanks Matt.
+[15:32:24] <shat_> I think I've gotten everything changed up.  Hopefully, well best REALISTIC case is they wipe everything and got some free HDDs and laptops.
+[15:32:34] <shat_> Otherwise, I guess they just scored a motherload of info ;)
+[15:32:49] <groovecoder> shat_: d'oh!
+[15:33:10] <shat_> hope they are smart enough to wipe and reinstall ;)
+[15:33:21] <groovecoder> this book is interesting: http://shop.oreilly.com/product/0636920020103.do
+[15:34:50] <MattGalloway> shat_: I hadn't thought about reinstalling, but a little hint on the password would be nice... uh, oh... I mean, yeah, I hope those thugs reinstall. ;)
+[15:35:26] <shat_> ha.
+[15:35:26] <shat_> ;)
+[15:35:40] <shat_> shitty part, I think password on login was disabled.
+[15:35:41] <shat_> ;(
+[15:35:49] <shat_> at least for one account.
+[15:35:52] <shat_> not the admin or anything.
+[15:35:57] <shat_> Eitehr way. safe than sorry
+[15:36:13] <MattGalloway> groovecoder: I love the cover art. Hysterical.
+[16:44:58] <MattGalloway> In case you were wondering...the maximum files size to upload to Dropbox from iOS using the Dropbox API is 180MB. Dammit.
+[16:59:38] <chimchim237> wonder if box.net performs any better.
+[21:28:47] <percent20> groovecoder: can you get to this link? https://www.pivotaltracker.com/story/show/24809009
+[21:28:56] <percent20> i get json back saying I am signed out.
+[23:26:33] <MattGalloway> percent20: I get: {"message":"You have been signed out.","status":"SIGNOUT"}
+[23:27:01] <percent20> thanks.

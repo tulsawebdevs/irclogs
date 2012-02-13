@@ -1,0 +1,9 @@
+[17:50:59] <percent20> !weather
+[17:51:02] <percent20> !weather tulsa
+[17:57:17] <Destos> I heard it was going to snow today.
+[17:57:44] <percent20> yeah later tonight is what I read.
+[17:59:26] <Destos> percent20: got your email. Not sure why there would need to be a separate app for searching twitter, but if its easier to do that in ruby or for I understand
+[18:12:50] <percent20> well my thought was do it separately so that we don't have 100 connections all searching twitter at the same time and writing to the db.
+[18:13:32] <percent20> I gotta run, bbiab.
+[18:29:19] <Randall_> HI all
+[18:30:14] <Randall_> movie recommendation for today: Boondock Saints. It's on netflix. Off to watch...

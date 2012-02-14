@@ -1,0 +1,288 @@
+[11:21:46] <groovecoder> OH in #webdev: "A: cookie origins are weird. B: All cookies should have the same origin - the oven - and the same destination - my belly. C: Or multiple origins - i.e., many ovens A: Cross Oven Resource Sharing"
+[11:21:49] <groovecoder> my wife didn't get it
+[11:21:54] <groovecoder> so I had to share here instead
+[11:27:37] <Destos> heh
+[11:33:11] <esdev> mornin all
+[11:33:51] <esdev> any php users here?
+[11:34:19] <esdev> rather, php devs?
+[11:34:54] <Destos> used to be
+[11:35:17] <esdev> think u can answer a question on it?
+[11:35:54] <Destos> I can try :)
+[11:36:25] <esdev> on my header page i have a title: <?php $title = "Stonehouse Inn and Spa"; ?>
+[11:36:57] <esdev> i call it from index.php like this: <title><?php echo "$title";?> | Home</title>
+[11:37:53] <esdev> in Chrome, it works fine. in firefox it appears like this: <title><?php echo "$title";?> | Home</title> in text
+[11:38:13] <esdev> rather, without the title brackets
+[11:38:42] <Destos> alright, thats a weird issue. unless apache or however you are serving the php isn't working properly
+[11:38:48] <esdev> i don't get it
+[11:38:58] <Destos> do you have a live example?
+[11:39:12] <esdev> no, it's just on my local dev machine
+[11:39:52] <Destos> are you using camp/mamp/ self hosted apache?
+[11:40:03] <esdev> but if apache were the issue, it wouldn't work for either. and yes, using MAMP.
+[11:41:17] <Destos> I can't really think of a reason its working in chrome and not firefox besides maybe malformed html
+[11:41:25] <esdev> i look at the source in Firebug, it looks like this: <title>&lt;?php echo "$title";?&gt; | Home</title>
+[11:41:33] <Destos> try it in safari? as they are both webkit it may be webkit fixing something up
+[11:41:38] <Destos> I see
+[11:41:53] <esdev> k. lemme try that
+[11:42:15] <groovecoder> what's the markup in Chrome?
+[11:42:18] <groovecoder> view source?
+[11:42:21] <Destos> well if its sending the encoded php tags then its probably something on apaches end
+[11:42:56] <esdev> in chrome: <title>Stonehouse Inn and Spa | Home</title>
+[11:43:39] <esdev> works fine in safari
+[11:43:57] <esdev> i think it's a MOZILLA thing. :P
+[11:44:03] <Destos> oh snap
+[11:44:58] <groovecoder> is it cached from a previous render?
+[11:45:04] <groovecoder> (cmd+shift+r)
+[11:45:13] <esdev> hmm, any firefox experts out there? anyone, anyone? ;P
+[11:45:23] <esdev> i'll trythat
+[11:46:11] <ZiggyTheHamster> is the <title>…</title> within <?php ?> already
+[11:46:19] <esdev> btw, and my css is working in firefox, too. it works on the others
+[11:46:29] <ZiggyTheHamster> I guarantee that the reason it "works" in WebKit is that it ignores <?php and ?>
+[11:46:48] <Destos> ZiggyTheHamster: but it isn't output the php variable at all
+[11:46:51] <Destos> outputting*
+[11:46:57] <esdev> rather ISN'T working in FF
+[11:46:59] <Destos> so it wouldn't have the correct
+[11:47:02] <Destos> title
+[11:47:17] <ZiggyTheHamster> homemade PHP or a CMS?
+[11:47:33] <Destos> esdev: feel free to paste the code somewhere for us to look at
+[11:47:37] <esdev> hand-rolled
+[11:47:43] <ZiggyTheHamster> hmm
+[11:47:48] <esdev> ok. hold on. i'll pastie it
+[11:47:59] <ZiggyTheHamster> then that makes no sense then
+[11:48:11] <ZiggyTheHamster> unless there's a stray <?php
+[11:49:30] <esdev> here's the pastie: http://pastie.org/3374784
+[11:50:28] <Destos> try removing the " quotes around $title
+[11:51:06] <ZiggyTheHamster> stupid idea, also try putting $title = "x" on a new line
+[11:51:09] <ZiggyTheHamster> <?php
+[11:51:12] <ZiggyTheHamster> $title = "x";
+[11:51:12] <ZiggyTheHamster> ?>
+[11:51:21] <esdev> k, 1 sec
+[11:52:30] <groovecoder> &lt;?php is a server issue. try getting the html with curl
+[11:53:48] <esdev> i think i found the problem. when i launch FF from the IDE, it gets that error. if i run FF standalone and paste in URL, it works fine
+[11:53:55] <ZiggyTheHamster> IDE?
+[11:54:02] <esdev> titanium studio
+[11:54:09] <ZiggyTheHamster> I just vomited a little
+[11:54:29] <groovecoder> ZiggyTheHamster++
+[11:54:34] <groovecoder> !ZiggyTheHamster++
+[11:54:39] <Destos> lol
+[11:54:53] <esdev> whatever.
+[11:54:54] <Destos> so titanium studio os somehow accessing the php file directly it would appear
+[11:55:04] <groovecoder> :)
+[11:55:21] <groovecoder> esdev: we'll convert you to vim one of these days
+[11:55:36] <ZiggyTheHamster> https://gist.github.com/1477665 + https://gist.github.com/1411426 + the board behind me full of Titanium bugs + Eclipse = vomit in trashcan
+[11:55:44] <Destos> groovecoder: web dev vim talk yes? thx
+[11:55:47] <ZiggyTheHamster> vim is fantastic.
+[11:55:49] <esdev> <-- does not love cli
+[11:55:56] <ZiggyTheHamster> gvim is fantastic.
+[11:56:01] <ZiggyTheHamster> also textmate
+[11:56:27] <ZiggyTheHamster> (gvim being the GUI VIM ;))
+[11:56:38] <groovecoder> GUI VIM?! blasphemy!
+[11:57:13] <esdev> well, i may be working for appcelerator soon. so, be nice or suffer my n00bish wrath.
+[11:57:40] <ZiggyTheHamster> if you start working for appcelerator, please start a structure fire
+[11:57:54] <esdev> ok, where do u live?
+[11:58:00] <groovecoder> lol
+[11:58:08] <groovecoder> !esdev++
+[11:58:15] <ZiggyTheHamster> I can't tell you how many times I've been stuck up here working well into the night because Titanium did something stupid and incorrect
+[11:58:17] <esdev> yay for me!
+[11:58:21] <MattGalloway> esdev: Huh? Why are you using Titanium Studio to edit php? Religious views aside, Titanium Studio is just Eclipse with a bunch of Appcelerator stuff in it.  Why not use plain Eclipse with the PHP plugins?
+[11:58:33] <ZiggyTheHamster> MattGalloway: +1
+[11:58:45] <MattGalloway> esdev: Serious question BTW.
+[11:58:46] <ZiggyTheHamster> except it's eclipse, but I would definitely accept that solution
+[11:58:51] <esdev> cuz i already had it installed
+[11:59:10] <esdev> and i needed to turn this project around quickly
+[11:59:35] <MattGalloway> ZiggyTheMaster: Agreed. I'm no great fan of Eclipse but to each his own. I was just checking to see of there was something I was missing.
+[11:59:37] <ZiggyTheHamster> turning a project around quickly and titanium are not mutually compatible
+[11:59:54] <esdev> ZiggyTheHamster--
+[12:00:19] <groovecoder> every time I try a new language or platform I give Eclipse another chance, but now that I've spent the few days it takes to learn and customize vim, I'll never go back
+[12:00:21] <MattGalloway> esdev: You need a '!' infront of that if you want to bot's attention.
+[12:00:34] <groovecoder> !botsnack
+[12:00:39] <esdev> naw, just making a point
+[12:01:40] <MattGalloway> groovecoder: There actually a lot of cool stuff in Eclipse but it always seems to fall short for me if you're not working in Java. And the Java guys I know all prefer something else - NetBeans, etc.
+[12:02:11] <ZiggyTheHamster> me too: I spent months working around bugs in Titanium ranging from animation not working (android or iOS or both depending on how you attack the problem) to threads not communicating (resulting in callbacks not executing)
+[12:02:18] <esdev> ok, now the truth is revealed. ZiggyTheHamster is definitely biased.
+[12:02:28] <ZiggyTheHamster> definitely. I have battle scars.
+[12:02:39] <groovecoder> biased ~= burned
+[12:02:58] <ZiggyTheHamster> it would have been faster for me to learn ARM assembler
+[12:03:05] <esdev> me too. but i had it installed and i had to get this project going
+[12:03:54] <esdev> so, muck raking aside, i'll get back to my own sandbox
+[12:03:55] <MattGalloway> ZiggyTheMaster: I can't imaging doing anything multithreaded in Titanium. I'll only use it for the simplest of apps where low cost and cross-platform are the priority. Generally though, I actively avoid it at all costs.
+[12:04:27] <ZiggyTheHamster> MattGalloway: well, the thing is, you can't not do threading if you support Android. EXCEPT that Titanium doesn't give you any way to control threads
+[12:04:34] <groovecoder> so is Titanium an IDE or a framework or both or what ?
+[12:04:34] <ZiggyTheHamster> so it makes guesses about the app that are all wrong
+[12:04:37] <ZiggyTheHamster> it's both
+[12:04:49] <MattGalloway> groovecoder: Yes.
+[12:04:49] <groovecoder> hrm
+[12:04:50] <ZiggyTheHamster> an IDE (Aptana Studio) which is Eclipse with stuff added
+[12:04:57] <ZiggyTheHamster> and Titanium SDK (and Titanium Mobile SDK)
+[12:04:57] <esdev> and an sdk
+[12:05:24] <groovecoder> interesting. so it's more like Xcode or Visual Studio .Net?
+[12:05:34] <ZiggyTheHamster> it's Eclipse :P
+[12:05:44] <esdev> but if i do work for appcelerator, i know where to go to stay grounded.
+[12:05:51] <ZiggyTheHamster> with some Appcelerator fixes
+[12:05:53] <MattGalloway> groovecoder: The Mobile SDK provides a Javascript framework for mobile dev. It then cross compiles the Javascript into Obj C for iOS and Java for Android.
+[12:05:56] <ZiggyTheHamster> er, tweaks
+[12:05:57] <ZiggyTheHamster> not fixes.
+[12:06:07] <ZiggyTheHamster> plugins
+[12:06:09] <ZiggyTheHamster> whatever. :P
+[12:06:33] <MattGalloway> groovecoder: It still requires a lot of exception coding for differences in platform but for simple projects you can more or less write once and deploy on both platforms.
+[12:06:42] <esdev> ZiggyTheHamster: so what r u guys using now? phonegap?
+[12:07:05] <ZiggyTheHamster> it depends on what the customer wants
+[12:07:35] <esdev> but not titanium? u alluded to that before.
+[12:07:37] <ZiggyTheHamster> we still support some titanium apps, but we're to the point that if there's an android issue that is related to the plethora of Ti bugs, we're ignoring it
+[12:07:46] <MattGalloway> esdev: I'm primarily a native iOS guy. I'm focused more on business apps where the devices are a little more controlled, or the user base is expected to be primarily iOS.
+[12:07:51] <ZiggyTheHamster> iOS as well, but there's far less ti bugs on iOS
+[12:08:06] <ZiggyTheHamster> (which is expected, IMHO, but stupid)
+[12:09:17] <ZiggyTheHamster> our latest app is in PhoneGap.. which I like primarily because it's simple
+[12:09:30] <ZiggyTheHamster> but not all apps are representable in HTML
+[12:09:45] <MattGalloway> groovecoder: There's a misconception that Titanium uses HTML for UI but it doesn't. You programmatically define the UI using JavaScript.  As opposed to PhoneGap that just covers the screen with a WebView and fills it with your HTML.
+[12:10:01] <esdev> MattGalloway: o i know. but the reality is, i know javascript better than objective-c. i'm still trying to make headway with it. but without a true xcode-type project to work on, and some mentoring to iron out the rough spots, i just don't get very far.
+[12:10:24] <groovecoder> ZiggyTheHamster: what is HTML missing for your apps?
+[12:10:53] <MattGalloway> groovecoder: Lots of web devs seem to think Titanium will be easy (because of the aforementioned misconception)... but it's not all that intuitive for dyed-in-the-wool client side web guys.
+[12:10:58] <ZiggyTheHamster> groovecoder: for apps I've worked on, nothing. other teams have found issues with canvas/graphics acceleration on some devices
+[12:11:13] <groovecoder> ZiggyTheHamster: ah
+[12:11:23] <groovecoder> ZiggyTheHamster: what were those apps? (if you can say)
+[12:11:39] <ZiggyTheHamster> the ones where phonegap worked or the ones where they didn't?
+[12:11:45] <groovecoder> didn't
+[12:12:00] <groovecoder> sorry, I'm close to the devengage team @ mozilla and we're all keenly interested in what's missing from web technology for mobile devices
+[12:12:14] <groovecoder> hence the http://arewemobileyet.com/# project
+[12:12:14] <ZiggyTheHamster> oh, I have no idea what they're called, just that the guy on the other side of me has been testing a canvas-based 2D engine and it's slow on some android devices
+[12:12:38] <ZiggyTheHamster> it's also slow on the original iPad, but we're not sure why that is
+[12:12:39] <MattGalloway> esdev: I'm not making any judgements. Titaniums got it's place - but it's not anywhere near the silver bullet some folks make it out to be. It's really ahrd to get a nice looking, well performing cross platform app out of it.
+[12:12:53] <ZiggyTheHamster> MattGalloway: +1
+[12:13:23] <esdev> well, thanks to ZiggyTheHamster and others, i think i helped put one on the app store.
+[12:13:36] <esdev> but, yes. it is not a panacea
+[12:14:26] <ZiggyTheHamster> my deal is that I've been programming since I was like 6, and have beaten JavaScript to death (browser, CouchDB, Titanium, and so on), and you generally have this expectation that whatever is handling your JavaScript code is going to either throw exceptions or run your callbacks
+[12:15:10] <ZiggyTheHamster> what makes you want to murder everyone at appcelerator is when you get a logcat message from the Android framework telling you that you tried to run a callback on a dead thread (you didn't, Ti did), and there's nothing you can do to fix or work around it
+[12:15:47] <ZiggyTheHamster> and you can't trap it
+[12:16:11] <ZiggyTheHamster> and furthermore, most of these issues are things that have been reported to Appcelerator years ago, they just don't fix it
+[12:17:01] <ZiggyTheHamster> They're pulling what Sony did with Star Wars Galaxies. Several bugs in the game, probably simple to fix - easy to reproduce at least. Major patch comes out. Fixes those bugs? Nope! Trading card game!
+[12:17:03] <esdev> ahh, that's good to know.
+[12:18:51] <ZiggyTheHamster> oh, and I should also mention that if you use any media functions in Ti, you have to execute them from a function that is called by the window. so a window event listener.
+[12:18:59] <ZiggyTheHamster> otherwise it doesn't work
+[12:20:33] <ZiggyTheHamster> obviously, you want to touch a button.. so that button must fire an event on the window, which then is picked up by the listener you have, which opens the camera/gallery/etc., then it works
+[12:21:24] <ZiggyTheHamster> this is not documented anywhere, a bug exists (TIMOB-1595), still not fixed or documented
+[12:21:54] <ZiggyTheHamster> but it is infuriating when you have an app that has a lot of photo functionality, and zero of it works outside of iOS
+[12:24:13] <esdev> ok, if i bypass TS internal webserver and use MAMP'S apache, everything works fine. sorry for igniting the firestorm. i'll go back to cubicle (if i had one). :P
+[12:24:48] <groovecoder> percent20: should we try yolotti for tomorrow coworking?
+[12:26:54] <shat_> Hey.
+[12:27:05] <shat_> I think I am going to comd co-work with you guys tomorrow if you'll haveme.
+[12:27:07] <ZiggyTheHamster> esdev: It sounds like the Titanium Studio webserver doesn't support PHP
+[12:28:10] <esdev> which is kinda odd, considering it has menu selections and preference settings for php
+[12:29:21] <ZiggyTheHamster> well, it can format PHP, but I don't think it can execute PHP
+[12:29:38] <ZiggyTheHamster> or
+[12:29:59] <ZiggyTheHamster> it doesn't have a web server, and is instead taking you to a file:// URL, which would expect your browser to read it
+[12:30:13] <ZiggyTheHamster> execute it I mean
+[12:42:09] <shat> Anyone have IE9 handy?
+[12:42:36] <shat> I don't have it on this laptop, yet, and I need to see this "navigation" bug a client is reporting.
+[12:47:17] <Destos> shat: I probably can look at it for you in my VM
+[12:52:50] <MattGalloway> groovecoder: Unfortunately, I'm out of town tomorrow so I'll miss co-working...again.
+[12:53:33] <ZiggyTheHamster> shat: I also can test it in my VM for you
+[12:54:47] <Destos> VM all the things!
+[12:55:26] <groovecoder> also http://spoon.net/browsers (if you're on Windows already)
+[12:58:31] <Destos> interesting… is it just doing some sort of VPN type setup?
+[12:58:38] <Destos> ACTION trying it out atm
+[12:58:57] <ZiggyTheHamster> I wonder if it lets you run a VM in a VM
+[12:59:00] <ZiggyTheHamster> AKA inception
+[12:59:07] <groovecoder> Destos: I think it uses a low-level com type channel
+[12:59:24] <zerokarmaleft> ZiggyTheHamster: gotta have a totem
+[12:59:45] <groovecoder> http://www.dilbert.com/2012-02-11/
+[12:59:48] <ZiggyTheHamster> going off their description alone, you either connect to their hosted VM a la RemoteApp, or you run your own VM that they preconfigure
+[13:01:01] <Destos> groovecoder: I can test my sites in fennec now!
+[13:01:13] <groovecoder> Destos: does it work?
+[13:01:19] <Destos> yeah
+[13:01:45] <groovecoder> Destos: they used to have desktop builds of fennec when it was on XUL but now that Firefox Mobile is going native android you have to test with the android emulator crap :(
+[13:02:09] <ZiggyTheHamster> I wish they'd do something with the android emulator
+[13:02:14] <groovecoder> Firefox dev tools are working on a tool that will put your Firefox into "mobile" mode
+[13:02:25] <ZiggyTheHamster> I get that it's emulating the entire device and different CPU and all
+[13:02:44] <ZiggyTheHamster> but android supports x86, could you not compile an x86 version of your app and run it in an x86 emulator
+[13:03:06] <ZiggyTheHamster> still have to run the entire android OS and all that jazz but at least you're not ALSO emulating ARM
+[13:04:53] <MattGalloway> FOr the little bit of Android development I've done, I've found that running on a physical device is much faster than using the emulator.
+[13:05:24] <MattGalloway> Of course, you don't have the ability to easily switch OS versions, screen sizes, etc. with a physical device.
+[13:05:52] <ZiggyTheHamster> MattGalloway: You underestimate the power of USB hubs and a plethora of devices ;)
+[13:06:39] <MattGalloway> If I did a lot of Android development, I might give this a try http://venturebeat.com/2011/11/18/usb-android-computer/ Kinda of interesting.
+[13:09:19] <ZiggyTheHamster> Hmm, that is pretty neat. Like I need another monitor on my desk though :P
+[13:09:47] <ZiggyTheHamster> also it appears that spoon.net does work in a VM
+[13:09:51] <ZiggyTheHamster> cue inception button
+[13:12:21] <ZiggyTheHamster> I possibly spoke too soon
+[13:15:30] <ZiggyTheHamster> nope, it works
+[13:17:18] <percent20> channel exploded in activity
+[13:19:48] <percent20> groovecoder: we can try that place.
+[16:18:45] <percent20> shanecowherd: you have good timeing on getting on line. I was going to contact you see how things are going. Recovering well?
+[16:20:24] <groovecoder|afk> I'm so glad I'm not in marketing
+[16:20:32] <percent20> groovecoder|afk:  why is that?
+[16:20:58] <groovecoder> I don't think I would get along very well. "back in aug, we did some user research with consumers and we found that 'web' and 'open' didn't bring up good connotations."
+[16:21:20] <groovecoder> me: "umm ... someone needs to fix those users."
+[16:21:57] <percent20> lol. What are they doing instead?
+[16:22:09] <shat> heh
+[16:22:55] <groovecoder> instead of "Mozilla Marketplace for Open Web Apps" they want to do "Mozilla Marketplace" or "Mozilla Apps Project" or "Mozilla Apps Initiative" ... which makes sense, but I *hate* that particular reason
+[16:23:50] <percent20> ah. I can kind of understand that. kind of.
+[16:24:34] <MattGalloway> groovecoder: How about "The Mozilla Unclosed Hyper Linky Information Super Highway App Super Store Extravaganza"?
+[16:24:52] <MattGalloway> groovecoder: That one's for free.
+[16:24:53] <percent20> MattGalloway: I would run away screaming
+[16:26:30] <groovecoder> what gets me is that "open web" is supposed to the Mozilla Thing™ y'know? it's our distinction from Google, Apple, Microsoft, etc.
+[16:27:05] <groovecoder> but I guess it's better to have a product name that means something to consumers and just power it with the right technology
+[16:27:15] <percent20> but normal consumers are idiots when it comes to technology. Developers understand it though.
+[16:27:17] <groovecoder> e.g., Mozilla Firefox instead of Mozilla Open Web Browser
+[16:28:12] <shanecowherd> hiya
+[16:43:59] <percent20> groovecoder: is there a marketing page for BrowserID/Persona
+[16:44:13] <groovecoder> percent20: hmm ... maybe on wiki.mozilla.org ?
+[16:45:37] <percent20> Was trying to figure out a 30second/1 minute schpeal on BrowserID for the video.
+[17:01:33] <ZiggyTheHamster> I am sick and tired of hearing people complain that JSON and REST aren't XML and SOAP.
+[17:01:44] <ZiggyTheHamster> To them XML == .NET == SOAP
+[17:02:03] <ZiggyTheHamster> notwithstanding the fact that XML+REST is perfectly valid but more bytes than JSON+REST
+[17:02:34] <ZiggyTheHamster> jesus, now this guy is complaining that we use ruby_style_names instead of javaStupidCamelCase
+[17:02:57] <groovecoder> ZiggyTheHamster: how does someone complain that way? what is worse in JSON+REST that is better in SOAP?
+[17:02:58] <groovecoder> :)
+[17:04:15] <ZiggyTheHamster> I have no idea. Someone is having a conversation in the room about how they don't know what JSON is, but they use XML all the time, where JSON and XML are API methodologies in their mind
+[17:06:32] <ZiggyTheHamster> re: our .NET conversation for a few days ago - this is why .NET programmers suck
+[17:06:48] <ZiggyTheHamster> *from a few days ago
+[17:07:12] <MattGalloway> ZiggyTheHamster Regardless whether you like JSON or not, once you admit you don't know what it is it's hard to debate against it credibly.
+[17:09:04] <ZiggyTheHamster> agreed
+[17:09:38] <ZiggyTheHamster> I prefer JSON+REST personally, followed by XML+REST, followed by a poke in the eye, followed by SOAP
+[17:09:48] <MattGalloway> And regardless of whether you're using XML or JSON you _should_ be abstracting the format of the data on the wire so all you see is method calls.
+[17:10:11] <groovecoder> MattGalloway: and by method calls you mean POST, GET, PUT, DELETE, of course. ;)
+[17:10:16] <ZiggyTheHamster> ;)
+[17:10:31] <ZiggyTheHamster> in my case, I *rarely* have non-CRUD "method calls"
+[17:10:49] <MattGalloway> Ironically, most .NET guys that claim the use XML are doing so though SOAP and never actually SEE the XML. Most couldn't parse or format XML well if they had too with a framework component.
+[17:11:19] <ZiggyTheHamster> maybe one in an entire app, and it's usually an admin function
+[17:11:44] <MattGalloway> So even when they SAY they use XML a lot... it's really just taken on faith.  They've never actually seen it.
+[17:11:55] <ZiggyTheHamster> I agree, hence my complaint :P
+[17:12:18] <groovecoder> doesn't Xcode + iOS SDK abstract all/most of that away for you too?
+[17:12:51] <ZiggyTheHamster> I assume so, but you still have to know about the data model and whatnot
+[17:13:14] <MattGalloway> Their REAL complain is that JSON is harder to use because historically MS hasn't provided a magic box for sucking in and puking out JSON.
+[17:13:34] <ZiggyTheHamster> absolutely.
+[17:13:54] <ZiggyTheHamster> in my case, I really don't care the transport format of the data model, I consume what I'm given and emit what I want
+[17:14:05] <ZiggyTheHamster> server parses it and applies the changes to the data model
+[17:14:43] <MattGalloway> Also, since much of .NET development is done for internal web projects, bandwidth is less of an issue. (Even though XML often increases data payload by a factor of 12).
+[17:15:35] <MattGalloway> And since they are intern apps... when performance is bad you just tell the internal customer that it's crazy expensive to improve performance and the request goes away and they just live with sluggish software.
+[17:15:56] <MattGalloway> s/intern/internal/
+[17:17:07] <ZiggyTheHamster> which is why I love REST… it's simple to think about a collection of X'es and a single X within that collection, and then the actions you can perform on those X's
+[17:17:38] <MattGalloway> So, if it helps... the person talking is probably not really angry at JSON, they are really just feeling inadequate with their small, unenlightened, pathetic and ineffectual life. You should show some compassion.
+[17:17:57] <groovecoder> MattGalloway: wow, tell us how you really feel :)
+[17:18:29] <MattGalloway> groovecoder: I'm a freelancer for a reason. ;)
+[17:18:47] <groovecoder> at Red Man we used to put a 0-0.5s delay in scripts and then bump it down if we needed a "win" in the org
+[17:19:01] <groovecoder> then bump it back up a tick or two when we made an upgrade
+[17:19:40] <groovecoder> MattGalloway: you're the "consultant" everyone inside the enterprise bitches about :)
+[17:20:29] <MattGalloway> groovecoder: Well, the people who write me checks tend to love me.
+[17:21:16] <MattGalloway> groovecoder: ...but when I was an employee in a big company, my bosses tended to think I was a pain in the ass.
+[17:23:56] <MattGalloway> groovecoder: I just hate the whole work-a-day apathy prevalent in so many big companies.
+[17:25:52] <groovecoder> MattGalloway: any ideas how to fix it? :)
+[17:27:05] <MattGalloway> groovecoder: Absolutely, become a freelancer. I get to be passionate and brilliant and constantly work on new projects for people who are passionate and brilliant. Problem solved.
+[17:29:32] <groovecoder> MattGalloway: I mean any way to incite passion INSIDE an enterprise
+[17:30:35] <percent20> offer a bonus for every new technology they learn.
+[17:31:17] <MattGalloway> groovecoder: No. Well, yea and no. The reality is big companies exist by status quo and it's something that's almost impossible to change.
+[17:31:27] <groovecoder> percent20: sadly, I kinda think monetary incentive is a/the good incentive for enterprise dev's
+[17:32:25] <MattGalloway> In big companies you get rewarded (sometime handsomely) for small incremental predictable growth and innovation. Falling short of that - regardless of the reason - is certain death.
+[17:34:10] <MattGalloway> On the otherhand, if you do something MONSTROUSLY INNOVATIVE, then the reward is not much more than it is for small predictable innovation. Sometimes it's less because the monstrous innovation requires disruption of the rest of the work-a-day machine.
+[17:35:00] <MattGalloway> So the risk for pursuing monstrous innovation is certain death with very little upside. The predictability is what keeps stock holders happy.
+[17:36:36] <groovecoder> !MattGalloway++
+[17:36:37] <MattGalloway> So in most established companies, it's impossible to create a cuture of significant innovation. This, for example, is why companies like Oracle, Microsoft and Adobe only really innovate through acquisition.
+[17:39:07] <MattGalloway> IMHO there are only 2 ways to have a big company with an innovative culture - 1.) Build it from day 1 and ferociously work to keep it at the top of the priority list (i.e. Apple, Google, Amazon) or 2.) Experience a crisis that threatens to wipe you off the face of the earth forcing you to innovate or die (Chrysler, Southwest Airlines, Harley Davidson, Apple circa 1994)
+[17:39:56] <MattGalloway> Everything else is corporate lip service.
+[17:43:42] <percent20> I don't think google is a bastion of innovation anymore.
+[18:32:52] <groovecoder> I think Google innovates where they stay focused
+[19:21:10] <percent20> groovecoder|afk: I got browser id working :)
+[21:58:37] <percent20> !weather tulsa
+[22:47:35] <groovecoder> percent20: cool
+[22:48:38] <percent20> looks like my little course I run in my neighborhood is 1.2 miles.
+[22:49:03] <percent20> groovecoder: I also submited a few changes for the readme.
+[23:37:33] <percent20> zerokarmaleft: I think I am going to drop our Numerical Methods class

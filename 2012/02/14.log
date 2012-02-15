@@ -1,0 +1,40 @@
+[10:32:47] <groovecoder> percent20_: going to yolotti? I may head there in a bit
+[10:32:54] <groovecoder> also, http://paulrouget.com/e/mdnddg
+[11:12:25] <MrMakeIt> Destos: are you at FabLab?
+[11:12:51] <Destos> Nope, but I may be at some point, working on my own things.
+[11:13:17] <MrMakeIt> well maybe ill see you there.
+[11:14:25] <Destos> maybe you will
+[11:22:43] <groovecoder> lol
+[11:22:51] <groovecoder> !Destos++
+[11:23:11] <Destos> lull worthy? :p
+[11:26:55] <groovecoder> yes
+[11:27:00] <groovecoder> context is everything
+[11:45:24] <zerokarmaleft> "ValueError: cannot switch from manual field specification to automatic field numbering" what's this mean when using string.format()?
+[11:56:43] <zerokarmaleft> ah, got it
+[12:57:26] <ZiggyTheHamster> OH NO! A SPLIT!
+[12:58:00] <ZiggyTheHamster> what's fun is back in the old days, taking over a channel during a split
+[13:55:05] <groovecoder> OH in #webdev: "I </3 SOAP" (broken heart)
+[13:55:51] <groovecoder> ZiggyTheHamster: MattGalloway: ^
+[13:56:42] <ZiggyTheHamster> heh
+[13:59:44] <ZiggyTheHamster> the irony is that "S" means "Simple" :P
+[14:17:46] <percent20_> render time. Hopefully this time my video render wont puke
+[14:29:29] <groovecoder> heh, Google is using https://github.com/mozilla/socorro to collect Chrome crash reports :)
+[14:39:51] <percent20_> I am starting to think that my video recording problem is a lion issue not my screen capture app
+[14:45:43] <groovecoder> lol. my reggae pandora channel just started playing a song called "legalize it"
+[14:45:50] <percent20_> lol.
+[14:46:17] <percent20_> I think I might need to get a premium pandora subscription again. I already hit my 40 hours this month.
+[14:46:55] <groovecoder> 40 hours per month? is that a hard limit now?
+[14:53:36] <percent20_> yeah
+[14:53:46] <percent20_> something like less than 1% hit that limit
+[14:53:57] <percent20_> I am not one of the other 99%
+[15:36:53] <groovecoder> percent20_: #webdev is talking about switching to S3 file storage for AMO
+[15:37:04] <groovecoder> percent20_: you could share your experience with django + s3
+[15:37:09] <percent20_> amo?
+[15:37:24] <groovecoder> addons.mozilla.org
+[15:37:40] <percent20_> ah.
+[15:38:02] <percent20_> i can give feedback to any specific questions. not sure what is needed/wanted.
+[16:52:07] <percent20_> yay new video is up
+[16:53:26] <groovecoder> lol. I un-muted to watch and my reggae music started blasting. I thought, "whoa, interesting background music percent20_ chose here."
+[16:53:44] <percent20_> lol.
+[16:55:51] <percent20> am hosting this on my linode server we shall see how that goes.
+[22:33:31] <percent20> !weather tulsa

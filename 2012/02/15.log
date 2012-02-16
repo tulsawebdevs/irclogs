@@ -1,0 +1,134 @@
+[01:01:01] <percent20> Just dove deeeeeeeep into django framework. Instead of me swimming my head is. heh.
+[09:54:38] <esdev> !weather tulsa
+[10:47:45] <groovecoder> w00t! I'm un-banned from the Tulsa Health Department website! I really need to figure out how they're determining their ban list
+[10:52:40] <ZiggyTheHamster> well one thing I noticed is that the app is outsourced to I guess Georgia
+[10:53:09] <esdev> probably Georgia, Ukraine. :P
+[10:53:42] <ZiggyTheHamster> it looks like some company made one state's health department app and then resold that app to other states
+[10:53:55] <ZiggyTheHamster> so obviously they have a vested interest in keeping the data inside it only
+[10:54:28] <ZiggyTheHamster> other states/localities I guess I should say
+[10:55:58] <esdev> that's typical, though. many dev companies will target a sector/industry, build an app, then resell it to others in the same line of biz. i know casino mobile app dev cos that do
+[10:56:14] <esdev> well, look at DineInsight. same thing
+[10:57:19] <groovecoder> ZiggyTheHamster: oh for sure. they put gegov.com iframe in their own site, and when I went around to other cities' health department sites, a couple others' content was banned/blocked for me too. so I'm sure gegov.com is/was banning me
+[10:58:27] <groovecoder> just looked up DineInsight. I love that press releases always say "___, a leading provider of ____ just did ____"
+[10:58:38] <esdev> cuz ur a bad, bad netizen. boo@u. ;)
+[10:59:08] <esdev> sshhh. speak not of that-which-can't-be-named
+[10:59:11] <groovecoder> we should write an app that automagically squashes press releases down into tweets
+[10:59:12] <ZiggyTheHamster> well I bet that gegov.com isn't going to want you to scrape them because they make money off you not being able to
+[10:59:34] <ZiggyTheHamster> also press release writing must be a shitty job
+[10:59:37] <esdev> izza fact
+[11:00:06] <groovecoder> ZiggyTheHamster: for sure. I'm trying to throttle my requests, but I think I have a bug in my paging code so it might actually be firing off hundreds of requests in the space of a few seconds ><
+[11:00:23] <esdev> eek
+[11:00:33] <groovecoder> er, 80 requests (4000/50)
+[11:00:55] <ZiggyTheHamster> yeah, that's probably why
+[11:01:06] <ZiggyTheHamster> some dumbass netadmin sees that and goes OMG IT'S AN ATTACK
+[11:01:22] <groovecoder> I'm sure it's an automated block
+[11:01:26] <groovecoder> yeah
+[11:01:39] <groovecoder> AN ATTACK ON OUR SHITTY BUSINESS MODEL! :)
+[11:01:55] <esdev> dumbass netadmin? isn't that redundant?
+[11:01:56] <groovecoder> anyone have experience with google custom search?
+[11:02:22] <esdev> groovecoder: sorry, no.
+[11:02:35] <groovecoder> esdev: no! there are lots of awesome, under-appreciated netadmins out there. they're the ones we never hear about because their nets Just Work™
+[11:03:34] <esdev> i was being facetious. sorry. interwebz cant display sarcarsm.
+[11:03:50] <esdev> or even sarcasm
+[11:04:10] <groovecoder> </sarcasm>
+[11:05:53] <esdev> anyone use the cPanel secure webdisk to access their site on a mac. mine just sits and spins the happy color wheel.
+[11:07:33] <esdev> brb
+[11:32:08] <zerokarmaleft>  1~3~4~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~5~
+[11:34:05] <zerokarmaleft> i'd blame it on the cat but i don't have one
+[11:42:08] <groovecoder> trolling MattGalloway ... I was looking at http://devcenter.heroku.com/articles/getting-started-ios-development-sinatra-cedar and realized my dislike of iOS development is pretty much summed up like so: http://screencast.com/t/wtT6sF1uN1Gf (point-and-click programming FTL)
+[11:54:04] <zerokarmaleft> didn't know about cocoapods
+[11:54:45] <zerokarmaleft> groovecoder: there aren't even any IB screenshots in that article
+[11:55:19] <chimchim237> are they anything like copepods?
+[11:55:51] <zerokarmaleft> it's like bundler
+[11:55:58] <zerokarmaleft> no relation to crustaceans
+[11:58:16] <groovecoder> IB screenshots?
+[11:58:33] <groovecoder> chimchim237!
+[11:58:37] <chimchim237> ah, well then i would not be of any use.
+[11:58:42] <groovecoder> you on InstantBird, or LimeChat?
+[11:58:52] <chimchim237> groovecode: i'm here huckleberry
+[11:58:58] <chimchim237> instantbird
+[12:02:06] <zerokarmaleft> groovecoder: interface builder
+[14:34:14] <percent20> is anyone able to right click on this image? http://ow.ly/i/sFOx/original
+[14:34:57] <groovecoder> percent20: yes, when I disable javascript :)
+[14:35:39] <percent20> yeah. that is what I thought. I always download an image if i can't rightclick on it whether I want it or not.
+[14:35:53] <percent20> I now own that picture. :D
+[14:36:05] <groovecoder> I'm going to click the little "Report Abuse" link and report that they're abusing the web
+[14:36:53] <percent20> lol.
+[14:37:31] <percent20> why do companies do that even? i mean it is stupid.
+[14:40:05] <percent20> hrm... I am thinking about scraping all their images.
+[14:45:47] <danf1> What's amazing is that all you have to do (with Chrome on Max OS X, anyway) is drag the image to a Finder window, and wham-o, you have it stored locally. Stupid.
+[14:46:17] <percent20> same with firefox.
+[15:00:56] <percent20> :D I am now nabbing all their pictures 1 at a time.
+[15:05:34] <MattGalloway> groovecoder: I get your whole code vs. visual programming thing. It's sort of like our ongoing .NET conversation as of late. The problem isn't so much a visual development environment, it's developers that never learn to work beyond the limitations of visual development environments when it's warranted.
+[15:06:34] <MattGalloway> groovecoder: The reality is that for certain types of work, a good visual dev environment can make you much more efficient and produce a higher quality project.
+[15:07:31] <percent20> and for some environments all you have is a visual editor because its just crazy to try to do parts of it without it.
+[15:07:48] <MattGalloway> groovecoder: But if you're not a conscientious (and competent) development you can product some truly aweful code with visual dev tools... the say is true, however, of non-visual dev tools as well.
+[15:08:05] <MattGalloway> s/say/same/
+[15:10:26] <percent20> I love when geeks discount an entire technology stack because 1 person they met that wasn't a geek had a hard time using it.
+[15:10:27] <MattGalloway> groovecoder: No hard feelings though. Besides, I hate all software written using vim, because everyone knows, stuff written using vim sucks.
+[15:11:23] <MattGalloway> percent20 I love when geeks discount an entire technology because *they* thought it was difficult. ;)
+[15:11:58] <percent20> I can understand that more than i can the "this person I know" argument.
+[15:12:33] <percent20> I find java a huge pain in the ass and I haven't even gotten to code in it much so i disregard it almost completely.
+[15:12:55] <percent20> granted most of my issues stem from bad installs that I have to try and fix.
+[15:13:53] <MattGalloway> groovecoder: You know...thinking about it, I think the problem may be that it's easier to bring lousy software to release using visual dev tools that it is from the CLI. So I guess, maybe coding from the CLI is like birth control for bad software. ;)
+[15:15:17] <percent20> however if we can just get bad software devs to abstain from programming the problem is solved completely, well mostly.
+[15:15:46] <percent20> will get the very stupid dev who decides to "try" and screws up.
+[15:32:49] <percent20> groovecoder: I have a fun db design issue for you on friday. :)
+[15:33:07] <percent20> Or really anyone who wants to participate
+[15:34:17] <percent20> Destos: you around?
+[15:34:40] <groovecoder> !MattGalloway++
+[15:34:47] <groovecoder> oh man, we really need an irc quote pile
+[15:34:55] <groovecoder> MattGalloway: "coding from the CLI is like birth control for bad software."
+[15:35:28] <groovecoder> we just packed the kids up to go to grandma's for the next 3 days!
+[15:35:36] <percent20> you could cobble together a plugin in a matter of an hour or less.
+[15:35:55] <percent20> so no kids for a few days eh?
+[15:36:06] <groovecoder> every time I'm away from the kids, I think I'm going to do some massive amount of coding on some awesome project. but all I really do is sleep more. :)
+[15:36:24] <percent20> lol. You should change that this time.
+[15:37:01] <percent20> ACTION inconspicuously points to developerrage
+[15:37:20] <groovecoder> no way, if I code something it's going to be more THD hacking until they ban me again:)
+[15:37:28] <percent20> heh
+[15:38:16] <percent20> you should setup an autoscaling rackspace script
+[15:39:22] <percent20> set it up where you scale to 1000 servers and hit it all at once.
+[15:39:34] <percent20> see how much you can scrape before they crash.
+[15:42:26] <percent20> https://twitter.com/mattyoho/status/169884024423186432
+[16:29:17] <groovecoder> Destos: you know WP_Query pretty well?
+[16:29:27] <groovecoder> and/or chimchim237 ^
+[16:29:41] <Destos> I've used it, not sure what "well" entails
+[16:29:49] <Destos> what would you like to do
+[16:30:07] <groovecoder> Destos: not me. craigcook in #webdev on irc.mozilla.org
+[16:31:58] <Destos> did he post what he wanted to do?
+[16:32:15] <groovecoder> not yet
+[16:32:22] <groovecoder> just asked for anyone with WP_Query skills
+[16:50:33] <zerokarmaleft> groovecoder: a quote plugin sounds like a good candidate for a NoSQL backend.../ahem
+[16:55:33] <percent20> zerokarmaleft: I wont be in class anymore. I am droping the class. Going to spend the time reviewing it on my own and learning. Then next semester take it again.
+[17:01:18] <groovecoder> zerokarmaleft: like a big json file? :)
+[17:26:29] <ZiggyTheHamster> I will say, visual development tools have their place sometimes. Sometimes = Qt Designer or equivalent (Glade, etc.)
+[17:26:41] <ZiggyTheHamster> I absolutely hate visual designers for web-based projects
+[17:26:50] <ZiggyTheHamster> to me, your code should be simple enough to visualize what's going on
+[17:27:21] <ZiggyTheHamster> I can look at a 5 line partial and tell you what style it's going to be just by how it's written semantically
+[17:28:07] <ZiggyTheHamster> then again I also come from a "code is beautiful" background and I like Vim and TextMate… :P
+[17:28:45] <ZiggyTheHamster> (though gvim, because traversing folders is easier with a mouse)
+[17:30:51] <groovecoder> percent20: do you know of a way to make django forms NOT use, e.g., id=id_assertion, for a form field?
+[17:31:24] <groovecoder> e.g., we want to show a login form in both the header and footer, so the 'assertion' field should technically be a class, not an id
+[17:32:14] <percent20> groovecoder: no, sorry.
+[17:32:14] <groovecoder> ZiggyTheHamster: FuzzyFinder > traversing folders with mouse
+[17:34:11] <ZiggyTheHamster> well I don't use the gvim open dialog :p
+[17:34:27] <ZiggyTheHamster> I use dolphin to find what I'm editing and right click, open with gvim
+[17:34:59] <ZiggyTheHamster> probably could end up being a wash if I didn't have stuff in like /home/keith/Documents/My\ Projects/work\ for\ others/.....
+[17:35:22] <ZiggyTheHamster> though /home/keith/Documents is a FAT32 volume I've got mounted to share between OSes
+[17:35:28] <percent20> groovecoder: heh my script is still going to yank as many of those images as I can.
+[18:24:34] <groovecoder> ZiggyTheHamster: what's dolphin?
+[18:25:23] <ZiggyTheHamster> the KDE file manager
+[18:27:17] <groovecoder> ah
+[18:27:28] <groovecoder> which distro do you use?
+[18:28:13] <groovecoder> not Kubuntu I hope ;)
+[20:19:26] <percent20> !karma?
+[20:19:41] <groovecoder> it should sort by points :)
+[20:19:45] <groovecoder> I know I know
+[20:19:50] <groovecoder> maybe I'll do that later tonight :)
+[20:20:04] <percent20> lol I didn't even get to think that far. i was thinking about how to do it. lol.
+[20:20:46] <percent20> we might actually consider moving to a nosql db. I can install mongodb
+[20:46:55] <groovecoder> why install? just use mongolab :)
+[21:22:26] <percent20> that is true.
+[21:03:43] <percent20> !weather
+[21:03:47] <percent20> :D

@@ -1,0 +1,49 @@
+[10:54:42] <ZiggyTheHamster> groovecoder: I use Gentoo.
+[10:55:32] <ZiggyTheHamster> percent20: CouchDB FTW :)
+[13:04:18] <percent20> http://blog.sanctum.geek.nz/unix-as-ide-introduction/
+[13:04:23] <percent20> !weather
+[13:40:16] <percent20> anyone use Command-T in vim? https://wincent.com/products/command-t
+[14:06:10] <shat> no
+[14:06:23] <shat> nerdtree is the most file system interaction I get in vim.
+[15:24:25] <percent20> groovecoder: I just bcc'd you on a convo i had with a friend with a scary thought I just had about macs in the future.
+[15:27:51] <zerokarmaleft> percent20: i use ido-mode in emacs, which does fuzzy matching for everything, not just files
+[15:27:57] <zerokarmaleft> it's handy
+[15:51:37] <percent20> about to post a bit of a trolling/concerned blog post
+[15:53:08] <percent20> http://buddylindsey.com/is-a-developer-pay-wall-coming-to-osx/
+[15:54:34] <percent20> if anyone wants to the can upvote this: http://news.ycombinator.com/item?id=3600838
+[16:05:12] <danf1> percent20: Your post is the first time I have heard of Mountain Lion. I seriously thought it was a joke at first.
+[16:05:30] <percent20> they just announced it today.
+[16:05:46] <danf1> Yeah, I'm watching the sneak peek video on apple.com now.
+[17:16:53] <percent20> groovecoder: remeber that image site from yesterday. I let me script run for about 10 hours to pull imgaes. I got about 8 gig of images. I started doing the math on their id permuatations and decided to stop getting images as they had roughly 3.4TB of images. I am not quite that annoyed with them.
+[17:17:57] <esdev> lemme see, 10 hrs, 8gb. 3.4tb total. You'll be done in no time. :P
+[17:18:28] <percent20> heh yeah. and that was with getting an image every 4 seconds.
+[17:18:55] <zerokarmaleft> where are you soaking up bandwidth?
+[17:19:22] <percent20> OSU-Tulsa was 3 git and home was the other 5
+[17:19:33] <percent20> git = gig
+[17:19:56] <zerokarmaleft> deploy it on csx
+[17:20:16] <percent20> LOL.
+[17:20:30] <zerokarmaleft> on all the servers, coordinate between the scripts to divvy the workload
+[17:20:41] <zerokarmaleft> then hammer this shit out of it
+[17:20:58] <zerokarmaleft> it's an exercise in distributed concurrency...
+[17:21:01] <esdev> what is csx?
+[17:21:08] <percent20> LOL.
+[17:21:24] <percent20> esdev: OSU-Tulsa's CS server for students and faculty
+[17:21:34] <esdev> o i c
+[17:22:17] <percent20> zerokarmaleft: actually, I have done enough with drb i could probably write a truely distributed app to do that.
+[17:25:59] <percent20> if I uploaded all 8 gig of images to flickr on my premium account i wonder what they would think. heh.
+[17:26:53] <zerokarmaleft> what image site are you trolling?
+[17:30:38] <percent20> ow.ly
+[17:30:49] <percent20> hootsuite's image service.
+[17:31:03] <percent20> they wouldn't let me right click on an image.
+[17:31:51] <percent20> it took me about 60 seconds to figure out their naming scheme and another 60 to write a script to start yanking images.
+[17:33:17] <percent20> the bad thing is when dealing with random images you get random images, and some you cannot unsee. :(
+[17:33:55] <esdev> *insert retinal bleach and mind floss here*
+[17:34:33] <zerokarmaleft> i know some guys that used to work on web filtering software, they basically spent most of their working day looking up the internet's asshole
+[17:34:49] <zerokarmaleft> then writing rules to filter what they found
+[17:35:01] <esdev> and that is a stinky way to earn a living
+[17:35:35] <zerokarmaleft> i'm sure they did other things, but that's mainly what they bitched about...with good reason
+[17:36:13] <percent20> yeah.
+[17:37:55] <zerokarmaleft> s/bitched/complained/
+[17:38:15] <zerokarmaleft> seems contradictory to say someone bitched with good reason
+[20:47:14] <percent20> !weather
+[21:16:06] <percent20> I think I am pushing to hard on my walk/jog I feel rather close to getting shin splints.

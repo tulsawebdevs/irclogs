@@ -1,0 +1,33 @@
+[01:44:02] <shanecowherd> percent20 you up?
+[10:30:23] <Destos> percent20: coming to co-working?
+[11:22:00] <Destos> groovecoder: tulsawebdevs.org is displaying a nginx default page. messing with things?
+[11:22:08] <Destos> also coming to co-working?
+[11:22:26] <ZiggyTheHamster> mmm nginx
+[11:27:14] <groovecoder> Destos: yeah, I'll be up there in a bit
+[11:27:25] <groovecoder> had to restart my rackspace vm I think
+[11:30:25] <jgmize_> !groovecoder++ for fixing tulsawebdevs.org
+[11:31:51] <zerokarmaleft> percent20, groovecoder: we need a plugin that generates sparklines for irc activity from jgmize_ and jwhitlock_zzz
+[11:32:31] <groovecoder> zerokarmaleft: we need a plugin that buys a round of beers for irc activity from jgmize_, jwhitlock_zzz, and jsatt0
+[11:32:34] <percent20> Destos: yes I am coming. I had a rough night last night. couldn't sleep well.
+[11:32:42] <Destos> :(
+[11:33:24] <percent20> my brain was stuck in a recursive loop about not being able to sleep, so therefore I was un able to sleep.
+[11:33:28] <zerokarmaleft> percent20: too many ladies
+[11:33:36] <Destos> mo money mo problems
+[11:33:43] <percent20> jej
+[11:33:45] <percent20> heh
+[11:35:41] <percent20> That sucks.
+[11:35:50] <percent20> I get an email titled: GolfersForePlay
+[11:36:19] <percent20> and the dang thing only has golf clubs in it. only 1 girl model and she isn't even that hot.
+[11:37:02] <Destos> such a disapointment
+[11:41:23] <zerokarmaleft> those of you with linux servers, mind pasting `cat /proc/sys/kernel/shmmax`?
+[11:41:41] <percent20> well I am off see you all in a bit
+[11:42:49] <jgmize_> 33554432
+[11:43:30] <jgmize_> zerokarmaleft: that's my shmmax on a production server
+[11:43:38] <zerokarmaleft> jgmize_: thanks
+[11:43:44] <danf1> zerokarmaleft: 33554432 on all ours.
+[13:04:40] <percent20> I must keep my mouth shut.
+[13:41:51] <groovecoder> percent20: http://vimeo.com/32380595
+[13:43:56] <groovecoder> percent20: http://identity.mozilla.com/post/12950196039/deploying-browserid-at-mozilla
+[15:06:29] <ZiggyTheHamster> ubuntu@ip-10-80-21-116:~$ cat /proc/sys/kernel/shmmax
+[15:06:29] <ZiggyTheHamster> 33554432
+[15:07:03] <ZiggyTheHamster> zerokarmaleft: ^

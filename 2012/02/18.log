@@ -1,0 +1,35 @@
+[12:03:46] <percent20> !weather
+[13:51:27] <percent20> groovecoder: when I make the browserid video can I shoot it to you for a review?
+[13:51:34] <groovecoder> yeah
+[13:51:59] <percent20> awesome. Thanks. Will probably be tomorrow, I am finishing planning it now.
+[19:06:05] <shat> boo
+[19:06:39] <shat> :qq
+[20:21:11] <shat> I like you rails.  However, I am still not 100% on board with this entire assetts pipeline shit.
+[20:21:14] <shat> I get frustrated lol
+[20:22:32] <percent20> yeah the asset pipeline I think is a good idea, but has quite a few kinks to get worked out.
+[20:22:40] <shat> ACTION nods.
+[20:22:46] <shat> I want to punch it in the asset pipeline right now.
+[20:22:47] <shat> lol
+[20:22:51] <percent20> in rails 3.4 it will probably work the way it should have.
+[20:22:52] <shat> take that stupid exec-js
+[20:23:20] <shat> I just hate having to spend 3 minutes trying to get Gems right before I can start a damn app
+[20:23:23] <shat> heh
+[20:23:31] <shat> omg
+[20:23:31] <shat> wtf
+[20:23:37] <shat> rails I am going to stab it in the throat. wtf
+[20:24:33] <shat> it gets so fucking pushy.
+[20:24:51] <percent20> yeah. It is a cool feature, but aggrevatingly slow at times.
+[20:25:17] <shat> http://codeb.in/snippets/51
+[20:25:21] <shat> wtf am I doing there
+[20:25:28] <shat> do you see something I am undoubtedly doing wrong?
+[20:25:29] <shat> lol
+[20:25:35] <shat> percent20 = buddy right?
+[20:25:40] <percent20> yes
+[20:25:43] <shat> you wanna geek out tonight? you doing anything?
+[20:25:52] <shat> I wana explain an idea and see if we could build it in an evening
+[20:25:52] <shat> hehe
+[20:26:04] <shat> I got the nod from the fiance who says I can geek tonight lol
+[20:26:23] <percent20> can't. I have to go to a meeting to plan video room stuff for Tokyo in Tulsa
+[20:26:24] <shat> Does that Gemfile look okay to you?  I don't think I spelled execjs wrong lol
+[20:27:01] <percent20> geh, i need a shower first.
+[20:27:05] <shat> go go go

@@ -1,0 +1,139 @@
+[09:36:09] <zerokarmaleft> what's the max resolution of fablab's projector?
+[10:42:40] <ZiggyTheHamster> "Oklahoma KKK Says They're Not Promoting Hate" - headline
+[11:25:32] <Destos> zerokarmaleft: Luke may know better. but it is pretty high.
+[11:37:03] <percent20> Just found out today is a company holiday, which means I am still on call :(
+[11:40:28] <zerokarmaleft> percent20: is luke at coworking with you?
+[11:40:45] <zerokarmaleft> er, that's tomorrow isn't it
+[11:40:46] <zerokarmaleft> nvm
+[11:42:20] <percent20> with as dead as the mozilla irc is looks like they are on holiday too.
+[12:25:59] <percent20> Destos: do you know of any symptoms of while mac apache wont start?
+[12:26:13] <Destos> bad config file
+[12:26:45] <Destos> run: apachectl -t
+[12:26:54] <percent20> when i do apachectl configtest it says it works.
+[12:27:03] <Destos> hrm
+[12:27:25] <Destos> does it say anything when you re-start it?
+[12:27:33] <percent20> no
+[12:28:00] <percent20> and nothing in /var/log/apache2/error_log
+[12:28:30] <percent20> wait let me restart my mac
+[12:28:36] <Destos> alright
+[12:42:03] <percent20> garrr no work
+[12:45:11] <percent20> a;lsdfjlasjflsajfljsadlkfjsalkjflksjflkasjflkjaskldfjaslkfjlaksdjfa
+[12:45:17] <percent20> that is frustration via text
+[12:54:57] <Destos> Can't really think of anything unless your virtual hosts are messed up somehow.
+[13:38:58] <codelahoma> git folk: I currently have my .vim directory on github as dotvim, but I want to go with the more general dotfiles. Should I add dotvim as a submodule, or scrap it and make it a true repository member?
+[13:54:46] <Destos> submodules make everything more tedious if you forget they are there
+[13:55:42] <Destos> I've seen a couple scripts for merging in submodule history into a new/exsiting repo. might just try that?
+[14:23:32] <esdev> who can help w/ a html validation question?
+[14:25:37] <esdev> i have an unordered list within a <p> tag. but w3c validator reports "Line 47, Column 16: document type does not allow element "ul" here; missing one of "button", "object", "noscript" start-tag"
+[14:26:41] <esdev> but it didn't bark about the other UL which came before it in a different <p> tag. any ideas?
+[14:28:11] <Destos> paste the html?
+[14:29:23] <esdev> line 42 is what gets reported as incorrect http://pastie.org/3422778
+[14:34:36] <zerokarmaleft> esdev: the other <ul> isn't wrapped in a <p>
+[14:34:53] <esdev> ahh. k. i'll fix that. thx
+[14:40:26] <zerokarmaleft> damn, heroku is the shit
+[14:48:02] <percent20> Destos: looks like it is a VHost issue. :(
+[14:48:28] <Destos> so you've fixed it?
+[14:48:31] <percent20> no
+[14:48:34] <percent20> don't know the problem.
+[14:48:51] <percent20> i removed my new record and it started add in the new one and it breaks
+[14:49:07] <Destos> pastie
+[14:50:00] <percent20> http://www.pastie.org/3422873
+[14:51:54] <Destos> percent20: <Directory "/Users/percent20/Sites/*/">
+[14:51:59] <Destos> try that for the first line
+[14:53:11] <percent20> nope.
+[14:53:39] <percent20> however, could it be due to the fact I have the folder for babydjango outside of the Users/percent20/Sites
+[14:54:34] <Destos> yeah was just thinking that, however is babydjango a python server?
+[14:58:38] <ZiggyTheHamster> if this is lion server, then you CAN NOT use the server manager anymore or it will shit on your config files
+[14:58:52] <percent20> its nothing right now.
+[14:59:07] <percent20> ZiggyTheHamster: server manager?
+[14:59:23] <ZiggyTheHamster> whatever it's called
+[14:59:24] <ZiggyTheHamster> the GUI
+[14:59:31] <percent20> oh in the system prefs?
+[14:59:42] <ZiggyTheHamster> if you use the GUI web server manager to do even something as simple as restarting apache, your config files will get screwed up and not read
+[14:59:45] <ZiggyTheHamster> you have to use apachectl
+[14:59:58] <ZiggyTheHamster> prior to lion this is a non-issue, lion broke it
+[15:00:01] <ZiggyTheHamster> yeah
+[15:00:12] <Destos> interesting, didn't know that
+[15:00:22] <ZiggyTheHamster> you realize that your DocumentRoot in the second one is outside the <Directory> permissions you defined right
+[15:00:40] <Destos> we realized
+[15:00:59] <ZiggyTheHamster> also I think you don't use trailing slashes in <Directory>
+[15:01:11] <percent20> but woudl that prevent apache from starting even?
+[15:01:13] <ZiggyTheHamster> (it's been almost 6 months since I had to use Apache… nginx is so much better for what I do)
+[15:01:23] <ZiggyTheHamster> possibly, if it doesn't have a <Directory /> anywhere
+[15:01:35] <ZiggyTheHamster> (the default config does, but I can't speak for the lion cfg)
+[15:02:18] <ZiggyTheHamster> also I think you need one NameVirtualHost for every <VirtualHost>
+[15:02:27] <ZiggyTheHamster> I used to be awesome at Apache, sorry :(
+[15:03:36] <ZiggyTheHamster> you don't
+[15:03:43] <ZiggyTheHamster> http://httpd.apache.org/docs/2.2/vhosts/examples.html
+[15:04:04] <ZiggyTheHamster> maybe you have a NameVirtualHost already?
+[15:04:50] <ZiggyTheHamster> what's the output of apachectl -t -D DUMP_VHOSTS
+[15:05:35] <percent20> VirtualHost configuration:
+[15:05:38] <percent20> Syntax OK
+[15:06:12] <percent20> the annoyting thing is when I do apachectl start I get: org.apache.httpd: Already loaded
+[15:06:43] <percent20> i don't know what that means :9
+[15:06:45] <percent20> :(
+[15:07:48] <Destos> because its running already?
+[15:09:35] <percent20> ahhhh I think I figured something out. sec.
+[15:17:46] <percent20> I know of a problem, but I don't have time fix it right now.
+[15:23:55] <Destos> yay kernel panic via flash videos
+[15:25:09] <ZiggyTheHamster> yeah it's already running
+[15:25:23] <ZiggyTheHamster> use launchctl to kill it (you need to know the ID of it I guess)
+[15:25:31] <ZiggyTheHamster> actually
+[15:25:50] <ZiggyTheHamster> apachectl -k stop
+[15:25:53] <ZiggyTheHamster> apachectl -k start
+[15:26:32] <ZiggyTheHamster> or apachectl -k restart
+[15:26:42] <ZiggyTheHamster> also you need to be root so sudo apachectl -k stop|start|restart
+[15:50:20] <percent20> http://buddylindsey.com/mongodb-week-4-of-7-databases-in-7-weeks/
+[15:55:13] <percent20> Destos: can I take another look at your config tonight?
+[15:55:34] <Destos> Sure, I didn't see any much in differences though
+[15:56:34] <percent20> okay. I can't even get the original config to work anymore
+[15:57:31] <percent20> phew, just got it working. now I shall leave it alone until later tonight
+[16:09:56] <percent20> I does hate computers
+[16:19:41] <percent20> I got it allw orking
+[16:19:42] <percent20> all*
+[16:19:54] <percent20> I now have wsgi working on the local mac osx install
+[16:20:04] <percent20> that was a... pain
+[16:45:06] <shat> finally found a way to bring my i7 imac to its kneews
+[16:45:08] <shat> knees even.
+[17:36:58] <Destos> Cya guys at the meeting
+[18:10:13] <percent20> !karma
+[18:10:22] <Destos> hooooo
+[18:10:22] <percent20> !weather
+[18:10:31] <percent20> !karma?
+[18:11:40] <jwhitlock> http://evening-frost-9303.herokuapp.com/ - tulsa transit borked app
+[18:12:21] <jwhitlock> http://evening-frost-9303.herokuapp.com/ttg/files/
+[18:13:13] <jgmize_> !jwhitlock++
+[18:13:17] <percent20> :D
+[18:13:21] <Destos> yayz
+[18:16:16] <jwhitlock> !jwhitlock--
+[18:27:40] <percent20> lol.
+[18:27:54] <percent20> !jwhitlock++
+[18:42:57] <groovecoder> !karma zerokarmaleft
+[18:57:52] <shat> still in the office, but it sounds like it is storming outside.
+[18:57:55] <shat> Am I wrong?
+[19:00:11] <MrMakeIt> shat: nope
+[19:01:13] <shat> Nice.
+[19:01:19] <shat> Not sure why I think that is nice, but nice.
+[19:05:36] <shat> Working on the wedding invitations, came up with a pretty neat concept from fiance's "lace" desires to match the cake, but also some pixels ;)
+[19:05:39] <shat> http://is.oss.im/ID25
+[19:05:47] <shat> that would just be over the pocket on the inside of the invitation.
+[19:07:38] <MrMakeIt> Cool.
+[19:08:43] <MrMakeIt> I should correct my first statement.  it WAS raining it isnt now
+[19:11:39] <groovecoder> shat: wedding invitations?! let the women-folk do that. come up to Fab Lab and learn about (Clojure)
+[19:17:47] <shat> I wish.
+[19:18:13] <shat> I am not much of a Java fan ;/
+[19:18:18] <shat> not that it is.
+[19:18:23] <shat> but isn't it based from java?
+[19:18:31] <shat> be nice to replace lua though... hrmn...
+[19:26:33] <shat> Option two: http://is.oss.im/OTZd
+[19:26:35] <shat> opinions?
+[19:31:03] <MrMakeIt> Both are fine.
+[19:32:32] <jgmize> !zerokarmaleft++
+[19:32:57] <codelahoma> !zerokarmaleft++
+[19:50:18] <jwhitlock> !zerokarmaleft++
+[19:50:30] <Destos> !zerokarmaleft++
+[19:50:36] <Destos> for making me feel stupid
+[22:56:07] <zerokarmaleft> shat: neither am i
+[22:56:35] <zerokarmaleft> java the language and jvm the platform is an important distinction
+[22:57:44] <zerokarmaleft> clojure compiles to jvm bytecode, and effortlessly interops with java, but the language itself is a Lisp dialect
+[22:58:07] <zerokarmaleft> you may or may not be a fan of that either :P

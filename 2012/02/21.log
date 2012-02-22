@@ -1,0 +1,164 @@
+[06:48:43] <groovecoder> !zerokarmaleft++
+[06:49:20] <groovecoder> !karma
+[06:49:30] <groovecoder> !karma?
+[08:01:09] <zerokarmaleft> morning
+[08:11:51] <groovecoder> morning
+[09:01:50] <jwhitlock> !jwhitlock--
+[09:01:57] <jwhitlock> !jwhitlock++
+[09:02:14] <jwhitlock> \me leaves in disgust
+[09:02:19] <jwhitlock> ACTION doesn't know IRC
+[09:04:00] <zerokarmaleft> heh
+[09:16:23] <groovecoder> zerokarmaleft: https://github.com/tulsawebdevs/ircbot/pull/13
+[09:34:35] <MrMakeIt> How many of you remember Twister?
+[09:34:46] <MrMakeIt> the movie
+[09:34:58] <esdev> i wish i didn't
+[09:36:51] <MrMakeIt> why
+[09:37:44] <esdev> because it lacked any suspension of disbelief, imo
+[09:53:39] <esdev> css question: since image align property is deprecated, how do i get text positioned to the top right of an image? float doesn't seem to work the way i want it to either
+[09:54:58] <Destos> absolute positioning relative to a box containing the image
+[09:55:02] <Destos> possibly
+[09:55:17] <esdev> yea, that didn't work either.
+[09:56:11] <esdev> <img align="left"> works, but it's not supported in XHTML-MP which is what i need to validate against
+[09:58:13] <Destos> I'm not sure what you are trying to do? you are aligning an image or text?
+[10:00:04] <esdev> i have an image on the left. i want the corresponding block text to float to the right, like it does here http://mobile.barclaycottage.com/rooms-rates.php, but this example uses align=left which it should not
+[10:01:11] <Destos> Alright you can do that with floats
+[10:01:46] <esdev> that's what i thought. but can't get it to work properly
+[10:01:54] <Destos> float the image, give it a display of box, and then wrap the content it's supposed to be next to in a div or something else and give that a left margin of the image + some padding
+[10:02:04] <Destos> display of block*
+[10:02:25] <esdev> great! i'll try that. thx
+[10:03:25] <Destos> this pattern will not flow the text around the image but create a constant margin to the left
+[10:03:54] <esdev> that's what i want.
+[10:04:00] <esdev> !destos++
+[10:04:28] <Destos> if you want the effect of that link you should be able to just use a float, but you would have to use a clear: both; on the containing element so no images leak into itself.
+[10:05:10] <zerokarmaleft> !Destos++
+[10:05:16] <zerokarmaleft> !karma?
+[10:05:31] <zerokarmaleft> so spammy
+[10:05:40] <Destos> I am still two entities :(
+[10:05:42] <esdev> yea, i just need image on left, text on right
+[10:06:06] <esdev> percent20 musta paid someone. :P
+[10:06:12] <Destos> my consiousness has been split.
+[10:06:33] <groovecoder> !destos--
+[10:06:35] <zerokarmaleft> esdev: he's running the bot so he can edit the data directly heh
+[10:06:37] <groovecoder> !Destos++
+[10:06:38] <esdev> oops, mebbe i should did this !Destos ++
+[10:06:43] <groovecoder> !karma?
+[10:06:54] <esdev> figgers
+[10:08:25] <zerokarmaleft> groovecoder: just merged...some inaccuracies in the readme, but i can fix those later
+[10:08:42] <groovecoder> zerokarmaleft: cool, yeah I wrote that from memory
+[10:08:58] <groovecoder> and this is the only ruby dev I've ever done, so ... inaccuracies are the norm for me.
+[10:09:10] <groovecoder> though I guess that's still true for me w/ python and php too :)
+[10:09:45] <Destos> no you're perfect in every way.
+[10:11:28] <Destos> Shh everyone he's here.
+[10:33:38] <esdev> Destos: I set img to .content img {
+[10:33:38] <esdev> 	margin:0 5px 10px 0;
+[10:33:38] <esdev> 	display: block;
+[10:33:39] <esdev> 	float: left;
+[10:33:39] <esdev> }
+[10:34:02] <Destos> looks about right
+[10:34:10] <esdev> and P to .content p {
+[10:34:10] <esdev>     display: inline-block;
+[10:34:10] <esdev> }
+[10:34:17] <esdev> works like a champ
+[10:34:42] <Destos> alright, just be aware inline-block is a newer property, so IE doesn't play well with it
+[10:34:52] <Destos> I don't see why its needed in this instance however
+[10:34:57] <esdev> this is for mobile. dont care about IE
+[10:35:33] <esdev> so +1 topped w/ awesome sauce. thx
+[10:35:49] <Destos> nps
+[10:40:36] <groovecoder> !esdev-- for ignoring mobile cross-browser support
+[10:40:42] <groovecoder> :)
+[10:40:51] <esdev> boo@u
+[10:44:20] <percent20> 皆、元気ですか。
+[10:46:53] <groovecoder> esdev: just tell me you're not using -webkit-* prefixes
+[10:47:27] <groovecoder> !esdev++ karma restored
+[10:47:34] <esdev> whew
+[10:47:36] <percent20> !karma?
+[10:48:10] <esdev> just using css styling
+[10:48:22] <esdev> normal w3c stuff
+[10:48:33] <Destos> we have ourself a validator over here
+[10:49:37] <percent20> Destos: how do you keep getting destos in that list?
+[10:49:57] <esdev> that was my fault. i added +1 to it
+[10:50:01] <Destos> people are lazy, or I need to just lowercase my nick
+[10:50:13] <esdev> yes, and prolly
+[10:51:20] <percent20> I see I am fairly well seated in a comfortable lead on the karma points.
+[10:51:39] <percent20> groovecoder: https://github.com/buddylindsey/babydjango
+[10:52:23] <zerokarmaleft> groovecoder: perhaps that should be sorted in descending order :P
+[10:53:14] <groovecoder> percent20: whoa
+[10:53:37] <groovecoder> zerokarmaleft: and filter out anyone with >99 points ;)
+[10:53:45] <percent20> lol.
+[10:53:49] <zerokarmaleft> indeed
+[10:54:04] <esdev> !zerokarmaleft++
+[10:54:26] <esdev> !groovecoder++
+[10:55:15] <percent20> groovecoder: you going to be at coworking today?
+[10:56:40] <groovecoder> percent20: not sure yet. we're pushing code at 4pm
+[10:56:49] <percent20> ah okay.
+[11:03:09] <ZiggyTheHamster> esdev: You're making it way too difficult. <img align="left" /> is equivalent to img { float: left; }
+[11:03:32] <ZiggyTheHamster> just make sure that you have a <div class="clear"> .clear { clear: both; } after the paragraph that contains the image
+[11:03:39] <ZiggyTheHamster> I forgot </div>
+[11:03:49] <esdev> yep. Destos helped me w/ that. thanks
+[11:04:01] <ZiggyTheHamster> and really that's not necessary, only if you only want one paragraph to wrap around the image
+[12:57:44] <percent20> alright video editing is done now to for encoding.
+[13:03:57] <percent20> groovecoder: have you ever thought about going to DjangoCon?
+[13:05:33] <esdev> hmm, cant seem to get the block display correct. can someone look at this and explain why the image elements aren't directly underneath each other? http://www.avantmobile.net/m/shs/rooms-rates.php
+[13:09:10] <groovecoder> percent20: I want(ed) to this year, but only a handful of mozillians are going to any given conference.
+[13:09:43] <percent20> ah. If I could pull a way to swing it I was thinking about trying to go.
+[13:10:26] <esdev> is Destos still around?
+[13:10:38] <Destos> yeah
+[13:11:04] <esdev> my blocks aren't blocking. :(
+[13:11:18] <esdev> they're cascading
+[13:11:47] <Destos> add clear: both; to .content ul{
+[13:11:57] <esdev> k
+[13:12:51] <esdev> !Destos++
+[13:17:24] <percent20> groovecoder: do you happen to know what djangcon ticket cost was last year?
+[13:17:51] <groovecoder> nope :(
+[13:18:41] <percent20> It looks like a room was $104 a night for 5ish nights. So that is like $500 or $250 for 2 people. Can't seem to figure out ticket cost.
+[13:19:35] <percent20> Corporate 	$595
+[13:19:36] <percent20> Student 	$250
+[13:19:36] <percent20> Individual 	$495
+[13:20:51] <percent20> so $1000 without transportation costs
+[13:21:02] <groovecoder> esdev: https://developer.mozilla.org/en/CSS/float#How_floats_are_positioned is helpful too
+[13:21:11] <esdev> thx
+[13:22:33] <percent20> geh so anywhere from $1250 to $1500. maybe I don't want to go after all.
+[13:29:35] <zerokarmaleft> not to mention eating out every night
+[13:29:42] <zerokarmaleft> and flights
+[13:33:46] <percent20> yeah.
+[13:34:19] <percent20> i'd be willing to do ramen and cans of green beans if I had to, but still that is  nice chunk of change.
+[13:35:39] <percent20> I could always try and do a fundraiser on the GoDjango site.
+[13:35:54] <percent20> it works for some people. heh.
+[13:53:50] <esdev> !ZiggyTheHamster++
+[13:54:12] <groovecoder> what?! free points?!
+[13:54:33] <esdev> naw, from a little while ago...
+[13:54:46] <Destos> we must stem the flow of free points
+[13:54:49] <esdev> just got to it, tho
+[13:55:02] <Destos> kick -b 20days esdev
+[13:55:15] <groovecoder> harsh
+[13:55:16] <esdev> what?
+[13:59:35] <percent20> groovecoder: do you know where I can get a big image of browser id logo? not finding one.
+[14:00:13] <groovecoder> percent20: https://github.com/mozilla/browserid/tree/dev/resources/assets
+[14:00:41] <groovecoder> percent20: .eps and .psd files there too
+[14:00:48] <percent20> thank you :)
+[14:23:00] <percent20> groovecoder: http://godjango.com/11-browser-id/
+[14:23:43] <percent20> still a few more minutes before it is officially published, but that is the permalink. once 2:30 hits it will show up in the rss feed and the homepage
+[14:29:30] <groovecoder> percent20: cool
+[14:29:44] <groovecoder> I added it to our list of links for the Hacks Weekly blog posts
+[14:30:36] <percent20> awesome thank you :)
+[14:57:06] <percent20> groovecoder: does your social lent include irc with social media?
+[14:57:31] <groovecoder> percent20: hmm ... I hadn't thought to. probably not possible for me anyway
+[14:57:32] <percent20> wow that was an odd sentence. I typed half of 3 different thoughts lol.
+[14:58:09] <percent20> groovecoder: okay. I don't think irc or im is social media, personally, but I wasn't sure if you did or not.
+[17:40:49] <percent20> groovecoder: in 3 hours I have had 100 hits on the browser id page.
+[17:40:59] <groovecoder> is that a lot? :)
+[17:41:26] <percent20> yeah.
+[17:41:53] <percent20> could be 1 of 2 things. excitement of browser id or excitement that I finally have somthing besides forms.
+[17:42:39] <percent20> I have 47 minutes of forms content alone on godjango. that is a lot.
+[17:44:08] <groovecoder> where's all your traffic coming from?
+[17:45:15] <percent20> a bit from twitter, but mostly from planetdjango.org and the main django community site rss feed on djangoproject.com
+[17:45:28] <percent20> my search engine traffic is starting to pick up a bit though.
+[17:46:21] <percent20> I am now up to 8% of my traffic coming from search engines. It was at 6% for a while
+[17:48:16] <groovecoder> percent20: how can I tell which heroku app is the one for my current directory?
+[17:48:23] <groovecoder> now that I have 4 apps it's hard to remember which is which
+[17:51:36] <percent20> groovecoder: heroku apps:help
+[17:51:43] <percent20> i mean:
+[17:51:47] <percent20> heroku apps:info
+[17:54:18] <groovecoder> got it
+[18:19:35] <groovecoder> percent20: do you have a separate facebook app for localhost testing?
+[18:50:54] <percent20> !weather

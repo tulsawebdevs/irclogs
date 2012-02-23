@@ -1,0 +1,83 @@
+[09:48:30] <Destos> http://www.bgr.com/2012/02/21/microsoft-launches-no-holds-barred-anti-google-campaign-video/
+[10:00:22] <Destos> percent20: You'll get a kick out of this if you haven't seen it already: http://www.bgr.com/2012/02/21/microsoft-launches-no-holds-barred-anti-google-campaign-video/
+[10:03:02] <percent20> that is good
+[11:57:30] <groovecoder> how many of us are willing and able to be "teachers" during the Hackathon track at School of Dev? The day will progress roughly - 1. joining the github org and making commits. 2. create or clone a scraper to run locally. 3. storing scraped data locally or in the cloud 4. building an app on top of scraped data
+[11:58:44] <Destos> the only one I feel semi capable of is joining github and a git overview
+[12:54:59] <percent20> groovecoder: your reddit comment is good, but is there more information on _how_ that is supposed to work which overrides the OpenID fears? OpenID has left a lot of people skiddish.
+[12:55:22] <groovecoder> navigator.getVerifiedEmail() ?
+[12:55:46] <groovecoder> I mean, that's *how* it works - it's a javascript feature poly-filled by the browserid.org include.js
+[12:56:01] <percent20> that ^ is what I was after
+[12:56:19] <groovecoder> OpenID wants to be a distributed url-based identity system. BrowserID wants to be a distributed javascript-based identity system.
+[12:57:15] <percent20> is there anywhere to see the state of adoption as a standard? or at least watch it?
+[12:58:18] <groovecoder> no, it's not even a draft or candidate yet
+[12:58:33] <groovecoder> not sure who's pushing for that from Mozilla
+[12:59:02] <percent20> ah, okay. Is mozilla still experimenting to figure out _what_ to make a standard?
+[13:00:21] <groovecoder> yeah. e.g., for MDN we've asked for a navigator.addVerifiedEmail() too
+[13:00:47] <groovecoder> basically, what a user invokes for "Change email" on our site
+[13:01:22] <groovecoder> because right now we invoke getVerifiedEmail() which has a very tiny little "Use another email" link but it's not very obvious
+[13:01:35] <percent20> gotcha. Okay.
+[13:06:36] <percent20> I replied to your reddit comment with a bit of what we talked about to hopefully clarify some of the browser id stuff.
+[13:24:29] <percent20> groovecoder: who is the maintainer again of django-browserid package?
+[13:34:16] <percent20> phew I made it off of reddit.
+[13:34:32] <groovecoder> mkelly
+[13:35:52] <percent20> okay. someone asked about the SITE_URL setting and I have no idea how to answer it.
+[13:39:25] <Destos> its there a browserID discussion going on over at reedit? linky
+[13:40:28] <percent20> http://www.reddit.com/r/django/comments/q082g/implement_browser_id_in_your_django_project_using/
+[13:46:00] <Destos> gone head to the fablab for my volunteer time. bbs
+[14:27:20] <percent20> shush he is back
+[14:31:08] <Destos> :<
+[14:31:16] <Destos> its not fun when its done to you.
+[14:38:12] <percent20> heh
+[14:38:30] <percent20> always good to have a little fun here and there.
+[15:05:36] <percent20> I don't mean to be mean, but how on gods green earth can this person (http://amb-adv.com/) get design jobs.
+[15:12:00] <Destos> heh, you would be amazed
+[15:12:25] <Destos> See skill actually doesn't matter in pretty much anything.
+[15:12:49] <Destos> As long as you can make the sale and keep the client semi happy you are set.
+[15:13:10] <percent20> See _I_ wouldn't be comfortable with designs like that so I could never be a disgner.
+[15:14:42] <percent20> or english teacher.
+[15:57:51] <percent20> great entertainment http://i.imgur.com/Zuoxg.jpg
+[16:04:14] <Destos> percent20: don't you love me?
+[16:04:22] <percent20> lol.
+[16:04:34] <percent20> as long as you don't tatto my face on your arm. heh
+[16:04:37] <Destos> why can't I have my rage comics out in the open percent20 ?
+[16:05:01] <percent20> what I love most about that is they made meme's about it.
+[16:05:47] <groovecoder> that has to be fake
+[16:05:58] <percent20> I shall assume it is because it is hilarious.
+[16:06:04] <groovecoder> heh
+[16:06:04] <Destos> groovecoder has not met an insane chick
+[16:06:10] <percent20> sorry. I shall assume it is real because it is hilarious.
+[16:10:05] <percent20> wow linear algebra is making a lot more sense the second time I read the book.
+[16:10:08] <Destos> percent20: yeah the memes were a nice top to the whole situation
+[16:14:31] <percent20> I spoke one page too soon.
+[16:15:06] <PatF> I've been having quite a few kernel panics lately… :(
+[16:15:36] <percent20> but... its a mac.
+[16:15:58] <destos> you've never had a panic?
+[16:16:10] <percent20> not as a kernel ;)
+[16:16:30] <percent20> on linux I had them all the time, but that was when I was working on doing custom kernels
+[16:16:53] <Destos> you've never gotten this? https://www.google.com/search?q=kernel+panic+screen+osx&hl=en&prmd=imvns&source=lnms&tbm=isch&ei=SWlFT_XpMKLisQLrkfnCDw&sa=X&oi=mode_link&ct=mode&cd=2&ved=0CAwQ_AUoAQ&biw=1111&bih=802
+[16:17:16] <percent20> nope.
+[16:17:21] <Destos> lucky :<
+[16:17:28] <percent20> I don't use a lot of software either.
+[16:17:48] <percent20> I have 8 apps open
+[16:18:06] <percent20> 3 of them being communication apps.
+[16:21:22] <percent20> wait what? I just heard a commercial on the radio about letting people "choose" a smoke free environment. Where in oklahoma can you not choose? its damn near illegal everywhere but your house.
+[16:39:30] <groovecoder> percent20: http://identity.mozilla.com/post/18038609895/introducing-mozilla-persona
+[16:40:59] <percent20> groovecoder: cool
+[16:55:32] <codelahoma> !help
+[16:55:43] <codelahoma> no bot help?
+[16:55:49] <groovecoder> :(
+[16:56:08] <codelahoma> where's buddy storing the irc logs?
+[16:56:23] <groovecoder> github :)
+[16:56:30] <codelahoma> I know that much. ;p
+[16:56:39] <groovecoder> https://github.com/tulsawebdevs/irclogs
+[16:57:24] <codelahoma> oh, okay. When I switch context to tulsawebdevs, it only shows me the traffic feed project because that's the only one I'm "on".
+[16:58:49] <groovecoder> ah
+[16:59:07] <codelahoma> glad I checked. I asked a question the other day, then had to leave and forgot. Patrick answered. :-)
+[16:59:52] <groovecoder> codelahoma: added you
+[16:59:56] <groovecoder> to Tulsa Web Devs
+[17:00:37] <codelahoma> cool
+[17:00:43] <codelahoma> man, we really need a logo
+[17:01:06] <groovecoder> yeah :(
+[17:01:29] <codelahoma> given what Scott was talking about the other night, it might be best if it's something abstract or mascotty, without "Tulsa" in it.
+[17:09:35] <groovecoder> good point
+[19:24:39] <percent20> !weather

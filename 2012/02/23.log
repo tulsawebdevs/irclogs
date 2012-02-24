@@ -1,0 +1,152 @@
+[08:03:30] <groovecoder> zerokarm1left: you coming tomorrow to do a lightning-fast Clojure talk? :)
+[08:46:30] <groovecoder> http://online.wsj.com/article/SB10001424052970203960804577239774264364692.html
+[08:47:56] <Destos> !weather
+[10:49:02] <Destos> I've tagged your new bot issue ;P
+[10:49:06] <Destos> groovecoder:
+[10:49:19] <groovecoder> tagged?
+[10:49:25] <Destos> labled
+[10:49:33] <Destos> LABELeeedddd
+[10:53:38] <Destos> I like your counter label
+[11:29:15] <danf1> groovecoder: Any idea why I just received an e-mail from bugzilla.mozilla.org for a bug I removed myself from 2 months ago?
+[11:29:56] <groovecoder> danf1: depends how you "removed" yourself. check https://bugzilla.mozilla.org/userprefs.cgi?tab=email
+[11:30:56] <groovecoder> email notifications are per-role, so if you're assignee, reporter, cc, qa, or voter you might have a different preference
+[11:31:52] <percent20> good ole bugzilla
+[11:32:09] <danf1> I was a CC only, but I removed me from the CC list on 2011-12-14 11:38:30 PST.
+[11:33:44] <groovecoder> danf1: I guess just check https://bugzilla.mozilla.org/userprefs.cgi?tab=email I would say file a bug but not if you don't want its emails ;)
+[14:01:47] <shat> Hey hey
+[14:04:08] <groovecoder> hey
+[14:04:24] <shat> Anyone know who's putting startupcup.com into WP?
+[14:04:26] <shat> is it Carlos?
+[14:04:32] <shat> Its likely Carlos.. but I am curious.
+[14:04:58] <groovecoder> no idea
+[14:06:31] <shat> you're no help.
+[14:06:32] <shat> lol
+[14:06:47] <shat> How you been?
+[14:07:17] <shat> Giving SublimeVideo a whirl this afternoon.  See how it performs.
+[14:07:37] <groovecoder> shat: good. I talked to Brad for about an hour yesterday ... he's coming in for your wedding, yeah?
+[14:08:34] <shat> yeah.
+[14:08:42] <shat> assuming he doesn't have anything against me because of a situation I'm in with Sean G.
+[14:08:53] <shat> I doubt he does, but yeah, he should be coming in.  Last I heard.
+[14:13:11] <groovecoder> lulz. drama?
+[14:13:24] <shat> ulgh.
+[14:15:00] <percent20> shat: I use sublime video, works awesome.
+[14:16:25] <shat> sweet
+[14:16:28] <shat> using Miro to convert a video now.
+[14:17:03] <percent20> i need to learn python a better. My head hurts reading django source code.
+[14:17:25] <percent20> groovecoder: is there any special meaning to methods with a single _ at the beginning?
+[14:17:55] <groovecoder> percent20: it seems to be just a convention for "private" methods - though there's no enforcement of it
+[14:18:43] <percent20> ah so you don't strictly need two underscores?
+[14:18:57] <shat> my left arm hurts
+[14:19:02] <shat> ;/
+[14:19:07] <percent20> are you having a heart attack?
+[14:19:07] <shat> i think its this chair
+[14:19:13] <shat> percent20: I hope not.
+[14:19:20] <groovecoder> percent20: no I don't think underscores are any kind of language feature
+[14:19:46] <shat> I thin it is right?
+[14:19:53] <shat> something to do with classes
+[14:20:58] <shat> oh
+[14:21:01] <shat> nvmd groovecoder already said it
+[14:21:20] <shat> name mangling
+[14:21:26] <shat> thats what it is referred to as.
+[14:21:51] <shat> two leading __'s followed by a _ = _class_method
+[14:22:10] <shat> http://docs.python.org/tutorial/classes.html#private-variables
+[14:22:12] <shat> found it
+[14:22:29] <percent20> yeah two underscores is a private method.
+[14:22:57] <shat> wow
+[14:23:07] <shat> we've launched 51 sites since Jan 2009
+[14:23:20] <shat> and I haven't put one in our portfolio since like Feb 2010
+[14:23:20] <shat> rofl
+[14:23:26] <percent20> this is the annoyance between convention and knowing the language
+[14:23:53] <shat> Do you guys normally work from home?
+[14:24:02] <groovecoder> shat: yup
+[14:24:03] <percent20> shat: yes
+[14:24:07] <shat> I ask, because, I have an office, it isn't enormous, 350 sq ft or so
+[14:24:07] <groovecoder> except Fridays :)
+[14:24:11] <shat> but I have extra desks/chairs
+[14:24:16] <shat> and I would LOVE if anyone ever wanted to come up and work
+[14:24:23] <groovecoder> shat: depends where and when
+[14:24:25] <shat> its always better to have people around, even if its just to hear the clack of other peoples keys
+[14:24:28] <shat> whenever you want
+[14:24:31] <shat> 41st/mingo
+[14:24:38] <shat> I'm here usually 9:00AM - 4:30/5:00PM
+[14:24:41] <shat> unless I'm in a meeting
+[14:24:47] <shat> but even then, you could stick around haha
+[14:24:59] <shat> just desks, book shelves, printer, internet, culligan water machine
+[14:25:07] <shat> electric water kettle for tea/coffee haha
+[14:25:09] <shat> a phone
+[14:25:12] <shat> and some lamps ;)
+[14:25:25] <shat> its just my little place away from home to work
+[14:25:37] <shat> Convenient to get to since its off 169 at 41st or off 51 at mingo
+[14:25:40] <shat> super easy to get to.
+[14:25:51] <shat> About to jump on a conf call ;/
+[14:26:02] <groovecoder> shat: nice. most of us use the Fab Lab that way. if I added another office workday I would want to go somewhere here in south Tulsa
+[14:26:16] <groovecoder> we try to do Java Dave's on Tuesdays too, but that's not as cool as Fab Lab
+[14:26:18] <shat> Just offering.
+[14:26:27] <groovecoder> shat: yeah, it's cool
+[14:26:28] <shat> 40mbps net ;)
+[14:26:35] <shat> if you ever want to, just send me a txt or somen
+[14:26:38] <shat> 918-521-7437
+[14:28:49] <shat> I hate when I leave a tmux session connected at home, because the resolution is smaller.. and therefore when I open it at work.. I have all these damn dots
+[14:28:52] <shat> heh
+[14:28:59] <shat> and I'm too lazy/dont want to close the active session attached to it at home
+[14:29:02] <shat> heh
+[14:29:46] <shat> its fun to go back and look t the progress of a site.
+[14:30:09] <shat> Trying to find all the variations of maccreate.com
+[14:30:11] <shat> http://justtheweb.com/lab/mcn/
+[15:11:29] <percent20> groovecoder: http://raganwald.posterous.com/the-internet-made-me-sad-today
+[15:11:41] <percent20> groovecoder: you'll like that blog post
+[15:22:29] <shat> Back.
+[15:24:03] <percent20> lol Obama administration proposes online privacy while pushing ACTA and Approving indefinite detition of US Citizens. I smell a rat.
+[15:35:49] <groovecoder> proposes? or promotes?
+[15:36:02] <groovecoder> I'm pretty sure someone else has proposed online privacy before now :)
+[15:36:33] <percent20> I think the white house proposed it this time.
+[15:37:39] <percent20> http://i.imgur.com/hn7Tg.jpg
+[15:42:48] <groovecoder> politics.
+[15:42:50] <groovecoder> ACTION sighs
+[15:49:00] <groovecoder> http://theoatmeal.com/comics/game_of_thrones
+[15:55:09] <percent20> Love that one.
+[16:03:36] <groovecoder> percent20: did your browserid video get any love from Mozilla Hacks Weekly post?
+[16:03:49] <groovecoder> I didn't include a good description for the link :(
+[16:04:01] <groovecoder> but it's linked from http://hacks.mozilla.org/2012/02/mozilla-hacks-weekly-february-23rd-2012/
+[16:04:07] <percent20> gotten a few so far. How long ago was it posted?
+[16:04:42] <groovecoder> less than an hour I think
+[16:06:56] <percent20> okay, probably not enough time to get many eyeballs yet.
+[16:07:18] <groovecoder> hmm ... I wonder if +1 stuff in Google Reader counts as social media?
+[16:11:51] <danf1> groovecoder: +1ing stuff in Google Reader is social media posting, but not reading. So, if allow yourself to use SMS for posting to Twitter/Facebook right now, you can also +1 something.
+[16:12:13] <groovecoder> hrm.
+[16:12:22] <groovecoder> and re-posting mozilla stuff is almost part of my job ...
+[16:18:34] <percent20> almost?
+[16:28:11] <Destos> Its in the contract.
+[16:42:13] <groovecoder> I'm not technically an "evangelist"
+[16:42:30] <percent20> just an enthusiastic employee?
+[16:42:40] <groovecoder> I think that's all employees
+[16:43:33] <groovecoder> giving up facebook is weird though ... it makes you stop and realize how many times a day you just innocently hop onto facebook for a bit
+[16:43:57] <groovecoder> I've almost typed alt+space, 'face' about 20 times today
+[16:43:59] <zerokarmaleft> groovecoder: holy shit, Munsterteiger is a real name?
+[16:44:09] <groovecoder> huh?
+[16:44:12] <zerokarmaleft> http://hacks.mozilla.org/2012/02/mozilla-hacks-weekly-february-23rd-2012/
+[16:44:14] <Destos> german names are kinda like that
+[16:44:28] <zerokarmaleft> that's awesome
+[16:44:28] <groovecoder> zerokarmaleft: ah, yeah
+[16:44:51] <zerokarmaleft> i can forgive his broheim soul patch b/c his name's so cool
+[17:01:46] <percent20> yay amazon fixed a bug in there affiliate stuff now I can get cash money instead of gift certificates.
+[17:12:40] <percent20> I think I may have just figured out all my encoding problems.
+[17:12:46] <percent20> ACTION is keeping fingers crossed
+[17:14:04] <percent20> ACTION thinks it got worse.
+[17:35:25] <Destos> ACTION shakes fist at encoder
+[17:35:59] <Destos> Going to the fab lab in a bit, there is a meeting at 7:30pm there for the UAV fab project if anyone else is interested.
+[17:49:03] <zerokarmaleft> groovecoder: is anybody coming to the friday lunch meeting?
+[17:50:23] <zerokarmaleft> i might be able to come depending on how many loose ends i have to tie before leaving town in the afternoon
+[17:54:06] <percent20> zerokarmaleft: last month we had almost as many people show up for the lunch as the meeting itself.
+[18:31:14] <zerokarmaleft> https://github.com/twitter/time_constants/blob/master/lib/time_constants.rb <= but what if i need 101 solar years?!
+[20:49:41] <groovecoder> zerokarmaleft: I also like all the T_*_SECONDS constants
+[20:49:47] <groovecoder> zerokarmaleft: are you coming to lunch meeting tomorrow to give a summary of your clojure talk?
+[20:49:48] <groovecoder> :)
+[21:09:27] <percent20> writing my own django from scratch is hard.
+[21:16:24] <percent20> !weather
+[21:55:50] <percent20> Destos: when you said UAV earlier did you mean "Unmanned Areal Vehicle"?
+[21:56:14] <Destos> yes
+[21:56:25] <percent20> sweet. how did that go?
+[21:57:10] <Destos> I mainly joined in to see progress and where I may be able to help. Atm they are still planning designing the fuselage and misc other characteristics
+[21:57:27] <Destos> http://fabflight.posterous.com/
+[21:57:29] <percent20> ah

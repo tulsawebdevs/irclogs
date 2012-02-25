@@ -1,0 +1,46 @@
+[01:17:27] <ShaneCowherd> Hi all
+[01:17:45] <ShaneCowherd> Testing IRC client: http://www.google.com/intl/en_com/images/srpr/logo3w.png
+[09:28:01] <groovecoder> omw to fab lab
+[09:35:18] <Destos> I'll probably be in around 12
+[09:35:29] <Destos> got to fro the wife off again.
+[09:35:32] <Destos> drop*
+[10:11:29] <zerokarmaleft> http://gilesbowkett.blogspot.com/2012/02/rails-went-off-rails-why-im-rebuilding.html <= rofl, this ruby/rails rant is awesome
+[10:21:33] <groovecoder> zerokarmaleft: are you coming to lunch meeting today?
+[10:30:10] <codelahoma> zerokarmaleft: like that Alan Kay quote. Interview queued to Instapaper.
+[10:38:45] <zerokarmaleft> groovecoder: yea, i can be there today
+[10:43:45] <groovecoder> zerokarmaleft: cool. can you make a condensed version of your clojure stuff?
+[10:43:50] <groovecoder> maybe just focus on scraping examples?
+[10:47:46] <zerokarmaleft> yea, i can skip a lot of the sequence API
+[10:52:35] <groovecoder> zerokarmaleft: yeah, and I think lunch attendees are not as technical as evening meetings
+[10:59:15] <zerokarmaleft> http://static.arstechnica.net/assets/2012/02/2248-4f46dde-intro-thumb-640xauto-30590.png
+[10:59:28] <zerokarmaleft> wow, that's hideous
+[11:00:01] <zerokarmaleft> default monochromatic interface for vstudio 11 beta
+[11:01:13] <jgmize> !Destos++ for fabflight link
+[11:02:02] <jgmize> Destos: I'd love to get more info about the fabflight project, do you have a couple minutes after the lunch meeting?
+[11:03:17] <jgmize> zerokarmaleft: I've been reading up on clojure, especially cascalog since your presentation on Monday, and I'm looking forward to your condensed presentation today
+[11:08:32] <zerokarmaleft> jgmize: cool, if you need any help setting up leiningen or a text editor setup, i could probably help with that too
+[11:08:46] <jgmize> zerokarmaleft: awesome, thanks
+[11:09:29] <jgmize> groovecoder: is a sponsor providing lunch for this meeting, or am I mis-remembering?
+[11:13:39] <groovecoder> jgmize: yeah I'm figuring out lunch right now ...
+[11:13:52] <groovecoder> thought Cancun but don't think I have enough cash :)
+[11:15:10] <jgmize> groovecoder: thanks, just let us know if we should bring something
+[11:19:00] <jgmize> !zerokarmaleft++ for link to hilarious giles bowkett rant
+[11:34:01] <groovecoder> jgmize: trying to get CheeZie's to answer the phone ><
+[11:34:21] <groovecoder> I might have to go pick it up, so you and/or percent20 and/or zerokarmaleft may have to start the meeting without me
+[11:35:25] <jgmize> no problem, thanks for picking up lunch
+[11:35:35] <jgmize> !groovecoder++
+[15:58:02] <percent20> !weather
+[17:47:53] <groovecoder> http://www.reddit.com/r/web_design/comments/q4nd4/ysk_about_the_mozilla_dev_derby_a_monthly_web/
+[21:27:53] <groovecoder> percent20: you around/up?
+[21:27:58] <percent20> yesa
+[21:28:03] <percent20> wasup?
+[21:28:16] <groovecoder> user_checkins permission seems to have stopped working?
+[21:28:40] <groovecoder> I didn't change any code, but when I auth to my app now, it doesn't include checkins permission
+[21:29:20] <percent20> that is strange. I haven't had that happen before.
+[21:29:58] <groovecoder> I'm seeing this: http://stackoverflow.com/questions/9428396/oauth-not-display-user-checkins-permission
+[21:32:13] <percent20> if that is the case it looks like this is a fresh problem because that was asked 17 hours ago
+[21:33:03] <groovecoder> just started for me a few days ago
+[21:34:51] <percent20> ah, I don't know enough to be able to solve it. :(
+[21:35:13] <percent20> I was very much in the "please work" frame of mind while dealing with facebook.
+[23:20:21] <groovecoder> yeah, bootstrap is nice: http://whereyourmouth.is/
+[23:21:03] <groovecoder> user_checkins still isn't working though :(

@@ -1,0 +1,28 @@
+[10:49:31] <groovecoder> davidkobilnyk: https://github.com/tulsawebdevs/javascript-scrapers
+[10:50:19] <groovecoder> timmorgan: https://github.com/tulsawebdevs/javascript-scrapers
+[10:50:30] <percent20> !groovecoder++
+[11:04:29] <jsatt> https://docs.google.com/document/d/1UC4DeVoDqSg8rzPI2nJZI3z4CY39MA0WO2ucwCGkuMk/edit
+[11:04:39] <jsatt> ^data ideas
+[11:05:02] <jsatt> ^^assembly still in progress
+[11:54:37] <zerokarmaleft> greetings
+[12:11:15] <percent20> geetings programs
+[12:22:30] <timmorgan> davidkobilnyk: This might be a good easy scrape: http://www.tulsaworld.com/specialprojects/databases/productprices.aspx
+[12:45:04] <zerokarmaleft> timmorgan: you going to use node.io?
+[14:05:35] <groovecoder> timmorgan: http://cityoftulsa.org/reporting/pot-holes.aspx
+[14:08:34] <timmorgan> zerokarmaleft: sorry, missed your note
+[14:08:53] <timmorgan> I don't know what it is
+[14:14:27] <timmorgan> oh wow, very cool
+[14:14:31] <timmorgan> I will give it a try
+[15:03:01] <timmorgan> davidkobilnyk: https://github.com/tmpvar/jsdom/issues/165
+[16:08:36] <jwhitlock> https://learnakedacademy.com/index.html
+[16:08:50] <jwhitlock> http://okdata.org/
+[16:15:05] <percent20> RWAAAAAAAR
+[16:15:16] <percent20> !jgmize++
+[16:15:21] <percent20> he fixed my problem :D
+[16:15:30] <percent20> class based forms for the win
+[16:16:00] <percent20> !weather
+[16:19:02] <groovecoder> jsatt: https://github.com/tulsawebdevs/python-scrapers/tree/master/thd_food_inspections
+[16:20:13] <zerokarmaleft> STORE_TO_COUCH
+[16:43:47] <groovecoder> zerokarmaleft: COUCHDB_URL == STORE_TO_COUCH
+[16:43:50] <groovecoder> still writing docs
+[21:59:17] <shanecowherd> hi all

@@ -1,0 +1,43 @@
+[07:47:38] <groovecoder> percent20: "clean" ? i.e., no pork products?
+[08:05:07] <groovecoder> wow heroku has a bunch of pre-made facebook apps and integrates with facebook developers already: http://devcenter.heroku.com/articles/facebook
+[12:59:19] <percent20> http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2012/02/24/financial/f000417S28.DTL&type=printable <- article on micr-ofinance, the reason I am against it. The goal is admirable implementation sucks.
+[13:47:11] <Destos> You can't expect to just throw money at people without education on how to actually run a small business and it come out well.
+[13:47:35] <Destos> Even if they have an existing business that runs well.
+[13:47:41] <Destos> Its all very saddening
+[13:55:47] <percent20> yes. I wonder if you could do a thing similar to micro-fiance, but with education in other parts of the world. Figure out how much a school would cost then put up where people donate small amounts of money for a school.
+[14:24:15] <percent20> Destos: http://imgur.com/AEJeU <- from a picture I took this weekend.
+[14:25:14] <Destos> heh
+[14:25:26] <Destos> Took a little more than an hour however
+[14:25:34] <Destos> Blixa needs to slow down sometimes.
+[14:26:43] <percent20> yeah. Just thought it was a great poster :D
+[14:26:54] <percent20> I posted it in /r/Demotivational but doesn't seem to be showing up there :(
+[14:29:03] <groovecoder> %s/sometimes//g
+[14:29:23] <percent20> ???
+[14:34:05] <groovecoder> re: Destos
+[14:36:03] <percent20> the /g confuses me
+[14:37:47] <groovecoder>  /g means whole-buffer replace, right?
+[14:38:12] <percent20> ah, didn't know that
+[14:39:24] <percent20> alright I need to leave. ttyl guys.
+[16:00:39] <percent20> anyone around?
+[16:02:24] <percent20> can someone try going to http://buddylindsey.com and clicking on a couple of links to see how it responds?
+[16:12:30] <groovecoder> percent20: seems a little slow, but that might be firebug
+[16:13:02] <groovecoder> percent20: yeah, links are responsive
+[16:15:54] <percent20> okay, thanks. Am starting to hit a few perf problems. Thinking my moving the videos to linode wasn't as good of an idea as I thought.
+[16:22:09] <percent20> groovecoder: looks like 9 am thursday. Which means I need to get up early. You morning people suck ;)
+[16:34:20] <groovecoder> hah
+[16:35:02] <groovecoder> btw, The DIG soundtrack is great coding music. (all my coding music is video game music) http://soundtracks.mixnmojo.com/dig.htm
+[16:42:24] <percent20> heh. i'll have to give it a shot
+[16:59:26] <percent20> HOLY CRAP. The shopify template language is the same as what is used in Django
+[17:00:21] <Destos> shizam
+[17:02:05] <percent20> life just got a tad bit simpler.
+[17:08:36] <groovecoder> percent20: is shopify built on django?
+[17:08:58] <percent20> groovecoder: rails, which is surprising.
+[17:09:34] <percent20> granted the template language is called liquid, its just surprising that it is the same as Django. I though DJango's was completely custom.
+[17:36:50] <groovecoder> percent20: you done couch yet? do you know how to truncate a couchdb without deleting it?
+[17:45:22] <percent20> groovecoder: I don't know how to do that.
+[17:45:37] <groovecoder> percent20: dang
+[17:46:01] <groovecoder> I need to make my scraper optionally truncate existing data
+[17:46:49] <percent20> ah, sounds like a good blogpost when you figure it out ;)
+[17:47:35] <percent20> have you tried #couchdb ?
+[17:47:49] <groovecoder|afk> not yet
+[20:09:41] <zerokarmaleft> groovecoder|afk: http://coderwall.com/leaderboard <= mozilla, represent?

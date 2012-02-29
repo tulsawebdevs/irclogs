@@ -1,0 +1,27 @@
+[10:01:00] <groovecoder1> btw, I'm at Java Dave's for at least this morning ...
+[11:12:12] <groovecoder1> alright, I'm heading home
+[11:42:04] <Destos> groovecoder: https://developer.mozilla.org/en/CSS/transform-origin !!
+[11:42:12] <groovecoder> yup
+[11:42:13] <groovecoder> ><
+[11:42:18] <Destos> :<
+[11:42:25] <groovecoder> working in #mdn
+[12:26:30] <groovecoder> Destos: MDN back up
+[12:26:43] <Destos> coolio, hopefully it wasn't a big scare
+[12:26:57] <Destos> I used dochub.io in the meantime
+[12:27:11] <groovecoder|food> !Destos++
+[12:27:32] <groovecoder|food> I'm trying to make a MDN-flavored dochub.io fork to use for our Open/Offline Web App
+[17:11:48] <groovecoder|food> ah, this is why we still use bugzilla. because it's the devil we know, and we can build better tools on top of it http://scrumbugz.ep.io/projects/mdn/2.3/
+[17:18:46] <Destos> yay bootstrap2.0
+[17:27:39] <percent20> groovecoder|food: looks like your productivity is going down.
+[17:28:02] <percent20> if I am reading it right
+[17:30:34] <percent20> okay back to bed it hurts too much to try and be up.
+[18:16:42] <Destos> percent20: What did you do? :(
+[18:25:43] <zerokarmaleft> tulsawebdevs.org shat the bed again
+[18:26:23] <Destos> appears up to me?
+[18:27:11] <zerokarmaleft> odd, cache wasn't clearing
+[18:30:45] <zerokarmaleft> so what's the deal with caspio's session keys?
+[18:31:13] <zerokarmaleft> seems like they're generated for a first query and then they expire after awhile
+[18:38:26] <percent20> Destos: not sure, was coughing all day yesterday. Now my throat is sore and I am still coughing, but with a headache.
+[18:55:24] <Destos> :(
+[20:55:58] <groovecoder|food> percent20: cheilmann demo's B2G: http://www.engadget.com/2012/02/28/mozilla-boot-to-gecko-hands-on-video/
+[20:56:07] <groovecoder|food> best demo I've seen so far

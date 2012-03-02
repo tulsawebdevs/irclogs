@@ -1,0 +1,62 @@
+[07:33:54] <groovecoder> percent20: http://vid.ly/3x2h2a
+[07:34:01] <groovecoder> percent20: also, you awake? ready to head downtown? :)
+[07:42:17] <percent20> yup. I am starting to stir a bit. am surprised to be alert as i am for 7:30 in the morning. I guess cuz I got so much sleep for the last 2 days. Still not 100% but fairly close.
+[12:14:58] <percent20> my scalp hurts when I touch my hair. It is a very odd feeling.
+[12:46:04] <percent20> Destos: Just thought I would let you know I wont be at co-working tomorrow. I tried getting out and about today, it didn't go well. So i am going to stay home for the next few days.
+[12:47:04] <groovecoder> Destos: I might come by in the morning to run thru a potential wordpress website project with you for Catholic Charities if you're interested - low-budget gig though
+[12:47:15] <groovecoder> Destos: you going to be there in the morning?
+[12:47:31] <Destos> Should be
+[12:47:39] <Destos> percent20: hope you feel better soon.
+[12:50:14] <percent20> Destos: Thanks, me too.
+[12:51:18] <percent20> groovecoder: I am the "Director of Technology" for the Tulsa DNUG now. which means I can finally fix the stupid website. :D
+[12:51:34] <groovecoder> hah, nice
+[12:51:47] <groovecoder> I assume it needs to stay in .NET ? :)
+[12:51:56] <percent20> nope. I am going to use wordpress
+[12:52:28] <percent20> was thinking about using this. https://github.com/mhoofman/wordpress-heroku
+[12:55:28] <percent20> websocket based irc client. https://github.com/thedjpetersen/subway
+[12:56:00] <percent20> can I submit that for the dev derby? or do I have to write it myself ;)
+[13:09:03] <Destos> percent20: is developer rage up?
+[13:09:40] <Destos> ah it is
+[13:09:47] <Destos> submitted a new one
+[13:09:52] <Destos> http://ragegenerator.com/pages/comic/19700
+[13:11:44] <percent20> approved :D
+[13:11:49] <percent20> I like that one.
+[13:11:50] <Destos> wewt
+[13:14:08] <percent20> at some point I need to go in and tweak the site so it looks better. Will probably use twitter bootstrap. heh.
+[13:15:19] <percent20> okay, I am out of energy going to go take a nap.
+[13:46:24] <groovecoder> percent20: I didn't know heroku supported php
+[14:47:28] <percent20> neither did I. was amazed when I saw that.
+[15:04:44] <percent20> groovecoder: do you know when a B2G phone will be launched for consumers?
+[15:04:53] <groovecoder> 2012? :)
+[15:05:11] <groovecoder> though it seems we're targeting more emerging markets than established markets
+[15:05:37] <percent20> is that code for not in the US?
+[15:05:59] <groovecoder> percent20: probably.
+[15:06:17] <percent20> that kinda sucks.
+[15:06:23] <groovecoder> first carrier partner is Telefonica, though 2nd carrier partner is Deutsche Telecom
+[15:07:00] <groovecoder> sucks for us, but it's a smart move - B2G targets low-end hardware at feature-phone prices. pretty much like Opera has done in SE Asia
+[15:07:30] <percent20> is there going to be a better name than B2G? like MozillaPhone?
+[15:07:30] <groovecoder> I think Brazil, Russia, India would be Big Wins™
+[15:08:02] <percent20> I can see it winning in those.
+[15:08:03] <groovecoder> if anything, I imagine there would be a Firefox Phone sometime
+[15:08:36] <groovecoder> the Firefox brand is inescapably powerful
+[15:09:05] <groovecoder> though I think just 'Gecko' would be cool
+[15:09:21] <groovecoder> but it's the same deal with Windows Phone
+[15:09:33] <groovecoder> once you say Windows Phone you know exactly who and what it is
+[15:09:50] <percent20> yeah, but calling it B2G is a bit confusing.
+[15:10:30] <percent20> kind of like having Persona be the consumer face of BrowserID
+[15:17:48] <percent20> groovecoder: did you see Destos's rage commic? http://developerrage.com/4-inherited-shopping-cart-project/
+[15:17:55] <groovecoder> yeah :)
+[15:20:52] <Destos> There needs to be rage comic grammar/spellchecker
+[15:27:02] <percent20> YAY i am getting feedback on GoDjango via facebook :)
+[15:54:35] <percent20> Destos: me and you need to have some words. You got me addicted to reddit and now I keep hitting the random button on rage generator
+[15:55:09] <Destos> :o
+[15:55:14] <Destos> how is that my fault
+[15:55:42] <percent20> I need to blame someone else besides myself. heh.
+[16:10:53] <percent20> looks like PHP 5.4 dropped today.
+[16:15:49] <groovecoder> oooo
+[16:47:15] <percent20> groovecoder: do you have auto completion in vim?
+[16:47:28] <groovecoder> yeah, w/ exuberant ctags
+[16:47:57] <percent20> do you have a tutorial on that?
+[17:03:15] <groovecoder> check out omni completion
+[17:03:15] <groovecoder> http://vim.wikia.com/wiki/Omni_completion
+[17:05:25] <percent20> what command did you use to generate a python ctags file?

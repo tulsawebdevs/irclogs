@@ -1,0 +1,25 @@
+[09:03:25] <groovecoder> percent20: WebTelephony and WebSMS look niiiiice. var tel = navigator.mozTelephony; var call = tel.dial("123456789"); call.hangUp();
+[09:04:09] <groovecoder> var sms = navigator.mozSMS; sms.send("123456789", "Hello!");
+[10:10:20] <zerokarmaleft> https://github.com/tulsawebdevs/ircbot/issues/15 <= heh, superfluous AND essential
+[10:30:36] <Destos> uno-working is fun
+[10:31:14] <groovecoder> Destos: heh, you at Fab Lab?
+[10:31:17] <groovecoder> is it open already?
+[10:31:32] <groovecoder> zerokarmaleft: ;)
+[10:31:56] <Destos> indeed
+[10:32:40] <groovecoder> Destos: will you be there a while? I might swing by on my way out of town later
+[10:32:59] <groovecoder> though "on my way" would actually be 20+ miles OUT of my way :(
+[10:33:06] <Destos> Probably, if I'm the only one for a long time I duno how long I'll stay
+[10:34:07] <groovecoder> it's weird not watching our facebook events for RSVP counts :)
+[10:34:32] <groovecoder> getting a glimpse of how our group can go so unknown for anyone who isn't on the facebook group
+[10:59:09] <groovecoder> Destos: I'll meet up with you another time. 20+ miles out of my way is too discouraging :)
+[10:59:18] <groovecoder> hope you aren't lonely at the lab all day
+[11:24:52] <Destos> so how does one apply a patch file :/
+[11:28:59] <Destos> mat patching
+[11:29:02] <Destos> man*
+[11:30:50] <sephillips> any coworkers today? anyone doing lunch?
+[11:32:23] <Destos> I'm the only one here so far.
+[11:32:31] <Destos> brought Pizza :)
+[11:35:24] <percent20> geh, now I think I am getting a normal cold/bronchidas
+[12:07:33] <groovecoder> Destos: usually `patch -p 0 < file.patch`
+[12:07:37] <groovecoder> -p0
+[12:21:49] <jgmize> Jeremy and I are heading to the fab lab for lunch

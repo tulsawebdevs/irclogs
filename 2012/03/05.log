@@ -1,0 +1,35 @@
+[09:53:25] <groovecoder> http://www.whitehouse.gov/blog/2012/02/22/calling-all-app-developers-10000-app-challenge-looking-ways-connect-businesses-gover
+[11:27:12] <jgmize> groovecoder: have you found any interesting datasets from the dept of commerce?
+[11:31:25] <groovecoder> jgmize: none specifically from them no
+[11:31:29] <groovecoder> but we should ;)
+[20:14:58] <percent20> anyone know of a plugin for firefox that lets you open up tabs side-by-side?
+[20:20:21] <percent20> found one tile tabs
+[20:30:48] <Destos> so viewing two sites at the same time?
+[20:30:51] <Destos> what's your use case
+[20:31:03] <percent20> :D
+[20:31:05] <percent20> sec
+[20:32:54] <percent20> http://dl.dropbox.com/u/1875821/multiple-viewports.png
+[20:33:37] <percent20> that is 3 seperate projects
+[20:35:37] <mrmakeit> 3
+[20:42:20] <Destos> intersting
+[20:47:28] <percent20> is making life easier already
+[20:48:11] <percent20> I have django project open, a django 3rd party app and a reference project so i can track down how code works witout switching through a ton of tabs like alt+tab
+[20:48:19] <percent20> its almost like having it all open in vim.
+[20:52:24] <percent20> its amazing I have been feeling very bleh today. I put on some techno and have been actively coding for over an hour today :D
+[20:52:36] <percent20> my brain is starting to re-engage finally.
+[20:53:38] <Destos> yay, so feeling better?
+[20:55:35] <percent20> getting there.
+[20:55:53] <percent20> still have this punch in my stomach like I need to throw up, but it doesn't feel as bad as it did.
+[20:59:23] <mrmakeit> did you a headace all day?
+[20:59:56] <percent20> no, had some weird illness since last monday. finally starting to get over it.
+[21:01:14] <mrmakeit> ah.  good to know.  I haven't been feeling well today either.  wasnt sure if there was a connection.
+[21:01:25] <mrmakeit> maybe something to do with the Fab Lab
+[21:01:26] <mrmakeit> ?
+[21:03:07] <percent20> no got sick several days after being at fablab
+[21:03:19] <mrmakeit> good to know
+[21:03:52] <percent20> actually, I did got a gaming convention thingy for like 2 hours I wonder if that was where i got it. That was the only place out of the norm.
+[21:04:19] <mrmakeit> where did the convention happen?
+[21:04:26] <percent20> TCC NE
+[21:04:34] <percent20> errrr
+[21:04:36] <percent20> TCC Metro
+[21:04:42] <mrmakeit> possibly

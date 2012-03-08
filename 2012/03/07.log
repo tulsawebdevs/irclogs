@@ -1,0 +1,107 @@
+[10:45:57] <groovecoder> wow, Adobe is starting to impress me again: http://tv.adobe.com/watch/adobe-technology-sneaks-2012/adobe-shadow/
+[10:47:20] <groovecoder> no Firefox extension? :(
+[11:01:29] <Destos> can't even watch the video
+[11:07:33] <Destos> groovecoder: need the embed code for the eventbright registration for SOD
+[11:12:15] <groovecoder> Destos: hmm ... I don't think I'm an admin ... check with Sean?
+[11:13:03] <groovecoder> hmm ... looks like it's not up yet
+[11:13:28] <Destos> alright will do when I implement it
+[11:17:36] <groovecoder> Destos: cool, I pinged him for you
+[11:19:19] <Destos> I'm not getting the right address on google maps when entering in the address from the mockup…
+[11:36:46] <groovecoder> which address? TCC Northeast?
+[11:36:57] <groovecoder> Destos: ^ ?
+[11:37:14] <Destos> yeah
+[11:37:25] <Destos> 3727 East Apache Street Tulsa, Oklahoma 74115 on the mockup places the marker near the airport
+[11:37:47] <Destos> trying to search for the Ne campus doesn't place any markers at the NE one so it got a bit frustrating :/
+[11:37:51] <Destos> could just manually place a marker I guess
+[11:41:42] <groovecoder> should be 4727 East Apache Street Tulsa, OK 74115-3151 ?
+[11:41:56] <groovecoder> http://maps.google.com/maps/place?q=Tulsa+Community+College&cid=742271637275928255 ?
+[11:42:43] <groovecoder> hrm, no that's not right
+[11:44:14] <groovecoder> Destos: can't believe I'm doing this, but http://binged.it/xF1mXF
+[11:44:42] <Destos> google fail
+[11:44:51] <groovecoder> yup
+[11:45:04] <groovecoder> Microsoft compete
+[11:45:10] <groovecoder> good for everyone
+[11:45:51] <Destos> I'll keep the google maps thumbnail though, to confuse people
+[11:46:27] <groovecoder> lulz
+[11:46:41] <groovecoder> make it a yahoo maps with a goo.gl url to the bing map
+[11:51:51] <groovecoder> whoa. http://badassjs.com/post/18857332551/sql-js-sqlite-compiled-to-javascript-via-emscripten
+[12:09:28] <groovecoder> Destos: http://tulsasod2012.eventbrite.com/
+[12:54:35] <percent20> you know what would be fun is sell your ipad 2 in your ipad 3 box once it is released, and be sure to clearly state on ebay you are selling an ipad 2 in an ipad 3 box. would be curios as to what happens.
+[12:54:57] <Destos> someone would buy your ipad2 and be pissed off
+[12:55:11] <percent20> am curios for how much though.
+[12:55:31] <percent20> or they could be so tech stupid they never realize.
+[12:55:41] <Destos> would be the preferable
+[12:55:44] <Destos> reaction
+[12:57:50] <percent20> I knew Milla worked for umbrella. http://t.co/WuYARKTA
+[12:58:11] <percent20> she is carrying and umbrella phone.
+[13:03:12] <percent20> I am so ready for the election to be over.
+[13:03:39] <Destos> hah,
+[13:03:54] <Destos> whats got you so down now
+[13:04:25] <percent20> just tired of stupid people commenting on it. I can't open facebook now without someone staying something batshit stupid.
+[13:05:17] <percent20> i'll lift one off of facebook real quick for you
+[13:05:23] <Destos> Sarah Palin 2012
+[13:06:05] <percent20> "If you are white you are probably a racist so you should vote for Obama to be less of one."
+[13:06:23] <Destos> yeah thats purdy stupid
+[13:06:49] <percent20> and the annoying thing is it was a bunch of white people agreeing with it.
+[13:06:52] <Destos> a guilt vote is a hollow vote
+[13:07:33] <percent20> agreed. I was just stunned that all these people by agreeing with it just called themselves racist.
+[13:12:22] <percent20> did something happen with bootstrap in the last couple of days?
+[13:12:44] <percent20> I have gotten a new wave of traffic from my blog post from it.
+[13:14:21] <Destos> no idea, maybe 2.0 is making the rounds
+[13:25:53] <percent20> I think I am going to go to work.
+[14:16:57] <percent20work> garr it is already the 7th
+[14:17:04] <percent20work> being sick sucks. you lose time
+[14:57:39] <groovecoder> percent2_: one reason I'm really enjoying my facebook "fast"
+[15:40:36] <percent20> lol just had a fun conversation on facebook. someone asked my opinion on something political. I replied that they didn't want my opinion, the proceeded asking for it anway. I gave it and got the best response ever:
+[15:41:07] <percent20> "ur right I dont think I wanted your opinion afterall."
+[15:43:15] <shat> Anyone looking for a PHP dev job, its contract for a few months, full-time
+[15:43:17] <shat> Remote.
+[15:43:43] <shat> Know a guy who is looking for someone, $50/hr I believe, 40 hours a week, 8-5 kind of thing no nights no weekends.
+[15:44:16] <percent20> Destos might, maybe.
+[15:44:38] <Destos> purdy busy atm
+[15:45:20] <shat> Aye.
+[15:45:29] <shat> If you hear of anyone, let me know.
+[15:50:30] <percent20> is there a way on youtube to see a list of most viewed videos of all time
+[16:04:21] <codelahoma> pretty sure you select most viewed, then all time
+[16:04:51] <codelahoma> oh…redesign
+[16:05:45] <codelahoma> it was in the "more channels" sidebar of the Popular Videos page for me.
+[16:05:53] <codelahoma> http://is.gd/hpIz87
+[16:06:37] <codelahoma> not very meaningful, now that the studios have discovered they can promote on youtube
+[16:08:00] <percent20> that doesn't bother me. I am just curios which video will hit 1 billion views first.
+[16:09:33] <codelahoma> 713M is pretty impressive. That's a little over 3% of all views ever.
+[16:10:08] <percent20> I just hope Bieber doesn't make the 1 billion first. lol.
+[16:10:55] <codelahoma> I wonder if the viewings through the Vevo app count towards those totals.
+[16:11:55] <percent20> I wonder how easy it would be to spin up 1,000,000 ec2 instances and have it "watch" the jennifer lopez video 1 time.
+[16:14:59] <codelahoma> even with elasticip, I'm betting you'd trip some fraud circuits
+[16:15:07] <percent20> 80,000 ec2 instances using 1 hour is $1585
+[16:16:09] <codelahoma> 30,000 is the largest cluster I've seen publicly acknowledged.
+[16:17:04] <codelahoma> and they weren't small ones: $1,279 per hour
+[16:17:11] <codelahoma> http://is.gd/dMvxcg
+[16:17:44] <codelahoma> oh yeah, they just dropped the reserve pricing a bunch, didn't they?
+[16:17:49] <percent20> that is a cool article.
+[16:17:51] <percent20> yeah
+[16:18:55] <codelahoma> I love that people are able to do things on a scale now that aren't just "it would have taken a long time", but rather "it couldn't have been done".
+[16:19:24] <percent20> yeah.
+[16:20:16] <codelahoma> the pace of change is incredible
+[16:20:49] <codelahoma> by the time my four-year-old is in high school, we'll all be used to robots being all around (most likely)
+[16:21:45] <percent20> not sure about that, but it would be cool.
+[16:22:08] <codelahoma> not androids, but service robots. Cleaning, mowing, that kind of stuff.
+[16:22:32] <codelahoma> 10 years is a LOOOOONG time these days.
+[16:22:41] <codelahoma> anywho, gotta go pick that kid up.
+[16:22:45] <percent20> i understand, but it seems like everytime seem to get close, we don't.
+[16:22:48] <percent20> have fun.
+[16:22:57] <codelahoma> laters (although I never actually leave)
+[16:38:20] <Destos> robopocalypse
+[16:38:51] <percent20> skynet?
+[16:41:18] <percent20> https://twitter.com/buddylindsey/status/177524032881692672
+[16:46:07] <groovecoder> I felt compelled to watch the most popular video. I have instant buyer's remorse
+[16:52:37] <Destos> lol percent20 the Terminator appears to be protecting you
+[16:53:21] <percent20> groovecoder: heh
+[16:53:44] <percent20> Destos: lol always like to be protected.
+[16:57:33] <Destos> So apparently there was a shooting at the courthouse, and I have to bike nearby in a couple min…
+[16:57:44] <percent20> I was downtown during that.
+[16:57:51] <percent20> about 2 blocks away.
+[16:58:43] <danf1> I listened to the police scanner during a lot of the aftermath... pretty chaotic at the time, but seems to be calm now. But be ready to detour, possibly.
+[17:20:26] <groovecoder> wow, BeautifulSoup is ... beautiful
+[17:23:33] <percent20> ???
+[17:24:27] <Destos> bblz

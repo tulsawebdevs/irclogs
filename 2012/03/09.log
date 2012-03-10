@@ -1,0 +1,87 @@
+[07:03:56] <groovecoder> hah. nice: http://www.youtube.com/watch?v=ZUG9qYTJMsI&feature=player_embedded
+[09:10:33] <percent2_> groovecoder: I like how they guy with the shaving cream on his head is reading the lean startup
+[09:11:49] <groovecoder> hah
+[09:11:52] <groovecoder> didn't notice
+[09:13:37] <percent2_> glad I am not the only one that thought pedo bear when I saw the bear.
+[09:18:08] <percent2_> geh after reading a bit about the new JOBS bill not sure i'd want to use kick starter anymore. http://venturebeat.com/2012/03/08/jobs-act-passes-crowdfunding-bill-startups/
+[09:19:01] <percent2_> well not necessarily all of the problems come from the bill, but some of the problems inherit from crowd sourcing funding. http://venturebeat.com/2011/11/08/faq-what-the-new-u-s-crowdfunding-bill-means-for-entrepreneurs/
+[09:19:28] <percent2_> the biggest one of note is that each person that puts money in has an amazing amount of power over the rest of the company. :(
+[09:20:35] <groovecoder> percent2_: but that's still just an optional mode of crowdfunding right?
+[09:20:41] <groovecoder> (the ownership stake part)
+[09:21:01] <groovecoder> I mean, you can still do traditional kickstarter mode?
+[09:23:24] <percent2_> i don't know. I personally wouldn't want to chance it to have some crazy person decide they want to make my life a living hell because they don't have a job or anything better to do, and their $20 initial investment allows them to do all kinds of crap.
+[09:24:41] <percent2_> I dunno I just seem to get stuck with that one guy that makes life miserable. :(
+[09:26:25] <Destos> It doesn't look like co-working on scheduled on FaceBook
+[09:26:37] <percent2_> gah
+[09:26:38] <percent2_> forgot
+[09:26:47] <groovecoder> Destos: oops. I'll be up there soon
+[09:26:54] <groovecoder> running a couple errands on the way though
+[09:26:57] <percent2_> being sick and all really messed my adding it up there.
+[09:27:07] <Destos> I'll probably be there from 12-3 then 4-5
+[09:27:07] <percent2_> i'll be there too. I am about to head that way.
+[09:27:30] <Destos> have to pick up my sister's friend again
+[09:27:39] <percent2_> :(
+[09:27:53] <percent2_> i'm thinking we need some bus routes on google maps ;)
+[09:27:56] <Destos> Did anyone call dan to open up at 10?
+[09:27:58] <Destos> we do
+[09:28:16] <percent2_> I wasn't aware we were supposed to call.
+[09:28:57] <percent2_> its timmorgan
+[09:29:21] <timmorgan> I came to coworking
+[09:29:24] <timmorgan> but no one here
+[09:29:31] <groovecoder> timmorgan: OMW!
+[09:29:38] <groovecoder> I gotta see timmorgan at coworking!! :)
+[09:29:43] <percent2_> O_O me too
+[09:29:54] <percent2_> I was about to head that direction, I need to hurry and leave then.
+[09:29:57] <timmorgan> lol
+[09:30:06] <percent2_> timmorgan: we have kind of been showing up around 10ish.
+[09:30:24] <percent2_> !karma?
+[09:30:32] <groovecoder> !timmorgan++
+[09:30:43] <Destos> tim, the does are open?
+[09:30:49] <groovecoder> Destos: Dan is there
+[09:30:50] <timmorgan> doors are open
+[09:30:56] <groovecoder> see you guys in a bit
+[09:31:00] <timmorgan> sweet
+[09:31:07] <percent2_> bye bye. I should jump off too.
+[09:31:08] <Destos> alrighty, I'll be by soon then
+[11:08:48] <timmorgan> groovecoder: nnoremap <silent> <Leader>F :FufRenewCache<CR>
+[11:08:54] <timmorgan> nnoremap <silent> <Leader>T :FufBufferTagAll<CR>
+[11:09:06] <timmorgan> nnoremap <silent> <C-\> :FufBufferTagAllWithCursorWord!<CR>
+[11:13:51] <groovecoder> timmorgan: https://github.com/groovecoder/vim/blob/master/vimrc#L53
+[11:14:00] <groovecoder> timmorgan: I want to exclude vendor/
+[11:14:13] <timmorgan> let g:fuf_coveragefile_exclude = '\v\~$|\.(o|exe|dll|bak|orig|swp|jpg|png|gif)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|vendor/|_site|node_modules|^tmp'
+[12:04:07] <groovecoder> http://ondras.zarovi.cz/games/just-spaceships/
+[12:23:19] <percent20> I WANT THIS. http://i.imgur.com/QuniZ.gif
+[12:26:06] <zerokarmaleft> it's about as comfortable as sitting on...oh surprise, corrugated cardboard
+[12:26:37] <zerokarmaleft> there's a bunch of other furniture pieces by that designer, the concept is neat
+[12:27:06] <percent20> yeah. I like it.
+[12:55:24] <percent20> https://twitter.com/buddylindsey/status/168065910320533505
+[13:03:15] <groovecoder> !percent20++
+[13:23:12] <groovecoder> timmorgan: http://www.doodle.com/bgp7gcicidf4ixs6
+[13:32:29] <Destos> percent20: NameVirtualHost *:80
+[13:34:43] <Destos>     Options Indexes MultiViews FollowSymLinks
+[14:13:17] <groovecoder> timmorgan: http://www.thingiverse.com/thing:16643
+[14:14:56] <timmorgan> groovecoder: convert 6_packer-24x12-01.{eps,pdf}
+[14:18:03] <timmorgan> groovecoder: higher res: convert -density 300x300 6_packer-24x12-01.{eps,pdf}
+[15:39:36] <percent20> home sweet home.
+[16:02:02] <groovecoder> percent20: you missed the fireworks with Destos
+[16:02:12] <percent20> ???
+[16:02:16] <Destos> yeah
+[16:02:19] <Destos> I had a total meltdown
+[16:02:22] <Destos> told luke to f off
+[16:02:39] <percent20> wow
+[16:02:46] <timmorgan> it was nuts
+[16:02:58] <percent20> what was the meltdown over?
+[16:03:11] <groovecoder> politics
+[16:03:30] <percent20> ah. what specifically?
+[16:04:17] <groovecoder> Destos said that a $0.02 titanium tax goes too far, and I said a $0.02 titanium tax doesn't go too far enough
+[16:05:09] <groovecoder> just kidding, we set some stuff on fire with the laser-cutter
+[16:05:18] <percent20> cool.
+[16:05:26] <percent20> sounds like an interesting afternoon
+[16:05:36] <percent20> guess I should have stayed
+[16:06:21] <percent20> groovecoder: you have a daugher right?
+[16:06:29] <percent20> daughter*
+[16:06:57] <percent20> is this going to be you when she is old enough to date? http://www.youtube.com/watch?v=x4pIJtt48g4
+[16:06:59] <groovecoder> percent20: yeah
+[16:19:59] <groovecoder> hah, yeah
+[16:20:01] <groovecoder> okay I gotta go
+[17:22:02] <groovecoder> remember kids - only you can prevent laser cutter fires: http://dl.dropbox.com/u/21969365/vids/laser_cutting_fire.ogv

@@ -1,0 +1,226 @@
+[08:05:43] <groovecoder> morning!
+[08:23:54] <zerokarmaleft> morning
+[11:19:51] <percent20> groovecoder: I have my babydjango proj working with global_settings and custom project based settings now. not sure if I want to work on next though :(
+[11:20:11] <percent20> https://github.com/buddylindsey/babydjango
+[11:24:14] <groovecoder> percent20: what are you interested in learning next? :)
+[11:25:18] <MattGalloway> groovecoder: Are you planning on going to the Entrepreneurship Meeting on Thursday morning?
+[11:30:00] <groovecoder> MattGalloway: yeah
+[11:32:41] <MattGalloway> groovecoder: Sean Griffin asked me to introduce you to some folks. He's pretty excited that you'll be there (unfortunately he won't be.)
+[11:36:48] <groovecoder> MattGalloway: okay, sounds good
+[11:37:02] <groovecoder> (gotta grab a bite before a meeting)
+[11:42:34] <percent20> wow had to read that a few times. It sounded like you were suppsed to introduce groovecoder to Sean, but he wasn't going to be there. I don't think my brain has finished booting up today.
+[13:14:44] <codelahoma> any rubyists in here?
+[13:16:27] <percent20> there are people that can use ruby, not so sure about the rubyist part.
+[13:17:04] <codelahoma> I used to know how to look at only the methods that a class itself has defined in irb, but I forgot.
+[13:19:27] <percent20> I know that, but can't remember at the moment. lol.
+[13:19:44] <percent20> I sometimes just someobjectname.<tab>
+[13:20:10] <codelahoma> that still gets the inherited public methods
+[13:20:39] <percent20> iirc there is a method you call on the object
+[13:20:52] <codelahoma> obj.methods - Object.methods gets you most of the way there
+[13:21:02] <codelahoma> but still has the mixin methods
+[13:21:56] <percent20> and ancestors shows the inhertiance chain
+[13:22:29] <percent20> what about public_class_methods and private_class_methods
+[13:23:09] <percent20> nm
+[13:23:22] <percent20> i dunno :( sorry.
+[13:24:06] <codelahoma> maybe I was in pry when I did it.
+[13:25:07] <percent20> or, like in my case, you didn't actually do it you just thought you did while you did something else.
+[13:25:19] <percent20> I tend to do that a lot now that I think about it.
+[13:25:21] <codelahoma> definitely a possibility
+[13:25:22] <percent20> :(
+[13:26:02] <codelahoma> always reminds me of a Family Guy quote for which I don't even remember the context: "Are you sure it wasn't…nothing?"
+[14:25:29] <percent20> http://www.cracked.com/article_19695_9-foreign-words-english-language-desperately-needs_p2.html
+[14:25:44] <percent20> oops wrong link.
+[14:25:45] <percent20> http://www.cracked.com/article_19695_9-foreign-words-english-language-desperately-needs.html
+[14:25:53] <percent20> I could add a couple of japanese words to that.
+[14:37:28] <percent20> groovecoder|food: if i drive to djangocon and stay in a hostel I think I knocked the cost down to $1300ish
+[14:39:15] <percent20> hrm just checked flights again. same cost for flight as driving.
+[14:41:47] <percent20> so if I had a car that got 30 mpg it would be $250 to $300 for gas. This is hard to try and pull off.
+[14:50:48] <codelahoma> "comma f*ckers", awesome.
+[15:02:20] <percent20> ???
+[15:28:49] <groovecoder|food> whoa. OKCCoCo is selling a bunch of their coworking furniture and what-not
+[15:29:54] <groovecoder|food> wish we were trying to furnish a coworking space of our own! :)
+[15:38:20] <Destos> you would think they are re-use it?
+[15:38:36] <Destos> would want to*
+[15:43:04] <mrmakeit> does anyone know if iptables can work with domains vs strictly IPs?
+[15:52:07] <groovecoder|food> mrmakeit: I've never used it for domains
+[16:24:00] <percent20> holy crap some of those are good prices
+[16:27:14] <shat> heyo
+[16:31:52] <percent20> I might actually be going down to OKC tomoorrow now.
+[16:34:14] <groovecoder|food> percent20: hah!
+[16:35:44] <Destos> we should buy the co-working tables
+[16:36:39] <groovecoder|food> Destos: I considered that, but where would we put them?
+[16:37:04] <Destos> In our imaginary co-working space
+[16:37:04] <groovecoder|food> I like the tables at Fab Lab already ...
+[16:37:19] <groovecoder|food> Destos: hah, exactly
+[16:38:08] <Destos> apparently I'm a climbing apparatus to these kittens :/
+[16:38:19] <Destos> ACTION heads outside for a walk.
+[16:38:40] <percent20> groovecoder|food: could you  make a trip to OKC in the afternoon tomorrow?
+[16:39:13] <percent20> if you want to get something I have a trailer.
+[16:40:32] <groovecoder> percent20: nope :( you could check with vance lucas to see if he'll grab something for you
+[16:46:31] <percent20> me and my dad are going to see about going down there tomorrow
+[16:46:47] <percent20> see about getting a desk and a 4' x 6' marker board
+[16:48:56] <shat> (irb):61: syntax error, unexpected '|', expecting '='
+[16:48:57] <shat> h = Suggestion.all.reduce Hash.new(0), {|h,v| h[v] +=1}
+[16:48:58] <shat> shit
+[16:48:59] <shat> ignore
+[16:49:58] <percent20> I just realized since I got up at noon I haven't gotten anything done, but I feel like I have been busy for the last few hours.
+[17:06:20] <Destos> tsk tsk
+[17:07:37] <Destos> percent20: I would like to go as well but I'm not sure if I have time tomorrow, would you possibly be able to buy via proxy?
+[17:07:43] <Destos> I may be interested in a table as well.
+[17:27:49] <percent20> maybe, just got called a few minutes ago I might not be able to go afterall. Depends on if a meeting at work happens or not. :( not even sure why they want me in the meeting either.
+[17:28:14] <Destos> to waste time
+[17:28:29] <percent20> that is what I am thinking. lol.
+[17:44:17] <shat> any of you rails gurus sitting around?
+[17:45:22] <shat> I am capturing the contents of every row in a db, by column :title -- I need to count how many of each title appear.. like so:
+[17:45:25] <shat>     @top = Hash.new(0)
+[17:45:27] <shat>     Suggestion.all.each do |s|
+[17:45:30] <shat>       @top = @top[s.title] +=2
+[17:45:32] <shat>     end
+[17:45:33] <shat> Now, I am outputting it in my view like so:
+[17:45:47] <shat> brb phone
+[17:53:30] <shat> danit lost my train of thought.
+[17:53:30] <shat> heh
+[18:00:51] <shat> h.sort_by{|key, value| -value}
+[18:00:54] <shat> there we go ;)
+[18:05:11] <percent20> there we go did a 20 minute run and published a blog post
+[18:07:03] <shat> nice.
+[18:07:57] <percent20> run was a good too. :)
+[18:07:58] <shat> someone want to help me pick this apart, http://pastie.org/private/gwyshafefyi67yma6mrcjg
+[18:08:04] <shat> I am trying to just pull the top 10 now.
+[18:08:07] <shat> so limit(10)
+[18:08:15] <shat> but it doesn't allow me to use the method limit.
+[18:08:25] <shat> @top = @shows.limit(10)
+[18:08:29] <shat> for example - no good.
+[18:08:51] <shat> I know its a hack, I'll refactor later, but.. trying.. to get just the top damn 10, based on the value.
+[18:09:06] <percent20> that is weird.
+[18:11:50] <shat> what is weird? my crazy hack of a method
+[18:11:51] <shat> lol
+[18:12:05] <shat> I would do a class, but I suck at doing classes.
+[18:12:17] <shat> I was using @top.each_pair
+[18:12:21] <shat> in the view..
+[18:12:37] <shat> i dont know shit about hashes apparently.
+[18:14:28] <percent20> not the fact you can't do limit
+[18:14:33] <percent20> not == no
+[18:15:40] <percent20> I don't understand why you are doing line 7
+[18:40:39] <percent20> groovecoder: http://www.python.org/dev/peps/pep-0405/ <- looks like django guys want to help make that more default, somehow, into django. At least I caught the tail end of a conversation in #django-sprint about them trying to get it working.
+[21:31:17] <groovecoder> Destos: Sean is anxious about the school of dev site - any update?
+[21:34:54] <groovecoder> hey SeanW122 !
+[21:35:14] <SeanW122> testing 1,2,3
+[21:35:27] <groovecoder> just pinged Destos, but he might be asleep ;)
+[21:35:32] <Destos> he was locked away for a chrome he didn't commit
+[21:35:42] <Destos> I am here and guilty
+[21:36:08] <SeanW122> I assume Destos is Patrick?
+[21:36:25] <groovecoder> SeanW122: yeah
+[21:36:29] <groovecoder> Destos: lol
+[21:36:43] <SeanW122> I haven't chatted in a room like this in years....
+[21:36:52] <Destos> its all the rage these days
+[21:37:04] <SeanW122> I met my wife 15 years ago with Microsoft Netmeeting
+[21:37:25] <SeanW122> anyway, I wanted to check on the tulsaschoolofdev.com site
+[21:37:59] <SeanW122> I also need someone to help adjust the logo. Someone with photoshop or similar graphics tool.
+[21:38:07] <SeanW122> I just dont' have the time right now
+[21:38:08] <Destos> alright, I can do both
+[21:38:18] <Destos> Status is I'm working on it slowly and sorry its taking so long
+[21:38:53] <SeanW122> ok, what is the hold-up? Is it difficult? I don't know anything about wordpress templates.
+[21:38:56] <Destos> almost every time I think I have time to sit down on it something else pops up. But I realize it needs done soon so I'll move it up on the priority list.
+[21:39:10] <SeanW122> ah ok, life gets in the way
+[21:39:13] <SeanW122> I understand
+[21:39:26] <SeanW122> trust me I'm not biting the hand that's helping :)
+[21:39:39] <SeanW122> all help is extremely appreciated
+[21:40:00] <SeanW122> as soon as the site is done I can advertise it. We only have a month left
+[21:40:04] <Destos> so what needs adjusted in the logo? I think I have access to the psd
+[21:40:31] <SeanW122> I need the word Tulsa added to it. I don't have the font Carlos used
+[21:41:01] <Destos> prepended?
+[21:41:11] <SeanW122> yes, on top
+[21:46:20] <Destos> SeanW122: http://dl.dropbox.com/u/139415/school-of-dev-logo.jpg
+[21:46:28] <SeanW122> looking...
+[21:46:39] <percent20> O_O SeanW122 is in here?
+[21:46:44] <SeanW122> I is
+[21:47:08] <SeanW122> the logo looks great!
+[21:47:43] <SeanW122> thanks Destos
+[21:48:04] <percent20> SeanW122: do youhappen to know of a barber around here that it costs like $10 to get a buzz cut?
+[21:48:30] <groovecoder> percent20: I'll buzz your hair for $5
+[21:48:43] <SeanW122> I go to Starla at Tangles off 151st west of Glenpool
+[21:48:44] <Destos> SeanW122: http://dl.dropbox.com/u/139415/school-of-dev-logo2.jpg
+[21:48:57] <SeanW122> Destos; I like that better
+[21:49:00] <Destos> experimenting
+[21:49:17] <Destos> yeah it feels a little better
+[21:49:18] <groovecoder> yeah, I like logo2 also
+[21:49:29] <SeanW122> I think it helps that Tulsa is more visible like that
+[21:49:33] <Destos> do you want the logo ad a Png?
+[21:49:52] <percent20> SeanW122: what do they charge?
+[21:50:12] <percent20> Destos: kerning seems a bit off on the Tulsa
+[21:50:14] <SeanW122> I get a shampoo, cut, rinse, and gell for $15
+[21:50:24] <Destos> Ha percent20
+[21:50:27] <percent20> I must find this place.
+[21:50:29] <groovecoder> !percent20--
+[21:50:35] <groovecoder> ACTION sighs
+[21:50:36] <percent20> Destos: and I was being serious.
+[21:50:43] <Destos> poppycock
+[21:50:51] <Destos> do not question my kerning!
+[21:50:55] <SeanW122> percent20: on logo1 or 2?
+[21:51:01] <percent20> the distance between u...l...s is just WIIIIIIDE
+[21:51:07] <SeanW122> Destos is the master kerner
+[21:51:29] <groovecoder> SeanW122: I think he was referring to this: http://xkcd.com/1015/
+[21:51:47] <SeanW122> LOL
+[21:52:01] <percent20> groovecoder: actually I was being completely serious. It is just unfortunate we had that conversation last friday
+[21:52:17] <groovecoder> oh
+[21:52:19] <Destos> http://dl.dropbox.com/u/139415/school-of-dev-logo3.jpg
+[21:52:23] <groovecoder> !groovecoder--
+[21:52:33] <Destos> tsk tsk
+[21:53:00] <SeanW122> either 2 or 3 is fine
+[21:53:17] <percent20> heh those few pixels actually helps my eyes.
+[21:53:26] <groovecoder> percent20: that's crazy
+[21:53:41] <Destos> its true
+[21:53:49] <SeanW122> dude, one of your eyes is not even straight
+[21:53:55] <percent20> LOL
+[21:53:56] <SeanW122> jk
+[21:54:05] <Destos> oh jeeez
+[21:54:07] <percent20> yes I know I have a lazy eye, but I am not that tired, yet.
+[21:54:18] <SeanW122> i've seen it wander off while you talk....and drink
+[21:54:33] <percent20> I can also do it on command as well.
+[21:54:42] <SeanW122> wow, you have talent
+[21:54:46] <Destos> a pickup skill
+[21:54:48] <percent20> I could have my own booth at a circus
+[21:55:03] <SeanW122> "I'm watching you, and you"
+[21:55:13] <Destos> yeah, circus fat people were just like normal is now
+[21:55:21] <SeanW122> LOL
+[21:55:44] <percent20> SeanW122: it is actually a useful skill when I want to know what someones head looks like on someone elses body, as long as they are standing next to each other.
+[21:55:56] <SeanW122> LMAO
+[21:56:18] <Destos> SeanW122: http://dl.dropbox.com/u/139415/school-of-dev-logo3.png if you need to use it elsewhere here is a convenient png
+[21:56:59] <SeanW122> got it thx!!!
+[21:57:38] <groovecoder> so, tastypie is nice, but it *requires* trailing slash?! :(
+[21:58:14] <percent20> groovecoder: have you tried setting that setting to false?
+[21:58:24] <groovecoder> percent20: yeah, tastypie gives 404 :(
+[21:58:28] <groovecoder> had to restore it
+[21:59:02] <percent20> hrm in global_settings it has APPEND_SLASH = True i guess tastypie doesn't like redirects.
+[21:59:12] <groovecoder> I got 500 trying to post to /facility because it can't redirect POST to /facility/, so I made APPEND_SLASH=False and then tastypie said 404 on /facility
+[21:59:40] <percent20> ah yeah. Post are a bear when it comes to URL's
+[22:00:14] <SeanW122> ok, I'm going to make like a baby and head out.  nite all
+[22:00:38] <percent20> SeanW122: cya
+[22:00:45] <Destos> later
+[22:01:18] <percent20> I found another subreddit that interests me. *sigh*
+[22:03:05] <percent20> groovecoder: I started watching ubernostrum's django video and I made it about 30 minutes before my brain was dead.
+[22:03:22] <groovecoder> oh yeah? what it is about?
+[22:05:04] <percent20> He starts at the bottom of something and works his way up to higher level. so part one was the orm. He started at the base class where they hand off code to psycopg or other python libraries that directly interact directly with the database. Then moved his way up layer by layer to verifying db type to relationship checking then to sqlcompiler to generate scripts
+[22:05:36] <percent20> I think we walked through 10 differen base classes before he got where you can do Something.objects.all()
+[22:05:58] <percent20> and the thing is like 3.5 hours long
+[22:06:12] <groovecoder> 3 hours?!
+[22:06:14] <groovecoder> holy crap
+[22:06:16] <percent20> I learned a lot but my head wanted to explode.
+[22:06:47] <percent20> I think i am going to leave the ORM to last for babydjango
+[22:09:49] <groovecoder> here's a tiny orm I built and re-used on a bunch of php code back in the day: https://gist.github.com/2026673
+[22:09:50] <groovecoder> :)
+[22:09:55] <percent20> groovecoder: http://pyvideo.org/video/610/django-in-depth
+[22:11:26] <percent20> that is a good little helper. Mine is a bit more elaborate. I should probably take yours from you ;)
+[22:12:45] <groovecoder> yeah, I think it was like $entry = new table("mysql://user:pass@host/db", "entries"); $entry['title'] = "Title"; $entry['content'] = "Lots of content."; $entry->save();
+[22:13:05] <groovecoder> which, at the time, was insanely simple for PHP
+[22:14:00] <percent20> the one i created I halfass reverse engineered code ignitors ORM
+[22:15:06] <groovecoder> I guess mine's technically a "Table Access Gateway" or whatever
+[22:15:12] <groovecoder> not really ORM
+[22:15:36] <percent20> hehe yeah i was going to avoid mentioning that.
+[22:15:53] <groovecoder> oh, and I guess I had always meant to put a quick request/response router for rest access
+[22:16:07] <groovecoder> someday
+[22:16:10] <percent20> however, most people don't create a true ORM in PHP anyway.
+[22:16:24] <groovecoder> true, true
+[22:16:43] <percent20> they call it that, but how it is coded it really isn't since they realy on the Key Value Pair php returns back to convert it to an object.
+[22:17:16] <percent20> took me a while to figure out that is what they were doing too.

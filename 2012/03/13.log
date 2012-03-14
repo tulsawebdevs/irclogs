@@ -1,0 +1,33 @@
+[10:16:08] <groovecoder> <chuckle>let g:gist_show_privates = 0</chuckle>
+[10:22:32] <groovecoder> percent20: yum: http://www.vim.org/scripts/script.php?script_id=2423
+[10:22:36] <groovecoder> https://gist.github.com/2029729
+[10:23:23] <percent20> that is a cool plugin right there.
+[10:23:25] <groovecoder> I mapped it to ,V
+[10:24:51] <groovecoder> trying to figure out how to work it to paste only the selected text in visual mode ...
+[10:28:45] <zerokarmaleft> you vim guys use vundle? https://github.com/gmarik/vundle
+[11:10:43] <groovecoder> zerokarmaleft: not yet :)
+[12:00:51] <percent20> encode has started on todays godjango episode
+[12:02:18] <groovecoder> percent20: w00t
+[12:10:54] <zerokarmaleft> https://developers.google.com/events/io/ <= neat rube goldberg thing
+[13:07:41] <percent20> garrrr I hate doing this video crap.
+[13:36:25] <percent20> ACTION thinks he wants to give up on godjango videos
+[13:40:31] <groovecoder> zerokarmaleft: Google++ for cross-browser support!
+[13:40:56] <groovecoder> davygeek: ?
+[13:41:04] <groovecoder> davygeek: hello and welcome
+[14:28:41] <mrmakeit|sleep> when is djangocon?
+[14:29:23] <mrmakeit> and hi davygeek
+[14:29:23] <groovecoder> this fall sometime
+[14:29:30] <mrmakeit> thanks
+[14:35:03] <mrmakeit> groovecoder: is there a way ib firefox to one-buttion disable all plugins?
+[14:35:26] <groovecoder> plugins? or add-ons?
+[14:35:37] <mrmakeit> both
+[14:35:50] <mrmakeit> but more for add-ons
+[14:36:45] <groovecoder> hmm
+[14:36:51] <groovecoder> I don't know off the top of my head
+[14:37:39] <groovecoder> safe mode will disable all addons
+[14:46:54] <groovecoder> whoa.  https://developer.mozilla.org/en-US/demos/detail/css-blockout/launch
+[15:22:29] <davygeek> hey guys. sry
+[15:26:36] <davygeek> i'm using the webchat.freenode.net site. i think someone mentioned an alternate before that gives notifications when there's a new message?
+[15:27:06] <percent20> I love when my browser caches css from another project so now my other project not doing proper css
+[18:40:08] <percent20> The 7 Databases in 7 Weeks guys have finally seen my review series and are going through and reading all my posts.
+[21:07:22] <SeanW122> ping

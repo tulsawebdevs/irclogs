@@ -1,0 +1,59 @@
+[06:59:52] <groovecoder> everyone should sign up for http://brigade.codeforamerica.org/ ! and join the Code for Tulsa brigade!
+[08:23:36] <Destos> http://coreh.github.com/WebSonic/
+[08:26:26] <groovecoder> Destos: how do I jump?
+[08:26:33] <groovecoder> also, holy crap I can't play games right now!
+[08:26:45] <Destos> STOP
+[08:26:54] <Destos> let me be your conscience
+[08:26:58] <groovecoder> oh, Destos I've scheduled a Tulsa Hackathon email blast to send on Monday with a link to the school of dev website ;)
+[08:27:08] <Destos> ohnoes
+[08:27:12] <Destos> good thing its almost done
+[08:27:34] <groovecoder> whew
+[08:28:27] <Destos> gone head over to consumer affairs now bbinabit
+[13:45:58] <percent20|work> anyone here use finalcut pro?
+[13:53:34] <groovecoder> percent20|work: maybe Destos ?
+[13:53:40] <groovecoder> or shat?
+[13:53:56] <Destos> I had used it a lot time ago before it was updated.
+[13:54:39] <percent20|work> my biggest question is what does final Cut Pro use to take the project and encode it to something? does it have a built in one or does it use a 3rd party encoding software?
+[13:55:08] <zerokarmaleft> probably Quicktime
+[13:55:41] <percent20|work> that is what iMovie uses and is giving me high blood pressure
+[14:22:05] <percent20|work> I "might" have gotten my issues resolved on my video stuff. I need to do some testing once I get home to see if emails I have gotten from various people asking questsions lends the solution I need without buying FCP
+[14:30:29] <zerokarmaleft> percent20|work: do you have the space to render uncompressed video and encode using something else (e.g. ffmpeg)?
+[14:30:49] <zerokarmaleft> does iMovie just crash or what?
+[14:31:02] <percent20|work> yes, but quicktime wont let me render uncompressed from iMovie.
+[14:31:23] <zerokarmaleft> D:
+[14:31:40] <percent20|work> I got some instructions that should allow me to do uncompressed from iMovie via quicktime. I just need to attempt them when I get home from work.
+[14:33:21] <percent20|work> if i can and it comes down to it i'll go buy a big HD so I can store, at least temporarily, uncompressed video
+[14:34:22] <percent20|work> I am trying to avoid purchasing Final Cut Pro.
+[14:36:23] <Destos> just download the trial
+[14:37:21] <percent20|work> that is probably the smart thing to do, but I have never been accused of doing smart things. heh.
+[14:51:52] <percent20|work> it is fixed. and I don't need to buy FCP
+[14:52:21] <zerokarmaleft> nice
+[14:52:23] <percent20|work> talked to Ryan Bates on twitter and he gave me his exporting process and I can do it with iMovie and it worked well.
+[14:54:48] <percent20|work> with that fix much of my aprehension on doing premium videos is now gone since I can put out a quality video. :)
+[14:55:13] <percent20|work> well if i don't run into yet another problem
+[17:05:42] <percent20> groovecoder: does firefox have a flash fallback for mp4 videos?
+[17:05:57] <percent20> I just opened up http://assets.godjango.com/episode-12/GoDjango-12-pagination.mp4 in an empty tab, and i started playing
+[17:10:10] <groovecoder> percent20: I think it falls back to an OS-level viewer (QuickTime in my case)
+[17:10:18] <percent20> ah
+[17:14:53] <percent20> I love being blasted with ads when trying to download an app from sourceforge it makes me feel all warm and fuzzy inside.
+[17:16:44] <groovecoder> percent20: if you like being blasted with the ads, think how awesome it is to spend days on end coding those ads to work juuuust right!
+[17:17:15] <percent20> heh I can't imagine working at SF once the ads started rolling in.
+[17:18:20] <percent20> what is funny is i want to like sourceforge more because they do so much for the OSS community, but I don't know how. :(
+[17:30:00] <percent20> alright lets see if I can remember how to use gimp
+[17:40:24] <groovecoder> http://www.businessinsider.com/how-much-google-pays-apple-for-search-on-the-iphone-2012-3
+[17:41:47] <percent20> wow
+[17:43:49] <percent20> everyone is making money off of google.
+[17:44:21] <Destos> or, google is paying everyone to dominate the street corner
+[17:45:00] <Destos> groovecoder: whats that app you use for keyboard shortcuts to position windows?
+[17:45:08] <Destos> I'm going to attempt to give up my mouse,
+[17:45:23] <Destos> as it ran out of batteries and I figure now is as good a time as any.
+[17:45:30] <Destos> so while they are charging… :o
+[17:46:44] <MattGalloway> Destos: I'm all about Apple's Trackpad (for my desktop). I haven't used a mouse in ages.
+[17:47:33] <Destos> I've seen quite a few people select them over the magic mouse,
+[17:47:52] <percent20> MattGalloway: but they require batteries too.
+[17:48:04] <Destos> Sadly I can not play Left 4 dead with a trackpad, I've tried
+[17:52:52] <MattGalloway> Yeah they do require batteries and I don't use (an external) one with my laptop but I don't code on my laptop much either.
+[17:58:19] <percent20> finally. http://godjango.com/12-pagination/
+[18:21:00] <percent20> Destos: thanks for the RT :)
+[18:29:49] <Destos> npz, don't really have any followers however
+[18:31:13] <percent20> something is better than nothing :)

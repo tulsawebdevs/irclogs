@@ -1,0 +1,87 @@
+[07:05:58] <groovecoder> percent20: http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html :)
+[07:25:28] <groovecoder> jwhitlock_zzz: you should come to coworking today @ noon for skype call w/ Kevin Curry re: Trapeze & GTFS
+[07:35:58] <groovecoder> haha! nice: http://browseryoulovedtohate.com/
+[07:40:47] <groovecoder> esp. http://browseryoulovedtohate.com/post/19346267107
+[08:33:53] <Destos> on my way to the lab
+[08:56:06] <groovecoder> jsatt: jwhitlock_zzz: MattGalloway: if any of you can come by the lab for coworking today, Sean Griffin is going to be there and wants to see us "in action" :)
+[08:56:17] <groovecoder> so Scott wants to stack the room if we can ;)
+[08:56:39] <groovecoder> tell all your friends!
+[08:56:50] <jsatt> we're already packing up to head that way now. see you guys in a bit.
+[08:57:37] <MattGalloway> Sorry but I can't make it today. :(
+[09:11:28] <percent20> http://xkcd.com/323/
+[09:43:56] <percent20> http://brigade.codeforamerica.org/deployed_applications/106
+[09:45:14] <jwhitlock> did I miss anything?
+[09:51:12] <percent20> jwhitlock: not really
+[09:56:00] <jwhitlock> when you sign up for brigade CfA, set your city:  http://brigade.codeforamerica.org/users?utf8=✓&query=Tulsa%2C+OK
+[09:56:43] <percent20> !hello
+[09:56:59] <jwhitlock> http://brigade.codeforamerica.org/users?query=Tulsa%2C+OK
+[10:07:16] <percent20> !jwhitlock++
+[10:18:53] <jwhitlock> 💩
+[10:19:26] <jwhitlock> http://💩.la/
+[10:32:01] <mrmakeit> !karma
+[10:33:00] <percent20> !karma?
+[10:33:43] <percent20> !jgmize++
+[10:33:57] <zerokarmaleft> percent20 is the type of guy that ran his own BBS back in the day and cheated at Trade Wars
+[10:34:01] <Destos> !jgmize--
+[10:34:20] <percent20> zerokarmaleft: :D
+[10:34:36] <percent20> !jgmize--
+[10:34:36] <Destos> !jgmize--
+[10:34:40] <percent20> !jgmize--
+[10:34:52] <percent20> the test has succeeded
+[10:35:00] <mrmakeit> lol
+[10:35:42] <mrmakeit> so where is the cake?
+[10:36:12] <percent20> the cake is a lie.
+[10:36:34] <jwhitlock> http://www.cl.cam.ac.uk/~mgk25/ucs/examples/UTF-8-test.txt
+[10:40:07] <MattGalloway> So is there a way in CSS that I can change the background of text (like a highlighter) but not of the whitespace in between the text?
+[10:41:37] <groovecoder> Destos: ^
+[10:42:05] <percent20> MattGalloway: I would assume yes.
+[10:42:48] <MattGalloway> percent20: As helpful as that answer may seem, do you have any idea HOW?!?!?!?
+[10:42:54] <Destos> not without a lot of spans wrapping all the text
+[10:43:15] <MattGalloway> Destos: Yeah, that's what I thought. Thanks.
+[10:43:49] <Destos> there might be a way with some vendor prefixes
+[10:45:04] <MattGalloway> Destos: Naw, that sounds like WAY more work than this project warrens. I can find another way to make the text stand out.
+[10:45:29] <MattGalloway> s/warrens/warrants/
+[10:52:32] <jwhitlock> jgmize: what do I need? ImportError: No module named apiclient.discovery
+[10:52:45] <jwhitlock> jsatt: wake jgmize up
+[10:53:04] <jwhitlock> Destos: punch jgmize plz
+[10:53:40] <MattGalloway> jwhitlock: Duh. You need a module names apiclient.discovery
+[10:54:12] <MattGalloway> s/names/named/ Damn these fingers. I'm so much funnier without the type-o's.
+[10:55:46] <jwhitlock> actually, it's "google-api-python-client"
+[14:23:43] <MattGalloway> groovecoder: Talked to an library IT person today about the Hackathon app. I took the opportunity to ask about ssh access over wifi at Hardesty. She said she's gonna check in to it and let me know.
+[14:24:07] <percent20> anyone see buddylindsey.com as a result for this? https://www.google.com/search?q=irssi+on+windows&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:unofficial&client=firefox-nightly&channel=fflb
+[14:26:52] <MattGalloway> percent20: I get it as the 5th result on the first page.
+[14:26:55] <X_A> This is what I hacked together:  http://www.gobobpipe.com/corral/2.html
+[14:27:10] <percent20> MattGalloway: thank you :D
+[14:30:07] <X_A> http://hacks.mozilla.org/2012/02/creating-thumbnails-with-drag-and-drop-and-html5-canvas/
+[14:31:45] <MattGalloway> Who is X_A?
+[14:32:32] <MattGalloway> X_A: That's really cool.
+[14:35:01] <X_A> MattGalloway: Yea, I'm a total thief though :)  Demo or otherwise, I was just trying to prove a concept at some point.  Course, I'm too much of a designer to make it work lol
+[14:35:13] <X_A> *stares hard at 2,000 of code*
+[14:35:34] <MattGalloway> X_A WHo are you?
+[14:35:48] <X_A> Saif Khan, sorry XA is default IRC logic to me heh
+[14:35:54] <MattGalloway> I hate IRC nicks. ;)
+[14:36:10] <SaifKhan> heh
+[14:36:12] <MattGalloway> AAAAAhhhhh. Hey Saif!
+[14:36:20] <SaifKhan> I used to spend a lot of time on EFnet for #SoulCalibur
+[14:36:25] <SaifKhan> hahah - yea sup!
+[14:36:35] <SaifKhan> I don't have a IRC client, and thus am rarely in here
+[14:36:38] <SaifKhan> will probably be here now more
+[14:36:45] <SaifKhan> Wow, bad english.
+[14:37:54] <MattGalloway> My iPad app for architects has a bubble diagram feature that people love. One day I hope to implement it as a web app and your little hack reminded me of that - it works just like my iPad app - simple moving of boxes.
+[14:43:02] <SaifKhan> Ahh, yea I figured you'd have already mastered this sort of problem.  Seems like there'd be more of this in demos / etc...  Seems like a real key tool for helping HTML5 prolificate.
+[14:49:13] <SaifKhan> MattGalloway: Speaking of your app, didn't that already launch, or no?
+[14:49:39] <SaifKhan> I don't really run in any architect circles, so I haven't had a chance to suggest it yet :)
+[15:18:21] <percent20> http://marshallbrewing.com/2012/03/ok-house-kills-sampling-bill-for-oklahoma-breweries/
+[15:18:27] <percent20> groovecoder: ^
+[16:05:17] <groovecoder> jgmize: http://coderwall.com/i/4f5ed630c8cbae000a00000b%2F5qUpcwSer3Y
+[16:06:20] <groovecoder> http://coderwall.com/i/4f5ed630c8cbae000a00000b/5qUpcwSer3Y
+[16:24:02] <SaifKhan> Buddy likes smoking meat. Timestamp it.
+[16:24:14] <SaifKhan> http://blog.mozilla.com/webdev/2012/03/09/better-know-a-webdev-luke-crouch-aka-groovecoder/
+[16:31:06] <groovecoder> http://178.79.187.79/
+[16:36:20] <groovecoder> https://github.com/mozilla/BrowserQuest/
+[16:36:22] <percent20> https://github.com/mozilla/BrowserQuest
+[16:40:44] <groovecoder> http://bejeweled.popcap.com/html5/0.9.12.9490/html5/Bejeweled.html
+[17:05:41] <mrmakeit|nomnom> i like php
+[17:38:55] <SaifKhan> i like php
+[17:38:58] <SaifKhan> i love photoshop
+[21:12:24] <percent20> Destos: can I ask you a coffeescript question?

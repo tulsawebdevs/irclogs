@@ -1,0 +1,90 @@
+[11:16:13] <percent20> groovecoder: can I use socket.io for the dev derby since it uses web sockets?
+[11:38:35] <groovecoder> percent20: yeah you can use any libraries or frameworks you want
+[11:39:21] <percent20> okay cool. using socket.io will make life easier. I spent last night digging into raw web socket stuff and I really don't want to do it that way.
+[11:41:00] <percent20> I did play with some node.js (node.js + coffeescript) == winning
+[11:42:17] <percent20> http://searchengineland.com/too-much-seo-google%E2%80%99s-working-on-an-%E2%80%9Cover-optimization%E2%80%9D-penalty-for-that-115627
+[11:52:28] <Destos> groovecoder: added sponsors to the site, let me know if the mozilla logo needs changed, took some liberties :)
+[11:52:36] <groovecoder> looks good to me :)
+[11:53:00] <percent20> Destos: this is for you. http://www.chadbennett.com/wp-content/uploads/2008/07/awesome.jpg
+[11:53:11] <Destos> :p
+[11:53:28] <Destos> you're :(
+[11:53:41] <percent20> yeah was hoping you would overlook that.
+[11:53:42] <percent20> heh
+[11:53:43] <Destos> damn you motivational poster creator!
+[11:53:53] <percent20> was always bugged by that.
+[11:54:12] <groovecoder> Destos: I tried to create a talk w/ Gov 2.0 technology but it keeps falling into ALM/Agile/TFS
+[11:54:18] <percent20> *tear* There is nothing here sadly
+[11:54:28] <Destos> ah
+[11:54:37] <Destos> I think I added a drop down selector for the tech
+[11:54:45] <Destos> and the other selector has to be removed
+[11:54:48] <Destos> as they conflict
+[11:54:49] <groovecoder|afk> Destos: got it
+[11:55:00] <groovecoder|afk> http://tulsaschoolofdev.com/talk-technology/gov-2-0
+[11:55:33] <percent20> groovecoder|afk: do you need me to give a talk on anything?
+[11:55:39] <Destos> just uncheck the Technologies checkbox in Screen options on the edit talk page
+[11:55:52] <percent20> if not I can just hangout and help if needed
+[11:56:53] <percent20> that is so strange seeing the mozilla logo there. not used to Mozilla sponsoring a tulsa event.
+[11:57:26] <Destos> groovecoder|afk: add your about on your user profile when you have a chance
+[11:59:04] <percent20> is that 5:53am or pm? not sure I can make either ;) one is too early and the other is just before hackathon.
+[11:59:36] <groovecoder|afk> haha
+[12:01:07] <Destos> I put some work into being able to future date the talks, howeverIt probably would be better to just set them all to a day that already past and just adjust the times.
+[12:01:24] <Destos> As the tag cloud doesn't work properly if they aren't in a "published" state :/
+[12:03:55] <groovecoder|afk> Destos: ok
+[12:05:03] <percent20> Destos: Bleach anime ends on march 27, and if I am reading right the manga ends sometimes this year.
+[12:05:37] <Destos> interesting, I got bored with the anime as it was pretty much the same template situations one after the other.
+[12:09:08] <percent20> yeah. that is the how long running anime usually end up.
+[12:09:17] <percent20> I am just amazed it is ending.
+[12:36:50] <Destos> everything must have an ending sadly
+[12:36:55] <Destos> at least for now…
+[12:39:33] <Destos> we should host a github drink up at some point
+[13:11:15] <groovecoder|afk> percent20: I want you to help with http://tulsaschoolofdev.com/talk/getting-data for sure
+[13:11:49] <percent20> k.
+[13:18:44] <groovecoder|afk> percent20: and really any other part of the hackathon track you can
+[13:18:53] <percent20> k
+[13:19:09] <groovecoder|afk> the topics/speakers model doesn't quite fit what I think we want to do in our track, but it's what people expect to see on the site
+[15:04:35] <percent20> hrm PatF and Destos
+[15:05:21] <Destos> HRMMMMm
+[16:12:17] <percent20> groovecoder|afk: some things came up wont be able to do the vagrant thing this weekend. Maybe we can get together when you get back from NY.
+[18:09:04] <Destos> NY?!?!
+[18:13:26] <percent20> yeah groovecoder|afk has a tough job he gets to fly all over the country to code ;)
+[18:15:15] <percent20> Destos: I am doing some javascript for a web page using coffee script. I setup a watchr script that compiles the coffeescript everytime the file changes. makes life much easier
+[18:15:41] <Destos> yupz
+[18:16:49] <Destos> I was investigating this one node setup that used socket.io and node to check when the app's front end js and css files would change and then reload those without a browser refresh. O_o
+[18:17:09] <Destos> it wasn't set up as neatly as I would have wanted but it was pretty interesting
+[18:19:57] <percent20> cool.
+[18:34:19] <percent20> Destos: have you done anything with canvas and loading images in them?
+[18:35:03] <Destos> I read a couple tuts on it at some point, but never did anything
+[18:36:42] <percent20> am trying to get this to work but it doesn't. http://www.html5canvastutorials.com/tutorials/html5-canvas-image-loader/
+[18:36:48] <percent20> and i don't know why
+[18:38:08] <Destos> paste?
+[18:38:57] <Destos> or is it 1-1 the example
+[18:40:17] <percent20> almost 1-1
+[18:40:21] <percent20> let me do a pste
+[18:40:23] <percent20> paste*
+[18:41:54] <percent20> https://gist.github.com/2067118 <- coffeescript and javascript
+[18:43:03] <Destos> your html?
+[18:43:58] <Destos> you may have to specify a size for the images when drawing them as well
+[18:44:39] <percent20>  <body>
+[18:44:39] <percent20>     <canvas id="canvas" width="1000" height="600">
+[18:44:39] <percent20>     </canvas>
+[18:44:40] <percent20>   </body>
+[18:45:09] <percent20> I have gotten images to load, but for some reason using the imageload function it doesn't work out.
+[18:46:27] <percent20> was able to get this one working. http://www.html5canvastutorials.com/tutorials/html5-canvas-images/
+[18:46:39] <Destos> change window.online to @onload in the coffee
+[18:46:48] <Destos> may not help, but its the same thing
+[18:47:55] <Destos> ah I see the problem
+[18:48:36] <Destos> wait never mind :x
+[18:50:10] <percent20> okay, changed it, didn't help.
+[18:50:33] <percent20> so this.onload is the same as window.onload when outside another object?
+[18:51:47] <Destos> well the call(this) at the bottom is in the context of the browser so this should point to window at that point
+[18:52:01] <percent20> ah okay.
+[18:52:35] <Destos> I thought I saw where it might not be returning properly then realized its using a callback function.
+[18:52:49] <Destos> it could be that all the images aren't loading, it would never fire in that instance
+[18:53:22] <percent20> i found it.
+[18:53:33] <percent20> the 5.jpg should have been a 4.jpg
+[18:53:33] <Destos> what was it
+[18:53:36] <Destos> lol
+[18:53:38] <percent20> once I changed it to that it all worked
+[18:53:57] <Destos> wewt
+[18:55:15] <percent20> sweet. i can has do canvas
+[18:58:09] <percent20> that site is a good site for canvas

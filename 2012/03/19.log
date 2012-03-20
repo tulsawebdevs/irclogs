@@ -1,0 +1,233 @@
+[09:07:28] <w0b> O_o"
+[09:07:46] <groovecoder> hey w0b
+[09:07:50] <w0b> hi
+[09:08:55] <groovecoder> hey kellymahan !
+[10:33:20] <percent20> https://twitter.com/buddylindsey/status/181779401418096640
+[10:36:32] <percent20> groovecoder Destos isn't there a meeting tonight?
+[10:36:41] <Destos> yes
+[10:37:16] <percent20> okay. Just wanted to be sure.
+[10:37:51] <percent20> Destos: here is what I have made so far on that thing for Saif. https://github.com/buddylindsey/html5-canvas-house
+[10:38:37] <Destos> coolio, have an already hosted one up?
+[10:39:32] <percent20> http://buddylindsey.github.com/html5-canvas-house
+[10:39:54] <Destos> very cool so far
+[10:40:01] <groovecoder> percent20: Destos: yeah, should someone make the facebook event? ;)
+[10:40:33] <Destos> lol probably a good idea
+[10:40:56] <Destos> percent20: you now know canvas better than anyone here ( possibly )
+[10:41:18] <percent20> that is a scary thought.
+[10:41:43] <groovecoder> I dunno ... thediv folks might have some canvas trucks up their sleeves ;) ( kellymahan, w0b ?)
+[10:42:35] <kellymahan> canvas?
+[10:42:52] <percent20> groovecoder: interesting -> http://hacks.mozilla.org/2012/03/video-mobile-and-the-open-web/
+[10:43:15] <kellymahan> html5 canvas?
+[10:43:45] <percent20> kellymahan: yes.
+[10:44:14] <groovecoder> percent20: yeah there was a big internal thread about that and http://blog.mozilla.com/blog/2012/03/19/video-user-experience-and-our-mission/
+[10:44:17] <kellymahan> Not had much use for it yet so my experience is limited to just playing around with it a while back
+[10:44:59] <percent20> groovecoder: (because authors typically do not encode twice (once in H.264, once in WebM)) <- I do that.
+[10:45:26] <groovecoder> percent20: I'm pretty sure he says if you do, you should be commended. but you are the exception ;)
+[10:45:48] <percent20> must not have gotten that far yet.
+[10:48:34] <percent20> this H.264 + Firefox thing seems to be a situation where everyone had good intentions, but only one person did anything about it.
+[10:48:56] <percent20> and that was a kick in the head to that person who did it.
+[10:51:17] <groovecoder> which person?
+[10:55:16] <percent20> mozilla.
+[10:55:42] <percent20> google had good intentions but never followed through so it ended up hurting mozilla
+[10:56:43] <groovecoder> and Opera
+[10:58:11] <percent20> yeah, but no one uses Oper ;)
+[10:58:13] <percent20> opera*
+[10:59:54] <percent20> So one thing I haven't seen is will firefox play webm first then fall to H.264 or vice versa? or it doesn't matter?
+[11:04:42] <groovecoder> that's controlled by the developer - whatever order the video <source> elements are listed is the order the browser will try
+[11:10:12] <percent20> k
+[12:05:51] <codelahoma> groovecoder: did you have that School of Dev Skype conf last week?
+[12:06:07] <groovecoder> codelahoma: yeah, a quick one
+[12:06:27] <codelahoma> What are my marching orders?
+[12:06:35] <groovecoder> you should check with Vance re: web/javascript/coffeescript content
+[12:07:17] <codelahoma> k
+[13:17:38] <groovecoder> Destos: so do you have your own key to Fab Lab yet? ;)
+[13:23:23] <percent20> crap he showed up.
+[13:23:23] <SeanW122> calling Destos?
+[13:23:27] <SeanW122> LOL
+[13:23:33] <groovecoder> heh
+[13:23:39] <Destos> I do not have one
+[13:23:57] <Destos> SeanW122: need some training?
+[13:24:15] <SeanW122> yup, I need the TBD changed on the title of homepage
+[13:24:25] <Destos> alright, want me to show you how?
+[13:24:31] <Destos> do you have time to Skype?
+[13:24:31] <SeanW122> yes, pls
+[13:24:48] <SeanW122> dont have mic
+[13:25:11] <percent20> SeanW122: just speak really loudly ;)
+[13:25:13] <SeanW122> i'm already logged into admin site
+[13:25:27] <SeanW122> LOL, Buddy will by repeater
+[13:25:28] <Destos> alright I'll chat in PM
+[13:25:36] <SeanW122> *will be my repeater
+[13:25:44] <Destos> is he next to you? :P
+[13:25:54] <SeanW122> no, but lives close by
+[13:25:58] <percent20> SeanW122: are you going to come to the tulsawebdevs meeting tonight?
+[13:26:15] <SeanW122> no, my butt is sched on the couch, I'm on spring break
+[13:26:25] <Destos> tsk tsk
+[13:26:28] <SeanW122> hehe
+[13:26:35] <percent20> one of those MS 9 to 5ers eh?
+[13:26:36] <percent20> ;)
+[13:26:46] <Destos> SeanW122: did you want to get training for adding all types of content?
+[13:26:50] <SeanW122> more like 50 hr/week
+[13:27:14] <SeanW122> not right now, I still need to advertise via email etc.  and have graphics to work on
+[13:27:49] <SeanW122> plus it may be me talking at March .net mtg
+[13:27:54] <SeanW122> so I'll need to prep that too
+[13:27:59] <Destos> I would think you would want more talks/speakers added before advertising it?
+[13:28:22] <SeanW122> it's less a month away, I need it out now
+[13:28:42] <SeanW122> I need for attenedees to start sched time off and prep'ing to come
+[13:28:58] <Destos> Anyways that little catch line at the top of the page is under Settings -> General on the sidebar
+[13:29:11] <SeanW122> my attendees don't have nice jobs like @groovecoder  :P
+[13:29:21] <Destos> cushy jobs
+[13:29:55] <SeanW122> ;) got it
+[13:30:06] <groovecoder> mmm ... cush
+[13:30:09] <percent20> groovecoder: is there going to be beer at the hackathon
+[13:30:15] <groovecoder> percent20: yeah
+[13:30:22] <SeanW122> btw, there will be a speakers dinner on the 12th, probably at Spaghetti Warehouse
+[13:30:22] <groovecoder> why?
+[13:30:23] <percent20> groovecoder even gets to travel all over north america to code as well.
+[13:30:43] <percent20> groovecoder: was going to let a dev friend know, hoping that is the catalyst for him to show up.
+[13:37:23] <percent20> https://twitter.com/#!/ShitNodeSays/statuses/181783332718264323
+[13:38:01] <percent20> https://twitter.com/#!/ShitNodeSays/status/181783603712237568
+[13:40:34] <groovecoder> SeanW122: if we put the speakers/talks content on the trello board I can put it on the site as needed
+[13:40:42] <groovecoder> I've added stuff for Gov 2.0 and Web already
+[13:41:01] <SeanW122> as soon as I get detail, I'll put it there.
+[13:41:04] <groovecoder> SeanW122: and I added a link to eventbrite. but if you can get the Eventbrite embed code I can updated that link
+[13:41:11] <SeanW122> I'm having a hard time get responses out of some people
+[13:41:31] <SeanW122> I'll look for an embed code in a few minutes
+[13:47:33] <percent20> Destos: what would you think about doing a Node.js talk at TulsaTechFest in a Node.js track?
+[13:48:05] <Destos> sounds like fun
+[13:48:19] <SeanW122> techfest or SOD?
+[13:48:25] <percent20> SeanW122: techfest
+[13:48:39] <percent20> in the fall
+[13:48:52] <Destos> sod may be too soon to come up with a good talk.
+[13:48:58] <SeanW122> ok
+[13:48:59] <Destos> but maybe an intro talk?
+[13:49:14] <Destos> not sure what track that would fit into
+[13:49:40] <SeanW122> I would assume Web
+[13:49:54] <percent20> Destos: I was going to see about shooting an email to David on doing a Node.js track. Was going to see about me doing an intro to node talk, and you can do the cooler stuff ;) maybe get tim involved as well.
+[13:51:15] <Destos> Yeah I would be up for that
+[13:51:22] <percent20> cool. :)
+[13:52:03] <Destos> SeanW122: node is way more than web! :P
+[13:52:17] <groovecoder> SeanW122: I'm pretty sure we can get node.js speakers from OKC for TTF
+[13:52:32] <SeanW122> I very much agree, but we were talking about best fit of what we have
+[13:52:35] <groovecoder> and percent20 and Destos
+[13:53:20] <groovecoder> SeanW122: I'm pretty sure we have plenty of WordPress + HTML5 JavaScript content to fill the web track for SOD
+[13:53:39] <SeanW122> I have no doubt on that
+[13:54:07] <groovecoder> SeanW122: okay, so at least our tracks aren't the "no responses" tracks ;)
+[13:54:20] <groovecoder> just making sure we're not the ones being difficult
+[13:56:29] <percent20> email is away to David. lets see how speedy is response is(n't)
+[13:56:33] <SeanW122> the one track in jeapordy is the ALM/Agile/TFS
+[13:57:25] <percent20> Kill it kill it with fire.
+[13:57:53] <percent20> ACTION is going to stop being obnoxious now he needs some caffeine so he can calm down.
+[13:58:00] <SeanW122> @percent20 is now offering to handling the entire track. Thanks @percent20
+[13:58:20] <percent20> lol.
+[13:58:27] <Destos> yay!
+[13:58:37] <percent20> i'll find a yoga instructor to show agility all day.
+[13:58:59] <percent20> A hot one. That way no one will every go to any other tracks.
+[13:59:52] <SeanW122> lol
+[14:03:28] <percent20> i'll get her. http://piximus.net/media/5806/jordan-carvers-yoga-workout-13.jpg
+[14:04:47] <groovecoder> lulz. and we/I wonder why we never have girls in the channel?
+[14:05:38] <percent20> lol. the fun thing about this one is I am making fun of guys and not girls.
+[14:16:51] <SeanW122> just got Devlin Liles
+[14:16:59] <percent20> very nice.
+[14:18:24] <percent20> groovecoder: I might not be in Gov 2.0 track. The make money with wordpress track looks interesting. I'd at least like to attend that talk part to see what he says.
+[14:18:46] <groovecoder> percent20: np
+[14:19:16] <groovecoder> though we might get Corey to come to TWD and/or another event to give that talk again
+[14:19:42] <percent20> okay. on a brighter note I did make 136 last year off of blogging :D
+[14:20:02] <percent20> 136 == $136
+[14:22:43] <SeanW122> nice
+[14:30:49] <SeanW122> Destos, what about an intro to Node.js for my .NET mtg March 27th?  I'm needing a speaker
+[14:32:35] <Destos> Possibly, :P
+[14:33:06] <SeanW122> I don't think Chris is going to be able to do his talk so I need a replacement.
+[14:33:08] <Destos> what should I go over? what is node, how to set it up, common uses?
+[14:33:26] <Destos> and it would have to be windows centric
+[14:33:34] <SeanW122> We meet at OU Tulsa, 41st and Yale.
+[14:33:44] <SeanW122> and yes to the ideas you just mentioned
+[14:34:33] <Destos> how long does the talk need to be?
+[14:35:22] <SeanW122> 1 hr
+[14:35:57] <Destos> Does Microsoft force everyone to upgrade to IE 9 or 10 if I give it?
+[14:36:14] <SeanW122> no, they don't force
+[14:36:32] <percent20> unfortunatly
+[14:36:35] <Destos> well I'm asking if you could get them to
+[14:36:39] <SeanW122> they can't. not all LOB apps work on newer browsers since "protection" changes
+[14:36:57] <percent20> SeanW122: doesn't hurt to dream ;)
+[14:37:03] <SeanW122> For March mtg it's just a presentation, not hands-on
+[14:37:06] <groovecoder> love this site: http://browseryoulovedtohate.com/
+[14:37:07] <Destos> ACTION runs away with his dashed dreams
+[14:37:43] <groovecoder> my favorite: http://browseryoulovedtohate.com/post/19346267107
+[14:37:45] <percent20> Destos: you might give a 40 minute overfiew, 10 minute showcase and 10 or so for questions.
+[14:38:26] <SeanW122> @groovecoder you should come too, to see how us "other people" live.  :P
+[14:38:39] <groovecoder> SeanW122: bah! you call that living?! ;)
+[14:39:00] <SeanW122> well, you get used to it
+[14:39:06] <SeanW122> like scars
+[14:39:09] <Destos> such sadness
+[14:39:18] <Destos> I can feel it emanating over the irc protocol
+[14:39:41] <groovecoder> I'm really impressed with some of the HTML5 dev tools going into VS too
+[14:39:45] <percent20> This is still the all time best IE video. http://www.youtube.com/watch?v=Gp-FQN_v3AM
+[14:41:03] <Destos> lola percent20 never watched that
+[14:41:11] <SeanW122> LOL, great vid
+[14:41:12] <groovecoder> hah, that is great
+[14:43:49] <percent20> when might the doors open at fablab tonight?
+[14:44:56] <groovecoder> percent20: scott says they'll be open by 5:30 at latest
+[14:45:06] <percent20> okay. :)
+[14:48:11] <SeanW122> Destos, when you can I need a topic write up and a bio ASAP please.  thanks!
+[15:19:51] <percent20> groovecoder: I bet someone could learn a lot about GIS and mapping if they would go through this. https://docs.djangoproject.com/en/dev/ref/contrib/gis/
+[15:20:24] <groovecoder> wow percent20 is volunteering for lots of stuff today! ;)
+[15:20:34] <percent20> heh
+[15:20:41] <groovecoder> percent20: I'm also recruiting a GIS specialist from INCOG to come to Tulsa School of Dev to teach us
+[15:20:55] <percent20> that would be amazing.
+[15:20:55] <groovecoder> they've got 2 or 3 GIS specalists
+[15:22:20] <percent20> i knew the geodjango stuff was there, but never knew how failry extensive their docs were for it until I happened up on that.
+[15:25:10] <SeanW122> can someone resend the tulsa SOD logo. I can't find it in my email.
+[15:28:34] <SeanW122> Beuller?
+[15:28:44] <groovecoder> Destos: ?
+[15:29:32] <groovecoder> percent20: also, the hack tyler boundary service code is open source (https://github.com/hacktyler/hacktyler-boundaryservice) and apparently once it's setup it just needs us to start uploading shapefiles
+[15:30:55] <Destos> SeanW122: do you want a psd?
+[15:31:06] <SeanW122> yes, but also the jpg.
+[15:31:10] <SeanW122> thanks
+[15:32:43] <Destos> SeanW122: sent
+[15:32:50] <SeanW122> got it, thank you!!!!
+[15:33:08] <SeanW122> @Destos did you see note on node.js talk about topic write up and bio?
+[15:33:33] <Destos> I'm not sure if I've agreed to that yet :P
+[15:33:53] <SeanW122> (insert arm twisting here)
+[15:33:57] <Destos> :<
+[15:34:13] <Destos> you got a free website… and you want MOREeeee
+[15:34:53] <SeanW122> at this point? yeah, the mtg is next week and I have to move on it quickly.  if you can't that's fine. I'll find someone else
+[15:41:11] <Destos> SeanW122: I would like to give it, just don't know how much time I'll have to pull together a presentation over the next week. And would have to find transport probably as well.
+[15:41:29] <SeanW122> you not in Tulsa?
+[15:42:00] <SeanW122> I have a backup looking into a topic right now.  Thank you anyway Destos.
+[15:42:06] <percent20> Destos: SeanW122 always takes a mile when given an half inch
+[15:42:08] <percent20> ;)
+[15:42:24] <Destos> hah
+[15:42:30] <Destos> I ride a bike everywhere
+[15:42:31] <SeanW122> LOL, I'm the president looking out for my group!  :D
+[15:43:21] <percent20> imo Destos is awesome enough to just show up and put on a good presentation, but I guess we'll just have to wait until fall to see him do a Node talk
+[15:44:01] <SeanW122> idk percent20, I'll need to see proof :P
+[15:44:09] <Destos> ACTION shizaaaam!
+[15:44:48] <percent20> i gots ta run ttyl
+[17:28:30] <Destos> ACTION palm face for luke
+[17:37:58] <Destos> percent20: you're the only one who isn't married!
+[17:45:39] <percent20> http://www-958.ibm.com/software/data/cognos/manyeyes/
+[17:45:44] <percent20> Destos: I know. :(
+[17:45:55] <percent20> Destos: me no even have gf
+[17:45:56] <Destos> well Jeremy isn't married
+[17:46:03] <Destos> its because you're an otaku
+[17:46:15] <percent20> moe
+[17:48:01] <percent20> http://www.gapminder.org/
+[17:48:15] <percent20> !MattGalloway++
+[18:04:53] <percent2_> all I have to do is ask Destos I don't need to research
+[18:09:58] <percent2_> Destos: what is going through your head right now?
+[18:22:35] <SeanW122> apparently wind
+[18:28:31] <percent2_> Destos had a really deep thought look on his face while the guy was going through some css stuff in this presentation.
+[18:28:53] <SeanW122> ah
+[18:29:09] <SeanW122> I didn't realize it's so late. you guys are at your meeting
+[18:30:17] <SeanW122> percent20 - I just got confirmation. Rob Vettor will also be speaking. I'm full of speakers now
+[18:30:27] <SeanW122> @tulsa sod
+[18:30:40] <percent2_> SeanW122: awesome
+[18:33:39] <mrmakeit> did i miss the webdevs meeting? crap.
+[18:36:34] <percent2_> mrmakeit: yes
+[18:36:38] <percent2_> err well it is still going
+[18:42:06] <mrmakeit> how much longer?
+[18:46:12] <mrmakeit> runs till 8 right?
+[18:51:21] <Destos> yeah, its almost over
+[22:23:33] <percent20> yay am home :)
+[22:49:29] <mrmakeit> late isnt it?
+[22:51:01] <mrmakeit> is destos here?

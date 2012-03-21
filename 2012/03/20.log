@@ -1,0 +1,216 @@
+[04:48:18] <MattGalloway> For the record, working with the Facebook API is not fun.
+[04:48:29] <MattGalloway> I'm going to sleep.
+[08:10:32] <codelahoma> can't believe I missed the meeting. What was the topic?
+[08:11:02] <codelahoma> I'm sick, and couldn't have made it, but it bothers me that I didn't even realize.
+[08:21:01] <codelahoma> wtf?
+[09:21:03] <groovecoder> ?
+[09:32:19] <codelahoma> groovecoder: nick switched to Guest with no intervention on my part.
+[10:17:05] <groovecoder> weird. damn you NickServ!
+[10:24:41] <percent20> did anyone see what apple is going to do with all of their money? or did they announce that yesterday?
+[10:27:49] <groovecoder> dividends?
+[10:42:36] <percent20> planned a stock buyback and a dividend
+[10:43:00] <percent20> the way they had hyped the conference call sounded like they were going to do something big.
+[10:59:58] <groovecoder> percent20: that is big for them. they've never(?) payed a dividend before
+[11:00:18] <groovecoder> or you mean big technology-wise?
+[11:00:23] <groovecoder> like buy Google?
+[11:00:24] <groovecoder> :)
+[11:00:26] <percent20> technology wise.
+[11:00:39] <groovecoder> they should buy Nintendo ;)
+[11:00:43] <percent20> well they did pay dividends, to steve. ;)
+[11:42:32] <zerokarmaleft> http://www.allisnotlo.st <= OK Go wins at HTML5
+[11:43:25] <zerokarmaleft> don't switch windows while watching
+[12:14:35] <percent20> trying to edit a thunderstorm out of a video is not really all that easy.
+[12:15:22] <MattGalloway> groovecoder percent20 Apple payed dividend during the dark Jobs-less years. Stopping dividends is one of the first things Steve did as iCEO in order to help right the company financially. And no divendends have been paid since. So yeah, it's a big deal.
+[12:16:15] <percent20> MattGalloway: yeah. I just though they were going to do some big aquisition or something.
+[12:16:37] <percent20> like buying google maps from google kind of thing
+[12:18:02] <MattGalloway> Tim Cook has been pretty vocal about saying Aple ahs more money than it needs - I really respect this. Any other company would just flush the cash into stupid fragmented projects and executive bonuses.
+[12:18:56] <MattGalloway> The bigger deal that the dividends though is that they are buying back something like $10B in their own stock - if you squint this is a big acquisition of sorts.
+[12:19:14] <percent20> well most companies pay dividends as well so it is good they are starting.
+[12:19:14] <percent20> heh
+[12:19:23] <percent20> aka regaining more control of their own company
+[12:19:28] <percent20> err buying their company back.
+[12:20:25] <MattGalloway> And they don't need Google Maps... they've been acquiring competing map data sources for the last few years. This is an expected (i.e. rumored) tide change in iOS6.
+[12:20:45] <percent20> I know, I was just throwing an example of something that would be HUGE
+[12:21:21] <percent20> I think the internet would explode if Apple did that, kind of huge.
+[12:22:16] <MattGalloway> Apple's so much more focused than most companies their size. I don't expect any nonsensical weird tangent acquisitions any time soon.
+[12:23:06] <MattGalloway> Once upon a time one might expect them to acquire Adobe. That might still make sense, but I'm not expecting it.
+[12:23:21] <percent20> they could still do targeted acquisitions.
+[12:23:28] <percent20> heh adobe.
+[12:23:53] <percent20> They should sell photoshop to auto desk and forget the rest of their technology stack.
+[12:24:12] <percent20> well maybe adobe preimer and illistartor too.
+[12:24:57] <MattGalloway> They are doing target acquisitions all of the time but you you don't need 10s of Billions to do that. Especially when you're ongoing business is miniting money. And they aren't fluching ALL of the cash, just the "excess".
+[12:25:27] <MattGalloway> Don't forget PostScript and PDF.
+[12:26:14] <percent20> ACTION runs screaming away
+[12:26:21] <MattGalloway> Tim Cook has said that companies get unfocused, lazy and fragmented when they have too much money - this is what he's trying to avoid.
+[12:26:30] <percent20> the abuse around pdf makes me want it to die as well as flash
+[12:27:26] <percent20> yeah. I am still curios what apple will look like in 10 years especially since Steve isn't going to be able to pull them back from the brink again.
+[12:27:54] <MattGalloway> A valid perspective but the reality is that (for the foreseeable future) it's a really important, flexible, ubiquitous and lucrative technology - not to mention that it's tightly integrated into both iOS and OS X.
+[12:28:20] <MattGalloway> I have a lot of faith in Tim Cook and Johnny Ives.
+[12:30:17] <percent20> yeah for the next few years i see apple thriving they have a lot they can rest on, but at some point new stuff is going to need to appear and that is where they can really get hurt, like the apple newton
+[12:30:28] <percent20> which was awesome, but never took.
+[12:31:52] <percent20> to me MS is still struggling with BG leaving, but at least he can come back if absolutely necessary.
+[12:32:50] <percent20> They are getting more targeted, but there is still a sense of chickens on fire running around.
+[12:33:24] <zerokarmaleft> http://xkcd.com/927/ <= this is a metaphor for MS application frameworks
+[12:34:54] <MattGalloway> The difference is that Steve Ballmer simply is the wrong guy to be running Microsoft. It doesn't require Gates, but it requires the RIGHT guy. Tim Cook and Johnny Ives are the RIGHT guys. Apple has really been a team effort since the iMac...these guys know they what's up.
+[12:35:43] <percent20> heh Talking to some guys at MS they thing Ballmer is the best/right guy, I think that is part of the problem.
+[12:40:25] <zerokarmaleft> also, thanks for the pro basketball team, SB
+[12:43:23] <MattGalloway> percent20 Did you know Jobs hated the Newton?  He was vehemently opposed to the idea of a stylus. (The Newton came about during his absence.)
+[12:44:45] <percent20> Yes. That is why I mentioned it.
+[12:45:51] <percent20> my biggest annoyance is while he was vehemently against a stylus it leaves those of us that like to physically write up a creek becuase i want to write on my iPad and it not feel like moving tug boat just to write a word.
+[12:46:53] <zerokarmaleft> even with a stylus, i think writing on a glass surface sucks
+[12:47:05] <percent20> I think they should have spent some time and thought about how to accommodate more precision specifically so those who want to write can.
+[12:47:44] <percent20> i don't have a problem with it other than i have to write HUGE so that the nub on the end of the pen draws what I want.
+[12:48:13] <zerokarmaleft> in other words, you have a problem with it
+[12:48:21] <zerokarmaleft> it's like writing with a big fat crayon
+[12:48:29] <MattGalloway> :)
+[12:48:31] <percent20> I have seen some interesting attempts for 3rd party things to rectify it, but they are either expensive or don't work well.
+[12:49:14] <percent20> I don't have a problem with it conceptually, no. In actuality because of stupity of some designer somewhere yes.
+[12:51:04] <MattGalloway> The difference between practice and theory is that in theory there is no difference but in practice there is.
+[12:51:48] <groovecoder> djangonauts: until django 1.4, here's a monkey-patch for loaddata that ignores foreign key checks: https://gist.github.com/2139696
+[12:52:13] <zerokarmaleft>  /gasp
+[12:53:43] <percent20> i am tired of editing this damn video
+[12:54:08] <MattGalloway> Good. It's all those foreign keys that are ruining this great county of ours.
+[12:55:23] <zerokarmaleft> heh
+[12:56:35] <groovecoder> !MattGalloway++
+[12:57:17] <MattGalloway> Yeah, all of those foreign keys always speaking SQL...if they wanna be in django so bad why don't they learn python already.
+[12:58:27] <percent20> Agreed. if databases would just start speaking python life would be easier.
+[12:58:36] <zerokarmaleft> http://browsertoolkit.com/fault-tolerance.png
+[12:59:20] <MattGalloway> zerokarmaleft: That's awesome.
+[13:01:19] <percent20> I am curios if Congress made a law that everyone could only use PHP to do web work. I wonder what would happen.
+[13:01:43] <groovecoder> step 1 would be to re-implement python in PHP
+[13:02:15] <percent20> what do you think the tech community would do.
+[13:03:13] <MattGalloway> That would really suck for people who do web work. :)
+[13:03:47] <percent20> yeah. And you had to use Android devices no more iOS ;)
+[13:04:05] <percent20> that would be to prevent a monopoly from apple
+[13:04:12] <MattGalloway> In that case, I'd move.
+[13:05:53] <MattGalloway> Or take back my government from tyrants using force. Good ole Amendment number deux.
+[13:06:20] <MattGalloway> Probably the first one. I'm more of a lover.
+[13:06:27] <percent20> well if some people had their way we wouldn't have that one.
+[13:06:54] <percent20> actually I have often thought if any country wants to take over the US and tries to invade. THey are going to have one hell of a time making it through the middle of the US
+[13:07:06] <groovecoder> ACTION sighs
+[13:07:24] <groovecoder> times like these really challenge my belief in code tests :\
+[13:07:42] <percent20> well when you don't have foreign keys to worry about all should be good ;)
+[13:07:43] <groovecoder> feature code takes 20m; test code takes 2 hours
+[13:07:53] <groovecoder> percent20: touché
+[13:08:27] <percent20> I still get a grin on my face with this video: http://www.youtube.com/watch?v=DOTmmda4_kE
+[13:08:50] <percent20> groovecoder: that is some serious testing
+[13:09:25] <zerokarmaleft> good god, that's some serious spray
+[13:09:48] <groovecoder> that seems like a really good use of resources
+[13:09:59] <zerokarmaleft> also, that barrel must be really fucking hot
+[13:11:36] <percent20> starting at 2 minutes is where it gets good
+[13:13:04] <groovecoder> it's like mythbusters without the science and education
+[13:13:22] <zerokarmaleft> cool, tracer rounds
+[13:13:33] <MattGalloway> !groovecoder++
+[13:14:10] <percent20> its point click meets spray and pray
+[13:14:47] <MattGalloway> Okay, I may have just become one of those people that opposed the 2nd Amendment. Rednecks with fully automatic weapons kinda creep me out.
+[13:17:02] <percent20> heh, of note this is a tradeshow where you have to be licensed to own these, and shooting them has to be monitored, strictly.
+[13:21:07] <groovecoder> MattGalloway: welcome to the club, we have shirts! er, we're going to make some shirts at the fab lab. "Make web/app/beer, not war."
+[13:24:57] <percent20> http://i.qkme.me/36huvs.jpg
+[13:41:54] <zerokarmaleft> groovecoder: http://www.youtube.com/watch?v=-xJl22Kvgjg <= chrome source maps...firefox needs this
+[13:42:48] <groovecoder> zerokarmaleft: okay. https://github.com/mozilla/source-map
+[13:42:54] <zerokarmaleft> sweet
+[13:43:38] <groovecoder> the Chrome and Firefox dev tools guys are working together on that
+[13:43:39] <zerokarmaleft> oh yea, i think i ran into this several weeks back and forgot to follow it
+[13:43:41] <percent20> everytime I feel like I am almost done with this video more of it seems to magically appear.
+[13:54:35] <percent20> wow a site dedicated to hiring developers for a team. Not sure I have seen something like this before, and done as well. http://www.developwithpurpose.com/
+[13:56:02] <Destos> you should totally join his team
+[13:57:42] <Destos> So I got a haircut
+[13:57:45] <Destos> and shaved
+[13:57:51] <Destos> rejoice
+[13:58:11] <Destos> and I fixed my wires car, all in one day.
+[13:58:16] <Destos> and now I rest
+[14:02:35] <percent20> was a productive day good job.
+[14:02:54] <percent20> Destos: biggest problem with joining his team is he does ColdFusion. Not sure I want to join his team that bad.
+[14:03:15] <Destos> hah, I noticed that too
+[14:05:03] <percent20> looks like they are using wordpress for that site.
+[14:06:38] <percent20> the cool thing about his team/company is he refuses to have people there working past 5:30pm unless they are doing some sort of code push that is a major update.
+[14:21:41] <Destos> I would hope not
+[14:22:26] <percent20> ???
+[14:23:52] <percent20> lol in my video some of my edited audio segments are smoother than me talking without editing
+[14:31:28] <percent20> encoding has started. 3 hours of video editing is done
+[14:55:40] <groovecoder> percent20: dang
+[14:56:03] <percent20> now I can't get the damn thing to transcode to webm
+[14:56:28] <groovecoder> percent20: haven't you heard? everything is h.264 now? ;)
+[14:58:01] <percent20> does the current firefox support h.264 like it does webm?
+[15:00:21] <groovecoder> percent20: no. it falls back to flash for it (I think). and the h.264 support is only going to be on mobile I think
+[15:00:32] <groovecoder> all confusing stuff
+[15:00:41] <percent20> oh, thought they were going to support it on the desktop too. hrm.
+[15:00:54] <groovecoder> percent20: I don't think so
+[15:01:04] <groovecoder> percent20: but maybe
+[15:01:26] <groovecoder> I know it's more *important* on mobile, because devices have hardware-based h.264 decoding
+[15:01:40] <groovecoder> which means great performance and battery life for h.264 video
+[15:03:19] <percent20> yeah. firefox makes life more complicated for us video folk
+[15:09:50] <groovecoder> percent20: yup
+[15:20:58] <percent20> current mood: http://ragegenerator.com/uploads/29201.png?1332278429
+[15:25:06] <groovecoder> how do you guys like the new website theme?
+[15:25:06] <groovecoder> http://wonder-tonic.com/geocitiesizer/content.php?theme=3&music=4&url=tulsawebdevs.org
+[15:25:46] <percent2_> its amazing
+[15:26:00] <groovecoder> I know right? I think Destos and carlos will especially like it
+[15:26:02] <percent2_> actually leave the tie fighter
+[15:33:34] <percent2_> Me: 1 - Video:0
+[15:34:00] <groovecoder> percent2_: more like you: 11 - video: 10
+[15:34:01] <percent2_> https://github.com/php/php-src
+[15:34:08] <percent2_> true
+[15:34:47] <Destos> I used to make websites like that
+[15:34:56] <Destos> actually, no I never did
+[15:35:08] <percent2_> heh
+[15:35:42] <percent2_> Destos: feel like doing a bit of photoshop for 2 or 3 minutes?
+[15:35:55] <Destos> possibly
+[15:36:18] <Destos> Not sure what I can accomplish in 3 minutes however
+[15:37:07] <percent2_> I need a 200 x 125 image with twitter github and facebook logo on it with github at the forefront, and biggest.
+[15:37:39] <percent2_> I am trying to do it with gimp, but it keeps crashing :(
+[15:37:45] <Destos> lolz
+[15:38:01] <Destos> alright, send me the logos you were using
+[15:41:57] <Destos> percent2_, or should I just find some random ones?
+[15:42:22] <percent2_> random ones would be fine. I was using this facebook one. http://www.simplyzesty.com/wp-content/uploads/2012/01/Facebook-logo5.png
+[15:42:38] <percent2_> hadn't been able to get quite far enough for github and twitter
+[15:43:35] <percent2_> http://labs.vanpattenmedia.com/wp-content/uploads/2012/02/logo_github.png
+[15:45:03] <percent2_> http://www.aspenpitkin.com/Portals/0/images/Green_Initiatives/Canary/twitter_logo.png
+[15:46:28] <Destos> thats quite a small space for so many logos
+[15:46:33] <Destos> any background color needed?
+[15:47:19] <percent2_> i usually do a light brown to ligher brown gradiant from dark on bottom to light on top.
+[15:48:10] <percent2_> my thought was, and I wasn't able to try it, was github in the center and up with smaller facebook and twitter in the lower corners
+[15:48:55] <percent2_> this might be better for twitter. http://www.conical.ca/wp-content/uploads/2010/10/new-twitter-bird-transparent.png
+[15:49:41] <Destos> I already fit it in
+[15:49:56] <percent2_> oh okay.
+[15:52:43] <Destos> http://dl.dropbox.com/u/139415/icons.jpg
+[15:53:51] <percent2_> http://4.bp.blogspot.com/_akLHpeO7qyA/S_qa-F57NaI/AAAAAAAAA0g/Y3Rs-TgMqOI/s1600/motivational+demotivator+%2817%29.jpg
+[15:54:00] <percent2_> !Destos++
+[15:54:10] <Destos> yayz
+[15:54:14] <percent2_> Destos: that is awesome
+[15:57:08] <Destos> where you going to use it?
+[16:02:14] <percent2_> godjango.com
+[16:02:25] <percent2_> it is the thumbnail for the main page
+[16:02:56] <percent2_> in 30 minutes a new video is going to launch, well if I can finish up all the shownotes description etc. stuff.
+[16:16:56] <percent2_> phew done.
+[16:18:34] <percent2_> total time spent today on godjango 6 hours 20 minutes.
+[16:25:48] <groovecoder> wow
+[16:27:07] <percent20> whats up?
+[16:48:37] <percent20> alright social media push is done. Now I can take a break for a while.
+[17:39:53] <percent20> I have 6 hours left in the day lets see how much I can get done.
+[17:40:01] <percent20> after I go get some food.
+[18:40:07] <percent20> grr took me an hour to do food.
+[22:32:14] <percent2_> groovecoder Destos I have some more tweaks to my canvas app. http://buddylindsey.github.com/html5-canvas-house/
+[22:32:20] <percent2_> if you want to play with it that is.
+[22:43:10] <MattGalloway> percent20: That's so cool. I'm really fascinated with the whole canvas thing. If I had unlimited resources I'd be developing a web version of my architecture app (that would share data with the iPad version)  that uses canvas.
+[22:43:57] <percent2_> The cool thing is with KintectJS it makes doing canvas much easier.
+[22:44:18] <MattGalloway> percent20: Saif Khan was working on something very similar. He posted the URL here a couple of days ago but I no longer have it.
+[22:44:37] <percent2_> also not having played with your app. It seems like what I have done so far can be a start for your architecture app. The biggest issue is sending data back and forth somewhere and converting that data for the ipad vs website
+[22:45:18] <percent2_> it is for him actually. he did some design work for a while back so I am paying him back with this. Which is a lot of fun to do.
+[22:45:26] <percent2_> always a bonus to get traded work, and get fun traded work.
+[22:45:58] <MattGalloway> It would probably be file based - so you'd just save the file to the "cloud" and then edit it on the web and then send the file back to the iPad - it wouldn't be neccessary to update the same data from 2 places simultaneously.
+[22:47:22] <percent2_> this is the main site I have been using to learn. http://www.html5canvastutorials.com/
+[22:47:30] <percent2_> so if you want to give a it a shot.
+[22:47:57] <MattGalloway> And my app isn't as granular as furniture or even actual rooms - it's more conceptual. Bubble diagrams where proportionally sized squares represent reequired spaces - but the design hasn't happend yet so each "space" could be one room, or several rooms or a part of a room once the design happens.
+[22:49:34] <MattGalloway> I won't have any bandwidth in the forseeable future but I'll definitely who to call if it ever bubbles up to the top of the list. In my fantasy world, I get a bunch of money somewhere and I would participate in design project management but hire out the web dev portion.
+[22:50:29] <percent2_> no wonder i am tired. I have spent 10 hours today in active work mode. Not to mention the few hours of leisurely working and browsing the web.
+[22:50:30] <MattGalloway> Tonight though...it's the joys of credit card processing with a Verifone Vx600 sled. Big fun.
+[22:50:43] <percent2_> fun.
+[22:51:24] <percent2_> you'll get there someday just keep at it. One of my favorite quotes is "I worked for 20 years building this business now I am overnight success"
+[22:51:53] <percent2_> however, persistence is draining. lol.
+[22:53:48] <percent2_> alright I am going to head to bed ttyl.
+[22:53:59] <MattGalloway> The thing Saif actually looked slightly further along. You could actually grab the corners of objects and rotate them to arbitrary angles by dragging. It looked nice.
+[22:54:27] <MattGalloway> Goodnight. Sleep well. You've earned it.
+[22:54:52] <percent2_> well he had that working but couldn't do other things. then he got something else that could do those, but couldn't rotate.
+[22:55:40] <percent2_> and rotation was a big part of it. he isn't good enough of a coder to merge the two so he asked me to help and i took a look at the code and ran away to do it from scratch.
+[22:56:11] <percent2_> Good luck with the payment processing. i'm off.

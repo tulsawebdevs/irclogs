@@ -1,0 +1,128 @@
+[11:49:03] <percent20|work> so, apparently that stupid Business Activity Tax is paid with the rest of your taxes. The stupid letter I got saying I needed to pay it was a clerical mistake.
+[11:49:50] <percent20|work> I love government bueracracy, it makes me feel all warm and fuzzy.
+[11:53:28] <percent20|work> Destos: run away. SeanW122 is here
+[11:53:35] <percent20|work> HAHAHAHAHAHAHAHAHAHA
+[11:53:38] <SeanW122> LOL
+[11:53:41] <SeanW122> Dang it
+[11:53:56] <SeanW122> LMAO
+[11:54:18] <Destos> wut
+[11:54:19] <Destos> ACTION feels self conscious.
+[11:55:29] <percent20|work> Destos: sean joined I said run away then you disconnected, then came back
+[11:55:39] <Destos> ah
+[11:55:54] <Destos> my irc app is crashing frequently recently… :(
+[11:56:02] <Destos> so very much a coincident.
+[11:56:06] <SeanW122> very good timing
+[11:56:21] <Destos> SeanW122: need help adding content to SOD site yet? its pretty bare :x
+[11:56:30] <SeanW122> yes
+[11:56:40] <percent20|work> http://pastebin.com/gHte9ckN
+[11:56:42] <SeanW122> I need to O'Reilly
+[11:57:13] <percent20|work> Destos: ^ is the transcript
+[11:57:22] <Destos> funnay
+[12:00:19] <percent20|work> so tomorrow is my B-Day I shall be 27 years old. *sigh*
+[12:00:36] <Destos> its alright
+[12:00:38] <Destos> ACTION pat pat
+[12:00:41] <SeanW122> you poor thing
+[12:00:49] <Destos> want to go see hunger games with me?
+[12:00:49] <SeanW122> I'll be 38 in May
+[12:01:46] <percent20|work> Destos: I would, but have plans with family tomorrow night. Thanks though.
+[12:02:04] <percent20|work> SeanW122: you are freaking ancient. ;)
+[12:02:15] <SeanW122> huh? speak up sonny
+[12:04:57] <percent20|work> yay I finally got a told badge on stackoverflow. Time wins out in the end. I got it for a question i asked 3 years ago, and it finally it 10,000 views
+[12:05:36] <percent20|work> its groovecoder :D
+[12:06:51] <SeanW122> the crowd roars
+[12:07:49] <percent20|work> *meow* *meow*
+[12:07:56] <percent20|work> Destos: how was your cat stew?
+[12:11:40] <Destos> :|
+[12:28:28] <percent20|work> SeanW122: does David Walker answer his gmail email?
+[12:29:07] <SeanW122> rarely
+[12:29:13] <SeanW122> do you have his MS email
+[12:30:37] <percent20|work> SeanW122: no I don't.
+[12:31:05] <SeanW122> sent
+[12:32:04] <percent20|work> thanks. That is a nasty long email address.
+[12:40:38] <Destos> buddy.lindsey.awsomedeveopler.developer-devision@microsoft.com
+[12:41:10] <mrmakeit> wow
+[12:42:02] <SeanW122> Destos you forgot  ...@imaginationcentral.microsoft.buddysmind.com
+[12:42:15] <Destos> oh yeah
+[12:42:44] <percent20|work> stilll got it wrong
+[12:43:07] <percent20|work> buddy.is.lord.of.microsoft.and.supreme.developer@ceo.microsoft.com
+[12:43:37] <SeanW122> dot wishful.thinking.buddysmind.com
+[12:43:49] <Destos> stranger things have happened
+[12:44:00] <mrmakeit> percent20|work: the pastebin link is broke.
+[12:44:21] <percent20|work> mrmakeit: I set it to expire after 10 minutes since there were ip address in it.
+[12:44:34] <mrmakeit> ah.  sorry didn't know
+[12:44:41] <percent20|work> mrmakeit: no worries.
+[12:45:34] <percent20|work> mrmakeit: here it is again if you want to see. http://pastebin.com/pAYeRQNY
+[12:45:48] <mrmakeit> thanks
+[12:46:07] <percent20|work> np
+[12:46:28] <mrmakeit> oh.  nvm i've already got that. oops.
+[12:47:17] <mrmakeit> advantage of always on client, you never miss a thing.
+[12:47:28] <percent20|work> hehe.
+[12:47:39] <percent20|work> Destos: looks like there is going to be a node.js track at TulsaTechFest
+[12:47:59] <mrmakeit> now im intrigued.
+[12:48:52] <mrmakeit> anyone have a good understanding of IPv6?
+[12:49:27] <mrmakeit> got a problem with my router and need help fixing it.
+[12:50:16] <percent20|work> not I
+[12:50:20] <percent20|work> shat_: you around?
+[12:52:40] <percent20|work> crap, my brain is moving too fast.
+[12:53:13] <mrmakeit> turned down the govener?
+[12:53:35] <percent20|work> can't have to let it run out of steam.
+[12:55:47] <mrmakeit|GoneFis> stupid nick limits
+[12:56:46] <percent20|work> I want to go fishing.
+[12:58:36] <percent20|work> Tim you need to log into irc.
+[14:17:26] <SeanW122> anyone awake?
+[14:18:34] <SeanW122> Destos, I need to know how to add sponsor images. I need to add Telerik
+[14:18:50] <Destos> alright
+[14:19:11] <Destos> do you have a nice transparent Telerik logo?
+[14:19:23] <Destos> to keep it consistent with the current logos
+[14:19:24] <Destos> a png
+[14:19:31] <SeanW122> looking for that and the site login url
+[14:19:46] <Destos> http://tulsaschoolofdev.com/wp-admin/
+[14:20:48] <SeanW122> only have a jpg right now for Telerik
+[14:21:05] <Destos> once logged in click on Sponsors in the sidebar
+[14:21:16] <Destos> a jpg will be fine
+[14:21:40] <Destos> then click add new in the sidebar or at the top of the Sponsors list page
+[14:22:14] <SeanW122> ok, Sponsor META?
+[14:22:23] <SeanW122> what URL should I use?
+[14:22:29] <Destos> their website
+[14:22:50] <SeanW122> k, then "set featured image"?
+[14:22:50] <Destos> I would think?
+[14:22:53] <Destos> yup
+[14:22:56] <Destos> then upload the image
+[14:23:07] <Destos> after its uploaded you have to scroll down and click set as featured image
+[14:24:04] <Destos> once its set as a featured image, just publish it
+[14:24:30] <SeanW122> published
+[14:24:34] <SeanW122> not on front page yet
+[14:24:40] <Destos> looks liked it wasn't set as the featured image
+[14:24:48] <SeanW122> hmm, ok, redoing
+[14:25:02] <Destos> after clicking set featured image
+[14:25:04] <Destos> click media
+[14:25:14] <Destos> or rather the gallery tab
+[14:25:49] <Destos> then scroll down to the bottom of the image's info and there should be a set as featured image link
+[14:26:01] <Destos> after clicking that you can close it and it should be set
+[14:26:19] <SeanW122> ;) telerik is on
+[14:27:09] <SeanW122> i messed up the link
+[14:28:46] <SeanW122> fixed
+[14:28:47] <SeanW122> thanks
+[14:30:56] <SeanW122> how do I add speakers?
+[14:31:20] <Destos> add a new author
+[14:31:44] <SeanW122> I dont' see authors
+[14:34:02] <Destos> go to users in the nab bar and then add new
+[14:34:38] <SeanW122> ah ok, then the Role is Author?
+[14:34:51] <Destos> yeah you can try that, I added a role Speaker as well
+[14:34:57] <Destos> but it hasn't been thoroughly tested
+[14:35:11] <Destos> speaker should only allow them to login and edit their own talks
+[14:39:59] <SeanW122> k, I'll just add them and not give out there login info.
+[14:40:13] <Destos> sounds good
+[14:40:31] <SeanW122> Sweet, just got Manning.com to give us books too!  woot!
+[14:40:36] <Destos> when you add a new talk you just have to switch the author at the bottom of the edit page
+[14:40:47] <SeanW122> got it, thanks
+[14:41:31] <Destos> also when adding a new speaker go to their user page and set their display name to their full name
+[14:41:42] <SeanW122> ok
+[14:41:43] <Destos> wordpress by default uses their username
+[14:41:47] <Destos> which is fairly annoying
+[14:41:59] <Destos> user page = user edit page
+[14:42:15] <SeanW122> ok
+[15:15:17] <percent20> wow my blog is really making the rounds in china.
+[15:16:06] <SeanW122> prob translated badly
+[19:28:40] <percent20> yay me. I got stuff working the way I want it to.
+[19:44:08] <SeanW122> woot

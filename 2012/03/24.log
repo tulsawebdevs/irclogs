@@ -1,0 +1,6 @@
+[09:27:44] <SeanW122> guys, I'm thinking of getting several of these for the speakers:  http://www.officedepot.com/a/products/164705/IOGEAR-GME422RW6-Phaser-3-in-1/?cm_cat=
+[09:27:46] <SeanW122> thoughts?
+[10:38:43] <percent20> Destos: I got that thing working last night. found some code that actually worked for getting data from mongo.
+[10:39:00] <Destos> yayz
+[10:39:12] <Destos> so it was mainly the examples were wrong?
+[10:39:54] <percent20> I don't know, because the code that worked looked fairly much the same it just used mongoose instead.

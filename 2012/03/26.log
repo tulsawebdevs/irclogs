@@ -1,0 +1,27 @@
+[13:14:07] <percent2_> I just saw a google street view car.
+[13:14:49] <percent2_> when i first saw it a distance i thought "WTF is that thing."
+[13:17:20] <danf1> Ha... That car captured me and my son walking down my street in BA several years ago. I need to see if that image is still live. :-)
+[13:17:52] <percent2_> how long does it take for images to show up on the site?
+[13:18:31] <danf1> I don't remember exactly, but I think it was 2-3 months. That was the first time Street View came through the Tulsa area, back in early 2008.
+[13:18:43] <percent2_> ah
+[13:20:26] <danf1> Here we are. He was almost 3 at the time. Now he's 7. https://skitch.com/danf/8p82d/streetview
+[13:21:02] <danf1> When they first posted it, we hadn't been blurred out.
+[13:50:16] <mrmakeit> so there invading Tulsa today?
+[14:01:45] <percent2_> i saw them in Sapulpa
+[14:24:18] <groovecoder> they caught my brother and I outside brewing beer after the ice-storm, so it looks like the house has a stockade out front. http://screencast.com/t/EzJt5GFFhp
+[14:24:47] <percent2_> LOL
+[14:26:12] <percent2_> groovecoder: do you know what "managers" are in Django?
+[14:30:46] <groovecoder> in the orm?
+[14:31:12] <groovecoder> they're the class responsible for doing all the data binding and querying and such
+[14:36:07] <percent2_> okay. I wanted to make sure I wasn't missing something. I got an email asking me to do something on managers. Thought it was a bit of an odd topic compared to the rest of my requests.
+[14:44:07] <percent2_> oh godjango has made me $20.00 :D someone clicked on my linode hosting link and got hosting for 3 months so I got referal fee of $20 :D
+[14:59:16] <Destos> wewt
+[15:06:21] <mrmakeit> destos: your a google guy, right?  you know if a schedual exists for the street view van?
+[15:06:57] <Destos> yes I work at google
+[15:08:02] <Destos> I've heard of people setting up for a google street view passing so I imagine there is
+[15:28:59] <percent2_> Destos: awesome can we get a tour of google in pryor?
+[16:32:47] <danf1> percent2_: That was probably me that got you the referral fee at Linode. A while back you were talking about it, so I sent your link to our sysadmin, and he used it. Don't spend it all in one place!
+[16:54:10] <percent2_> thanks man. :D unfortunatly i'll have to spend it all in one place it'll help with one month of hosting :)
+[16:54:16] <percent2_> thanks.
+[20:14:18] <groovecoder> percent2_: did you make a coworking event for Friday? you should also add at 2pm we'll have a "Public Cloud Architecture Tutorial" air mozilla broadcast from the Cloud Architect at Netflix
+[20:14:39] <groovecoder> http://www.slideshare.net/adrianco/cloud-architecture-tutorial-part-1of3

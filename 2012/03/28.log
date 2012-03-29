@@ -1,0 +1,102 @@
+[07:41:03] <groovecoder> nice coworking group/model: http://bocoup.com/
+[07:41:25] <groovecoder> percent20: you might especially like the training packages
+[07:41:34] <groovecoder> could be a cool model to copy
+[07:51:50] <danf1> Friend of mine just got back from Bocoup's jQuery training... One of their important people (can't remember her title) is from Stillwater.
+[07:53:31] <brad__> Bocoup's training coordinator is Jory Burson. She's from Stillwater
+[07:53:46] <zerokarmaleft> http://blogs.msdn.com/b/bharry/archive/2012/03/22/the-future-of-codeplex-is-bright.aspx <= wow, codeplex supports git now
+[07:55:20] <zerokarmaleft> groovecoder: i like this coworking group/model: http://kitchentablecoders.com/about/
+[07:55:45] <groovecoder> zerokarmaleft: cool
+[07:56:11] <groovecoder> zerokarmaleft: if we were more organized, we could focus our hack days on a topic/technology
+[07:56:59] <groovecoder> I think I like kitchentablecoders, gangplank, and bocoup models
+[07:59:06] <zerokarmaleft> hmm
+[07:59:46] <zerokarmaleft> i think midtown and south tulsa both need a good coworking space
+[08:01:02] <zerokarmaleft> though i figure there'd be more of your typical apple yuppy demand in midtown
+[08:14:40] <groovecoder> zerokarmaleft: I'm really interested in partnering with Tulsa Library to put coworking spaces in libraries
+[08:30:03] <zerokarmaleft> groovecoder: i wonder if it's feasible to tie in offering micro courses for a fee to sustain the coworking space
+[08:30:07] <zerokarmaleft> in tulsa
+[08:30:43] <zerokarmaleft> but working with the libraries is a good idea, too
+[08:37:23] <groovecoder> zerokarmaleft: yeah, I know Tulsa Library won't let you do events that charge money
+[08:37:38] <groovecoder> but I think percent20 is wanting to do training gigs
+[08:42:29] <groovecoder> I think if we put together an HTML5 workshop and a Mobile Web workshop they would do well
+[09:40:59] <groovecoder> Destos: re: tulsaschoolofdev.com, how do I add an author image to a user who doesn't have a gravatar?
+[09:41:28] <groovecoder> also, government bureaucrats talk funny: Me: "Can you tell me who that is?" Them: "Our contact is currently researching this option and said he would try to send me his response before the end of the week. I will keep you posted as soon as I obtain a response."
+[09:41:31] <Destos> brb
+[09:42:50] <Destos> updated colloquy
+[09:42:59] <Destos> so to add images you need sftp/ftp access
+[09:43:19] <Destos> you create an authors directory in the wp-content folder and place a jpg there with the same name as the username
+[09:45:15] <groovecoder> Destos: ah
+[09:45:21] <groovecoder> Destos: is there an example?
+[09:46:08] <Destos> groovecoder: http://tulsaschoolofdev.com/wp-admin/users.php?page=author-images%2Fauthor-images.php&settings-updated=true
+[09:46:21] <Destos> you can change the dir there if need be
+[09:46:31] <Destos> an example of image size?
+[09:47:13] <groovecoder> I think I got it
+[09:51:02] <groovecoder> Destos: can you also help me get a good apress logo for their featured image? (http://tulsaschoolofdev.com/wp-admin/post.php?post=62&action=edit)
+[09:51:42] <Destos> anspire* ?
+[09:55:02] <Destos> groovecoder: added
+[09:55:08] <groovecoder> thanks
+[09:55:11] <groovecoder> er
+[09:55:11] <groovecoder> apress
+[09:55:14] <groovecoder> sorry :(
+[09:55:49] <groovecoder> Destos: ^
+[09:55:52] <groovecoder> mis-spoke
+[09:55:59] <Destos> ?
+[09:56:14] <Destos> so not anspire?
+[09:56:25] <Destos> you linked me to the anspire sponsor
+[10:06:09] <groovecoder> Destos: yeah, sorry. I meant to make that apress
+[10:54:06] <percent20> lol browserquest has been an eppically failing success.
+[10:54:29] <percent20> apparently it cant scale when the entire internet wants to play.
+[10:54:39] <groovecoder> percent20: 3k player limit
+[10:55:03] <groovecoder> percent20: seems okay now? http://browserquest.mozilla.org/status/
+[10:55:18] <groovecoder> where are you seeing it fail?
+[10:55:32] <percent20> just reading news article comments.
+[10:55:43] <percent20> as i get futher down to the end of them all no one can connect.
+[10:56:11] <percent20> now that the initial rush has slowed people should be able to get in, but I am curios how many will actually come back.
+[10:56:54] <Destos> holy shizz so many people palying
+[10:57:00] <groovecoder> meh, who cares how many people play it? it's got 159 forks on github already: https://github.com/mozilla/BrowserQuest
+[10:57:18] <groovecoder> which is the #win Mozilla is after
+[10:57:51] <groovecoder> that's 159 developers sharpening their HTML5 skills
+[10:58:45] <groovecoder> percent20: we should set up browserquest.tulsawebdevs.org
+[10:58:49] <percent20> oh i agree, but it sucks you lost some intial people that were jazzed about it. However, since they couldn't connect they were disheartened.
+[10:59:32] <groovecoder> sounds like one of those "best problem in the world" to have
+[11:00:37] <percent20> http://www.neowin.net/news/microsoft-supporting-competitor-to-google-maps
+[11:00:52] <percent20> groovecoder: agreed. i would love to have that problem.
+[11:01:24] <zerokarmaleft> groovecoder: i wanted to implement something like a long time ago using ripped sprites from the snes final fantasy games
+[11:02:42] <groovecoder> OpenStreetMap++
+[11:05:01] <percent20> groovecoder: you going to be at coworking on friday?
+[11:05:53] <groovecoder> percent20: yeah
+[11:06:33] <percent20> k, I have a question i want to ask, technical question. Also Sean might show up for a bit for lunch and to look at the fablab
+[11:08:40] <percent20> oh groovecoder there is a dude that has nothing to do with webdev and doesn't even live in this region wanting to join the facebook group. should I add him?
+[11:09:14] <groovecoder> percent20: so far I've been adding people by default and then removing/banning them if they post garbage
+[11:09:39] <percent20> k i'll go ahead and click approve then.
+[11:11:27] <Destos> (n)
+[11:21:24] <Destos> so groovecoder I'll probably be working on the new TWD site again this Friday. I was thinking since we have many breakout groups , WordPress, Javascript ect. that are in the works It may be cool to organize them all to some copacity through the TWD site.
+[11:22:07] <groovecoder> Destos: sounds cool. do you know if there's any other cms platforms that do stuff like that already? basically an open-source Meetup platform or something?
+[11:22:08] <Destos> so have a meetings post type and different Groups in a taxonomy, and then list all the upcoming meet ups per group
+[11:22:58] <Destos> I'll look around
+[11:24:44] <Destos> http://www.webdeveloper.com/forum/showthread.php?p=1198843 :P
+[11:25:25] <Destos> I found one! http://www.kentico.com/
+[11:25:42] <zerokarmaleft> http://xkcd.com/979/
+[11:26:17] <Destos> heh, too bad it was posted this month
+[11:27:31] <percent20> and what was your solution *blarg*
+[11:27:41] <percent20> that always comes right after i have that feeling
+[11:40:49] <groovecoder> http://www.adobe.com/devnet/flashplayer/articles/premium-features.html
+[11:41:51] <groovecoder> so adobe is going to start charging flash developers for hardware-accelerated 3d features
+[11:53:23] <zerokarmaleft> percent20: http://sproutvideo.com/docs/api.html
+[12:59:39] <groovecoder> percent20: heh, they added another server cluster for browserquest
+[13:00:12] <groovecoder> http://browserquest.mozilla.org/status/
+[13:15:10] <percent20_> interesting business http://grove.io
+[13:30:49] <percent20_> this is getting exciting I have used almost 50 gig of bandwidth this month. I can't wait to see how much I use next month.
+[13:45:13] <Destos> JIGGA BYTES
+[14:39:36] <groovecoder> Destos: where does tulsaschoolofdev.com live? is it down?
+[14:39:53] <Destos> was carlos hosting it?
+[14:43:24] <groovecoder> Destos: dunno
+[14:43:37] <Destos> mystery host
+[14:44:13] <Destos> groovecoder:
+[14:44:17] <Destos> it appears to be up for me
+[14:46:12] <groovecoder> Destos: okay then
+[15:41:37] <percent20> yay got time off of work for djangocon, just in case i can go.
+[15:42:31] <groovecoder> percent20: are they doing any streaming? maybe we could stream it for TWD
+[15:43:00] <percent20> dunno. I know nothing else about this years, at all, other than the dates. Still waiting for them to update the site.
+[16:02:28] <groovecoder> http://blog.joa-ebert.com/2012/03/28/collateral-damage/
+[21:12:19] <SeanW122> groovecoder you here?
+[21:36:49] <groovecoder> zerokarmaleft: can you msg me your email address?

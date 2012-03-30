@@ -1,0 +1,104 @@
+[08:44:12] <SeanW122> groovecoder you here?
+[09:06:41] <codelahoma> groovecoder: SeanW122 was looking for you.
+[09:06:52] <SeanW122> thx, I found him
+[09:06:55] <groovecoder> :)
+[09:06:56] <SeanW122> he was sleeping
+[09:09:40] <groovecoder> Destos: pounce!
+[09:10:01] <SeanW122> LOL
+[09:10:13] <Destos> :|
+[09:10:31] <Destos> ACTION runs eyes
+[09:10:37] <Destos> rubs* rather
+[09:11:32] <groovecoder> Destos: weird layout on http://tulsaschoolofdev.com/author/shawn-weisfeld
+[09:12:37] <Destos> alright, is that one of the uploaded author images?
+[09:12:49] <SeanW122> yup
+[09:15:50] <Destos> fixored
+[09:16:12] <SeanW122> you're awesome
+[09:24:42] <SeanW122> Destos: is there a way to assign multiple authors to one talk?
+[09:25:29] <Destos> Not currently, it probably would take a good deal of work
+[09:25:41] <SeanW122> bummer, ok
+[09:25:52] <groovecoder> could we just copy the talk with another author?
+[09:26:09] <Destos> WP is pretty much one author per post, but I've seen plugins that allow it, but then the theme would need updated to display those
+[09:26:11] <groovecoder> it would show up twice on the track, but it would show that there's more than 1 person in it
+[09:26:53] <SeanW122> And, I'd like for a talk at 5pm "Closing and Prizes" but show up for everyone
+[09:27:08] <SeanW122> not sure how to make sure all know to meet at a room at 5p
+[09:28:23] <Destos> Well you can create one talk, and add it to all the talk technology topics I think that should work
+[09:28:46] <SeanW122> tried that last night
+[09:29:09] <SeanW122> there is the top technology option, you can only pick one, to show what track the talk belongs to
+[09:29:44] <Destos> you may have to disable that meta field and enable the technology selector
+[09:29:53] <Destos> I can do that real quick, which talk is it? has it been deleted?
+[09:30:03] <SeanW122> I deleted it
+[09:30:32] <SeanW122> just make it "Closing and Prizes"  5:15p
+[09:30:33] <Destos> dang I messed up something can't see the trashed posts… :/
+[09:30:42] <SeanW122> I'll get  you a room
+[09:31:05] <jwhitlock> ACTION sneaks online
+[09:31:25] <Destos> ohsnap
+[09:31:47] <groovecoder> jwhitlock: holy crap!
+[09:31:57] <groovecoder> one of the j's is actually online!
+[09:31:58] <jwhitlock> caught!
+[09:32:15] <jwhitlock> I just wanted to look at the #salt room
+[09:32:17] <SeanW122> Destos: room is 1603 in Student Union building. Same building the registration is at
+[09:32:31] <Destos> fixed
+[09:32:39] <Destos> alright just a sec
+[09:36:47] <Destos> SeanW122: the prizes talk should now be on all tracks
+[09:37:18] <SeanW122> awesome! thanks!!
+[12:35:02] <percent20> Just call me Mr. Awesome.
+[13:00:18] <percent20> groovecoder: are we selling cars now?
+[13:08:42] <percent20> lol that was funny with a link, but I forgot the link
+[13:09:17] <percent20> here is the link. http://dl.dropbox.com/u/1875821/car_sales.png
+[13:11:57] <Destos> did we not have the .com as well?
+[13:13:08] <percent20> dunno but I went there on accident and thought it was funny to get hyundai
+[13:44:04] <codelahoma> Some guy out in Drumright owns the .com
+[13:44:55] <codelahoma> and it expires 4/21
+[13:45:01] <codelahoma> but he renewed last year
+[13:45:08] <codelahoma> Don Helm
+[13:46:42] <codelahoma> Scott Phillips would like it if we got a non-geographical name for ourselves. "thespan.com" is available for two grand.
+[14:14:42] <danf1> So, OKC has thediv.org, and we want thespan.com... does that imply that we, unlike our neighbors down the turnpike, play nicely with those around us?
+[14:17:54] <groovecoder> to be html5 we should get thesection.com
+[14:18:12] <groovecoder> I wouldn't mind combining forces w/ thediv.org
+[14:18:19] <groovecoder> tulsa.thediv.org or whatever
+[14:20:08] <percent20> I still disagree with doing that for reasons noted before.
+[14:20:43] <groovecoder> don't make me look up the irc logs ;)
+[14:27:49] <percent20> it wasn't on irc :)
+[14:28:29] <groovecoder> oh
+[14:28:34] <groovecoder> I like thediv
+[14:28:47] <percent20> since we are not doing trainings like the div I don't think we should be attached to their name. If they wanted to open an office up here and do trainings and we wanted to fold into them, fine. However, the name carries an implication of doing what they do in OKC, but in Tulsa, unless they change.
+[14:30:10] <percent20> I also don't think being geographically named is a problem. That does not mean we can't do more for the rest of the state.
+[14:33:41] <groovecoder> the training part is just one part of their mission (http://thediv.org/what-is-the-div/our-mission-and-core-values/) and it's actually something I think we *should* do
+[14:34:07] <groovecoder> percent20: did you see my link to http://training.bocoup.com/ yesterday?
+[14:35:37] <groovecoder> percent20: also something Mozilla is wants to start encouraging and promoting in https://wiki.mozilla.org/ReMo/SIGs/Evangelism_Reps
+[14:35:39] <percent20> I understand, but it is the most prevalent thing they *do* from what I have seen. I don't disagree with us doing trainings though. I am just hesitant to become beholden to someone else in case goals change.
+[14:36:03] <groovecoder> fair enough. we should do more stuff with them
+[14:36:16] <percent20> I saw the training link I like it. i need to dig into it more been busier than usual this week.
+[14:36:29] <percent20> agreed on doing more with them. Joint ventures are always great :)
+[14:36:56] <groovecoder> percent20: I think a "HTML5 for Programmers Workshop" would do really well here
+[14:37:15] <percent20> That would be awesome. I'd be glad to help put something together.
+[14:37:49] <groovecoder> could take it "on the road" - to ConsumerAffairs.com, InterWorks, GuruStu, Tulsa World, etc.
+[14:39:02] <percent20> yeah. you wanting to do it in the vain of pay for training or ...
+[14:39:50] <groovecoder> sure
+[14:40:06] <groovecoder> $300/attendee or $1500 flat rate or something
+[14:40:48] <percent20> would be cool.
+[14:45:49] <groovecoder> fwiw, everyone in engagement-developers thought so too: https://groups.google.com/forum/?fromgroups#!topic/mozilla.engagement.developers/tzEB0PBLMBQ :)
+[16:49:45] <percent20> groovecoder: I am going to be reworking my resume tonight can you take a look at it tomorrow and tell me what you think?
+[17:21:13] <SeanW122> Anyone have a contact info for matt galloway?
+[18:17:06] <SeanW122> quiet room tonight
+[21:12:00] <percent20> I have never had people email me asking for programming advice. It is kind of freaking me out.
+[21:23:58] <SeanW122> lOL
+[21:24:17] <SeanW122> It freaks me out too that they are asking you.
+[21:24:57] <percent20> glad I am not the only one.
+[21:30:08] <SeanW122> please help me spread the word for tulsaschoolofdev.com
+[21:31:18] <percent20> I created the event in two separate groups on facebook ;) that was a lot of work.
+[21:31:35] <SeanW122> thanks %20
+[21:31:46] <SeanW122> It's appreciated
+[21:32:13] <SeanW122> the way it's looking, the speakers dinner is going to be the gift. It's estimated at $500+
+[21:33:00] <percent20> O_O we can just eat McDonalds
+[21:33:33] <SeanW122> ok, the rest of us will not be joining you though. But do tell us how your meal was enjoyed.
+[21:34:10] <percent20> heh
+[21:34:15] <SeanW122> hehe
+[21:34:31] <percent20> okay we can all upgrade to Carls Jr. We can eat their $6 burgers which are $5.50
+[21:35:09] <SeanW122> true, but I appreciate my speakers, especially since 6 of them are coming from Texas
+[21:35:38] <percent20> heh
+[21:35:40] <SeanW122> Tim, Rob, Devlin, Chris, Todd ,,,,ok 5
+[21:35:50] <SeanW122> no, 6, Shawn
+[21:36:10] <percent20> well I guess that is a good enough reason to not go to Carls Jr.
+[21:36:20] <SeanW122> ;)
+[21:39:24] <percent20> groovecoder: github is abusing the web

@@ -1,0 +1,119 @@
+[08:04:08] <codelahoma> I was a bit disappointed in the EFF for sending that.
+[08:04:54] <codelahoma> more disappointed to hear there's probably not going to be a RedDirt RubyConf this year, though. :-(
+[08:06:17] <codelahoma> https://twitter.com/jeg2/status/186815535223291905
+[08:24:26] <zerokarmaleft> awwww
+[08:25:04] <zerokarmaleft> he stepped down as organizer of the OKC ruby brigade also
+[08:32:15] <groovecoder> codelahoma: zerokarmaleft: Tulsa has red dirt too ;)
+[08:32:40] <codelahoma> groovecoder: That thought had occurred to me.
+[08:33:03] <codelahoma> Although we don't, really.
+[08:33:23] <codelahoma> this is Green Country.
+[08:34:00] <codelahoma> But I don't have the expertise, time, or energy to organize a conference.
+[08:34:59] <groovecoder> codelahoma: hah. no-one does :)
+[08:35:06] <codelahoma> I can barely organize myself for a one hour presentation. :-)
+[08:35:14] <groovecoder> but we might be getting closer to our "bigger-than-Tulsa" naming/branding
+[08:36:08] <codelahoma> OKARMOKSwebdevs.org
+[08:36:22] <codelahoma> OKARMOKSwebheads.org
+[08:37:12] <zerokarmaleft> apropos of nothing, any of you guys watch game of thrones?
+[08:37:50] <codelahoma> sorry, no cable here.
+[08:38:00] <codelahoma> and HBO won't sell shows ala carte.
+[08:39:42] <zerokarmaleft> codelahoma: yea => http://theoatmeal.com/comics/game_of_thrones
+[08:41:18] <codelahoma> exactly :-)
+[08:41:47] <groovecoder> GreenCountry.js ?
+[08:44:53] <groovecoder> GreenCountry RubyConf
+[08:45:11] <groovecoder> GreenCountryWeb.org ?
+[08:46:59] <codelahoma> hmmm
+[08:47:45] <codelahoma> is that available?
+[08:48:11] <codelahoma> problem is "red dirt" is more known outside oklahoma than "green country"
+[08:52:13] <groovecoder> hmm ... I wonder why?
+[08:53:19] <zerokarmaleft> steinbeck?
+[08:54:43] <groovecoder> guess so. though we have a very small amount of actual "red dirt" in OK
+[08:54:44] <groovecoder> http://en.wikipedia.org/wiki/File:Ultisol-map-2.gif
+[08:57:12] <codelahoma> I'm not buying that map. Just drive west, and you can see it climbing out of the ground as you go. By the time you hit the Texas panhandle, a white car will be red.
+[08:59:44] <codelahoma> I'm sure the map is correct in what it's tracking. I just don't think all of OK's red clay qualifies.
+[09:00:25] <groovecoder> yeah
+[09:00:34] <zerokarmaleft> i could peel my whole lawn off as one piece b/c of the clay underneath
+[09:00:47] <codelahoma> reddirt.{com,org,net,info} are ALL available.
+[09:00:54] <codelahoma> sorry
+[09:01:01] <codelahoma> reddirt.web{com,org,net,info} are ALL available.
+[09:01:08] <codelahoma> reddirtweb.{com,org,net,info} are ALL available.
+[09:01:14] <codelahoma> sheesh
+[09:01:17] <zerokarmaleft> reddirtthethings!
+[09:06:35] <codelahoma> https://skitch.com/toldorknown/8xysh/reddirt
+[09:09:12] <codelahoma> Seriously, though. I can register those domains (probably not .info) if we think we might use them.
+[09:09:48] <groovecoder> I say either GreenCountryWeb or RedDirtWeb
+[09:10:24] <codelahoma> I think RedDirtWeb is more iconic. They have green stuff in other places. :-)
+[09:10:50] <groovecoder> put up a poll on the facebook group? :)
+[09:10:53] <groovecoder> maybe both
+[09:11:18] <groovecoder> RedDirtWeb is probably better at first. then if we need a specific GreenCountryWeb we can do it later
+[09:11:41] <codelahoma> ….then WorldWideWeb.
+[09:13:03] <codelahoma> RedDirtWeb.{com,org,net} are mine for the next year.
+[09:13:03] <groovecoder> heh
+[09:13:09] <groovecoder> you rock
+[09:13:32] <codelahoma> Keeping a balance at namecheap can lead to impulse purchases. :-)
+[09:17:11] <groovecoder> heh
+[09:17:52] <groovecoder> would be cool to do a Red Dirt Web Conference
+[09:18:07] <groovecoder> maybe 2013
+[09:18:18] <groovecoder> the year that wasn't supposed to happen
+[09:20:19] <percent2_> Or you can do Fly Over Country Web
+[09:28:10] <codelahoma> .org for the group, .com for the potential conference, and .net for hosting services like the traffic feed. Sound right?
+[09:28:45] <codelahoma> your 0 is looking a little flat there, Buddy.
+[09:29:40] <codelahoma> percent2_: what was that Lifeforce review quote from Friday?
+[09:41:39] <percent2_> codelahoma: I don't remember. I have had such a busy weekend I don't remember much of friday
+[09:48:33] <codelahoma> percent2_: that's why you put it in evernote. (or at least said you did)
+[09:48:40] <percent2_> oh yeah
+[09:48:47] <percent2_> lemme get it
+[09:49:13] <percent2_> In a perfect world, naked space vampire zombie movies would be a genre unto themselves, but in the sad, bereft sphere in which we dwell, there is only Lifeforce, by default the Citizen Kane of naked space vampire zombie movies.
+[10:08:57] <groovecoder> I always liked Silicon Prairie
+[10:09:30] <groovecoder> that that's more north
+[11:10:10] <Destos> groovecoder: see the tulsa agenda calendar?
+[11:14:41] <groovecoder> eh?
+[11:14:47] <groovecoder> oh, got the text but didn't click it
+[11:15:19] <Destos> Ah, well its mosty working, I have a few more commits to push up in a bit that makes it function a little nicer
+[11:15:31] <Destos> was going to add json and other formats as well
+[11:15:45] <Destos> sadly its only scrapping the front page atm however. those js links presented to be more trouble
+[11:16:05] <groovecoder> cool though!
+[11:16:09] <groovecoder> some duplicate events in there?
+[11:16:28] <groovecoder> http://screencast.com/t/I2h9mAHwMN
+[11:16:31] <Destos> I think some of them are agenda's and cancelations
+[11:16:58] <groovecoder> ah
+[11:17:22] <groovecoder> very cool
+[11:17:28] <Destos> they have different "statuses" and I believe cancelations show up as duplicates with just different documents
+[11:17:33] <groovecoder> great to have some web scraping code in node
+[11:17:44] <Destos> I wanted to do oct of the document, but all the API's I found were for pay,
+[11:17:52] <groovecoder> gross :(
+[11:17:53] <Destos> ocr
+[11:17:56] <groovecoder> well done!
+[11:18:01] <groovecoder> alright, I'm off to lunch
+[11:48:22] <percent20> groovecoder: you back from lunch?
+[12:34:47] <danf1> A little late to the game, but still... http://xkcd.com/1037/
+[12:45:25] <percent20> I like that one.
+[12:45:57] <percent20> though it could have been made better by the guy watching the tornado instead of getting in a shelter
+[12:53:05] <codelahoma> percent20: reload it. It's not "one".
+[14:22:46] <groovecoder> percent20: found another cool jquery mobile fitness app: http://strongerapp.com
+[15:31:18] <percent20> The bad thing about social media and family is you can't make empirical observations about a group of people in order to provoke a reaction without pissing off your own family
+[15:43:33] <Destos> did you say were voting for Obama again?
+[15:47:48] <percent20> no. I want to say something, but I don't want to piss off the family since it was something bad that recently happened.
+[15:48:17] <percent20> it is an observation of the situation, basically.
+[15:49:22] <codelahoma> this is why I enjoy living at least 800 miles from my nearest relative.
+[15:49:27] <codelahoma> on my side, that is.
+[15:49:57] <groovecoder> family > observations
+[15:50:31] <percent20> agreed, but it is a "fun" observation that is great troll bait.
+[15:51:14] <codelahoma> groovecoder: there are always exceptions. Sometimes family need to hear things they don't want to hear. Of course, troll bait doesn't fall into that category.
+[15:52:39] <percent20> *sigh* i did "rm -r *.py" good things have not come of this since I hadn't added it to git yet.
+[15:53:45] <codelahoma> I prefer troll t-shirts.
+[15:54:00] <codelahoma> http://is.gd/Rxs4SL
+[15:56:37] <percent20> :( no tattoo shirts.
+[15:56:50] <percent20> i guess it has become taboo now to not like tatoos
+[16:03:19] <Destos> I don't think I've ever been offended
+[16:03:33] <Destos> there is probably something wrong with me mentally
+[16:04:09] <percent20> offended or offended by tattoos?
+[16:05:43] <Destos> offended in general
+[16:06:08] <percent20> ah
+[16:07:44] <Destos> leaving downtown, biking homez. ttylz
+[16:34:42] <groovecoder> ACTION lets out a satisfactory chuckle
+[16:34:48] <groovecoder> (kuma)groovetop:kuma lcrouch$ git push -fu origin 740065-constance-config-unique-key
+[16:35:08] <groovecoder> I like the "git push -fu origin" part
+[16:35:13] <groovecoder> that just reads really nicely
+[16:52:53] <percent20> yeah
+[16:53:02] <percent20> might have been done on purpose
+[16:53:17] <percent20> have I mentioned lately how much I dislike javascript?

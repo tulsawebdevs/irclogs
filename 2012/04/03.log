@@ -1,0 +1,44 @@
+[12:30:02] <percent2_> I have stripe working. :D
+[12:30:23] <percent2_> i am so excited. I have been busting it so hard to get this done I feel kind of lost.
+[13:04:43] <percent2_> did you all feel the earthquake last night?
+[13:05:56] <zerokarm1left> to process credit card payments for premium godjango vids?
+[13:11:02] <percent2_> no. for a freelance project. However, it has the awesome side benefit of knowing exactly what to do for godjango
+[13:13:40] <percent2_> if trolling in arizona will get you 25 years in prison, but what if you troll arizona
+[13:17:56] <percent2_> http://httpstatus.es/
+[13:22:41] <percent2_> I like status 431 "server is unwilling to process the request" don't we all love a server with an attitude ;)
+[14:49:25] <percent2_> anyone have any recommendations for email clients on the mac? Thunderbird has gotten real fickle lately.
+[15:22:42] <zerokarmaleft> percent2_: tried http://sparrowapp.com/?
+[15:22:58] <percent2_> zerokarmaleft: yes. wasn't a fan.
+[15:23:05] <zerokarmaleft> me neither
+[15:23:30] <zerokarmaleft> does it need to be a cocoa app?
+[15:23:35] <percent2_> no
+[15:23:39] <zerokarmaleft> mutt? :P
+[15:24:09] <percent2_> I tried that. My brain hurt and it stopped caching stuff and I couldn't figure out how to fix it.
+[15:24:21] <zerokarmaleft> Vmail?
+[15:24:33] <percent2_> not heard of that
+[15:24:37] <zerokarmaleft> oh you don't use gmail anymore, nvm
+[15:25:02] <zerokarmaleft> it's a vim interface for gmail
+[15:25:12] <percent2_> yeah. and I don't like the idea of integrating into vim interface since I have so many vim windows open.
+[15:26:28] <zerokarmaleft> what kind of mail server support do you absolutely need?
+[15:26:32] <zerokarmaleft> imap?
+[15:26:53] <percent2_> yes
+[15:29:40] <zerokarmaleft> http://freron.com/ <= MailMate
+[15:30:13] <percent2_> hrm. i'll have to look more into that. thanks.
+[15:30:23] <zerokarmaleft> expensive for a mail client, but trial available
+[15:31:17] <percent2_> if its awesome I don't mind paying it.
+[15:31:33] <percent2_> i'll give it a shot and let you know
+[15:35:18] <zerokarmaleft> if you're a masochist, you might give Outlook a spin
+[15:41:39] <danf1> percent2_: Dumb question, maybe, but have you tried Mail.app? I have used it for years, and it actually works very well. I like it better than Thunderbird.
+[15:57:57] <codelahoma> I just user GMail web interface with keyboard shortcuts, but my email needs are simple.
+[15:58:03] <codelahoma> s/user/use/
+[15:58:29] <zerokarmaleft> codelahoma: same here
+[15:58:46] <zerokarmaleft> 3 different gmail accounts, the devil i know is better than the devil i don't
+[16:00:40] <zerokarmaleft> plus, i'm of the opinion that if i'm checking/writing email, i'm not doing something more productive
+[16:01:29] <zerokarmaleft> thankfully i able to avoid it most of the time
+[16:03:13] <codelahoma> I have three accounts, but two forward everything to my primary, where they get labelled.
+[16:27:53] <percent2_> danf1: I used it for a while. Didn't work the way I wanted it to mostly because of how gmail works. It would probably work better now that I don't use gmail anymore.
+[16:28:13] <percent2_> gmail is horrible if you don't use it in browser, and I can't stand how crappy slow it is in the browser.
+[16:39:39] <percent2_> garrr gmail bites me in the ass again.
+[17:24:46] <SeanW122> anyone in here fantastic with graphics?  I could use help getting some room maps on our site for the conference
+[17:47:38] <percent20> Destos is probably the best. heh
+[18:21:39] <SeanW122> I doubt Destos is available though

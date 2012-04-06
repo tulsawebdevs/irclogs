@@ -1,0 +1,107 @@
+[08:16:55] <codelahoma> groovecoder: did Jesse commit to the JavaScript for SoD? I don't see anything about it beyond inviting him in my email chains.
+[08:25:02] <groovecoder> codelahoma: oh, yeah. we've been talking on GTalk
+[08:25:09] <groovecoder> he's going thru the tut now
+[08:25:14] <codelahoma> cool
+[08:26:32] <groovecoder> sounds like he's really active w/ OKC.js. he's arranging to live-stream their April 17th lunch meeting so we can do a Tulsa.js off-shoot
+[10:01:29] <percent20> groovecoder: you around?
+[10:01:34] <groovecoder> yup
+[10:02:38] <percent20> I was curios if I could get about 2 hours of your time sometime in the future, sometime soon, to do some pair programming based around unit testing
+[10:02:58] <percent20> If need be I can pay you, something.
+[12:03:24] <percent2_> http://ryanfunduk.com/culture-of-exclusion/ <- lol first "problem" is with regards to alcohol heh.
+[12:04:40] <percent2_> unfortunately many of is points are sound.
+[12:26:37] <zerokarmaleft> that's a lot of generalization
+[12:27:54] <zerokarmaleft> people drink. people drink at *conf. correlation does not equal causation.
+[12:38:49] <percent2_> I have to agree with a lot of what he says though. All the "cool" people at conferences go drink and drink a lot. I have noticed a few people start drinking because they don't want to feel as left out as everyone else.
+[12:39:49] <zerokarmaleft> if someone's not willing to talk to you b/c you're not holding a drink in their hand, find someone else to talk to
+[12:40:27] <zerokarmaleft> maybe that type of behavior is more prevalent at larger conferences
+[12:40:31] <percent2_> To me the big one of his article is: For conferences: don't plan elaborate drinking parties and put them on the itinerary.
+[12:41:24] <percent2_> Most of this is about big conferences. I see remnants of it at TulsaTechFest, DallasTechFest and NW Arkansas TechFest as well.
+[12:41:55] <zerokarmaleft> every night after all the talks at clojure conj, a bunch of people met at the bar
+[12:42:07] <percent2_> However, I have gone to a couple of things in the past here in tulsa that are like 20 or 30 people, before tulsawebdevs, and all they had was beer. I had to leave go to QT and hope I got back in type to hear the beginning of the talk.
+[12:42:52] <zerokarmaleft> or around the bar in the lobby, pretty much everybody drank in moderation and was more interested in talking than getting hammered
+[12:44:01] <percent2_> To me that is cool random meetings afterwards. That has been most of my experiences, but I have seen the lets get hammered part as well. Like tulsa techfest got tickets for everyone to go to oktoberfest on year. It was itneresting for about hour until the alcohol for eveyrone else started setting in.
+[12:44:28] <zerokarmaleft> so?
+[12:44:45] <zerokarmaleft> the value of the ticket was mostly during the day
+[12:45:43] <percent2_> agreed, but I get more value from interaction with others than going to the talks. I like hanging out the hallways.
+[12:46:21] <percent2_> I just also get tired of explaining why I don't drink multiple times at events sometimes the to same people each time. In one case multiple times in the same evening.
+[12:46:53] <percent2_> It is an annoyance that should not exist in the first place and i think that is the crux of his problem.
+[12:47:12] <percent2_> I don't care as much as he does I am guessing, but I understand him 100%.
+[12:47:17] <zerokarmaleft> yes, which is not the problem of the conference organizers
+[12:48:02] <zerokarmaleft> the social awkwardness and/or rifts between people that drink and people that don't
+[12:48:50] <zerokarmaleft> the exclusion is coming from the people in the community, not from the conference
+[12:49:23] <zerokarmaleft> so if he doesn't like a community b/c it's full of exclusionary brogrammers, then find a different community
+[12:50:16] <percent2_> really? I have walked through most programming communities and they are all the same. All that changes is passion levels.
+[12:51:53] <percent2_> I mostly agree with the convetion shouldn't be buying and sponsoring parties where people can do a bunch of drinking. At the very least the con shouldn't be paying for it.
+[12:52:10] <zerokarmaleft> i don't mind that at all
+[12:52:12] <percent2_> i don't really care if/where people want to meet up afterwards.
+[12:52:18] <groovecoder> http://groovecoder.com/2012/04/05/beer-tech-community-events/
+[12:53:03] <zerokarmaleft> it's a mere fraction to pay for a party compared to the rest of the usual conference expenses
+[12:53:46] <percent2_> I agree. My opinon is still the same on the con paying for alcohol.
+[12:54:22] <zerokarmaleft> actually, i believe at conj '11, only sponsors paid for alcohol
+[12:55:34] <zerokarmaleft> also, what is he being excluded from?
+[12:56:00] <zerokarmaleft> if everyone's hammered at these parties, they're obviously not hackig on some secret project
+[12:56:10] <zerokarmaleft> or doing lightning talks just for people that drink
+[12:56:33] <zerokarmaleft> and the so-called "dorks" are left at the door
+[12:57:39] <percent2_> the exclusion is the if you don't want to hang around people that are drinking then don't show up the self exclusion. I'll be honest there have been times I just didn't want to go to the bar because I don't want to smell the alcohol, but i really wanted to talk to others after a tulsa web devs meeting.
+[12:58:15] <groovecoder> percent2_: that's good to know.
+[12:58:23] <percent2_> also from the fact that most of the time you have to explain why you don't drink over and over, and in some cases I have had people walk away and not talk to me again. Which is fine, but is completely stupid.
+[12:58:50] <groovecoder> percent2_: what about a place like Cosmo that has alcohol drinks but also lots of coffee's and tea's and stuff?
+[12:59:56] <percent2_> groovecoder: I don't mind that, and most of the time I don't care about a bar based on the number of times I have been. But on occasion i get the "eh I really don't want to go to a bar tonight" feeling.
+[13:01:18] <percent2_> I wish there was  place that had the variety of alcohol you all like similar to a bar, but was very wide in scope of people and drinks so it doesn't feel/smell like a bar.
+[13:02:29] <groovecoder> percent2_: I always think of Cosmo that way
+[13:02:50] <groovecoder> percent2_: but I think any place that as *a* bar becomes essentially *all* bar after 8 or 9pm
+[13:03:28] <groovecoder> except someplace with another focus - like Buffalo Wild Wings. but then there's a hundred TV's that are distracting from tech talk too
+[13:03:44] <percent2_> yeah.
+[13:04:05] <zerokarmaleft> not to mention the real brosephs that tend to frequent a place like BWW
+[13:04:55] <percent2_> heh. bbiab I need to go to school from work.
+[13:08:48] <zerokarmaleft> hmm, cosmo's menu looks decent
+[13:10:04] <zerokarmaleft> rather, the dishes look decent, the design of the menu is horrible
+[13:10:11] <zerokarmaleft> damn you, comic sans
+[13:14:37] <groovecoder> zerokarmaleft: yeah. I like Cosmo a lot. we should try there more often after tech events
+[13:14:51] <groovecoder> it's got couches and board games and stuff that's less "bar-like"
+[13:16:19] <zerokarmaleft> groovecoder: oh yes, before i forget, i am confirmed to be out of town next weekend during school of dev :(
+[13:16:35] <groovecoder> zerokarmaleft: dang. what about hackathon?
+[13:16:57] <zerokarmaleft> isn't that the same weekend?
+[13:17:30] <groovecoder> zerokarmaleft: yeah
+[13:18:24] <groovecoder> didn't knwo if you might come back Sunday or something
+[13:18:54] <zerokarmaleft> i'll be back on Sunday around 11pm
+[13:21:48] <groovecoder> ah
+[13:21:53] <groovecoder> dang, we'll be sorry to miss you :(
+[13:22:15] <groovecoder> the hackathon track at SOD isn't exactly overflowing :) I think we have 5 registered or something
+[13:53:04] <percent20> what is funny about the drinking thing that has happened today is the guy got exactly what he wanted in the first place. A discussion about it.
+[13:54:07] <percent20> there have been a lot of personal attacks on him and others that don't drink in other discussions today, but he got people to talk about it which is a win.
+[14:36:09] <groovecoder> oh geez. my blog post got tweeted by mozlabs and codepo8. my poor little rackspace instance is going to go down :(
+[14:39:45] <percent20> I doubt that, but I would love to see your traffic numbers over the next few days.
+[15:17:09] <groovecoder> percent20: does google analytics have some kind of real-time view now?
+[15:17:18] <percent20> yes
+[15:17:53] <percent20> you have to click on home at the top of your anlytics then click on "Real-Time (beta)" to the left
+[15:18:03] <zerokarmaleft> is analytics free?
+[15:18:11] <percent20> zerokarmaleft: for now.
+[15:18:27] <percent20> I personally think that is going to change.
+[15:18:31] <zerokarmaleft> indeed, tinfoil hat
+[15:19:56] <groovecoder> heh. that post is 3 hours old and already has double the traffic of any other single post on my blog :)
+[15:20:27] <zerokarmaleft> i may have clicked on it twice from a couple different browsers
+[15:20:34] <groovecoder> heh
+[15:20:44] <groovecoder> 120 visits in 3 hours
+[15:21:49] <percent20> nice.
+[15:22:10] <percent20> zerokarmaleft: I always have my tinfoil hat on when it comes to google.
+[15:22:21] <zerokarmaleft> i've noticed :P
+[15:40:45] <percent20> in 5 days godjango has used 15 gig of bandwidth.
+[15:44:47] <groovecoder> dang
+[15:44:53] <groovecoder> how much does all that cost?
+[15:53:44] <percent20> i have 200gb built into my linode plan.
+[15:53:53] <percent20> was excited I got so much usage so quickly.
+[16:04:43] <zerokarmaleft> how many of those views are people keeping coming back (potential subscribers)?
+[16:05:00] <zerokarmaleft> people that keep*
+[16:05:47] <zerokarmaleft> log entries at least originating from the same ip might give you a rough idea
+[16:08:13] <percent20> am at a 40% return rate.
+[16:08:22] <zerokarmaleft> that's pretty good
+[16:08:29] <percent20> average of 2.25 pages per visit.
+[16:08:47] <percent20> yeah I am surprised it has stayed so strong at that number for so long.
+[16:24:29] <percent20> groovecoder: you around?
+[16:24:42] <groovecoder> a bit :)
+[16:25:20] <percent20> Since we aren't goig to be able to hit the fablab tomorrow until 1 do we want to try and meet somehwere for lunch at noon before heading over? Maybe get the CA guys as well.
+[16:25:39] <groovecoder> percent20: check with them, but I might not be at coworking tomorrow
+[16:27:24] <percent20> :( okay.
+[16:32:02] <groovecoder> heh, funny stuff: http://screencast.com/t/WEYNVYqcdc
+[16:32:47] <percent20> nice

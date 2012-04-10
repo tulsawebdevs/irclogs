@@ -1,0 +1,131 @@
+[09:10:19] <MattGalloway> Groovecoder: Are you there?
+[09:10:26] <groovecoder> yup, what's up?
+[09:10:46] <MattGalloway> Are you still planning on my presenting at School of Dev?
+[09:11:06] <groovecoder> sorta. the afternoon material is very rough
+[09:11:17] <groovecoder> we don't have lots of attendees anyway, so we might leave it up to the "students"
+[09:11:59] <groovecoder> doing some more promo push this week, but I'm pretty sure we'll have only 5-10 attendees max
+[09:12:40] <MattGalloway> Cool. Well, I've roughed out an iOS app for TRIF that I can use if need be but I didn't want to put a bunch of work into a presentation unless I needed to. Which I'll happily do, I just didn't want to waste the time.
+[09:13:06] <MattGalloway> Is that just our "track" or the whole event? I've never been to a SoD.
+[09:14:21] <groovecoder> SoD is smaller than TTF, and this year especially so since we're changing it all up
+[09:14:47] <groovecoder> 5-10 attendees for the gov 2.0 track. looks like 12-15 for the web track
+[09:14:58] <groovecoder> but we'll see - sometimes people show up without registering
+[09:15:45] <groovecoder> MattGalloway: a cool app at Hackathon itself would be https://tulsawebdevs.uservoice.com/forums/148395-tulsa-app-ideas/suggestions/2563571-automatically-reports-pot-holes-from-a-smartphone-
+[09:16:04] <groovecoder> I'd actually love to see a few teams tackle that - iOS native, Android native, and then a PhoneGap implementation
+[09:16:09] <groovecoder> to compare all the approaches
+[09:16:29] <MattGalloway> I looked at the website this weekend and noticed that there wasn't much listed in the Gov track and that I wasn't on there - which prompted the question. Saddens me there's a Windows Phone track but no iOS track. I should have gotten more involved. My fault.
+[09:17:00] <groovecoder> MattGalloway: but to answer your question - nah, don't spend too much time preparing material when we don't know how many attendees we'll have
+[09:17:39] <groovecoder> I'd rather underwhelm surprise attendees than burn out community core contributors like you, y'know? ;)
+[09:18:33] <MattGalloway> I do think I'll be able to make Hackathon though. Been super busy but I really want to attend. As of right now, I'm planning on it.
+[09:18:51] <MattGalloway> {Reading Street Bump stuff now}
+[09:21:10] <MattGalloway> Too bad Street Bump isn't open source. Sounds like there's some serious science involved in interpreting accelerometer data.
+[09:23:08] <zerokarmaleft> the heavy MS-leaning at SoD is kinda sad
+[09:23:36] <zerokarmaleft> but i suppose it's better now that TWD is encroaching :D
+[09:30:52] <MattGalloway> groovecoder: Is the City of Tulsa officially involved in the Hackathon?  Are any City representatives/employees planning on being there or involved in any other way?
+[09:49:38] <MattGalloway> groovecoder: I just send and email to Boston folks about Street Bump. Got response - they said they're planning on releasing code this summer.
+[09:50:44] <groovecoder> MattGalloway: cool. I don't know how complicated you'd have to make the math. just measure if there's a big spike in the Z metric?
+[09:51:25] <groovecoder> MattGalloway: also, no-one from City of Tulsa is officially involved. we've reached out to GT Bynum and Phil Lakin, but got no good response
+[09:51:36] <groovecoder> I'm going to check with Blake Ewing on Tuesday @ the Fab Lab luncheon
+[09:52:08] <codelahoma> Got press lined up?
+[09:52:48] <groovecoder> the best/only tactic seems to be to hack something on our own to the point where it shows the "officials" that we can actually provide something valuable. (e.g., Tulsa Transit)
+[09:52:54] <groovecoder> codelahoma: press?
+[09:53:25] <MattGalloway> groovecoder: They may not be doing any thing complicated. I dunno. But there is a log of digital signal processing stuff that could be done to try to eliminate lots of false positives (like a dropped phone for example).
+[09:54:04] <groovecoder> MattGalloway: yeah, that's the kinda stuff we'd tease out this weekend. :)
+[09:54:40] <groovecoder> but generally more data + dumb algorithms is better than smarter algorithms.
+[09:55:20] <groovecoder> so instead of reporting straight to cot website, we could report to our own proxy that filters and only sends a report if the same lat,lng has lots of reports
+[09:56:41] <MattGalloway> groovecoder: If you have a few minutes sometime today could you give me a call at 918-808-3072?
+[09:56:57] <groovecoder> MattGalloway: sure
+[09:58:09] <zerokarmaleft> street bump is brilliant
+[09:59:51] <codelahoma> instead of keeping an eye on any axis, just take readings every 100ms and calculate relative distance from previous. Keeping a circular queue of five seconds or so, and report any clusters of movement beyond two standard deviations from mean. Then have the server side watch for patterns like groovecoder said.
+[10:00:57] <groovecoder> codelahoma: is 100ms frequent enough to catch a bump?
+[10:01:32] <codelahoma> that was just a ferinstance. We'd probably have to play around with the frequency.
+[10:01:40] <groovecoder> ah, yeah
+[10:01:50] <MattGalloway> Apparently there was a $25,000 prize offered laster year for the best algorithm to identify "real" potholes. https://www.innocentive.com/ar/challenge/9932752
+[10:03:30] <codelahoma> using only acceleration and location data.
+[10:03:42] <codelahoma> that'd be a tougher nut to crack.
+[10:04:47] <MattGalloway> I have less interest in cracking the nut that I do eating the eating the nuts someone else has cracked. ;)
+[10:05:05] <codelahoma> yeah:-)
+[10:06:12] <codelahoma> My guess is people *avoid* potholes more often than they hit them, so locaiton and acceleration data would probably be useful if you had enough of it to look for changes in historical trends.
+[10:06:18] <MattGalloway> Or rather, I'm more interested in making the better mouse trap even better that I do building yet another different but not neccessarily better mouse trap.
+[10:07:00] <codelahoma> Yeah, no reason to reinvent the flat tire.
+[10:22:10] <groovecoder> MattGalloway: I'm always cautious of dev's who say "we're planning to release the code ____"
+[10:23:05] <groovecoder> subscribe to their repository or an rss feed but don't depend on vaporware
+[10:23:37] <MattGalloway> Agreed.
+[11:09:10] <percent20> I am curios how much Facebook bought instagram for.
+[11:16:30] <codelahoma> $1B in cash and stock, according to WSJ
+[11:17:31] <percent20> damn I need to get into that business.
+[11:22:55] <groovecoder> percent20: the business of harvesting and whoring out peoples' personal data?
+[11:24:18] <percent20> no into the selling my company for a billion dollar business
+[11:25:30] <MattGalloway> Oh, the taking a billions dollars MADE from the harvesting and whoring out of people's personal data business. That's so much better.
+[11:25:54] <codelahoma> instagram reached out to a friend of mine for their design lead position a while back and he didn't talk to them. He'd just started at Apple.
+[11:26:29] <percent20> never said that is what my business would be. I'd be happy with selling any business for a billion dollars.
+[11:28:49] <MattGalloway> "I didn't {kill the Jews | own the slaves | steal form taxpayers | have sexual relations with that woman }... I just profited from those who did."
+[11:29:50] <MattGalloway> :)
+[11:30:26] <percent20> garrrrr they made several changes to virtualenv between 1.0 and 1.1 that is why my deploys are breaking.
+[11:31:12] <percent20> what i m saying is i would sell godjango for a billion dollars if someone offered it.
+[11:38:17] <zerokarmaleft> apropos of nothing, jenkins is on the list of awesome java projects
+[11:38:41] <MattGalloway> ...we've already established that you're a whore. Now we're just haggling on price.
+[11:39:08] <zerokarmaleft> heh
+[11:39:29] <percent20> so at least make it a good price.
+[12:04:38] <MattGalloway> The Google doodle today is animated. I don't htink I've seen that before.
+[12:07:47] <percent20> haven't been to google today. I might have to check it out.
+[12:11:17] <percent20> typos suk
+[13:26:14] <percent20> groovecoder: you around?
+[13:28:40] <groovecoder> percent20: now I am
+[13:29:02] <percent20> yay. I has an idea
+[13:29:39] <percent20> You wanted to do a some trainings. Why not do a mix of a training and a 2 day hackday in june around Node.js
+[13:30:28] <percent20> First part of Day 1 is about learning Node.js last part of Day one and all of Day 2 is write a non-trivial app, but not too complex in Node.js
+[13:31:40] <percent20> what do you think about that?
+[13:56:34] <zerokarmaleft> oh shit, lessig's coming to TU?
+[14:37:54] <percent20> *sigh* https://twitter.com/peterbe/status/189450229928570880
+[16:29:06] <groovecoder> heh, I still chuckle every time I do `git push -fu`
+[17:00:28] <percent20> yay i get to attempt linux voodoo
+[19:19:34] <percent20> I hate computers
+[19:19:41] <percent20> I hate programming, software, servers.
+[19:19:44] <percent20> I hate everything
+[19:30:08] <zerokarmaleft> percent20: still having trouble with PIL?
+[19:30:30] <percent20> no fixed that.
+[19:31:06] <percent20> i am tired of getting stupid error after stupid error relating to something not having the right package somewhere, but something else still working
+[19:32:15] <zerokarmaleft> what specifically is broken?
+[19:34:08] <percent20> now i am onto pycrypto
+[19:34:20] <percent20> which might actually work this time.
+[19:34:23] <zerokarmaleft> in linux or homebrew?
+[19:34:26] <percent20> linux
+[19:38:57] <zerokarmaleft> on ubuntu? are you installing via pip?
+[19:57:33] <percent2_> yes and yes
+[19:58:05] <percent2_> pycrypto worked. now to find the next problem to solve.
+[20:00:19] <SeanW122> groovecoder: you upon us?
+[20:00:32] <SeanW122> is your presence gracefully here?
+[20:17:50] <groovecoder> SeanW122: I'm here now. percent2_ sorry I missed you earlier
+[20:18:19] <percent2_> groovecoder: heh must of left right after you said you were here. lol. no worries.
+[20:18:19] <groovecoder> percent2_: I like a 2-day training + hack day idea
+[20:18:20] <SeanW122> cool, I sent you and Destos an email about a pic I need on the site to show where the registration is on the campus.
+[20:18:30] <SeanW122> can you help get it on the site in a good place?
+[20:18:35] <groovecoder> SeanW122: yeah, I'll check it out
+[20:19:22] <groovecoder> percent2_: let's see how the whole OKC.js + Tulsa.js thing shakes out. we might be able to do a combined event
+[20:19:41] <SeanW122> tulsa.js has a nice ring to it
+[20:19:59] <SeanW122> FYI, Chris Patterson is speaking at the May .NET ug mtg on SignalR
+[20:21:05] <percent2_> groovecoder: okay. I have an idea for an app for the event biggest thing would be coming up with what to train, which with a bit of effort can be accomplished. if anything i was thinking it could be a tulsawebdevs thing for those of us that want to learn and use Node.js evne if it doesn't get wider attendance
+[20:22:32] <groovecoder> mmm. http://nuget.org/packages/SignalR.WebSockets
+[20:24:02] <groovecoder> percent2_: is it aimed at beginner, intermediate, or advanced js developers? the fact that's it's node.js seems to skew it towards intermediate or advanced
+[20:24:59] <groovecoder> SeanW122: I can't access the site right now so I can't put that up :( I get weird intermittent unable to connect errors for the site
+[20:25:09] <groovecoder> it's still up, just not for my connection or something
+[20:25:13] <percent2_> depends on how you define beginner. If you can use jquery reasonably well you should be fine.
+[20:25:33] <SeanW122> hmmm, ok
+[20:25:34] <percent2_> we can talk more about it later just wanted to see what you thought of the idea.
+[20:27:19] <groovecoder> percent2_: yeah, I'd love to do more specific events
+[20:35:12] <zerokarmaleft> groovecoder: i didn't bother putting Clojure on that facebook poll :P
+[20:35:20] <groovecoder> zerokarmaleft: heh
+[20:35:36] <groovecoder> zerokarmaleft: have you ever pinged Andy from Tulsa Java?
+[20:35:44] <zerokarmaleft> though, honestly a sub-group with a focus on functional languages might be worthwhile
+[20:35:57] <zerokarmaleft> st. louis has a group like that called Lambda Lounge
+[20:36:41] <zerokarmaleft> groovecoder: i pinged someone from tulsa java to find out when their meetings are
+[20:37:05] <zerokarmaleft> tulsa java's joomla site is almost useless
+[20:39:06] <groovecoder> zerokarmaleft: you should offer to give a presentation on clojure.
+[20:39:10] <groovecoder> @ Tulsa Java
+[20:39:23] <zerokarmaleft> i would, but my schedule conflicts with their meeting times
+[20:39:43] <groovecoder> zerokarmaleft: doh
+[21:32:14] <percent2_> if all goes well i might have fixed the final problem of the night.
+[22:27:15] <percent2_> wow http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
+[22:28:16] <SeanW122> wow
+[22:30:51] <percent2_> from now on when people ask why I don't like php i'll just give them that link.
+[22:36:10] <percent2_> i hate computers still.

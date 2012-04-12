@@ -1,0 +1,125 @@
+[08:14:06] <groovecoder1> percent2_: I have a long-standing question re: Microsoft technology, maybe you can answer. I'm looking at http://en.wikipedia.org/wiki/ADO.NET_Entity_Framework - what other technologists call "Object Relational Mapping" Microsoft calls "Entity Data Model" - is there a substantial difference or is it just semantics?
+[08:25:34] <zerokarmaleft> groovecoder1: it's just semantics
+[08:26:34] <groovecoder> zerokarmaleft: if I were cynical re: Microsoft (and I am), I would think they do it intentionally to lock developers in
+[08:27:07] <groovecoder> but percent2_ goes back and forth b/w platforms, so I'm interested to hear his take on it
+[08:27:26] <zerokarmaleft> i left .net in 2003 or so
+[08:27:35] <MattGalloway> I think there is a bit of nuance here, but basically they are the same thing.
+[08:28:33] <zerokarmaleft> the implementation differs, of course, from other ORMs on java/c# (e.g. Hibernate), but it's meant to abstract away SQL connections and queries
+[08:29:43] <MattGalloway> Apple has a framework called "Core Data" (which I love) that is basically ORM but theologians are quick to point out that it's not "technically" ORM - instead it's and object graph and persistence framework. The difference is that you can't really control the "mapping" it's all done magically for you. This has the disadvantage of not being able to adapt to existing databases.
+[08:30:51] <MattGalloway> Microfost EF is, (I think based on my limited exposure) is similar but more flexible in "mapping" than Core Data.
+[08:31:24] <zerokarmaleft> microfost, heh
+[08:35:07] <MattGalloway> In traditional ORM (like Hibernate) you define your objects, you build your database and then you have a bunch of (usually XML) descriptors that describe how to map one to the other. Then came lots of forward and reverse engineering tools to automate part of this. With Apple Core Data you define the "entity model" and it automatically creates your objects and database. With Core Data this is the ONLY way it
+[08:35:07] <MattGalloway> works...you don't control the "mapping".
+[08:38:51] <groovecoder> MattGalloway: that's what django does, and calls it ORM
+[08:41:44] <groovecoder> MattGalloway: have you noticed Apple platform's using their own specific terminology the way Microsoft does?
+[08:42:48] <MattGalloway> groovecoder1: Um, the first like of the Wikipedia article you linked to says "ADO.NET Entity Framework (EF) is an object-relational mapping (ORM) framework for the .NET Framework."
+[08:43:20] <MattGalloway> s/like/line/
+[08:44:31] <zerokarmaleft> that's on wikipedia...msdn isn't as forthcoming with general terminology that everyone else in the industry understands
+[08:46:13] <groovecoder> !zerokarmaleft++
+[08:46:56] <groovecoder> exactly - and that's what makes me think MS intentionally re-brands development concepts to make it harder for their developers to leave their platform
+[08:47:51] <MattGalloway> groovecoder: re:Apple Terminology. Apple is fairly adamant that Core Data is NOT ORM but I have to admit the nuance is a lost on me.  Other than that, they use pretty standard ComSci terms - data model, entity, persistence, etc.
+[08:49:04] <MattGalloway> But to be fair I think MS does largely the same thing - they may avoid the acronym "ORM" but they're terms are pretty standard.
+[08:51:26] <MattGalloway> I think the difference has to do with the face that with EF and Core Data you create a conceptual "entity model" that is neither a concrete database schema nor concrete object definitions (i.e. classes). With ORM this conceptual entity model doesn't exist - there is only the database and classes with some definition of the relation between the two.
+[08:52:06] <MattGalloway> Damn my typing is bad today. s/face/fact/
+[08:52:25] <groovecoder> fair enough. I have a lot of suspicion towards [Microsoft|Apple|Oracle|SAP|etc.] dev platforms - I always assume they're trying to lock developers in. but I suppose terminology would be one of the most innocuous offenses
+[08:52:43] <zerokarmaleft> huh, so EF is based on this paper: http://www.csc.lsu.edu/news/erd.pdf
+[08:53:12] <groovecoder> ACTION falls instantly asleep
+[08:54:00] <zerokarmaleft> my point being, the terminology surrounding MS's branding of EF may have more to do with staying consistent with the basis of research
+[08:54:12] <MattGalloway> Um, that was written when I was 4. :)
+[08:55:11] <zerokarmaleft> i was -3
+[08:56:01] <MattGalloway> zerokarmaleft: You were an emoticon for a penis?
+[08:56:13] <groovecoder> !MattGalloway--
+[08:56:17] <groovecoder> :)
+[08:56:40] <MattGalloway> I feel so much less awesome.
+[08:56:54] <groovecoder> for sure
+[08:56:58] <groovecoder> !karma
+[08:57:03] <zerokarmaleft> that's a stickdick emoticon
+[08:57:12] <groovecoder> ACTION sighs
+[08:57:31] <groovecoder> it would be nice if SOME day we could invite ladies to this channel :)
+[08:57:36] <zerokarmaleft> 3:-0 <= asshat, if that ever becomes useful
+[08:58:55] <zerokarmaleft> groovecoder: true, there's a fair bit of representation on the facebook group
+[09:10:42] <MattGalloway> groovecoder: iOS has no built-in or 3rd party libraries (that I've been able to find) to access MS SQL Server.  No ODBC or similar. So the typical approach to access MS SQL Server from an iOS app is to build a web service to proxy the requests. Using Microsoft Entity Framework and Windows Communication Foundation Data Services you can create an OData web service interface on top of an existing SQL Server dat
+[09:10:42] <MattGalloway> abase in about 30 minutes and fewer than 20 lines of code. I have to admit...it's pretty slick.
+[09:12:27] <MattGalloway> (Windows Communications Foundation = WCF, "WCF Data Services" is the new name for ADO.NET Data Service)
+[09:12:42] <groovecoder> slick, but not as nice as simply having a native driver for iOS->SQL Server
+[09:16:09] <MattGalloway> groovecoder: Yes and no. I would like a native MS SQL (and MySQL, Postgre, etc.) driver for iOS but the reality is most iOS apps are accessing data over the public internet through cellular network - even if I had native drivers, architecturally web services are the right thing to do anyway.
+[09:16:52] <groovecoder> MattGalloway: yeah, that makes sense. iOS->SQL Server certainly shouldn't be a priority, but it should be a possibility
+[09:18:17] <groovecoder> MattGalloway: but as far as terminology, "Using Microsoft Entity Framework and Windows Communication Foundation Data Services you can create an OData web service" seems much more off-putting than "you can create a web service proxy to a database"
+[09:18:52] <groovecoder> I could do a similar thing with django & tastypie in about 30 minutes and 20 lines of code too
+[09:19:07] <groovecoder> and it doesn't take nearly as long to type :)
+[09:20:01] <groovecoder> Microsoft Entity Framework & Windows Communication Foundation Data Services & OData
+[09:20:07] <groovecoder> django & tastypie
+[09:28:41] <codelahoma> Just eyeballin' it, but I think the second one is shorter.
+[09:29:40] <MattGalloway> :)
+[09:29:56] <groovecoder> tulsabot_: count!
+[09:30:11] <MattGalloway> Now I know who to call when I need to access non-MS database data from an app.
+[09:30:44] <groovecoder> MattGalloway: fo' drizzle
+[09:50:12] <zerokarmaleft> neat, got my pristmatic.com invite
+[10:16:10] <codelahoma> zerokarmaleft: what's that? (link fails DNS)
+[10:16:53] <zerokarmaleft> getprismatic.com
+[10:17:47] <zerokarmaleft> a news feed based on your twitter firehose, i believe
+[10:17:53] <codelahoma> looks interesting
+[10:19:09] <zerokarmaleft> most of the people i follow on twitter are coders in some respect, so it's kind of like HN without the crappy comments
+[10:19:57] <codelahoma> I have multiple twitter accounts. :-) @codelahoma is the coder.
+[10:23:03] <zerokarmaleft> codelahoma: did you put in $0.02 on the facebook group about TWD sub-groups?
+[10:24:02] <codelahoma> yep
+[10:26:23] <zerokarmaleft> i bounced the idea of a functional programming sub-group in IRC a day or two ago...that doesn't strictly fall under web-dev as a subcategory though
+[10:27:21] <zerokarmaleft> and i'd be interested in other language paradigms (e.g. OOP) as well
+[10:28:35] <codelahoma> when it comes to functional, I am only an egg.
+[10:28:37] <zerokarmaleft> or just development practices in general (TDD)
+[10:30:04] <zerokarmaleft> i feel pretty much the same way, tbqh
+[10:30:11] <zerokarmaleft> also, nice heinlein reference :D
+[10:31:19] <codelahoma> I like to float one every now and then, and award esteem points to those that catch them. :-)
+[10:31:53] <codelahoma> It's been a long time since I read SiaSL. Might be on my summer read list.
+[10:35:11] <codelahoma> maybe a summer of favorites: Stranger in a Strange Land, Still Life with Woodpecker, The Stand...
+[10:35:19] <codelahoma> I like books that don't start with S, too.
+[10:35:30] <zerokarmaleft> tom robbins fan too eh?
+[10:35:43] <codelahoma> yep
+[10:35:53] <zerokarmaleft> all my hostnames are named after robbins' characters
+[10:36:00] <codelahoma> nice
+[10:36:38] <codelahoma> I've read Still Life three times and each time I took away just what I needed at the time, which was different each time.
+[10:36:56] <codelahoma> plus it has the best last sentence ever.
+[10:37:36] <codelahoma> oops….it's a toss up now. Tied with The Dark Tower.
+[10:41:35] <percent2_> !hello
+[12:22:08] <percent20_> groovecoder: you around?
+[12:22:20] <groovecoder> yeah
+[12:22:44] <groovecoder> but in a meeting
+[12:23:32] <percent20_> okay. you can answer when you want. I was just curios what I should hit in my ruby scraping talk and how long it should be?
+[12:24:00] <groovecoder> percent20_: doesn't have to be a "talk" per sé
+[12:25:18] <percent20_> I guess that is what I don't get I don't know what I am doing for it.
+[12:31:29] <percent20_> Destos: how you fealing man?
+[13:08:36] <Destos> percent20_: somewhat better, up at CA working
+[13:09:31] <percent20_> Destos: ah. Well glad you are feeling at least a little better.
+[13:09:54] <Destos> going to a concert tonight with my wife as well. Which could mean trouble for my eardrums
+[13:10:35] <zerokarmaleft> bela fleck?
+[13:17:44] <Destos> zerokarmaleft: yeah
+[13:22:10] <codelahoma> jgmize: there?
+[13:23:20] <Destos> he's talking to john.
+[13:23:45] <codelahoma> if nick[0] == 'j' then never_really_here
+[13:24:56] <codelahoma> Destos: tell him I've got a guy with 10 and 13 year old sons that might be interested in Open Source Hardware
+[13:29:46] <groovecoder> Destos: you feeling sick?
+[13:29:59] <groovecoder> !codelohoma++
+[13:30:10] <groovecoder> ACTION sighs
+[13:30:15] <groovecoder> !codelahoma++
+[13:30:18] <codelahoma> ¿por que?
+[13:30:26] <groovecoder> misspelled the first time
+[13:31:03] <Destos> groovecoder: not terribly, probably just exhausted
+[13:31:07] <codelahoma> coffeescript repl rocks for playing around with large JSON objects
+[13:31:08] <zerokarmaleft> ACTION makes a mental note that the karma plugin needs google suggest
+[13:32:04] <zerokarmaleft> e.g. "Curse your fingers of meat, did you mean *codelahoma*?"
+[13:32:07] <groovecoder> Destos: sorry to hear that
+[13:32:52] <jgmize> codelahoma: sorry I haven't replied to your facebook message yet-- I started a google group a while ago: https://groups.google.com/forum/#!forum/tulsa-open-source-hardware
+[13:33:16] <codelahoma> jgmize: I saw that, but it looked a little stale.
+[13:33:26] <codelahoma> didn't know if there was a better place to send him
+[13:33:51] <jgmize> codelahoma: yeah, I was about to follow up with the fact that I haven't had the time/energy needed to really get it going
+[13:35:14] <jgmize> codelahoma: the open source hardware group is something I want to succeed, but it really needs someone who is actively involved in hardware projects and has the time to commit to regular meetings, etc
+[13:36:20] <groovecoder> jgmize: a slow steady burn is better than a flash in the pan
+[13:36:21] <groovecoder> :)
+[13:36:33] <codelahoma> might gain some traction this weekend
+[13:37:27] <groovecoder> jgmize: from the looks of the number of people at USFLN symposium yesterday, I think Tulsa could have a cool little maker faire someday
+[13:37:39] <groovecoder> couple it to mayfest or something?
+[13:38:29] <codelahoma> barring a variety of things that could conflict, we're going up to the KC MF.
+[13:39:13] <jgmize> groovecoder: yeah, a tulsa MF would be awesome.
+[13:39:27] <jgmize> codelahoma: that sounds like a lot of fun
+[13:41:01] <jgmize> I'll send an email to the TOSH group tonight to try and get some people to meet up and show off the projects they've been working on, and I'll mention the hackathon as well.
+[13:42:14] <codelahoma> cool. I'll tell him to join the group and await further instructions.

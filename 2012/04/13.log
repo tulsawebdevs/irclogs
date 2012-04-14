@@ -1,0 +1,19 @@
+[11:54:25] <zarthross> hey guys, know anything about the hackathon + this weekend's weather?
+[18:13:14] <groovecoder> percent20: https://github.com/groovecoder/whereyourmouthis
+[18:14:46] <groovecoder> mwic: https://github.com/groovecoder/whereyourmouthis
+[18:15:22] <mwic> groovecoder: fatal: https://github.com/groovecoder/whereyourmouthis/info/refs not found: did you run git update-server-info on the server?
+[18:21:13] <groovecoder> https://github.com/tulsawebdevs/whereyourmouthis
+[18:43:40] <codelahoma> Destos: http://code.google.com/p/tesseract-ocr/
+[18:43:51] <codelahoma> open source OCR - available through homebrew
+[19:02:34] <Destos> codelahoma: the problem is I probably can't run that on nodejitsu
+[19:04:58] <codelahoma> Destos: ahhh. if it only needs to happen once a month, maybe we could automate an EC2 micro instance to handle it.
+[19:05:29] <Destos> A good idea
+[19:31:57] <groovecoder> mwic: http://192.168.1.129:8000/
+[20:05:34] <groovecoder> mwic: '{"date": "2011-11-02", "score": "-1", "type": "Routine", "facility": "/api/v1/facility/51/"}'
+[20:07:11] <groovecoder> https://github.com/tulsawebdevs/python-scrapers/blob/master/thd_food_inspections/storage/wymi.py#L47
+[20:07:15] <groovecoder> https://github.com/tulsawebdevs/python-scrapers/blob/master/thd_food_inspections/storage/wymi.py#L84
+[20:08:39] <percent20> http://192.168.1.144/~percent20/mapping/
+[20:21:22] <jwhitlock> https://gist.github.com/8f81477907c3a74d4e2c
+[20:21:49] <jwhitlock> my django latitude field for groovecoder
+[20:25:26] <groovecoder> jwhitlock: thx
+[20:32:37] <mwic> groovecoder: "column \"latitude\" of relation \"inspections_facility\" does not exist

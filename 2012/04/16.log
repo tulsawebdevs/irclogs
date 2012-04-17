@@ -1,0 +1,30 @@
+[11:57:44] <groovecoder> http://news.yahoo.com/yahoo-launch-not-track-tool-worldwide-164839981.html
+[12:09:13] <percent2_> groovecoder: I just realized I forgot about a meeting I have tomorrow afternoon so I wont be able to make it to fablab. Would it be possible to meet up wednesday?
+[12:34:45] <Destos> When is the tuesday meeting at the fablab?
+[12:46:10] <percent2_> Destos: 11:30
+[12:46:49] <percent2_> Why is it some forms can be filled out and submitted online for business filings, but others can't? its annoying.
+[12:46:57] <Destos>  ah, already had it in my cal
+[12:47:09] <Destos> inefficiency in gov is why
+[12:49:14] <percent2_> fortunately I am going to OKC tomorrow evening I can drop this crap in the mail and it will get there sooner.
+[14:16:19] <MattGalloway> @precent2_ What business filings are you doing? (Almost?) All of the Sec of State stuff in OK is online. The Oklahoma Tax Commission is a not as automated.
+[14:17:39] <MattGalloway> I meant percent2_: Stupid Twitter.
+[14:18:25] <zerokarmaleft> ugh, quicktax is so awful
+[15:05:40] <percent2_> MattGalloway: Had to reinstate my LLC apparently my LLC renewal got lost in the mail for a few months then I forgot about it once I got it. The reinstatement form is a mail in form because you have to include all previous delinquent renewals and checks.
+[15:06:19] <percent2_> MattGalloway: do you have a source you like to go to on the mobile stats and stuff?
+[15:48:37] <percent2_> someone just bought this with my affiliate link. not sure what they were searching for. http://www.amazon.com/Samco-Scientific-6A-0014-Non-Sterile/dp/B004XJL6DY/ref=sr_1_1?ie=UTF8&qid=1334612709&sr=8-1
+[17:36:15] <MattGalloway> percent2_: You there?
+[17:36:19] <percent2_> yes
+[17:37:18] <MattGalloway> Are you interested in a little bit of contract work to help a fellow web dev (Trisha Salas)?
+[17:37:39] <percent20> Sure.
+[17:37:47] <MattGalloway> It's a little bit of php hacking to convert some Dot Net Nuke forums stuff into Wordpress/bbPress.
+[17:38:05] <percent20> oooh.
+[17:38:22] <percent20> any more specifics?
+[17:38:26] <MattGalloway> Not fun I know but I don't think it's a lot.
+[17:39:26] <MattGalloway> She's alreay imported most of the forum posts (it's phpBB as a Wordpress plugin bbPress) she'll needs to pull in all of the users and replies.
+[17:40:20] <percent20> I haven't done anything like that before, but I am sure I can figure it out. I sit mostly importing data?
+[17:40:37] <percent20> i sit == is it
+[17:41:06] <MattGalloway> Yulp. It's mostly data mangling from RSS and/or MS SQL Server into MySQL for Wordpress and/or bbPress (phpBB).
+[17:41:24] <MattGalloway> Can I get your number and email to pass it along?
+[17:41:36] <percent20> sure i'll pm it to you.
+[17:43:05] <percent20> okay sent it to you via irc message
+[22:36:09] <MattGalloway> You know what I hate about Hackathon? It makes real work seem to suck a little bit more.

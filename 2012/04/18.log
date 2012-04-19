@@ -1,0 +1,21 @@
+[10:37:31] <groovecoder> hah, the only way to avoid getting blocked by THD when I accidentally run the full scraper is to turn off my wifi. if I just ctrl-c it only kills a single batch and all the others after it run at full speed against THD
+[10:46:14] <codelahoma> you need something like ruby's vcr gem.
+[10:48:59] <groovecoder> codelahoma: ooo, nice
+[10:50:21] <codelahoma> I'm using that on my okdhs thing. Should keep me from getting locked out while I TDD.
+[10:51:24] <codelahoma> not to mention turning 2sec tests in to 0.15sec tests. :-)
+[10:58:01] <groovecoder> found https://github.com/assaf/node-replay for node
+[10:58:30] <groovecoder> but what would be better is an http proxy with a "record and replay" feature
+[15:22:06] <percent20> if a hosted application site, similar to heroku, goes out of business does it make a sound? https://www.ep.io/
+[15:23:04] <codelahoma> they need to change a few verbs to past tense
+[15:23:39] <codelahoma> although they do technically still deploy and host…until May 31
+[15:27:51] <percent20> jsatt jgmize jwhitlock_zzz anyone from CA around? isn't this what john was talking about in a game? https://github.com/blog/1098-take-over-the-galaxy-with-github <- what they are describing there from notch of minecraft?
+[15:34:39] <Destos> they are all reading it and talking about it now :P
+[15:34:47] <Destos> general excitement
+[17:18:28] <percent20> Destos: what was there overall opinion of the game?
+[17:18:37] <Destos> hard
+[17:18:44] <Destos> my opinion
+[17:18:49] <percent20> ???
+[17:18:59] <Destos> it seemed everyone was interested, especially jgmize
+[17:19:05] <percent20> ah.
+[17:19:37] <percent20> looks like tulsawebdevs missed the opportunity.
+[17:20:06] <Destos> hah, there is still a chance for an easier programming game. Plus there have been Morpgs created before for learning math act.

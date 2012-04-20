@@ -1,0 +1,56 @@
+[10:47:11] <codelahoma> CoffeesScript FTW: https://gist.github.com/2382307 (both files are functionally the same)
+[11:35:12] <zerokarmaleft> iterative looping is for the birds
+[12:13:48] <percent2_> heh lively little debate going on facebook.
+[12:31:40] <groovecoder> jgmize: jsatt: jwhitlock_zzz: percent2_: I'll be your best friend if you can tell me how to "reset" an itertools.chain object
+[12:34:55] <percent2_> reset as in go back to the beginning?
+[12:35:40] <groovecoder> percent2_: yeah, but it's an iterator
+[12:36:22] <percent2_> ah not sure. Just wanted to be sure that is what you were asking. I shall try my duckduckgo foo though.
+[12:43:29] <jwhitlock> groovecoder: you are doing it wrong
+[12:43:39] <jwhitlock> also: http://www.kungfugrippe.com/post/21346820667
+[12:43:52] <groovecoder> jwhitlock: I'm sure, I'm trying to be lazy here
+[12:45:58] <groovecoder> jwhitlock: afraid I don't get that :(
+[12:47:00] <codelahoma> http://is.gd/dMdQYO
+[12:48:23] <codelahoma> groovecoder: that link was for you
+[12:48:53] <groovecoder> hah
+[12:48:58] <groovecoder> ACTION is slow
+[12:49:10] <groovecoder> so I just had to re-create the iterator
+[12:49:12] <groovecoder> no big deal
+[12:49:44] <jwhitlock> I was reading kungfugrippe and wow, there's codelahoma
+[12:49:51] <codelahoma> haha
+[12:50:14] <groovecoder> you're internet famous!
+[12:50:44] <groovecoder> I really have no culture - I didn't know what norma rae is, and I don't know what kungfugrippe is
+[12:52:13] <codelahoma> It's Merlin Mann's tumblr
+[12:52:35] <codelahoma> jwhitlock: If that was a "wow", this'll back your noodle:
+[12:52:42] <codelahoma> http://is.gd/QBoDT2
+[12:54:16] <jwhitlock> Private - I'm johnwhitlock on flickr
+[12:54:32] <codelahoma> not my photo, sorry.
+[12:54:37] <codelahoma> I'll see if I have one.
+[12:57:45] <codelahoma> http://is.gd/DWD6we
+[13:02:12] <jwhitlock> sweet
+[13:03:31] <groovecoder> codelahoma: jwhitlock: hmm ... why is that sweet again?
+[13:06:26] <jwhitlock> groovecoder: your homework is http://youlooknicetoday.com/, http://www.43folders.com/, http://www.merlinmann.com/roderick/, http://5by5.tv/b2w
+[13:07:17] <jwhitlock> jgmize is annoyed - see you later
+[13:07:29] <codelahoma> It's okay, groovecoder. Merlin and I were tumblr friends long before I learned who he was.
+[14:04:49] <Destos> Rod knows Merlin? ++jelousy
+[14:08:24] <groovecoder> apparently everyone knows Merlin
+[14:08:34] <groovecoder> what's his thing?
+[14:08:40] <groovecoder> is he a coder?
+[14:09:16] <codelahoma> productivity guy with a tech slant
+[14:09:21] <codelahoma> and with humor
+[14:09:36] <groovecoder> ah
+[14:09:52] <codelahoma> http://www.youtube.com/watch?v=z9UjeTMb3Yk
+[14:10:45] <Destos> oh so exe lent humor
+[14:11:44] <Destos> excellent*
+[14:15:33] <groovecoder> oh he's British? must be awesome then
+[14:15:47] <groovecoder> oh, nvm just the intro guy
+[14:16:47] <Destos> heh
+[22:26:55] <percent20> Destos: you going to be at coworking tommorow?
+[22:27:07] <Destos> yup
+[22:27:42] <percent20> yay. Was hoping I could get a bit of help from you on some responsive design stuff.
+[22:27:47] <percent20> is that possible?
+[22:28:04] <Destos> should be
+[22:28:29] <percent20> awesome. the sad thing is you are going to show me in 5 minutes what I have spent like 2 hours trying to figure out. heh.
+[22:29:00] <Destos> maybe, but I could be stumped as well
+[22:29:04] <Destos> we will find out
+[22:29:07] <Destos> tomorrow!
+[22:29:44] <percent20> yup.

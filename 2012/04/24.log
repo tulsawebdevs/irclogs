@@ -1,0 +1,6 @@
+[09:52:11] <zerokarm1left> http://himera.herokuapp.com/synonym.html <= comparisons between JS and CLJS
+[09:52:50] <zerokarmaleft> damn you, freenode splits
+[10:07:44] <groovecoder> (defn karma ([name points] let [name points]))
+[10:07:51] <groovecoder> ACTION head asplodes
+[11:30:09] <zerokarmaleft> that's a function, foo'!
+[20:17:39] <percent20> groovecoder: you around?

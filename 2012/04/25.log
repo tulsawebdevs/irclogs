@@ -1,0 +1,69 @@
+[12:21:43] <percent2_> Destos: you around?
+[12:52:22] <percent2_> hrm 2 people voted no on the node.js thing. I wonder why that is.
+[12:52:49] <codelahoma> because they weren't interested in it?
+[12:53:45] <percent2_> i can assume that. was just curios if generally not interested or if there is something specific so those can be addressed if needed.
+[13:01:24] <percent2_> codelahoma: would you be willing to do 20 or 30 minute presentation on coffeescript at a node.js training day?
+[13:01:50] <codelahoma> Sure, provided it's a day I'm available.
+[13:02:05] <percent2_> deal. :)
+[13:23:57] <Destos> percent20: I am now
+[13:24:17] <percent20> yay. have you had any issues with url rewriting and apache with wordpress on your mac?
+[13:26:10] <Destos> not really
+[13:26:23] <Destos> maybe you don't have the permissions setup correctly?
+[13:26:33] <percent20> hrm. okay. I am trying to use the /%postname% permalink style, but it doesn't seem to be working.
+[13:26:38] <percent20> what permissions might I need?
+[13:32:37] <zerokarmaleft> percent20: i suspect some people think it'll go over their heads b/c they don't know javascript to begin with
+[13:32:45] <zerokarmaleft> re: voting no on node.js
+[13:32:58] <percent20> that is specifically what i am wondering about.
+[13:34:44] <zerokarmaleft> hmm nvm, looked at the actual list of no votes
+[13:35:07] <zerokarmaleft> percent20: i revise my statement: beats the hell out of me
+[13:35:10] <groovecoder|run> percent20: codelahoma: is doing CoffeeScript and node.js at the same time too much? I know when I jumped into Destos's CoffeeScript + Backbone.js code for http://whereyourmouth.is I got confused about which tech was giving me, e.g., the @ feature. so I had to look it up in both places at once
+[13:36:47] <percent20> groovecoder|run: I started doing coffeescript right off the bat with node.js as if there was no difference between the to. It took me about an hour to really start to get the hang of it where I could comfortably write it without to many worries.
+[13:37:44] <Destos> percent20: did you refresh your permalinks?
+[13:37:47] <groovecoder> percent20: yeah, I'm wondering if we want to build that hour into the nodejs training day or use that hour for something else?
+[13:38:20] <percent20> groovecoder: I was thinking throw the training in there so people can see it and if they want to attempt to use coffeescript hey can.
+[13:38:26] <percent20> Destos: refresh permalinks?
+[13:38:51] <Destos> on the permalinks settings page, if you save it. I imagine its the action you do when saving the new structure so It should be refreshing
+[13:39:16] <groovecoder> percent20: maybe so. will depend on the audience/attendees
+[13:40:02] <percent20> Destos: I have changed the permalink structure to something else and back to see if something like that would take place and it didn't help.
+[13:40:17] <percent20> the /?p=5 works just fine though. heh.
+[13:40:24] <zerokarmaleft> i've been out of the loop for awhile...are you guys just gauging interest or is there a date set for this?
+[13:40:51] <percent20> zerokarmaleft: I have a date in my head that is very tenative that works for several people I have individually pinged.
+[13:41:35] <percent20> the biggest thing is to see if we can get the fablab for 2 days, or at least our normal spot.
+[13:42:04] <percent20> groovecoder: which reminds me I want to engage you offline about the fablab at some point.
+[13:42:37] <groovecoder> percent20: why offline? ;)
+[13:42:49] <groovecoder> LET THE WORLD HEAR OUR PLANS FOR FAB LAB!
+[13:42:59] <percent20> because the channel is logged and they deal with concerns.
+[13:43:38] <zerokarmaleft> but you have full censorship powers lol
+[13:43:53] <groovecoder> heh
+[13:44:00] <zerokarmaleft> also.../msg works for that
+[13:44:42] <percent20> well i'd rather have the conversation in person. we can have it friday.
+[13:44:49] <groovecoder> percent20: k
+[13:48:38] <percent20> Destos: I improved http://makersplanet.com a bit
+[13:50:02] <percent20> groovecoder: since you are a django guy can you look at makersplanet and the odd character encoding stuff how can I get rid of that.
+[13:58:15] <Destos> looks better :)
+[13:59:24] <percent20> did you look at it on your iPhone?
+[14:01:15] <Destos> :o
+[14:01:57] <Destos> purdy
+[14:02:16] <percent20> i pulled the idea from neowin.net
+[15:15:49] <groovecoder> how have I never read this before? http://teddziuba.com/2010/10/taco-bell-programming.html
+[15:31:18] <percent20> if only there was a resource that would provide useful cookbooks like that scenario so we can know how to do that stuff.
+[15:51:28] <groovecoder> percent20: uh oh. character encoding issues?
+[15:51:33] <groovecoder> re: makersplanet
+[15:51:41] <percent20> yeah. not sure how to handle that.
+[15:51:47] <groovecoder> percent20: can I see the makersplanet code somewhere?
+[15:52:01] <percent20> the template?
+[15:52:25] <groovecoder> whatever is parsing the content
+[15:52:33] <percent20> okay.
+[15:52:37] <percent20> errrr.
+[15:53:15] <percent20> I am using this: https://github.com/rubys/venus
+[15:54:47] <percent20> here is my template. https://gist.github.com/2493825
+[15:56:43] <groovecoder> that a django template or ruby?
+[15:56:47] <groovecoder> (never seen ruby templates)
+[15:56:49] <percent20> django template
+[15:57:46] <groovecoder> would have to see if the content is making it into the db as utf8
+[15:58:19] <groovecoder> the source url has the right Content-Type
+[16:00:07] <groovecoder> I say fire up a django shell and inspect the item.title - see if it's unicode or something else
+[16:00:15] <groovecoder> I can help look on Friday too
+[16:00:30] <percent20> okay. problem is it isn't written in django. more of a pure python thing.
+[16:00:45] <percent20> everything is saved out to a flat file and generates a flat file.
+[17:55:21] <codelahoma> any python folk around?

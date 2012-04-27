@@ -1,0 +1,11 @@
+[09:20:28] <groovecoder> stuff like this is where I actually LIKE javascript: https://github.com/mozilla/kuma/pull/179/files#L0R17
+[09:39:00] <MattGalloway> percent20: Is http://makersplanet.com you?
+[10:08:54] <percent20> MattGalloway: yes
+[10:13:06] <MattGalloway> percent20: I was gonna tell you that there are all kinds of goofy characters showing up (looks like encoding problems) but then I realized that it's an aggregator, so I dunno if it's actual _your_ problem.
+[10:13:52] <percent20> yeah. it is annoying me. Luke was going to take a look at it for me tomorrow i am not sure what the problem is, for sure.
+[11:39:24] <percent20> anything interesting going on in tulsa development land?
+[11:45:37] <groovecoder> not quite
+[11:55:31] <percent20> :( well i am working on a novel to send to the neo4j mailing list asking 2 questions.
+[11:55:32] <percent20> heh
+[20:57:34] <zerokarmaleft> where do you guys register domains these days post-SOPA?
+[20:57:46] <percent20> I am using Hover

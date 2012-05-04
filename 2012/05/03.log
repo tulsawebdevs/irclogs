@@ -1,0 +1,87 @@
+[17:07:54] <percent20> Destos: I am starting a Node.js project next week. :)
+[17:08:08] <Destos> a largeish project?
+[17:08:26] <Destos> Anyone going to see Avengers tonight?
+[17:08:40] <percent20> I was thinking about going, but have no one to go with. Largish yes.
+[17:08:52] <percent20> going to learn backbone.js as well.
+[17:08:59] <percent20> My head shall explode
+[17:09:11] <Destos> indeeeeeed
+[17:09:23] <Destos> so you are planning to have a mostly javascript run fronted?
+[17:09:42] <Destos> wow osx lion corrects frontend to fronted :/
+[17:10:09] <percent20> yeah. going to use socket.io with backbone.js
+[17:10:49] <percent20> as of now the biggest challenge though is going to be account creation/group management stuff.
+[17:10:49] <Destos> nifty, its definitely something I've dabbled with quite a bit
+[17:11:19] <Destos> there are a lot of node.js -> socket.io -> backbone.js projects/helpers out there as well
+[17:11:30] <Destos> skull.io was one I found a while ago
+[17:11:55] <percent20> will look around at those. I remember hearing something about skull.io i'll look at that one too.
+[17:11:57] <Destos> percent20: so interested in going with me and my wife?
+[17:12:00] <Destos> to Avengers
+[17:12:18] <percent20> sure which theater?
+[17:12:51] <Destos> AMC Southroads 20 4923 E. 41st Street Tulsa,  OK  74135
+[17:13:05] <Destos> to the east of you I think?
+[17:14:11] <percent20> yeah I know it well. what time is the showing?
+[17:14:33] <Destos> 12pm
+[17:14:37] <percent20> are you going to pre-purchase tickets?
+[17:14:52] <Destos> yeah
+[17:14:55] <Destos> it will be sold out probably
+[17:15:03] <Destos> just got the readl3d theater tickets
+[17:15:10] <Destos> real3d*
+[17:15:13] <percent20> cool.
+[17:15:54] <Destos> https://www.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=0&date=5%2f3%2f2012&mid=151545&tid=AAEKU
+[17:16:20] <percent20> non-imax?
+[17:16:40] <Destos> it looks like imax is sold out for 12pm
+[17:17:34] <percent20> :( oh well.
+[17:17:39] <Destos> yeah so non-imax
+[17:17:58] <Destos> yeah I would have preferred to as well, but was a bit late
+[17:19:07] <percent20> looks like main 3d is sold out as well as imax
+[17:19:12] <Destos> percent20: ConsumerAffairs should be at co-working tomorrow as well
+[17:19:17] <Destos> wut wut
+[17:19:20] <percent20> cool
+[17:19:49] <Destos> https://www.fandango.com/transaction/ticketing/redvines/ticketboxoffice.aspx?row_count=2353902033&mid=151545&refreshdate=5/4/2012&tid=AAEKU
+[17:19:54] <Destos> that isn't sold out?
+[17:20:15] <Destos> thats the one I got
+[17:20:16] <percent20> garr I went to it a couple of times and it told me it was sold out
+[17:20:19] <percent20> garrrrrrr
+[17:20:28] <Destos> so its working now?
+[17:21:14] <percent20> yes
+[17:21:37] <percent20> did you see the coworking is officially at 11 now?
+[17:22:37] <Destos> I figured it would be
+[17:22:57] <percent20> ticket purchased.
+[17:23:20] <percent20> what time you all getting there?
+[17:29:01] <Destos> percent20: don't have any time in mind, we usually go an hour early to get semi good seats, does that sound good?
+[17:30:37] <percent20> sounds good
+[17:31:08] <percent20> Destos: if you are earlier or later just let me know. can reach me through text message if need be.
+[17:32:23] <Destos> percent20: just looked in my contact info and don't have your number?
+[17:32:48] <percent20> o_O you have even texted me before.
+[17:33:15] <percent20> i privmessaged you my number
+[17:33:33] <Destos> yeah its weird I can't find it :/
+[17:34:30] <percent20> :( message me to verify you have the number and I have the right one for you.
+[17:35:00] <Destos> yeah I even see the text, weird
+[17:35:46] <Destos> is that # registered with iMessage?
+[17:35:57] <Destos> ah yeah, iPhone duh
+[17:35:57] <percent20> yup
+[17:36:13] <percent20> hehe. takes a bit to get used to the fact I have an iPhone
+[17:37:58] <Destos> I'm trying to get the CA guys addicted to TF2. I've sorta wrangled in john
+[17:38:28] <percent20> heh
+[17:38:52] <percent20> what made you all decided to hit co-working tomorrow?
+[17:38:56] <percent20> Blixa will be happy
+[17:39:06] <Destos> hah
+[17:39:44] <Destos> not sure, Josh just said yes so I did
+[17:40:00] <percent20> cool.
+[17:41:31] <percent20> darn luke isn't in here was going to tease him about something, but i can't since he isn't logged in :(
+[17:43:17] <Destos> lolz
+[17:53:54] <percent20> Destos: does nodejitsu give you a DB like postgres?
+[17:54:11] <Destos> yesum
+[17:54:20] <Destos> I think
+[17:54:27] <Destos> I know mongo and couch are available
+[17:54:38] <percent20> okay. I haven't gotten an invite yet, but was just curios
+[17:54:42] <Destos> ah
+[17:54:52] <Destos> go on #nodejitsu here and ask
+[17:59:09] <Destos> you can ask for an invite there as well percent20
+[17:59:24] <percent20> i just did ;)
+[17:59:35] <percent20> well in a round about way hope they pick up on it.
+[17:59:50] <Destos> ;P
+[18:06:52] <Destos> guess you didn't ask nice enough :/
+[18:11:46] <percent20> guess not. that or they are dense as crap.
+[18:12:00] <percent20> i'll ask some other time.
+[21:07:43] <Destos> percent20: gone leave in 30 ish minutes, probably get there around 11
+[21:08:03] <percent20> okay. i'll be there around then too.

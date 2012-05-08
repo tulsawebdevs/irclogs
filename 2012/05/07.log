@@ -1,0 +1,35 @@
+[12:10:29] <percent20> Destos: you around?
+[14:57:33] <Destos> percent20: am now, whats up?
+[15:12:47] <percent20> I figured it out. :)
+[15:39:27] <Destos> ah
+[15:56:29] <percent20> next to work on playing a bit more with backbone.js
+[16:04:42] <groovecoder> percent20: for any project in particular, or just learning?
+[17:11:15] <percent20> groovecoder: yes
+[17:14:04] <Destos> its a pretty big project of amazing awesomeness
+[17:15:00] <percent20> yes
+[17:15:02] <percent20> heh
+[17:17:44] <percent20> biggest hurdle is how to do some backbone.js, specifically with models, in a learning fashion.
+[18:16:26] <percent20> groovecoder: you around?
+[19:05:12] <groovecoder> percent20: am now
+[19:05:36] <percent20> is there a way to see if a string has a specific character in it in python?
+[19:06:17] <groovecoder> if 'r' in 'string':
+[19:06:30] <groovecoder> strings are character lists
+[19:06:30] <percent20> yes
+[19:06:36] <percent20> ah
+[19:06:51] <groovecoder> it's pretty awesome
+[20:03:55] <percent20> when does the pollen go away?
+[20:05:00] <percent20> my allergies have never bothered me before but this year they are killing me.
+[20:11:35] <groovecoder> percent20: hearing that a lot this year
+[20:11:42] <groovecoder> I think it's because we had such a warm winter
+[20:12:59] <percent20> yeah. if it wasn't my eyes i'd be fine and just deal with it, but my eyes are stinging like crazy. It is taking me twice as long to concentrate to do fairly normal tasks.
+[20:13:37] <percent20> i can't take allergy medicine because it makes me so drousy I have to sleep until it wears off then I am back where I started. lol.
+[20:14:17] <groovecoder> percent20: dag, that sucks
+[20:39:15] <percent20> groovecoder: just want to confirm you are going to be at co-working on friday right?
+[20:39:26] <groovecoder> percent20: yup
+[20:39:33] <percent20> awesome. okay.
+[20:39:43] <groovecoder> percent20: and I'm actually free Friday night too! Tiff and the girls are out of town
+[20:40:04] <percent20> nice.
+[20:44:22] <percent20> groovecoder: do you know what the availability of being able to use i2e on the weekends?
+[20:45:10] <groovecoder> percent20: nope, but we can/should ask
+[20:45:36] <percent20> okay. was thinking about maybe we should do the node.js training there on the weekend before the 4th
+[20:45:41] <percent20> last weekend of June

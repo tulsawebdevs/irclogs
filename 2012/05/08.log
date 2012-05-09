@@ -1,0 +1,7 @@
+[13:07:39] <zerokarmaleft> how do you tell what pip's default install prefix is?
+[13:13:51] <groovecoder> hmm
+[13:14:37] <groovecoder> pip --version ?
+[13:35:14] <zerokarmaleft> groovecoder: that works, though indirectly
+[13:35:15] <zerokarmaleft> heh
+[13:35:27] <groovecoder> well, I can't give you the *direct* solution
+[13:35:31] <groovecoder> that's too easy

@@ -1,0 +1,53 @@
+[13:56:36] <percent2_> Destos: you around?
+[13:59:49] <groovecoder> no, he's on the silent hill of consumeraffairs.com with the j's :)
+[14:01:07] <percent2_> groovecoder: that is what i was thinking as well.
+[14:01:25] <percent2_> though at times he can hear us little people below yelling up to him.
+[14:01:36] <percent2_> more so than they other js'
+[14:55:49] <percent2_> groovecoder: looks like my django pull request will be commited. :D i'll be a django contributor
+[14:56:33] <groovecoder> percent2_: nice.
+[18:08:11] <groovecoder> http://www.theregister.co.uk/2012/05/09/can_apple_keep_the_pressure_on/
+[19:30:13] <percent20> Destos: do you think you can do a talk at a node.js training over socket.io, what it is, how to use it, and how others use it?
+[19:30:39] <Destos> I am here now
+[19:30:53] <percent20> :D
+[19:30:57] <Destos> I am not sliding
+[19:31:02] <Destos> I was in the actual wilderness
+[19:31:05] <Destos> experiencing nature
+[19:31:11] <percent20> ah
+[19:31:59] <Destos> thats sounds like fun, have you asked Tim yet?
+[19:32:02] <Destos> as well
+[19:32:29] <Destos> Also when/where is this taking place
+[19:33:42] <percent20> Going to discuss more about it with groovecoder tomorrow since he is in town now. But I think I would like to do it June 30 and July 1 sat+sun at i2e
+[19:33:45] <Destos> Whats funny is the "silent hill" is probably mostly due to pairing.
+[19:35:01] <percent20> still need to hit up Tim to see if he is game. codelahoma said he was going to do a bit of CoffeeScript :D
+[19:35:20] <Destos> wewt
+[19:35:55] <Destos> but yeah, its been fun learning python and django
+[19:36:02] <percent20> awesome. :)
+[19:36:36] <Destos> I haven't had much time to learn outside the office yet however
+[19:36:45] <Destos> galavanting around
+[19:37:54] <percent20> gotcha. How is the video coming? I saw a pic of you on facebook.
+[19:37:58] <percent20> reagarding it.
+[19:43:15] <Destos> I still have a little more to shoot as we ran out of batteries. And I need to maybe re-shoot some things / re-plan some things
+[19:43:28] <Destos> but its coming along.
+[19:45:04] <percent20> awesome. I can't wait to see it.
+[19:50:21] <Destos> lid closed for abit
+[20:24:08] <percent20> why is acl stuff so complicated?
+[20:27:10] <Destos> because there are so many awesome ways to do permissions
+[20:32:46] <percent20> heh.
+[20:34:02] <percent20> Destos: is there a way to output the html jade spits out to the browser and it be well formated instead of one giant line of html?
+[20:34:38] <Destos> you may have to run it through something else to prettify it
+[20:35:11] <Destos> jade just creates a function that concatenates strings and variables
+[20:35:16] <Destos> w/ no formatting
+[20:37:42] <Destos> percent20: http://stackoverflow.com/questions/5276892/expressjs-how-to-output-pretty-html
+[20:37:46] <Destos> may work
+[20:38:19] <percent20> cool i'll try that. :)
+[21:03:22] <percent20> heh called a guy out on his BS on reddit with regards to video tutorials. Was very respectful though. http://www.reddit.com/r/django/comments/tfs3h/looking_for_good_django_ebooks/
+[21:04:40] <percent20> well i wouldn't say I called him out. more called him on his BS by giving him incite.
+[21:08:51] <percent20> groovecoder: people smarter at django than me are awesome, well that is most people, but this is so good I feel stupid. http://pydanny.com/choosing-an-api-framework-for-django.html
+[21:09:17] <percent20> the code that page is what I am referring to
+[21:09:35] <percent20> I am left with a "how did you even know how to do that" feeling.
+[21:28:05] <Destos> percent20: I would like an django overview episode plz.
+[21:55:40] <percent20> what do you mean by overview? how would you define that?
+[21:57:16] <Destos> quickly touching on overall functionality and purpose, I guess I'm not entirely sure what it encompasses myself.
+[21:58:17] <Destos> mainly interested making sure I'm not missing anything I guess
+[21:59:25] <Destos> well off to bed,
+[21:59:26] <Destos> ttfn

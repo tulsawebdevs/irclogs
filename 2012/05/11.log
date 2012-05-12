@@ -1,0 +1,37 @@
+[10:59:59] <groovecoder> jsatt: jgmize_ jwhitlock_zzz: Destos: lunch plans?
+[11:00:24] <Destos> quite possibly
+[11:02:11] <jsatt> you guys going somewhere or bringing something back to the fablab?
+[11:06:12] <groovecoder> let's bring stuff to the lab
+[11:06:17] <groovecoder> jsatt: ^
+[11:06:26] <jsatt> cool
+[11:41:04] <percent20> http://www.baselinemag.com/c/a/Projects-Networks-and-Storage/Inside-MySpacecom/
+[14:32:21] <shanecowherd> hi
+[14:38:11] <percent20> heyo
+[14:56:00] <percent20> shanecowherd: groovecoder said he was up to skyping with you here in a bit.
+[14:56:20] <shanecowherd> i need a bit, gotta finish something
+[14:56:48] <shanecowherd> ask him if he uses puppet or chef
+[14:57:45] <percent20> no worries he needs a bit too. He doesn't do any vagrant specific stuff other than vagrant up pretty much.
+[14:57:55] <percent20> from what i understand at least.
+[15:00:29] <shanecowherd> kk
+[15:00:38] <shanecowherd> im using it as a isolated dev environment
+[15:00:40] <shanecowherd> so ssh is a must
+[15:00:43] <percent20> he is too.
+[15:03:31] <groovecoder> trisha_s: https://developer.mozilla.org/en-US/demos/tag/tech:canvas/
+[15:04:26] <trisha_s> groovecoder: hey
+[15:04:36] <percent20> trisha_s: o_o
+[15:11:50] <groovecoder> shanecowherd: so what's up with your vagrant setup?
+[15:12:09] <shanecowherd> do you use vagrant as a dev environment for rails?
+[15:12:19] <groovecoder> shanecowherd: for django
+[15:12:46] <shanecowherd> how would you run "bundle update" in vagrant?
+[15:12:55] <shanecowherd> would you ssh or would you create a script or capistrano?
+[15:13:41] <groovecoder> shanecowherd: we have puppet do the equivalent inside the vm
+[15:14:22] <shanecowherd> so you just wait for puppet to kick in or reload vagrant?
+[15:14:38] <percent20> does a provision he is searching for th command
+[15:14:44] <groovecoder> when we have new puppet commands, we run `vagrant provision`
+[15:14:57] <groovecoder> it re-does all the puppet
+[15:15:09] <shanecowherd> that is prolly faster than reload
+[15:15:13] <shanecowherd> thanks!
+[15:15:49] <shanecowherd> thats what i need to know, ok Buddy, I'll add bundle update/precompile etc to puppet
+[15:18:46] <groovecoder> shanecowherd: so if bundle update is like pip install, this is how we do this in our puppet manifests: https://github.com/mozilla/kuma/blob/9bee5a1b03b20077276b2dd63dfca3ef6ba3cf90/puppet/manifests/classes/python.pp#L48
+[15:20:17] <shanecowherd> groovecoder: Perfect, I'll add bundle update etc to the exec {}
+[15:20:23] <shanecowherd> thanks

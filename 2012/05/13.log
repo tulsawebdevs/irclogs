@@ -1,0 +1,27 @@
+[10:47:31] <percent20> Destos: you around?
+[10:47:50] <Destos> wup, was just about to ask you whats up with your MBP on twitter :P
+[10:48:22] <percent20> heh. well it keeps not doing stuff until I click the mouse then my active window moves on me.
+[10:48:36] <Destos> weird, sounds like a restart fix
+[10:48:52] <percent20> yeah.
+[10:49:03] <percent20> also my node.js twitter app :)
+[10:49:19] <percent20> i almost have it done. And I understand what all the parts are doing this time.
+[10:49:25] <Destos> wewt
+[10:49:34] <Destos> so you're just re-writing what we did before?
+[10:49:43] <percent20> yeah
+[10:49:58] <percent20> well this time it hits a mongo database
+[10:50:30] <percent20> so i got that working as well and even understand how it works. heh.
+[10:51:34] <Destos> have you been deploying it to nodejitsu?
+[10:53:54] <percent20> was going to today.
+[10:54:01] <percent20> doing some final things to it
+[11:08:33] <percent20> awesome. later tonight i'll have the new version up on nodejitsu.
+[11:09:09] <percent20> it works now. and works well.
+[14:57:30] <percent20> Destos: you around?
+[14:57:34] <Destos> yup
+[14:57:48] <percent20> do you know how to get a date object, in javascript, of 5 minutes ago?
+[14:58:38] <Destos> do you want to use a library, or do you want to do it the hard way?
+[14:58:53] <Destos> moment.js is a library I've used in the past for all my Js date needs
+[14:59:17] <percent20> moment.js will be fine
+[14:59:29] <Destos> andy if you want to do it the hard way get the ms of 5 minutes which is 300000
+[14:59:35] <Destos> heh :P
+[15:01:54] <percent20> then do moment = require('moment');
+[17:13:30] <percent20> bad thing about making this app is I get lost in the app. :(

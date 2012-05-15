@@ -1,0 +1,133 @@
+[09:47:58] <MattGalloway> Good morning everybody.
+[09:49:43] <groovecoder> morning MattGalloway
+[09:52:17] <MattGalloway> Does anyone here have experience with writing {gulp} Microsoft WCF web services?
+[10:03:06] <groovecoder> percent20: might :)
+[10:13:38] <percent20> groovecoder: ???
+[10:13:56] <groovecoder> MattGalloway was asking about Microsoft WCF
+[10:14:11] <percent20> ah
+[10:14:47] <percent20> http://twitter-images.jit.su <- my node.js app some pictures may be NSFW but most aren't.
+[10:16:25] <groovecoder> http://www.youtube.com/watch?v=IeTybKL1pM4
+[10:18:56] <percent20> you can copy stuff all you want as long as individual people buy my stuff and don't distribute it in unintended ways that harm me the creator.
+[10:22:51] <groovecoder> percent20: copying does not harm you - that's the point
+[10:23:39] <percent20> sure it does. It is a potential sale i have lost. If that happens to many times I have to stop what I am doing and no longer make what I was making because I can't afford to live.
+[10:24:08] <zerokarmaleft> that's the MPAA argument
+[10:24:16] <percent20> and i don't disagree with it.
+[10:24:22] <groovecoder> percent20: that's the mistake - you have not lost anything you have. you have lost something that you *think* you *might* have had
+[10:24:23] <zerokarmaleft> what if that one copy actually brings 3 more sales to you
+[10:24:48] <zerokarmaleft> that you wouldn't have otherwise had if someone hadn't "stolen" from you?
+[10:25:04] <percent20> zerokarmaleft: and what if someone puts it on youtube and now 100,000 people watch it an no longer need to buy my django video?
+[10:25:59] <percent20> IMO 2 or 3 copies to friends I don't care. Mass distribution, well now I have a problem.
+[10:26:01] <groovecoder> percent20: zerokarmaleft: this is the point exactly - all of the "copying is theft" arguments hinge on concepts like "potential" and "what if"
+[10:26:56] <percent20> groovecoder: agreed, but you are not a content creator. As soon as I got into the game my mind started changing a bit.
+[10:27:47] <zerokarmaleft> as a consumer, if someone creates content that i think is worth paying for, i pay for it even if i get an illegimate copy at some point
+[10:28:19] <percent20> zerokarmaleft: unfortunatly I have not met a lot of people like you.
+[10:28:35] <zerokarmaleft> but plenty of people do think that way
+[10:28:42] <groovecoder> percent20: I'm a content creator. I cross-subsidize my content creation with other revenue sources
+[10:28:49] <percent20> zerokarmaleft: I know of several people that say they will, but when pressed they still haven't made the purchase even though they have the money.
+[10:29:23] <percent20> groovecoder: really? what content do you create that is consumed, writing websites doesn't count.
+[10:29:28] <groovecoder> https://github.com/groovecoder
+[10:29:44] <groovecoder> groovecoder.com
+[10:29:54] <groovecoder> http://groovecoder.com/presentations/
+[10:30:25] <percent20> but you aren't trying to make a living creating that content solely by creating that content. You are being paid by someone else to do it.
+[10:31:25] <groovecoder> percent20: yeah, that's what I said
+[10:32:05] <groovecoder> I cross-subsidize my content creation with other revenue sources
+[10:32:35] <zerokarmaleft> which is a pragmatic, don't keep all your eggs in one basket strategy
+[10:32:39] <percent20> I am trying to make a living creating content by creating content. I don't consider making stuff for other people content creation in the sense of making a living from it.
+[10:33:12] <percent20> zerokarmaleft: ah but his are in one basket if mozilla says "we need to let go of a few people" groovecoder is screwed if he is in that list until he can get a new job.
+[10:33:34] <zerokarmaleft> groovecoder: got stock options?
+[10:34:10] <groovecoder> percent20: I would say profiting from content is a dying model
+[10:36:02] <groovecoder> but all that is beside the point that copying is definitively NOT theft
+[10:36:26] <groovecoder> you can say it's not nice, but it's also not theft
+[10:36:39] <percent20> groovecoder: we will have to agree to disagree on that one. Agreed copying is not theft, not technically. It is annoying as shit, but not theft.
+[10:36:55] <groovecoder> okay, copying is annoying as shit, not theft
+[10:37:06] <zerokarmaleft> agree to agree?
+[10:37:20] <groovecoder> zerokarmaleft: yes. agreeing to disagree is dumb. :)
+[10:37:23] <percent20> i was agreeing to disagree on making money from content
+[10:37:42] <groovecoder> let's just disagree on it. :)
+[10:37:51] <zerokarmaleft> heh
+[10:37:57] <percent20> agreed
+[10:37:59] <MattGalloway> Girls, girls...you're both pretty.
+[10:38:04] <groovecoder> MattGalloway++
+[10:38:09] <groovecoder> !MattGalloway++
+[10:38:24] <zerokarmaleft> !karma? percent20
+[10:38:33] <zerokarmaleft> !karma?
+[10:38:51] <zerokarmaleft> good grief, spam command
+[10:39:10] <zerokarmaleft> need to fix that to only list the top 5 or so
+[10:39:24] <percent20> i need to clean up the json file a bit.
+[10:39:33] <percent20> !weather
+[10:39:55] <groovecoder> I can still have the 'copying is annoying as hit' and/or 'monkey money from content' discussion. I'll just be in and out of it trying to submit a freaking pull request today
+[10:40:27] <percent20> monkey money? o_O
+[10:41:16] <zerokarmaleft> also would be cool to link it with a seen? plugin, and error out on !<name>++ if <name> hasn't ever been in the channel
+[10:41:38] <percent20> that would be cool.
+[10:41:44] <zerokarmaleft> and perhaps some fuzzy matching for people that type with hamfists
+[10:41:59] <groovecoder> zerokarmaleft: PR's welcome ;)
+[10:42:04] <zerokarmaleft> !gronkcoobley++
+[10:42:13] <zerokarmaleft> did you mean groovecoder?
+[10:42:32] <percent20> MattGalloway: I figured out that notify thing. You set a local notification and then put it in a queue of some sort at a set time it will fire it.
+[10:42:42] <groovecoder> wow yeah gronkcoobley is my new pseudonym
+[10:42:51] <groovecoder> !zerokarmaleft++
+[10:43:08] <MattGalloway> percent20: Cool!
+[10:43:26] <percent20> MattGalloway: next I need to figure out how to clear the notification so I get that stupid red bubble to go away.
+[10:48:54] <zerokarmaleft> any of you plan on buying a RubyMotion license?
+[10:50:52] <percent20> zerokarmaleft: not i.
+[10:50:55] <percent20> http://www.kickstarter.com/projects/1251721352/w1pps-the-cord-integration-solution-for-apple-macb?ref=category
+[10:53:32] <zerokarmaleft> percent20: re: paying for content...just this year, i've shelled out almost $800 on books...all of which i already had copies as PDF/epub
+[11:57:08] <MattGalloway> jsatt: Are you around?
+[12:05:26] <jsatt> MattGalloway: what's up
+[12:06:23] <MattGalloway> Are you comformatble with me forwarding the URL to the Boundary Service stuff to people? You know, I mean "regular" people. :)
+[12:07:03] <jsatt> Sure, go for it.
+[12:07:47] <MattGalloway> Also, do you know where you got the shape files for the Oklahoma congressional districts?  As an aside, do you know they are changing later this year?
+[12:09:27] <jsatt> I got all the political district data from OU Center for Spatial Analysis. That's helpful to know, I'll have to keep an eye out for new data.
+[12:09:42] <MattGalloway> I'm building a Legislature Directory iOS app for the Oklahoma Association of Electric Cooperatives. I won't be using the web service for the project (it will be a monolithic app) but I will use skills I learned working with it. :)
+[12:10:06] <MattGalloway> I told the OAEC about your work and they wanted the URL. They seemed really excited.
+[12:11:10] <MattGalloway> I am thinking that I might store the boundaries in the app as JSON in plain text files...which I will get from the Boundary Service server.
+[12:12:00] <jsatt> everything, or just the ones you need?
+[12:12:04] <groovecoder> !MattGalloway did you pay for an api license to copy the boundary data? ;)
+[12:12:28] <MattGalloway> Of course, they want the new legislative boundaries though.  If I get a hold of them I'll will forward them to you. (Or I can help you load if you tell me what to do.)
+[12:13:28] <MattGalloway> Not everything, just the OK Senate & House Districts, the Fed Congressional districts for OK, and counties.
+[12:14:11] <jsatt> ok, yeah those shouldn't be a huge load of data.
+[12:14:15] <MattGalloway> The map is actually a fairly small component of the app but it will REALLY set it apart.
+[12:15:25] <MattGalloway> I may also get the Electric Cooperative district shape files out of the deal.  They haven't made these public historically and they'd have to clean their shapefiles because they have private info in metadata, but they are willing to talk about it.
+[12:15:54] <jsatt> awesome, that would be a cool set to include
+[12:16:38] <MattGalloway> groovecoder: Luckily, the Boundary Server isn't a production of 20percent, Inc. :)
+[12:18:02] <MattGalloway> groovecoder: I also got pinged by former Mayor Kathy Taylor out of the blue. She seems to think Tulsa needs a bus schedule app. I brought her up to speed on the last year or so.
+[12:18:31] <groovecoder> MattGalloway: hah
+[12:19:14] <MattGalloway> groovecoder: I also told her about the other Web Devs projects and she seemed pretty interested. She may open some doors. Who knows.
+[12:21:06] <MattGalloway> Just got a notification for OSX update. Fixes include "Improve compatibility with certain British third-party USB keyboards."  This obscure gem seemed to me to have an implied "You know who you are."
+[12:22:56] <MattGalloway> Doh! I meant percent20, Inc. How funny. I was just reading an article about companies who, like Google, have a 20% time side project policy. Damn you subconscious.
+[12:31:23] <groovecoder> frick. mozilla has 4 interns joining the research team. they're all PhD student interns.
+[12:31:36] <groovecoder> like, does that even count as "intern" at that point?
+[12:32:15] <percent20> heh.
+[12:33:16] <percent20> groovecoder: you getting Diablo3 tomorrow?
+[12:33:17] <MattGalloway> groovecoder: Too bad you telecommute. It would be pretty cool to have geniuses fetch your coffee on demand.
+[12:33:57] <groovecoder> percent20: already got it. :) downloaded and installed. servers open at midnight
+[12:34:21] <percent20> groovecoder: cool, so that mean you are taking some PTO for a few days ;)
+[12:39:23] <groovecoder> percent20: yeah, I'm on sabatical
+[12:43:02] <percent20> yay djangocon site should be up within the next week or so.
+[15:12:23] <zerokarmaleft> groovecoder: what's your b.net id?
+[15:14:08] <groovecoder> zerokarmaleft: sec
+[15:54:47] <percent20> MattGalloway: you around?
+[16:03:12] <MattGalloway> Yulp. What's up?
+[16:04:30] <percent20> I was curios if you were free for lunch on Monday a friend is coming into town and wants to do iOS stuff, but I think he is nervous about it so wanted him to talk to you since you are an awesome iOS dev.
+[16:06:22] <MattGalloway> percent20: Sure!
+[16:06:36] <percent20> awesome. :) any preference on where and when?
+[16:07:26] <MattGalloway> Not really. I don't have anything on my calendar yet for Monday. I'm near 101st & Riverside so further south is usually better for me, but I'll go just about anywhere.
+[16:08:49] <percent20> okay. put us down for 12 :) figure out where later. heh.
+[16:09:07] <MattGalloway> Cool.
+[16:09:28] <MattGalloway> Gotta run for now... later.
+[16:09:35] <percent20> cya. :)
+[16:09:38] <percent20> and thanks.
+[17:07:50] <groovecoder> zerokarmaleft: groovecoder#1612
+[17:07:57] <groovecoder> zerokarmaleft: yours?
+[17:50:55] <Destos> stroke the ego!
+[18:29:57] <percent20> o_O
+[18:30:05] <percent20> Destos: http://twitter-images.jit.su
+[18:32:00] <percent20> Destos: code is on github http://github.com/buddylindsey/twitter-images
+[19:20:21] <Destos> yay it werks
+[19:38:35] <groovecoder> percent20: did you run thru nickolay's installation.rst?
+[20:16:38] <percent20> groovecoder: not yet. am doing some work will a bit later tonight. i'll give it a run through it
+[20:46:08] <groovecoder> percent20: cool, just curious
+[20:46:23] <groovecoder> percent20: trying to wrap outstanding PR's before Diablo 3 lands :)
+[20:46:53] <groovecoder> percent20: can you also try https://github.com/mozilla/kuma/pull/212 ?
+[20:47:16] <groovecoder> I've got my vagrant box set up so that I can test kumascript templates and I have a bunch already loaded so I don't really want to mess up my db again :)
+[20:47:34] <groovecoder> though we just added the ability to export/import doc's via the admin interface too

@@ -131,3 +131,5 @@
 [20:46:53] <groovecoder> percent20: can you also try https://github.com/mozilla/kuma/pull/212 ?
 [20:47:16] <groovecoder> I've got my vagrant box set up so that I can test kumascript templates and I have a bunch already loaded so I don't really want to mess up my db again :)
 [20:47:34] <groovecoder> though we just added the ability to export/import doc's via the admin interface too
+[23:20:40] <groovecoder> percent20: your twitter images uses websockets?
+[23:20:59] <groovecoder> percent20: or something you're doing recently uses websockets, right? you should submit it to the dev derby this month

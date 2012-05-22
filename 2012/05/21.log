@@ -1,0 +1,106 @@
+[07:52:55] <groovecoder> MattGalloway: this is cool: http://blog.codiform.com/2011/04/integrating-applications-in-ios-and-x.html
+[07:53:18] <groovecoder> it's like REST on iOS
+[07:53:56] <groovecoder> is that still a/the good way to integrate iOS apps with each other?
+[09:18:38] <MattGalloway> ggroovecoder: Yeah, that's a nice article describing all of the major integration options. Everything mentioned is still valid.
+[09:20:34] <MattGalloway> I've never heard of the "x-callback-url" spec (at least by name) but conceptually it's used all over the place. The article mentioned Dropbox using server integration, which is true once you start using it, but authenticating uses a callback process as described.
+[09:21:52] <MattGalloway> The Dropbox authentication method works like OAuth on the web. Your app switched to Dropbox which askes the user to allow or deny access to your app. Once it gets it, Dropbox callback to your app with an authentication token - but not the actual credentials.
+[09:22:28] <MattGalloway> From there on in, the Dropbox integration is through the Dropbox server (using the auth token from that point forward.)
+[09:22:29] <groovecoder> server integration scares me - especially in light of http://apple.slashdot.org/story/12/05/19/0015213/with-mountain-lions-icloud-integration-apple-strengthens-the-garden-wall
+[09:23:18] <groovecoder> seems nice until dropbox decides to start charging dev's, whoring user data, <insert nefarious practice here>
+[09:24:46] <MattGalloway> Dropbox has been pretty awesome so far. For the time being they are the least scary out there (vs. Google Drive & iCloud).
+[09:25:38] <MattGalloway> Dropbox also has great APIs (for iOS & python BTW) and it's all free (at least now).
+[09:26:43] <MattGalloway> There are some things that I'm looking at iCloud for - but if you want to use a server side service as a bridge to outside the walled garden, then Dropbox is the de facto standard.
+[09:27:53] <MattGalloway> Stuff to use iCloud for... synching data between iOS devices & backing up data (less hassle than asking user to have a Dropbox account). And not much else.
+[09:30:27] <groovecoder> MattGalloway: I agree that a service focused on the service is more trustworthy than a service focused on some other end (i.e., selling devices, selling ads, etc.)
+[09:31:24] <groovecoder> i.e., Apple provides iCloud as a way to sell more devices, so they're likely to use/abuse it for that end
+[09:31:32] <groovecoder> same with Google & Drive
+[09:32:19] <groovecoder> Dropbox provides Dropbox as a cloud file service, so they're like to use it for that end - which is exactly what it should do! :)
+[09:43:59] <MattGalloway> groovecoder: Is coworking moving to I2E and if so, starting when?
+[09:44:16] <groovecoder> MattGalloway: nope. (not yet)
+[09:48:40] <MattGalloway> groovecoder: I just sent an introduction email to you and the City's CIO.
+[09:48:49] <MattGalloway> Sorry it took so long.
+[09:48:50] <groovecoder> cool
+[09:49:03] <groovecoder> np
+[09:49:05] <groovecoder> thanks!
+[09:49:41] <MattGalloway> Also sorry I couldn't make coworking. I'm gonna give it another shot this week. So far it looks like a better chance than last week.
+[09:58:45] <groovecoder> MattGalloway: no worries. #tulsawebdevs shouldn't be Yet Another Social Obligation™ for anyone :)
+[10:01:52] <MattGalloway> Not YASO at all. It's my obligations that keep me from being at Web Devs...which is where I'd RATHER be. :)
+[10:02:42] <MattGalloway> I need a bumper sticker that says "I'd rather be making joke you wouldn't understand with my most socially awkward friends."
+[12:08:21] <groovecoder> yes please: http://lostechies.com/ryanrauh/2012/01/13/huboard-github-issues-made-awesome/
+[14:07:15] <percent20> groovecoder: you around?
+[14:08:54] <groovecoder> percent20: yup
+[14:09:00] <groovecoder> percent20: and I'll even *stay* around for you
+[14:09:10] <percent20> hahahah was just about to make a joke asking if you were going to stay.
+[14:09:37] <percent20> I was curios as to the last part of your newsletter about the 5013c thing. What are you asking for there?
+[14:11:51] <groovecoder> percent20: basically we need a Secretary/Treasurer ;)
+[14:13:29] <percent20> ah. wasn't sure if that is what you were needing or someone to do the paper work to get "our" 5013c
+[14:16:03] <groovecoder> percent20: they're the same thing, yeah. we need a secretary/treasurer who will do the TCF agency fund forms, handle TCF fund grant apps, and work on the 501c3 forms
+[14:17:53] <percent20> ah. I was going to volunteer to fill out the 501c3 stuff, but not sure if I want to do the rest.
+[14:18:32] <groovecoder> percent20: the other stuff is pretty tame by comparison
+[14:18:42] <groovecoder> percent20: I can show you the stuff tonight and you can decide
+[14:19:41] <percent20> k
+[17:51:14] <Destos> omg there is a meeting?!?!!?!11
+[17:54:42] <Destos> percent20: myseeequel
+[17:55:00] <Destos> I want that database book
+[17:55:22] <groovecoder> my S. Q. L.
+[17:55:39] <Destos> I duno I like seequal
+[17:55:50] <groovecoder> MySQL says My S. Q. L.
+[17:56:18] <percent20> i switch between the two a lot
+[17:57:49] <percent20> Destos: this one? http://www.amazon.com/gp/product/1593271905/ref=as_li_ss_tl?ie=UTF8&tag=dumota-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1593271905
+[17:58:28] <Destos> yes buy it for me with your ad monies thx.
+[18:01:22] <percent20> Destos: lol i need you to buy it so I can get somes.
+[18:01:52] <groovecoder> d'oh my battery is dying
+[18:05:57] <percent20> groovecoder: :(
+[18:07:12] <Destos> If I do that for you I'll need 50% of the profits
+[18:08:33] <percent20> Destos: agreed any profits from that sale you can have 50% of them.
+[18:08:36] <Destos> groovecoder: backend joke is getting oldddd
+[18:08:46] <Destos> :|
+[18:08:49] <Destos> maybe
+[18:08:50] <Destos> not really
+[18:08:51] <groovecoder> Destos: why are you directing that at me?
+[18:08:56] <groovecoder> Destos: you made it
+[18:08:57] <Destos> no idea
+[18:09:06] <Destos> maybe because you seeded it
+[18:09:23] <groovecoder> Destos: I planted the seed but it has a life of its own now
+[18:10:19] <percent20> Do you want to meet a girl who is a designer? Are you a programmer that likes the backend
+[18:10:24] <percent20> :D
+[18:10:44] <percent20> Destos <- the man for the best quotes.
+[18:10:49] <Destos> http://csshat.com/
+[18:10:53] <Destos> cool transition loop demo
+[18:11:09] <Destos> Whyyyyy
+[18:11:16] <percent20> when i first read that url I thought the c was an a
+[18:11:38] <Destos> http://asshat.com
+[18:11:44] <percent20> not clicking that.
+[18:11:49] <Destos> actually probably shouldn't click that
+[18:11:55] <percent20> greed.
+[18:12:00] <percent20> agreed == greed
+[18:12:28] <Destos> wrong assignment
+[18:13:58] <percent20> Destos: wasn't an assignment ;)
+[18:14:04] <Destos> oh snap
+[18:14:10] <Destos> getting technical up in hurr
+[18:16:34] <percent20> Destos: new anime you should watch -> http://bakabt.me/153487-mujin-wakusei-survive-uninhabited-planet-survive-h264-768p-raws-4u.html
+[18:17:54] <Destos> I duno, do I need another time sink?
+[18:18:44] <percent20> yes you need that one.
+[18:18:52] <percent20> I am really enjoying it at least.
+[18:19:08] <Destos> I remember an older anime where some kids crashed or something and they had to survive on a weird planet or something
+[18:19:13] <Destos> not sure how long ago that anime came out
+[18:19:20] <percent20> was probably it then.
+[18:19:31] <percent20> it is new to me. I just found out about it.
+[18:20:13] <percent20> yeah this anime is almost 10 years old.
+[18:20:18] <Destos> I don' think its this one you linked to
+[18:20:26] <percent20> k
+[18:20:30] <Destos> oh wait IT IS
+[18:20:42] <Destos> so yeah, so I think I watched it
+[18:21:01] <percent20> cool.
+[18:21:01] <groovecoder> 6% battery
+[18:21:06] <percent20> lol.
+[18:21:08] <Destos> so sad.
+[18:21:16] <percent20> groovecoder: 36% here :D
+[18:22:15] <Destos> 66%
+[18:24:03] <zerokarmaleft> boo, i'm missing another TWD meeting :(
+[18:24:23] <percent20> *sniff* *sniff*
+[18:24:32] <percent20> zerokarmaleft: I am sure you will catch the next one.
+[18:24:55] <zerokarmaleft> yea, when i'm not taking a month-long intercession class
+[18:25:16] <percent20> ouch I hate those because they _can_ fit in all the content of a 16 week class so they do.
+[18:25:29] <zerokarmaleft> i didn't think i'd have to take another one of these, and the workload is brutal
+[18:26:45] <percent20> I did a Modern China one and it was killer. I had to read 3 seperate books and write 5 page report for each on top of main textbook.

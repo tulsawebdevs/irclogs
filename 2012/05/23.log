@@ -1,0 +1,264 @@
+[08:30:54] <timmorgan> joseym: Hi!!!
+[08:31:01] <joseym> 'lo tulsians!
+[08:31:29] <joseym> i2e building was awesome
+[08:33:48] <danf1> Who is this joseym guy?
+[08:34:02] <joseym> danf1: Don?!
+[10:03:37] <groovecoder> joseym: welcome!
+[10:03:59] <groovecoder> joseym: you don't work at consumeraffairs.com do you? all the other j's in this channel work there. ;)
+[10:09:17] <zerokarmaleft> https://github.com/jashkenas/coffee-script/wiki/List-of-languages-that-compile-to-JS <= holy crap, this list is long
+[10:12:46] <joseym> hey, nope
+[10:12:50] <joseym> i work at Vitals
+[10:15:33] <groovecoder> joseym: cool
+[10:15:57] <groovecoder> zerokarmaleft: lists like that scare me
+[10:16:25] <zerokarmaleft> at least 95% of the projects on that list are stunt code
+[10:16:27] <groovecoder> percent20: camera media capture is now on Android browser, Chrome for Android, and Firefox Mobile 10
+[10:20:55] <timmorgan> groovecoder: what's up for next month's meeting?
+[10:21:07] <joseym> heard talk about preprocessors
+[10:21:10] <joseym> +1 that ;)
+[10:22:12] <groovecoder> timmorgan: joseym: next month we might try a couple of tech talks
+[10:22:24] <groovecoder> I've been threatening to give a "Productive Programmer" talk for ages
+[10:22:33] <joseym> threat indeed!
+[10:22:36] <groovecoder> but we could plan for a few lightning talks or somehting
+[10:22:45] <timmorgan> OK, at some point I want to show off my project: Sooner.io
+[10:23:01] <timmorgan> there's quite a bit of tech in it, so it might not fit in a lightning talk
+[10:23:25] <timmorgan> does lightning talk = 10 minutes ?
+[10:24:00] <groovecoder> timmorgan: I like the ignite format - 20 x 15s slides = 5 minutes. but doubling that works too
+[10:24:32] <timmorgan> ok I'll start on a presentation and see if I can fit it in that
+[10:24:36] <timmorgan> will be super dense
+[10:24:43] <groovecoder> timmorgan: you should make it a heroku add-on :)
+[10:24:55] <groovecoder> timmorgan: and you should run it on heroku :)
+[10:24:56] <timmorgan> hmmmm
+[10:25:12] <zerokarmaleft> timmorgan: neat project
+[10:25:15] <groovecoder> "yo dawg, I heard you like heroku add-ons, so I made a heroku add-on with heroku so you can add heroku to your heroku"
+[10:25:36] <timmorgan> zerokarmaleft: thanks
+[10:25:50] <zerokarmaleft> does it do work-stealing?
+[10:26:15] <timmorgan> hold on while I google Work Stealing
+[10:26:57] <zerokarmaleft> well, a better question is how do you do load-balancing?
+[10:27:12] <timmorgan> for now it's not that smart
+[10:27:19] <timmorgan> different "jobs" target different workers
+[10:27:37] <timmorgan> communication is pub-sub via MongoDB capped collection
+[10:27:56] <zerokarmaleft> not familiar with that feature
+[10:28:52] <groovecoder> timmorgan: is sooner.io like this? https://devcenter.heroku.com/articles/realtime-polyglot-app-node-ruby-mongodb-socketio
+[10:29:12] <zerokarmaleft> ah, ok...pretty much a message queue
+[10:29:43] <groovecoder> zerokarmaleft: that's why I linked ^
+[10:29:49] <groovecoder> seems like a message queue w/ mongodb
+[10:30:41] <timmorgan> groovecoder: yes it uses the same technique for messaging
+[10:30:44] <groovecoder> but my q is: what's the benefit of mongodb over a traditional mq system
+[10:30:47] <groovecoder> ?
+[10:31:03] <zerokarmaleft> groovecoder: same question here
+[10:31:08] <timmorgan> I didn't want another dependency
+[10:31:20] <timmorgan> we have MongoDB on our production servers at work
+[10:31:25] <zerokarmaleft> rabbitmq and zeromq both have pretty much any language binding you want
+[10:32:21] <timmorgan> benefit is fewer moving parts
+[10:32:58] <groovecoder> timmorgan: fair enough. fewer parts vs. ideal-fitting parts :)
+[10:33:29] <groovecoder> use a gear instead of a belt; machine still works
+[10:34:13] <groovecoder> I'm a big fan of the "use what you know and what you have until it doesn't work"
+[10:35:56] <zerokarmaleft> i wonder if the capped collection blocking behavior when its empty becomes a performance problem...
+[10:37:19] <zerokarmaleft> though probably not relative to the (presumably) long-running tasks you'd be running through sooner.io
+[10:41:47] <timmorgan> groovecoder: yes, and I needed to ensure I wasn't going to get push-back from IT since we *needed* this at work
+[10:42:26] <timmorgan> zerokarmaleft: yes there is a problem if the queue fills up too fast, which matters since each line of script output is sent as a new message
+[10:42:40] <timmorgan> for jobs that output a lot of text, I had do some throttling
+[10:43:27] <timmorgan> I really wanted to use Redis pubsub since I know it and it's built for this sort of thing
+[10:43:40] <timmorgan> but like I said, couldn't introduce another production system at work
+[10:44:19] <zerokarmaleft> emscripten the whole shebang and claim it's just running on node
+[10:45:00] <timmorgan> lol
+[10:49:35] <timmorgan> hmmm, maybe I could use 0MQ
+[10:50:10] <timmorgan> I didn't realize 0MQ doesn't require a broker
+[11:02:08] <groovecoder> lulz. http://git-animals.tumblr.com/
+[11:45:26] <joseym> lol, that's spectacular
+[11:51:22] <timmorgan> groovecoder: that's the best blog I've ever seen
+[11:51:43] <groovecoder> the conflict manatee is the best
+[11:52:25] <joseym> i enjoyed the unending log test turtle
+[11:52:25] <timmorgan> groovecoder: indeed
+[12:24:05] <percent20> http://www.2general.com/blog/2012/05/22/virtualenv_install_node_gem.html
+[12:24:30] <percent20> not sure what I think about setting up node and ruby gems inside of virtualenv
+[12:52:31] <zerokarmaleft> http://www.groklaw.net/article.php?story=20120523125023818 <= oracle vs google verdict
+[13:22:02] <timmorgan> awesome, nothing will stop Google from taking over our lives now
+[13:22:09] <timmorgan> (I'm half kidding)
+[13:22:48] <timmorgan> I'm actually excited that the patented API argument didn't hold water
+[13:22:50] <zerokarmaleft> better than Oracle setting a stupid precedent on platform ownership
+[13:22:55] <timmorgan> indeed
+[13:29:44] <percent20> groovecoder: you around?
+[13:29:51] <groovecoder> yeah
+[13:30:01] <percent20> you going to stay? o_O
+[13:31:15] <percent20> my biggest question is with function based views in django I know how to get the response status code, but how do you 'test' context data?
+[13:34:48] <groovecoder> percent20: aha you've reached a similar frustration I have with the django test client
+[13:35:04] <groovecoder> i.e., what django calls "view testing" is actually more like "template testing"
+[13:35:06] <groovecoder> (afk sec)
+[13:36:43] <percent20> okay.
+[13:37:23] <groovecoder> just a sec, I think I had found an article on it at some point
+[13:37:35] <percent20> k
+[13:39:52] <groovecoder> percent20: wait, the response has a context attribute?
+[13:39:56] <groovecoder> is that new?
+[13:40:10] <groovecoder> https://docs.djangoproject.com/en/dev/topics/testing/?from=olddocs#testing-responses
+[13:40:39] <percent20> don't remember seeing that.
+[13:40:44] <percent20> that is cool.
+[13:41:00] <groovecoder> so yeah, that's how you can verify the context values
+[13:41:05] <percent20> awesome.
+[13:41:08] <groovecoder> without having to go thru all the template stuff
+[13:41:12] <percent20> gotcha.
+[13:41:17] <percent20> okay 1 more question.
+[13:42:19] <percent20> nevermind
+[13:42:21] <groovecoder> (btw this was a beef of mine w/ Zend Framework back in '09 http://groovecoder.com/2009/01/08/unit-testing-zf-controllers-without-zend_test/)
+[13:42:29] <percent20> i realized my test code had a typo lol.
+[13:43:13] <groovecoder> percent20: what is some of your test code? b/c another beef of mine is having to use django.test.client to test views
+[13:43:20] <percent20> Friday I would like to revisit ACL stuff except in django.
+[13:43:22] <groovecoder> but I don't know if that's still the case
+[13:43:34] <groovecoder> percent20: you changing the volunteer app to django? :)
+[13:43:48] <percent20> https://gist.github.com/2777327
+[13:44:27] <percent20> groovecoder: yeah I was hitting a lot of roadblocks with node. It is all stuff that I could work through, but was a lack of knowledge thing.
+[13:44:53] <groovecoder> percent20: you were using express w/ node yeah?
+[13:44:58] <percent20> yes.
+[13:45:11] <groovecoder> yeah, express is like django < 1.0
+[13:45:38] <percent20> gotcha. here is my rewrite of the twitter-images app. https://github.com/buddylindsey/twitter-images
+[13:45:45] <groovecoder> unless you're building an event-driven service/app I'd say just go with django
+[13:46:16] <groovecoder> percent20: nodejitsu eh?
+[13:46:40] <percent20> yeah. My ultimate goal of the volunteer app would be good fit, but the knowledge barrier is killing me. :( i'll get there though.
+[13:46:41] <percent20> yes
+[13:47:11] <percent20> groovecoder: I sense a GoDjango video coming from this -> http://lettuce.it/
+[13:47:47] <groovecoder> percent20: oh geez. bdd
+[13:47:57] <percent20> hehe. I like BDD.
+[13:48:56] <groovecoder> BDD seems like some B.S. consultants invented when they couldn't sell TDD anymore
+[13:49:53] <percent20> that is the thing though you do TDD with BDD
+[13:50:15] <groovecoder> percent20: exactly. but it seems like *I* do TDD, and consultants do BDD
+[13:50:16] <percent20> BDD covers scenarios and user stories while TDD covers your actual code.
+[13:50:41] <groovecoder> IMO, selenium == BDD
+[13:51:06] <groovecoder> though selenium needs the UI to exist first
+[13:52:05] <percent20> maybe friday we can also go over some refactoring of test code.
+[13:53:21] <groovecoder> percent20: I guess BDD just seems like 1 layer of abstraction too many
+[13:54:35] <percent20> I can maybe see that.
+[13:54:47] <groovecoder> def test_factorial(TestCase): eq_(0, factorial(1)); eq_(1, factorial(1)); eq_(2, factorial(2));
+[13:54:50] <groovecoder> vs.
+[13:55:00] <groovecoder> Feature: Compute factorial
+[13:55:01] <groovecoder>   In order to play with Lettuce
+[13:55:01] <groovecoder>   As beginners
+[13:55:01] <groovecoder>   We'll implement factorial
+[13:55:01] <groovecoder>   Scenario: Factorial of 0
+[13:55:01] <groovecoder>     Given I have the number 0
+[13:55:01] <groovecoder>     When I compute its factorial
+[13:55:02] <groovecoder>     Then I see the number 1
+[13:55:02] <groovecoder>   Scenario: Factorial of 1
+[13:55:03] <groovecoder>     Given I have the number 1
+[13:55:03] <groovecoder>     When I compute its factorial
+[13:55:04] <groovecoder>     Then I see the number 1
+[13:55:04] <groovecoder>   Scenario: Factorial of 2
+[13:55:05] <groovecoder>     Given I have the number 2
+[13:55:06] <percent20> I also don't have perspective in a sense because I am a single developer and you are on a team.
+[13:55:37] <groovecoder> BDD advocates seem to say the point of BDD is that the business users will write BDD
+[13:55:39] <percent20> I much prefer 2
+[13:55:57] <timmorgan> groovecoder: not entirely -- I do BDD but I don't write stories like that
+[13:56:05] <groovecoder> but it's like asking them to write their requriements in pig-latin
+[13:56:11] <groovecoder> timmorgan: show me!
+[13:56:54] <timmorgan> https://github.com/churchio/profiles/blob/master/spec/models/user_spec.rb
+[13:57:00] <percent20> I think anyone who says business users will write user stories like that is being disingenuous. However, read them and sign off, yes.
+[13:58:51] <percent20> yeah that is using rspec instead of using cucumber.
+[13:58:53] <zerokarmaleft> percent20: regular rspec output can be read just as easily
+[13:59:15] <groovecoder> timmorgan: what does "given an existing facebook uid" mean?
+[13:59:15] <percent20> zerokarmaleft: agreed. cucumber/lettuce is just a tool to use, which I happen to like.
+[13:59:49] <timmorgan> well, it means nothing to the framework -- it means a lot to me as the developer
+[14:00:02] <timmorgan> means: given a User object that has a uid property...
+[14:00:08] <groovecoder> timmorgan: is it just the test "name" or whatever?
+[14:00:19] <timmorgan> sort of
+[14:00:26] <timmorgan> but the test name is the it "..." block
+[14:00:33] <timmorgan> it's a context
+[14:00:49] <percent20> timmorgan: can you spit run the tests and show him the output in a gist?
+[14:00:56] <timmorgan> you can nest contexts arbitrarily to build up the environment you need to test
+[14:02:19] <groovecoder> timmorgan: do you have some code where you nest contexts?
+[14:04:35] <timmorgan> groovecoder: http://i.imgur.com/5NEI3.png
+[14:05:36] <percent20> ACTION smiles at how readable that is
+[14:05:43] <percent20> i like pretty outputs with tests like that.
+[14:06:53] <groovecoder> the output has spaces in it so that's nice
+[14:07:18] <groovecoder> I guess I can see how forcing yourself to write tests like that forces you to think in cleaner terms
+[14:07:26] <timmorgan> here's one from our closed-source work app: https://gist.github.com/fe64e567130a4db75feb
+[14:07:28] <timmorgan> nested contextx
+[14:07:31] <timmorgan> *contexts
+[14:08:41] <groovecoder> what's describe?
+[14:08:49] <timmorgan> effectively an alias for context
+[14:09:08] <timmorgan> most people use describe to spec a class or object
+[14:10:46] <groovecoder> it just seems like all of this is possible in plain test code - use descriptive and semantic class and method names and error messages
+[14:10:56] <timmorgan> yep
+[14:11:06] <groovecoder> maybe BDD forces you to do that
+[14:11:50] <percent20> groovecoder: depending on how far down the rabbit hole you go with BDD it could just be a style of TDD.
+[14:12:22] <groovecoder> so you do BDD *and* TDD?
+[14:12:49] <percent20> yes.
+[14:12:53] <zerokarmaleft> custom rspec matchers is a nice way to refactor tests
+[14:13:15] <zerokarmaleft> and i prefer the code describing itself readably instead of an error message descrbing the testing code
+[14:13:16] <percent20> BDD covers "how" your code is supposed to work overall TDD is "what" your code does.
+[14:14:22] <percent20> with BDD you don't cover edgecase user input to cover errors, but you do that with tdd.
+[14:14:44] <timmorgan> eh?
+[14:15:45] <timmorgan> percent20: not sure I agree with that last statement
+[14:15:55] <percent20> with bdd, depending on how you do it, you cover describing your code actions. However, if you need to cover what happens if a user adds odd unicode you would do that in TDD tests.
+[14:17:52] <groovecoder> IMO def test_demo_package_no_files_fails(self) is as descriptive and semantic as context 'given no files in demo package' do ...
+[14:19:58] <percent20> i prefer the context one, it makes more sense.
+[14:20:48] <groovecoder> percent20: it's clearer
+[14:21:13] <percent20> that is why i like it, heh.
+[14:24:40] <zerokarmaleft> groovecoder: well, that part's just syntactic sugar, and that's pretty subjective
+[14:25:39] <groovecoder> I'm on a low-sugar diet
+[14:25:48] <zerokarmaleft> though you could argue that custom matchers is just syntactic sugar also
+[14:27:02] <timmorgan> I'm not a zealot -- I use Test::Unit (TDD) on some projects and RSpec (BDD) on some
+[14:27:24] <timmorgan> but I have probably only written two "stories" EVER
+[14:27:35] <timmorgan> so maybe I'm not really "doing" BDD
+[14:27:50] <zerokarmaleft> yea, i don't see Cucumber being necessary for me, ever
+[14:27:58] <timmorgan> I just like the way RSpec writes/reads
+[14:28:10] <timmorgan> something.should be(something_else)
+[14:28:18] <timmorgan> rather than assert_equal(something_else, something)
+[14:28:22] <timmorgan> seems more natural to me
+[14:29:12] <groovecoder> timmorgan: see I like less typing but I like more 'raw' semantics. eq_(known-good-value, value-under-test)
+[14:29:30] <timmorgan> understandable
+[14:29:33] <percent20> I like BDD and user stories because it helps me organize my thoughts.
+[14:29:54] <groovecoder> percent20: that's the main/only adv. I can see - it forces you to think a certain way
+[14:30:14] <groovecoder> TDD does that too - forces you to think about your code as a user of it rather than the writer of it
+[14:30:15] <percent20> it is also how I think by default so is why I like it.
+[14:30:48] <timmorgan> arguing TDD vs BDD is not as helpful as convincing someone of Testing vs No Testing
+[14:31:06] <zerokarmaleft> thinking at a higher level of abstraction is good for test code
+[14:31:30] <percent20> groovecoder: in django have you added permissions to a user? I am getting some odd results when i try haven't found any code that makes sense on it.
+[14:31:36] <groovecoder> !timmorgan++
+[14:31:52] <timmorgan> yay me
+[14:32:17] <zerokarmaleft> percent20: what kind of key/value stores do you have installed on your linode server?
+[14:32:20] <zerokarmaleft> e.g. redis
+[14:32:23] <groovecoder> percent20: I haven't messed with django perms
+[14:32:45] <groovecoder> percent20: what's your code?
+[14:32:47] <percent20> however, the fact that we are having a discussion on better testing methods is awesome because we are just assuming testing is the best way to go, which is a win.
+[14:33:01] <percent20> zerokarmaleft: none atm, but something could be added fairly easily.
+[14:33:24] <percent20> groovecoder: self.user2.user_permissions.add('blog.view_titles')
+[14:33:48] <percent20> groovecoder: however in the docs it just has user.user_permissions.add(permission)
+[14:33:57] <percent20> but I don't see what datatype the permission is.
+[14:34:04] <zerokarmaleft> percent20: also, i'd like to extract out the karma plugin into my own repository and plug it into twd's ircbot repo as a submodule or whatever at at some point, if that's alright
+[14:34:24] <percent20> zerokarmaleft: that is fine with me.
+[14:35:11] <groovecoder> zerokarmaleft: no way! it's TWD's karma plugin now! you signed a contract giving us all IP developed while you're a member of the group! ;)
+[14:35:32] <groovecoder> also you probably owe me a beer or something
+[14:35:48] <percent20> I do owe zerokarmaleft a beer.
+[14:35:57] <zerokarmaleft> groovecoder: i do?
+[14:36:08] <percent20> groovecoder: you should write a beer tracker irc plugin ;)
+[14:36:11] <zerokarmaleft> do i have to brew it myself?
+[14:37:24] <groovecoder> percent20: what do you think the karma plugin is?!
+[14:37:28] <groovecoder> zerokarmaleft: yes!
+[14:38:04] <zerokarmaleft> groovecoder: you'll have to start a TWD homebrewing subgroup first so i can learn how :P
+[14:38:45] <groovecoder> zerokarmaleft: hmm ... it's http://alemakers.com/news.php
+[14:38:59] <groovecoder> FOAM - best. group. acronym. ever.
+[14:46:14] <percent20> that sucks it takes a permission object. *sigh*
+[14:51:00] <zerokarmaleft> groovecoder: bookmarked
+[14:51:25] <groovecoder> we should brew a batch of TWD beer sometime
+[15:09:03] <zerokarmaleft> groovecoder: how far are you in D3?
+[15:09:17] <groovecoder> zerokarmaleft: nightmare act 3. level 46 monk
+[15:09:44] <zerokarmaleft> i'm not the gamer i used to be heh
+[15:10:05] <groovecoder> zerokarmaleft: what's you battle tag? mine's groovecoder#1612
+[15:10:14] <groovecoder> zerokarmaleft: how far are you? ;)
+[15:10:19] <zerokarmaleft> Soba#18something
+[15:10:51] <zerokarmaleft> i'll have to remember to look it up for you when i'm at home with my authenticator
+[15:11:07] <zerokarmaleft> groovecoder: highest level character is a 25 monk, still in act 2
+[15:11:22] <groovecoder> zerokarmaleft: monk gets really fun later
+[15:11:49] <zerokarmaleft> i blasted through SK with a DH last night
+[15:12:12] <zerokarmaleft> reminds me a lot of my bowazons from D1/D2
+[15:13:06] <groovecoder> SK?
+[15:13:13] <zerokarmaleft> skeleton king
+[15:13:18] <groovecoder> ah yeah
+[15:13:30] <groovecoder> DH rocks in the beginning
+[15:13:56] <groovecoder> monk rocks later - there are more high dps 1h weapons available later
+[15:15:30] <zerokarmaleft> groovecoder: taking it slow since i'm playing together with my fiancee
+[15:16:42] <zerokarmaleft> https://github.com/technomancy/emacs-starter-kit/blob/v2/starter-kit-defuns.el#L134 <= this is a great text editor function
+[15:19:53] <percent2_> this sucks. I can get permissions to work using the site, but i can't get it to work via unit tests.
+[15:20:46] <zerokarmaleft> percent2_: looks like you'd get plenty of mileage out of the linked function above
+[15:21:14] <percent2_> heh
+[16:03:58] <zerokarmaleft> groovecoder: zkl#1864
+[16:04:41] <zerokarmaleft> stupid battle.net and their 12-character battletag character limit

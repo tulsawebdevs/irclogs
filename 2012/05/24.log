@@ -1,0 +1,56 @@
+[09:24:28] <zerokarmaleft> http://i.imgur.com/3mF7a.jpg
+[09:24:50] <joseym> lulz
+[09:25:03] <joseym> i often wonder how people make those types of associations
+[09:25:31] <timmorgan> http://osxdaily.com/2011/03/01/windows-vs-ios/
+[09:28:30] <zerokarmaleft> timmorgan: haha, excellent rabbit-trailing from that article http://support.apple.com/kb/HT2466?viewlocale=en_US
+[09:28:57] <timmorgan> zerokarmaleft: lol
+[10:06:08] <MattGalloway> Is there a support group for people who get too emotionally involved with Facebook conversations?
+[10:11:06] <timmorgan> FTFY: Is there a support group for people who use Facebook?
+[10:12:22] <MattGalloway> Excellent question. In my defense, I only use it to interact with Tulsa Web Devs... and to see if my ex-girlfriends are fat.
+[10:12:33] <timmorgan> lol
+[10:14:39] <zerokarmaleft> MattGalloway: that's a lot of good discussion on that thread
+[10:16:20] <MattGalloway> I think so too. But I also realize I'm writing a tome. I think it's important stuff, but I hope I'm not coming off an as ass or a know-it-all.
+[10:17:07] <MattGalloway> You know, cause it's hard not to come off an as ass and a know-it-all when you are guilty on both counts. :)
+[10:17:18] <zerokarmaleft> heh
+[10:18:36] <groovecoder> dear pandora, my "Crystal Method" + "Massive Attack" station does not imply "hip-hop inspirations"
+[10:19:18] <groovecoder> industrial, check. electronica, check. funk, check. hip-hop, un-check.
+[10:19:50] <groovecoder> MattGalloway: if any of our fb threads need this much discussion, this is it. ;)
+[10:23:18] <percent2_> :D
+[10:24:53] <MattGalloway> percent2_: Nice. I can imagine "There is a 157ft section of Yale between 71st and 81st that currently has no construction."
+[10:25:35] <percent2_> about two days after that is submitted they'll start construction there.
+[10:28:10] <MattGalloway> :)
+[10:29:42] <MattGalloway> People talk about pothole reporting, etc. but I suspect this isn't really a pain point for the City. I suspect they KNOW where the potholes are.
+[10:31:40] <MattGalloway> People forget that if an app creates a new inflow of information, SOMEONE has to deal with that information.  This can actually make the City less efficient if the new information isn't providing significant value.
+[10:32:18] <MattGalloway> (True of any new information stream BTW.)
+[10:35:51] <MattGalloway> Hmmm. Looking at the City website. The Director of Public Facilities and Transportation has an email address listed, but the Director of Communications does not. Ironic.
+[10:38:58] <groovecoder> MattGalloway: the interesting thing to me about reporting pot-holes with mobile phones is the whole "more data and dumber algorithms beats less data and smarter algorithms"
+[10:40:17] <groovecoder> e.g., http://trif.tulsawebdevs.org now has a database of thousands of traffic accidents across Tulsa. if we write a quick data-viz on that I'm sure we can see where the accident hot-spots are. then it would be cool to overlay that with pot-hole reporting and find where they converge.
+[10:40:39] <groovecoder> it takes it from "we know where the pot-holes are" to "we know where the pot-holes THAT ARE CAUSING ACCIDENTS are"
+[10:41:41] <MattGalloway> groovecoder: I'm interested in that aspect too, but it's a geek interest.  My question is, does the City really need better information about potholes? I dunno, maybe they do. But if not then you have a really slick way of creating more and better data that is not needed. :)
+[10:44:06] <zerokarmaleft> they need a better way of repairing potholes
+[10:44:10] <groovecoder> MattGalloway: I like it because it's more technically approachable - we can make everything for it ourselves without having to get city officials involved
+[10:44:57] <zerokarmaleft> instead of sending slackasses to just dump some hot asphalt and gravel in the hole without packing it or anything
+[10:45:57] <MattGalloway> Agreed. My point is to the appropriateness of putting it in an official City app. It's a waste of development resource if the City is unwilling or unable to do anything useful with the data.
+[10:46:23] <MattGalloway> zerokarmaleft: Amen!
+[10:46:31] <MattGalloway> !zerokarmaleft++
+[10:47:16] <zerokarmaleft> i.e. my car over the period of several weeks shouldn't be the mechanism for packing that stuff
+[10:47:57] <groovecoder> zerokarmaleft: lulz
+[10:48:23] <zerokarmaleft> i still have some kind of tarry substance near the bottom of my car that's just being eroded away by high-speed road grime, i guess
+[10:48:52] <zerokarmaleft> </rant>
+[11:26:12] <groovecoder> MattGalloway: so far "the city" is unwilling or unable to do anything useful with any of the stuff we've made for them. but I don't consider it wasted development. it's been fun for us and free and open to them. more of that is a Good Thing™
+[11:26:53] <groovecoder> if we build it and someone like Transit Matters picks up on it, that's good too
+[11:27:17] <groovecoder> I'd rather build more things that don't get used than not build things because they won't get used
+[11:30:19] <MattGalloway> I totally agree, but I think they are (at least for now) separate conversations: what the city should spend development resource on (i.e. money) vs. what should be done on volunteer basis by the Web Devs.
+[11:39:49] <groovecoder> MattGalloway: I guess I'm arguing they shouldn't be separate conversations. engaging citizens like TWD should be factored into spending money on development resources
+[11:40:43] <MattGalloway> Also agreed, but not yet the reality.
+[11:44:11] <groovecoder> MattGalloway: why not? I'm ready to make a fuss
+[11:44:55] <groovecoder> percent20: percent2_: you around south tulsa? want to do lunch and talk about django testing stuff any more?
+[11:52:44] <percent20> not in south tulsa :( wont be until evening.
+[11:54:59] <percent20> groovecoder: ^
+[11:55:07] <groovecoder> percent20: okay
+[11:55:29] <percent20> groovecoder: we can talk about it tomorrow i guess. any I want to stretch your brain with django a bit too. heh.
+[12:18:04] <percent20> groovecoder: Mozilla needs to buy mdn.com so it iseasier to visit your site.
+[12:20:34] <groovecoder> percent20: do you have quicksilver or launchbar or something?
+[12:22:03] <percent20> i have alfred, but I am not on my mac atm. :( am using work laptop.
+[12:23:33] <percent20> groovecoder: since you are here. is there a way to get updates from the server to the client via ajax or does the client need to poll the server?
+[12:55:58] <groovecoder> percent2_: not via ajax no. that's what websockets and/or SSE is for

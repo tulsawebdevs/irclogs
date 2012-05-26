@@ -1,0 +1,53 @@
+[07:13:04] <groovecoder> I've never understood Microsoft's decision to *sell* developer tools
+[07:13:04] <groovecoder> http://arstechnica.com/information-technology/2012/05/no-cost-desktop-software-development-is-dead-on-windows-8/
+[09:12:37] <groovecoder> for MattGalloway: http://opensignalmaps.com/reports/fragmentation.php
+[09:13:03] <percent20> i get a beachball when i go there :(
+[09:13:25] <percent20> ah finally loaded.
+[09:17:06] <percent20> http://iamnotmyself.com/2012/05/25/today-i-learned-you-cannot-transfer-ownership-of-ios-applications/
+[10:37:26] <MattGalloway> groovecoder: Awesome Android visulization! Thanks!
+[10:45:36] <MattGalloway> groovecoder: re: MS selling dev tools - It's hard to slaughter the sacred cash cow. When they entered the market their development tools were cheap and awesome. Their problem is they haven't changed their model with the times.
+[10:46:23] <groovecoder> "Charging developers for Visual Studio is, in effect, making developers pay money for the privilege of making Windows worth buying. And yet, without third-party software, Windows itself has next to no value; it doesn't seem right to make programmers pay just to be able to make Microsoft's operating system valuable."
+[10:46:58] <MattGalloway> Exactly.
+[10:47:09] <groovecoder> same way I feel :%s/Windows/iOS/gc
+[10:47:18] <groovecoder> :%s/Microsoft/Apple/g
+[10:47:34] <MattGalloway> They have been doing some small gestures to make their tools feel more free - lots of good free preview tools, BizSpark program, etc.
+[10:48:17] <zerokarmaleft> yea, the neutering of the express versions is irksome
+[10:49:07] <MattGalloway> I understand the sentiment, and it's a little annoying that Apple doesn't let you deploy to iOS hardware without a license, but at $99/year it's affordable for almost everyone.
+[10:49:30] <MattGalloway> And ALL of the tools are free - it's the deploying to the device that you are paying for.
+[10:49:59] <MattGalloway> Even Google charges $25 to publish to their Marketplace.
+[10:50:29] <MattGalloway> In the case of both Google and Apple, the money is more for providing the distribution infrastructure, not the tools.
+[10:50:43] <zerokarmaleft> there's quite a bit more value from paying apple $99 to publish to the app store, than $299 to just get proper development tools from microsoft
+[10:51:09] <MattGalloway> And it's worth mentioning that all of Apples tools to develop for OS X are free (same tools as iOS but no license needed to deploy).
+[10:51:24] <zerokarmaleft> i paid $5 for Xcode once upon a time
+[10:51:41] <MattGalloway> !zerokarmaleft++
+[10:54:52] <groovecoder> MattGalloway: if nothing else, the $ for deployment/distribution also filters out lots of crap apps and software. unfortunately the market opportunity on Windows seems to pull crap apps thru the $300-$500 barrier
+[10:55:08] <groovecoder> and that's also becoming true of iOS ;)
+[10:55:22] <MattGalloway> groovecoder: tell me about it.
+[10:55:56] <MattGalloway> groovecoder: Apple keeps trying to up their standards, but they've already let 500,000 cows out of the barn.
+[10:56:27] <MattGalloway> groovecode: Still, the iOS app space is WAY, WAY better than any other mobile platform..
+[10:58:18] <groovecoder> MattGalloway: yeah
+[10:58:18] <MattGalloway> groovecoder: To be completely fair, the $99 is just cost of entry... Apple also, of course, takes %30 of retail.
+[10:59:02] <groovecoder> MattGalloway: yeah I guess I resent companies that make boatloads of money on consumers AND nickel-and-dime their developers too
+[11:02:49] <groovecoder> jgmize: jsatt jwhitlock_zzz Destos any lunch plans?
+[11:09:53] <MattGalloway> groovecoder: Another viz related to Android fragmentation, as well as old school mobile device manufacturers philosophy vs. Apple's: http://webcache.googleusercontent.com/search?q=cache:JJbWF7qXMXIJ:theunderstatement.com/post/11982112928/android-orphans-visualizing-a-sad-history-of-support
+[11:10:11] <MattGalloway> (That's the Google cache because the webserver wasn't responding for me.)
+[11:10:55] <MattGalloway> It's crazy how many Android device hit the market with OUTDATED versions of the OS on DAY ONE.
+[11:20:43] <zerokarmaleft> yea, the time delta from new OS versions getting pushed to source.android.com and carriers developing their crapware
+[11:22:39] <groovecoder> http://turntable.fm/tulsa_coworking
+[11:49:40] <zerokarmaleft> groovecoder: good call by whomever
+[11:49:52] <groovecoder> zerokarmaleft: click "Awesome" then
+[11:49:53] <groovecoder> ;)
+[11:50:09] <zerokarmaleft> i meant, starting a turntable room
+[11:56:09] <groovecoder> !percent20--
+[11:56:39] <groovecoder> !karma?
+[11:57:56] <zerokarmaleft> gronkcoobley, heh
+[12:05:19] <percent20> !karma?
+[12:09:20] <percent20> There found the right iron man song
+[12:13:04] <percent20> groovecoder: http://xkcd.com/920/
+[12:13:28] <zerokarmaleft> pretty much
+[12:14:15] <percent20> I am trying to find stuff that have cultural references to stuff we might be familiar with. heh.
+[12:16:02] <percent20> after this one I am just going to add stuff and let it ride so I can do something else. heh.
+[12:30:22] <groovecoder> zerokarmaleft: the table is yours, we're heading to lunch
+[13:27:46] <zerokarmaleft> groovecoder: only get previews when the room is empty heh
+[13:28:02] <groovecoder> zerokarmaleft: oh that sucks! sorry
+[19:40:50] <groovecoder> ChanServ: help

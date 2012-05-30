@@ -1,0 +1,81 @@
+[06:44:26] <groovecoder> http://turntable.fm/tulsawebdevs
+[07:57:46] <groovecoder> zerokarmaleft: turntable is messing up for me - only plays about 30s of a song then the audio stops for me.
+[07:57:55] <groovecoder> as if it's doing preview-only, but it shouldn't be
+[07:59:50] <zerokarmaleft> groovecoder: odd
+[08:00:02] <groovecoder> zerokarmaleft: seems okay now ... had to refresh
+[08:00:05] <zerokarmaleft> is that you running the android app?
+[08:00:27] <zerokarmaleft> (as a room squatter)
+[08:00:53] <groovecoder> yeah
+[08:08:21] <zerokarmaleft> http://programmers.stackexchange.com/questions/49550/which-hashing-algorithm-is-best-for-uniqueness-and-speed/145633#145633 <= this answer is damn impressive
+[08:40:50] <zerokarmaleft> groovecoder: http://www.twitch.tv/kungentv <= hardcore inferno solo with a barb (think you left the room when i linked it)
+[08:41:55] <groovecoder> zerokarmaleft: is that live?
+[08:42:00] <zerokarmaleft> yea
+[08:43:45] <groovecoder> dang
+[09:12:11] <groovecoder> interesting comparison: http://www.chartgo.com/share.do?id=87a734c1aa
+[09:12:38] <groovecoder> (been doing some platform/vendor comparison since the Facebook+Opera rumors broke)
+[09:54:34] <groovecoder> zerokarmaleft: I gotta give up on turntable.fm for now :(
+[09:54:59] <zerokarmaleft> groovecoder: heh, too much flash troubles?
+[09:55:06] <groovecoder> yeah
+[09:55:24] <groovecoder> and if I sign in w/ Chrome as tulsawebdevs, the desktop version makes me make a playlist
+[09:56:13] <groovecoder> I'll leave my phone in there though
+[09:56:15] <groovecoder> ;)
+[09:56:26] <zerokarmaleft> no biggie, i've got an rdio scrip
+[10:02:19] <zerokarmaleft> man, i wish the SLIME developers would do sensible versioned releases
+[11:25:22] <percent20> dang. Github hired someone else. But I guess with a round of VC money they can hire a lot more people now.
+[11:37:18] <percent20> is it just me or is this article just common sense written down I feel like someone just sat down with old notes and recycled an article? http://www.npr.org/2012/05/29/153730914/listening-to-parents-key-to-financial-responsibility
+[12:22:43] <percent20> groovecoder: I am about to leave, but can you email me shintaros email address please?
+[12:22:53] <groovecoder> percent20: yeah
+[13:40:56] <percent20> groovecoder: they did a couple of the redirects for mdn
+[13:43:38] <groovecoder> percent20: oh cool
+[13:43:51] <percent20> developers.mozilla.org gets a cert error though.
+[13:44:00] <groovecoder> percent20: heh
+[13:44:19] <groovecoder> percent20: only if you go to https
+[13:44:59] <percent20> ah. mdn.mozilla.org works too.
+[13:58:38] <percent20> groovecoder: you around?
+[13:59:13] <groovecoder> percent20: yup
+[14:00:32] <percent20> me and shane are at the java daves at 101st and yale if you want to come by and work.
+[14:01:03] <percent20> groovecoder: also do you know what partials in rails are or web controls in asp.net are and how they work?
+[14:06:27] <zerokarmaleft> wtf fedora: beefy miracle?
+[14:15:26] <groovecoder> percent20: I don't know what they are but I can guess ...
+[14:15:42] <groovecoder> ui widgets for web?
+[14:16:20] <percent20> groovecoder: yes single pieces of repeatable functionality that can be plugged into a page and gets data from the backend.
+[14:16:52] <groovecoder> percent20: sounds good ... looking for a django equivalent?
+[14:16:54] <percent20> am looking for something equivalent for django.
+[14:16:57] <percent20> yes
+[14:17:33] <groovecoder> form widgets are the closest in stock django. I remember finding some pretty advanced django form widgets. e.g., an auto-suggest text input
+[14:18:15] <groovecoder> percent20: but I don't think there's any included library of web ui widgets
+[14:18:22] <percent20> I am wanting to have a widget that is a template tag essentially and displays that data without me having to send extra contexts to the template.
+[14:18:51] <percent20> well for rails partials you have to create them yourself.
+[14:19:20] <groovecoder> percent20: what's the "data" and "extra contexts"?
+[14:19:32] <percent20> basically I just don't want to have to send a dictionary of 5 things to a template when the "main" goal of that page is only 1 or 2 pieces of context data.
+[14:23:08] <groovecoder> percent20: so you want to send the data from django just to that template/include/partial/widget ?
+[14:23:16] <percent20> yes
+[14:24:00] <groovecoder> what's the specific use-case? it kinda depends on how the widget will interact with the page and the server
+[14:24:04] <percent20> as an example take a blogs sidebar. I would like to be able to just drop a tag like {% sidebar-latest-posts %} and that is it and it generates out the last 10 posts on the blog.
+[14:24:21] <groovecoder> percent20: ah
+[14:24:45] <groovecoder> percent20: I think you want a helper for that
+[14:24:53] <percent20> that way I don't have to have a "latest-posts" context object sent to the template and clutter up the view.
+[14:25:08] <groovecoder> er, custom template tag
+[14:25:09] <groovecoder> https://docs.djangoproject.com/en/dev/howto/custom-template-tags/
+[14:25:20] <groovecoder> (we use jinja at Mozilla, and jinja has "helpers")
+[14:25:22] <percent20> I was afraid of that.
+[14:29:08] <percent20> you have a link to jinja by chance?
+[14:30:22] <groovecoder> nah, just google
+[15:01:35] <percent20> groovecoder: do you ever look at something in django and it is confusing. then come back to it later and it makes more sense?
+[15:37:11] <groovecoder> percent20: never. you must be crazy. ;)
+[15:37:20] <groovecoder> percent20: you going to .net group tonight?
+[15:37:40] <percent20> not going to be able to make it.
+[15:42:05] <groovecoder> percent20: dang, I'm actually going to this one
+[15:42:40] <percent20> heh. i'll see if shane wants to go. he is driving.
+[15:57:50] <zerokarmaleft> groovecoder: anything ever happens there?
+[15:57:55] <zerokarmaleft> happen*
+[15:58:03] <groovecoder> zerokarmaleft: hmm ... sorta?
+[15:58:43] <groovecoder> zerokarmaleft: it's more a traditional "someone get up and talk for a long time" group
+[15:59:16] <groovecoder> zerokarmaleft: the passionate Microsoft dev's are there, though; it's worth going to chat with them at least
+[16:00:06] <percent20> they went to sandwiches for the food :(
+[16:00:55] <zerokarmaleft> instead of pizza?
+[16:01:09] <percent20> yes
+[16:01:23] <percent20> they aren't very good subway sandwiches IMO
+[16:01:40] <percent20> i'd rather they go 30 McChickens from McD's
+[16:02:16] <groovecoder> hmm ... I better grab a veggie something on the way just in case
+[16:02:19] <groovecoder> ;)

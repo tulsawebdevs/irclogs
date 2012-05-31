@@ -1,0 +1,62 @@
+[08:47:21] <groovecoder> percent20: node.js workshop is last weekend of June, or last weekend of July?
+[08:47:39] <groovecoder> I'm going to speak at the June OKC.js meeting, so I can promote it there
+[08:59:59] <percent20> groovecoder: last weekend of June. going to send shintaro email today.
+[09:02:25] <groovecoder> percent20: okay
+[09:02:36] <groovecoder> percent20: update us all with facebook event too when it's final
+[09:10:51] <percent20> groovecoder: who was it at school of dev that did the webgl demos? they don't mention anything about it on the school of dev site.
+[09:12:08] <percent20> groovecoder: I am here with scott do you have a moment to talk?
+[09:12:18] <groovecoder> percent20: yeah
+[09:12:27] <percent20> you are getting a call
+[09:12:44] <groovecoder> percent20: webgl demos? got me.
+[09:23:22] <percent20> http://www.webgljobs.com/
+[10:24:19] <percent20> http://www.makerbot.com/blog/2012/05/29/keeping-it-awesome-hackerspace-modifies-water-fountain/
+[10:33:43] <groovecoder> http://turntable.fm/tulsawebdevs
+[10:52:51] <groovecoder> I think I finally figured out my turntable.fm issue - I had firebug enabled ;)
+[11:00:22] <zerokarmaleft> groovecoder: lol
+[11:00:53] <zerokarmaleft> groovecoder: one of those "where the hell is my hat?!" problems
+[11:03:35] <zerokarmaleft> lol: "Decided to browse the web as User-Agent: Batman/1.0 under Chrome today. Disappointed by how many things don't work due to a silly header."
+[11:51:29] <zerokarmaleft> groovecoder: have you read The Art of Community?
+[11:52:14] <zerokarmaleft> wtf, i just got a picture of a thermostat or something as part of a captcha
+[11:54:56] <groovecoder> zerokarmaleft: yeah, I've read it
+[11:55:37] <zerokarmaleft> too many books to read
+[12:03:35] <groovecoder> MrMakeIt: nice coldplay playlist going on :)
+[12:06:25] <MrMakeIt> groovecoder: thanks
+[12:07:20] <percent20_> maybe I can listen when i get home
+[12:07:39] <percent20_> we aren't allowed to stream music up here :(
+[12:09:48] <MrMakeIt> well that's no fun.
+[12:31:51] <groovecoder> zerokarmaleft: brilliant
+[12:31:57] <zerokarmaleft> :D
+[12:32:11] <groovecoder> an air hostess in the 60's
+[12:32:17] <groovecoder> uhn
+[12:32:55] <zerokarmaleft> i'll buy you a kebab!
+[12:33:03] <groovecoder> lol
+[12:35:33] <groovecoder> zerokarmaleft: whoa, never heard this version before
+[12:36:22] <zerokarmaleft> affirmative
+[12:38:07] <MrMakeIt> wow, read a comic about robots, get a song about robots.
+[12:45:13] <groovecoder> percent20_: does turntable.fm work fine for you in Firefox?
+[12:45:44] <groovecoder> I wonder if they did something based on my IP since I was gaming it by signing in from multiple devices ... though that would have applied to Fab Lab too
+[12:45:56] <percent20_> groovecoder: yes, I am running v12 at the moment.
+[12:46:30] <percent20_> what is wrong?
+[12:47:28] <percent20_> yeah that sucked. song was really jittery for me because of bandwidth problems. :(
+[12:47:52] <percent20_> I will definitely have to wait until i get home. :(
+[12:49:11] <groovecoder> hah. OH in #webdev: http://pastebin.mozilla.org/1651879
+[12:49:49] <percent20_> lol.
+[12:51:50] <percent20_> Thing I hate about working at a place that does IVR development. I get to hear phones dial and automated voices the entire time I am here.
+[12:56:25] <percent20_> groovecoder: looks like I might be messing a bit with webgl in a month or so. heh.
+[12:56:46] <groovecoder> percent20_: cool
+[12:56:59] <percent20_> we shall see how well it goes.
+[12:57:06] <groovecoder> percent20_: enhancing thingaview?
+[12:57:36] <percent20_> possibly. what is interesting is they don't use thingaview anymore I don't think. I tried to find the feature on their site and it isn't there anymore.
+[13:00:32] <percent20_> Looks like my jeep will be paid off next month :D
+[13:00:45] <zerokarmaleft> percent20_: nice! such a great feeling
+[13:01:08] <percent20_> I am looking foward to the feeling. :)
+[13:02:07] <percent20_> it is frustrating to be so very close, but not have quite enough to kill it all in one payment.
+[13:27:57] <groovecoder> zerokarmaleft: I gold-starred this song on Rock Band
+[13:32:38] <zerokarmaleft> on expert?
+[13:45:44] <groovecoder> zerokarmaleft: of course
+[13:45:46] <groovecoder> ;)
+[13:46:07] <groovecoder> zerokarmaleft: incidentally, I'm also a Very Good Liar™
+[13:46:24] <zerokarmaleft> on irc, everyone's a woman
+[14:01:55] <groovecoder> wow, Microsoft's Windows 8 app submission process is a PITA
+[14:49:01] <zerokarmaleft> groovecoder: http://www.youtube.com/watch?feature=player_embedded&v=PEyk63UaBI4 <= diablo 3 inferno tactic
+[14:50:44] <groovecoder> heh

@@ -1,0 +1,103 @@
+[08:34:16] <Destos> mornin peeps
+[08:35:18] <groovecoder> morning
+[08:35:26] <groovecoder> how's the CA world today?
+[08:35:55] <Destos> interesting, we moved to new offices Tuesday
+[08:36:22] <Destos> and it appears the collabatorium is moving out of their space.
+[08:36:34] <groovecoder> Destos: orly?
+[08:36:48] <Destos> and I almost responded to that job listing on fb
+[08:37:26] <Destos> as far as the collar, not entirely sure whats going on only that something happened with the space
+[08:37:29] <Destos> collab*
+[10:59:14] <groovecoder> Destos: almost responded? do tell.
+[10:59:31] <Destos> I believe I've already told you how I feel about that company
+[10:59:44] <groovecoder> percent20: if you're getting into WebGL, why not be the topic driver on MDN? https://developer.mozilla.org/Project:en/Topic_drivers
+[10:59:58] <groovecoder> oh, right
+[11:00:07] <groovecoder> Destos: I forgot it was GuRuStu
+[11:00:41] <groovecoder> I want to have a "How should we engage with local web companies" discussion sometime in the group - probably over a beer
+[11:01:17] <Destos> Thats should be interesting
+[11:01:46] <Destos> When I initially was looking for a job a couple years ago it was interesting/hard to find all the companies as well
+[11:02:07] <Destos> maybe we should build a directory
+[11:02:18] <groovecoder> Destos: exactly. now I know of InterWorks, Vitals, CA, GuRuStu, Cubic ... probably missing some
+[11:03:23] <Destos> oh wait Carlos already beat us to it
+[11:03:24] <Destos> http://tulsawebdesign.com/
+[11:04:43] <groovecoder> !Destos++
+[11:04:56] <Destos> yay more awesome points for doing nothing! ;p
+[11:05:14] <Destos> my semicolon key got fudged during the move, me is sad
+[11:06:22] <groovecoder> Destos: semicolon? wtf do you need that for w/ coffeescript and python?
+[11:07:07] <Destos> surprisingly there is a character called a colon that I need somewhat often
+[11:07:44] <zerokarmaleft> rebind caps lock
+[11:42:50] <mrmakeit> Destos: do you know the best way to auth to node.js?
+[11:44:34] <groovecoder> mrmakeit: what do you mean "auth to node.js" ?
+[11:45:05] <mrmakeit> auth to a page served by node.js.
+[11:45:41] <mrmakeit> so if a person logs in i can give them a different page.
+[11:49:45] <mrmakeit> I'd need it to work with the Express module
+[11:51:10] <groovecoder> mrmakeit: http://stackoverflow.com/questions/3498005/user-authentication-libraries-for-node-js
+[11:51:11] <groovecoder> ?
+[11:51:56] <groovecoder> mrmakeit: question - what are you writing w/ node?
+[11:52:28] <mrmakeit> webcast streaming client w/extras.
+[11:53:53] <groovecoder> mrmakeit: oh yeah. does node have some cool features for that?
+[11:55:03] <mrmakeit> i'm mostly using websockets to get the commands where i need them.
+[11:55:19] <mrmakeit> but i have found preloading a page to be useful.
+[12:01:03] <zerokarmaleft> ACTION has earned 1 point in elisp-fu
+[12:01:30] <zerokarmaleft> talk about yak-shaving
+[12:06:08] <zerokarmaleft> groovecoder: the next nodeknockout is in august
+[12:06:28] <groovecoder> zerokarmaleft: oh?
+[12:06:33] <zerokarmaleft> http://nodeknockout.com/
+[12:08:47] <groovecoder> zerokarmaleft: that's cool. I wonder how they track/enforce the 48-hour limit?
+[12:09:29] <zerokarmaleft> We’ll be watching to make sure people don’t cheat (don’t think you can develop everything ahead of time and push it all at the end; we know lots of git tricks too).
+[12:10:36] <groovecoder> zerokarmaleft: fair enough. what I'm really interested in is a site/app framework for running competitions like that. percent20: you still working on that at all?
+[12:11:23] <Destos> mrmakeit: back from lunch
+[12:14:49] <mrmakeit> Destos: hey
+[12:16:03] <Destos> sent you a pm with links
+[13:20:07] <percent20> groovecoder: basically they have a team of people watching your github repo and you are mandated to use a git repository they provide.
+[13:20:53] <percent20> as part of those competetions it is up to you to host your project so all they need is a list of entrants and scores for each judge, that is about it.
+[13:42:47] <MrMakeIt> Destos: think i finally got it done.
+[13:43:09] <MrMakeIt> now just need to make it look nice
+[13:43:21] <Destos> wewt
+[13:43:24] <Destos> learn some css!
+[13:44:25] <MrMakeIt> actually, already did.  had to for the radio page.
+[13:47:16] <MrMakeIt> and now on GitHub. https://github.com/blister75/HTML5-Radio-Control
+[13:51:50] <MrMakeIt> when did you guys find turntable.fm
+[13:52:30] <groovecoder> MrMakeIt: we started doing it last Friday
+[13:52:47] <MrMakeIt> ah.
+[13:53:14] <MrMakeIt> where do you find stuff like that?
+[13:53:25] <groovecoder> MrMakeIt: I forget where we heard about that
+[13:58:52] <percent20> groovecoder: why aren't YOU in turntable.fm/tulsawebdevs
+[14:01:18] <MrMakeIt> good question.
+[14:02:59] <MrMakeIt> anyone else notice the PC LOAD LETTER when starting a song?
+[14:03:58] <MrMakeIt> !groovecoder--
+[14:04:35] <MrMakeIt> !groovecoder++
+[14:04:36] <MrMakeIt> !groovecoder++
+[14:42:31] <percent20> !Destos++
+[14:42:40] <Destos> :o
+[14:42:56] <Destos> why is your song taking forever, can't hear it :/
+[14:44:44] <Destos> can't hear musiacccccc /
+[14:44:46] <Destos> :/
+[14:44:54] <percent20> is your comp on mute?
+[14:45:38] <Destos> nope
+[14:46:43] <percent20> reboot.
+[14:47:57] <Destos> it was firefox, chrome works, turned off adblock as well but to no avail
+[14:48:46] <percent20> that is two people other than me that has issues with firefox.
+[14:49:32] <Destos> with turntable?
+[14:49:37] <Destos> maybe they pushed up bad code
+[14:50:01] <percent20> yes
+[14:53:23] <groovecoder> Destos: yeah I had that issue too
+[14:54:35] <groovecoder> Destos: I didn't try to disable ABP, but I'm trying with DNT+ disabled
+[14:55:34] <Destos> groovecoder: figured it might have been blocking a flash player, unless they use html5 audio
+[14:55:54] <Destos> nice lid there groovecoder
+[14:56:18] <groovecoder> Destos: I don't think they do, there's an SWF on the page and then there's a bunch of application/octet-stream requests
+[14:57:42] <groovecoder> and IIRC when I disabled Flash it said it requires it :(
+[15:03:15] <groovecoder> Destos: hmm ... Aurora had an update last night and so far it's working fine w/ turntable.fm
+[15:03:56] <groovecoder> gah! as soon as I said that it crapped out!
+[15:04:27] <groovecoder> though I think it's a bug w/ turntable.fm b/c Pandora doesn't have that issue and it does the same SWF + application/octet-stream
+[15:05:06] <percent20> I am using FF12 and it is working fine.
+[15:06:13] <zerokarmaleft> codelahoma: https://github.com/swank-js/swank-js
+[15:07:41] <groovecoder> zerokarmaleft: http://en.wikipedia.org/wiki/Swank ?
+[15:08:01] <zerokarmaleft> just about the same connotation
+[15:08:18] <zerokarmaleft> web socket connection b/w emacs and an in-browser javascript engine
+[15:08:35] <groovecoder> zerokarmaleft: ooo, neat
+[15:08:55] <groovecoder> for ... ? repl ?
+[15:09:05] <zerokarmaleft> yea, for REPL
+[16:05:50] <Destos> off to the fab lab
+[16:11:53] <MrMakeIt> groovecoder:  Next time besure to mark NSFW.
+[16:51:50] <percent20> what was NSFW?
+[17:33:27] <MrMakeIt> groovecoder:  So apparently I'm suppose to ask you what you do for mozilla as an employee

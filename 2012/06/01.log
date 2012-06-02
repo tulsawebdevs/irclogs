@@ -1,0 +1,51 @@
+[09:17:43] <Destos> Ca guys will be coming over for the entire co-working day
+[09:28:27] <groovecoder> Destos: sweet! CIO of City of Tulsa is coming by too
+[09:30:00] <zerokarmaleft> groovecoder: http://www.youtube.com/watch?v=wEdgzndKuog
+[09:30:18] <zerokarmaleft> but only if he's not a nice guy
+[09:31:42] <groovecoder> !zerokarmaleft++
+[10:10:11] <percent20> Destos: cool when you all comeing up?
+[10:10:32] <percent20> errr down, since you all are north of us.
+[10:10:34] <Destos> leaving about now
+[10:10:37] <percent20> cool.
+[11:41:04] <percent20> groovecoder Destos jsatt http://www.geeky-gadgets.com/super-slim-lenovo-thinkpad-x1-confirmed-25-04-2011/
+[12:11:32] <percent20> This is Destos when it comes to CMS's http://xkcd.com/927/
+[12:22:32] <percent20> groovecoder: https://twitter.com/buddylindsey/status/168065910320533505
+[12:43:24] <Destos> no my system is perfect and needed
+[14:13:46] <jwhitlock> HOW DO I IRC?  DO I NEED IE9 OR WILL IE7 WORK?
+[14:14:54] <jwhitlock> BECAUSE I DON'T WANT TO GIVE M$ ANY MORE MONEY LOL
+[14:16:54] <jwhitlock> I am the worst pairing partner
+[14:17:10] <jwhitlock> I am doing a horrible job of keeping jgmize on task.
+[14:17:30] <jwhitlock> Also, I only seem to do IRC when I'm at the Fab Lab
+[14:21:55] <jwhitlock> how do I send a message to another user in unix
+[14:22:15] <jwhitlock> http://linux.die.net/man/1/write
+[14:25:00] <jwhitlock> man, I've forgotten how to do ascii dongs
+[14:25:49] <jwhitlock> http://asciidicks.com/4.json
+[14:26:05] <Destos> http://asciidicks.com/8.json
+[14:26:12] <jgmize> wow, guys.
+[14:26:36] <jwhitlock> https://github.com/martinemde/dicks
+[14:33:20] <zerokarmaleft> wow
+[14:33:48] <zerokarmaleft> why post that on your public github?
+[14:34:58] <zerokarmaleft> i guess when you get a job at engine yard, you can afford brogrammer PR
+[14:36:03] <percent20> AssertionError: [<Day: Day object>, <Day: Day object>] != [<Day: Day object>, <Day: Day object>] <- love comparing types sometimes.
+[14:49:12] <jsatt> percent20: https://github.com/ConsumerAffairs/django-whatever
+[14:49:28] <jsatt> percent20: https://github.com/jbalogh/django-nose
+[14:52:29] <jwhitlock> http://axon.wellcomeapps.com/
+[14:53:03] <percent20> https://devcenter.heroku.com/articles/django-injection
+[15:18:23] <jwhitlock> jgmize, jsatt: please run ./manage.py test -v 2 leadgen
+[15:18:28] <jwhitlock> tell me what seed you get
+[15:19:44] <jwhitlock> I get 0's
+[16:15:50] <percent20> groovecoder: http://i.imgur.com/rLGSa.gif
+[20:07:42] <percent20> groovecoder: you around?
+[20:43:59] <groovecoder> percent20: am now
+[20:44:30] <percent20> I have a dependency issue.
+[20:44:33] <percent20> with my models.
+[20:44:36] <groovecoder> oh?
+[20:45:03] <percent20> I have an event app and a department app
+[20:45:51] <percent20> if the department app is in INSTALLED_APPS after event i can't reference the department model in events.
+[20:46:21] <percent20> however, I have a slot model in events which is referenced in deparment so it needs to be before deparment app
+[20:47:13] <percent20> any thoughts on how to resolve a circular dependency like that?
+[20:55:40] <percent20> while the same problem exists I have a differen solution
+[22:10:40] <groovecoder> percent20: wow, I suck. just did a bunch of "open source software in government" research on Google for Tom and I completely ignored IRC this whole time ><
+[22:11:21] <groovecoder> percent20: I'd say since they all depend on each other that's cause enough to put them all in the same app
+[22:14:51] <percent20> its that whole "are you there? 'yes in an hour ill talk again'" situation.
+[22:14:52] <percent20> heh

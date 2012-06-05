@@ -1,0 +1,44 @@
+[09:01:32] <groovecoder> anyone else joining http://turntable.fm/tulsawebdevs ?
+[09:03:11] <groovecoder> anyone else joining turntable?
+[09:06:43] <zerokarmaleft> groovecoder: FINE
+[09:11:12] <groovecoder> zerokarmaleft: THANKS!
+[09:15:53] <zerokarmaleft> :D
+[09:32:31] <zerokarmaleft> groovecoder: get the led out!
+[09:50:36] <groovecoder> zerokarmaleft: sorry, watching a webcast ATM; turntable is muted. :(
+[14:35:06] <percent20> groovecoder|food: you around?
+[14:36:27] <percent20> jgmize jsatt jwhitlock_zzz Destos any of you around? i am looking for something on testing forms/form input and also interaction of forms in views. anyone have any ideas?
+[14:39:03] <groovecoder|food> percent20: testing Form classes?
+[14:45:18] <percent20> groovecoder|food: yes.
+[14:45:24] <percent20> well sort of
+[14:45:47] <percent20> i want to populate a form class and send it to my view and test the validation, etc, and the processing of my view.
+[14:45:54] <percent20> basically I am testing my view.
+[15:17:35] <jwhitlock> percent20: we run at least three tests for views with forms
+[15:17:51] <jwhitlock> We run a GET test, which optionally will test that fields are there
+[15:18:14] <jwhitlock> We run an empty POST test, and use assertFormError to confirm that the form errors are there
+[15:18:49] <jwhitlock> We run a good POST test, and verify we get the expected 200 or whatever, and sometimes that a model was populated
+[15:19:41] <jwhitlock> we use django.test.client for all that
+[15:20:49] <percent20> jwhitlock: okay. on the good post test do you do a post then pass data that would be the right fields as key:value pairs to the view and have it populate properly?
+[15:23:30] <jwhitlock> yep, something like
+[15:23:57] <jwhitlock> response = self.client.post(url, {'arg1':'foo', 'arg2':'bar'})
+[15:25:44] <percent20> awesome thanks. That is kind of what i was after, but was having trouble finding something explicitly saying that. heh.
+[15:27:53] <jwhitlock> It's good to read through https://docs.djangoproject.com/en/dev/topics/testing/ every once in a while - I tend to skip over parts I don't understand, but they make sense later.
+[15:29:02] <percent20> yeah I have read through it a few times, but like you said some stuff just doesn't make sense. Unfortunately, one of the detriments to 900 pages of documentation for Django is there is 900 pages of documentation and it is hard to find some stuff.
+[15:51:25] <percent20> groovecoder|food jwhitlock that is gold. kathy taylor just posted to tulsawebdevs facebook that the new trip planner isn't working right for her on the tulsa transit site.
+[15:51:42] <percent20> $250,000 well spent.
+[16:02:48] <groovecoder|food> percent20: hah, classic.
+[16:02:59] <groovecoder|food> Tom seemed surprised at that figure too
+[16:03:15] <percent20> yeah his reaction was awesome.
+[16:03:32] <percent20> hopefully kathy tayler will see some of this and make some inquiries.
+[16:04:57] <groovecoder|food> the trip planner isn't even on the website, it's using an IP address: http://174.78.158.38/
+[16:04:58] <percent20> ouch
+[16:05:02] <percent20> do you have to login to use it?
+[16:05:18] <percent20> i tried to use it, but didn't see link to get to it other than a register link.
+[16:09:59] <groovecoder> jwhitlock: nice trip planner instructions
+[16:10:06] <groovecoder> we gotta get Bates on this
+[16:35:27] <percent20> groovecoder: you should shoot Kathy Taylor a message asking if she can help setup a meeting with Tulsa Transit or who to talk to about it.
+[16:36:27] <groovecoder> percent20: we've had a meeting with MTTA - we have email addresses for their IT department. but they don't answer emails.
+[16:37:08] <percent20> yeah, but she might know something we don't. plus she can maybe give a bit of pressure.
+[16:37:49] <percent20> or I can just be a bit more patient and let things ride out a bit from the meeting with Tom.
+[16:37:59] <groovecoder> percent20: I still need to send an email to Tom re: how he can help us with our "open data" projects - I'll be sure to include this latest anecdote when I ask if he'll help us get MTTA IT group to publish their data :)
+[16:38:20] <percent20> awesome. :)
+[17:31:46] <percent20> groovecoder: using Aurora is kind of annoying at times. I see news releases of stuff in firefox in the news, and am like "but that has been in firefox for a while now... oh yeah.".

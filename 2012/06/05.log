@@ -1,0 +1,140 @@
+[08:19:04] <zerokarm1left> morning
+[08:31:01] <zerokarmaleft> !hello
+[08:33:49] <groovecoder> wtf?
+[08:34:18] <zerokarmaleft> groovecoder: the japanese?
+[08:34:28] <groovecoder> yeah
+[08:34:41] <zerokarmaleft> that's all percent20
+[08:42:21] <zerokarmaleft> groovecoder: any advice on how to cherry-pick changesets from one git repo to an empty one?
+[08:47:17] <zerokarmaleft> rather, i'd like to extract out a file as a submodule, but it seems you can only extract subdirectories
+[08:47:37] <zerokarmaleft> i guess i could modify the project tree beforehand
+[08:53:07] <zerokarmaleft> perhaps filter-branch...
+[08:57:02] <groovecoder> zerokarmaleft: hmm ... yeah I've not done that kind of repos surgery before
+[09:13:53] <zerokarmaleft> hmm, close
+[09:19:50] <zerokarmaleft> ok, now to rebase
+[09:35:28] <zerokarmaleft> guess i'm boring jwhitlock_zzz with my microblogging on irc
+[10:02:06] <zerokarmaleft> groovecoder: https://github.com/zerokarmaleft/cinch-karma/network <= i think i got it
+[10:02:43] <groovecoder> zerokarmaleft: nice!
+[10:03:22] <zerokarmaleft> groovecoder: that was evil
+[10:03:31] <groovecoder> heh
+[10:06:18] <zerokarmaleft> had to create a new empty root node to rebase to that so i could snip out the original initial commit
+[10:28:27] <groovecoder> blog post!
+[10:28:28] <groovecoder> zerokarmaleft: ^
+[11:17:28] <jwhitlock> groovecoder: latest GTFS data is feed.20120319.zip in the tulsawebdevs dropbox
+[11:17:43] <groovecoder> jwhitlock: nice
+[11:17:59] <jwhitlock> https://www.dropbox.com/s/abup9ah9dd9n5ua/feed.20120319.zip
+[11:18:32] <jwhitlock> I emailed it to Harold on Mar 20, but that's OK.
+[11:18:57] <jwhitlock> His MTTA email can't take an attachment of that size
+[11:19:41] <groovecoder> jwhitlock: that's a public url right?
+[11:19:49] <jwhitlock> hmm yeah
+[11:34:11] <mrmakeit> yay turntables back.
+[11:47:01] <DJMakeIt> where is tulsabot's repo?
+[11:53:18] <DJMakeIt> never mind found it
+[12:02:58] <DJMakeIt> groovecoder:  Who is using the @tulsawebdevs in turntable?
+[12:32:04] <groovecoder> DJMakeIt: that's my phone
+[12:32:10] <groovecoder> so I can listen while I'm alone
+[12:32:14] <DJMakeIt> ah
+[12:32:18] <DJMakeIt> thanks
+[13:12:20] <groovecoder> jwhitlock: q - why don't you give the link to harold?
+[13:12:45] <jwhitlock> because I thought you were the primary contact - want me to send the email?
+[13:13:33] <groovecoder> jwhitlock: yeah, sorry I didn't mean that to be interrogative. I just hate being a "go-between" person 'cuz then stuff stops if I don't check my email or whatever.
+[13:13:55] <groovecoder> MTTA stuff goes slow enough without adding me as a gatekeeper ;)
+[13:13:59] <jwhitlock> do you want me to send the email?
+[13:14:04] <percent20> groovecoder: that is why you need to plug your email into your brain.
+[13:14:08] <groovecoder> jwhitlock: yeah, when you get a chance
+[13:14:35] <groovecoder> percent20: I'm waiting for version 2 of the machine/brain interface
+[13:14:43] <percent20> can I throw out some code for testing forms and someone tell me what I am doing wrong?
+[13:14:53] <zerokarmaleft> percent20: pushed the submodule changes to ircbot
+[13:15:11] <groovecoder> if you had seen all of the GitS:SAC episodes, you'd have seen the one where all the people w/ version 1 cyberbrains went crazy ;)
+[13:15:19] <groovecoder> percent20: ^
+[13:15:25] <zerokarmaleft> non-funtional changes though, so if the tulsabot restarts on a cron or something, that can wait
+[13:15:44] <zerokarmaleft> functional*
+[13:15:45] <groovecoder> jwhitlock: also, you need to get the credit for the MTTA stuff anyway. ;)
+[13:16:56] <jwhitlock> email sent
+[13:17:15] <groovecoder> okay that settles it - Pandora tries to suggest songs that cross your stations
+[13:17:25] <jwhitlock> my name is all over the github commits, so I'll get credit from the people I care about
+[13:17:34] <groovecoder> !jwhitlock++
+[13:17:42] <percent20> groovecoder jwhitlock -> can you tell me how stupid I am? http://pastebin.com/mk24G0Ut
+[13:17:44] <groovecoder> wtf? how does jwhitlock only have 1 awesome point?!
+[13:17:53] <groovecoder> percent20: if you just need someone to do that ...
+[13:18:16] <zerokarmaleft> ooh
+[13:18:31] <groovecoder> percent20: how is it "not working" not running? error? failure?
+[13:18:41] <percent20> groovecoder: he lost all his when he broke math.
+[13:18:42] <jwhitlock> delete setUp() - none of that is needed
+[13:18:58] <zerokarmaleft> groovecoder: should add a feature to bump karma whenever somebody pushes something on github
+[13:19:07] <jwhitlock> TestCase will add self.client for you
+[13:19:29] <groovecoder> zerokarmaleft: oooo, yeah we should
+[13:19:31] <percent20> the problem is it isn't populateing the form data.
+[13:19:48] <jwhitlock> I don't want people writing commit bots for karma. :(
+[13:19:49] <zerokarmaleft> groovecoder: past a certain threshold of course
+[13:20:09] <jwhitlock> commits 1-10, +1 karma
+[13:20:17] <jwhitlock> commits 11-100, -10 karma
+[13:20:24] <groovecoder> zerokarmaleft: jwhitlock: heh, I had no idea #tulsawebdevs karma was so precious a commodity
+[13:20:30] <zerokarmaleft> jwhitlock: heh
+[13:20:45] <percent20> its like karma on reddit.
+[13:20:48] <DJMakeIt> maybe use pull requests instead.
+[13:20:55] <zerokarmaleft> !karma? percent20
+[13:20:59] <groovecoder> what would actually be cool is to roll our own Open Web Badges site. badges.tulsawebdevs.org or something
+[13:21:01] <jwhitlock> ACTION stepping out
+[13:21:08] <zerokarmaleft> percent20 devalued it faster than facebook's IPO, what's to worry about?
+[13:21:11] <groovecoder> http://openbadges.org/en-US/
+[13:21:55] <percent20> groovecoder: do you have any ideas on why the test isn't populating the form?
+[13:22:23] <groovecoder> percent20: where does it fail? creation_form.is_valid() ?
+[13:22:30] <zerokarmaleft> ah neat
+[13:22:56] <percent20> groovecoder: I get a 200 response status code where I should get a redirect.
+[13:23:01] <groovecoder> percent20: why kwargs? that should be data=
+[13:23:05] <percent20> groovecoder: basically the form.is_valid() is false.
+[13:23:05] <zerokarmaleft> groovecoder: is this mozilla's answer to coderwall?
+[13:23:39] <groovecoder> zerokarmaleft: Mozilla has very few "answers to ____" - it's a system to make the coderwall concept open and portable across the web
+[13:24:43] <percent20> and they stole it from stackoverflow who stole it from xbox.
+[13:24:45] <groovecoder> same way BrowserID is a system to make the OAuth concept open and portable across the web
+[13:24:51] <percent20> so microsoft wins again. ;)
+[13:25:01] <groovecoder> !percent20-- ;)
+[13:28:38] <percent20> groovecoder: you are awesome. thank you for fixing my test.
+[13:28:58] <groovecoder> hah! nice save.
+[13:29:01] <groovecoder> !percent20++
+[13:30:22] <percent20> the more I use django the more I figure out how bad of a dev i am.
+[13:33:36] <jwhitlock> percent20: what is your command line for running tests?
+[13:34:03] <percent20> jwhitlock: I am doing ./manage test account
+[13:37:00] <jwhitlock> ./manage test account --pdb --pdb-failures -sx might be helpful
+[13:38:53] <jwhitlock> --pdb will drop you into pdb for unhandled exceptions
+[13:39:03] <jwhitlock> --pdb-failures will do the same for failed assertions
+[13:39:15] <jwhitlock> -s says 'don't swallow whitespace'
+[13:39:26] <percent20> awesome thank you.
+[13:39:27] <jwhitlock> -x says 'stop after the first error'
+[13:39:38] <percent20> I still has so much to learn
+[13:42:02] <Destos> jwhitlock: just got my restore done, it appears that some or all of my dev env is messed up, should I bike up so I can get help fixing it up?
+[13:42:46] <percent20> jwhitlock: sounds like you all need to check into vagrant
+[13:43:38] <Destos> jsatt jgmize  ^
+[13:44:06] <jwhitlock> Destos: sure, but zac might want to do a planning session
+[13:44:16] <Destos> in the evening?
+[13:44:32] <jwhitlock> maybe, but I'll leave around 5
+[13:44:33] <percent20> MEETINGS ALL THE THINGS
+[13:45:17] <percent20> assertRedirects <- is awesome.
+[13:45:38] <groovecoder> percent20: you using nose?
+[13:46:21] <percent20> groovecoder: no. I feel dumb trying to figure out parts of it. So i was going to do this project with built in test stuff to get used to testing again. Then worry about nose later.
+[13:47:16] <percent20> I feel like I am learning 2 or 3 things at once as it is so trying to add that is a bit much right now.
+[13:47:27] <percent20> however, this project is being completely tdd'd
+[13:47:44] <groovecoder> percent20: sweet
+[13:47:50] <groovecoder> percent20: you'll thank yourself later for it
+[13:48:22] <groovecoder> jwhitlock: jgmize: jsatt: this might be why I haven't noticed fixtures being very slow for us here at Mozilla: https://github.com/jbalogh/django-nose (look at the "Enabling fast fixtures" part)
+[13:48:33] <percent20> yeah. I used to do it in rails, but in Django you take a very different approach because django is built so differently.
+[13:48:50] <groovecoder> whatev' django is the same as rails ;)
+[13:49:30] <percent20> the magic that is in rails makes testing much different. The explicitness of python and django makes your tests need to be much more precise.
+[13:51:32] <jwhitlock> groovecoder: try ./manage.py test --with-profile, and see where your cycles are going
+[13:53:09] <jwhitlock> ACTION away again
+[13:53:58] <groovecoder> jwhitlock: okay but only because you asked so nicely! :)
+[13:58:13] <percent20> this zyrtec no longer works. :(
+[14:07:14] <zerokarmaleft> percent20: i forget, you have a bad reaction to pseudoephedrine?
+[14:07:19] <zerokarmaleft> or something else
+[14:10:37] <jwhitlock> for us, tests run in 176 seconds under profile
+[14:11:11] <jwhitlock> 63 seconds of that is in django/core/management/commands/loaddata.p
+[14:12:27] <jwhitlock> or 84 sec in the fixture setup
+[14:12:48] <groovecoder> percent20: what's your favorite screen capture tool?
+[14:13:13] <groovecoder> jwhitlock: you all use nose?
+[14:13:19] <groovecoder> percent20: for video
+[14:13:20] <jwhitlock> yes
+[14:15:55] <jwhitlock> django-nose==0.1.3 however - didn't add fixture bundling until 2.0
+[14:16:53] <groovecoder> jwhitlock: ah
+[14:28:06] <percent20> groovecoder: I use IShowU
+[20:44:29] <trisha> Hey percent20, are you close by?
+[21:31:57] <percent20> i'm here now, but she is gone. heh. She caught me when I was running.

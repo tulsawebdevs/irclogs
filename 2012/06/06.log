@@ -1,0 +1,45 @@
+[11:41:05] <percent2_> groovecoder: you around?
+[11:41:09] <groovecoder> yup
+[11:41:34] <percent20> I am trying to figure out in your whereyourmouthis where you generate the api key and save it for the user
+[11:41:39] <percent20> can you point it out to me please :D
+[11:50:07] <groovecoder> percent20: IIRC you can set the api key in the admin interface
+[11:50:14] <groovecoder> on the user and/or profile page(s)?
+[11:50:36] <percent20> ah. I was trying to figure out how to get it to generate one and save it when the user signs up
+[11:50:42] <groovecoder> percent20: I used to have code that auto-generated an api key when users/profiles were created, but it messed up the superadmin user
+[11:50:56] <groovecoder> percent20: yeah PR welcome on that ;)
+[11:51:00] <groovecoder> (afk)
+[11:51:13] <percent20> okay.
+[11:52:20] <percent20> thanks for telling me this time ;)
+[15:26:35] <MrMakeIt> !karma? Destos
+[15:26:45] <MrMakeIt> !destos++
+[15:26:55] <MrMakeIt> !Destos++
+[16:08:23] <zerokarmaleft> MrMakeIt: https://github.com/zerokarmaleft/cinch-karma/issues, btw
+[16:09:03] <zerokarmaleft> https://github.com/zerokarmaleft/cinch-karma/issues/2
+[16:26:54] <MrMakeIt> zerokarmaleft:  what does the yield() command do?
+[16:27:46] <groovecoder> MrMakeIt: hah. good question. that one still boggles my mind. it's for generators.
+[16:27:57] <groovecoder> MrMakeIt: just a sec, there's a good StackO article on it
+[16:28:11] <groovecoder> http://stackoverflow.com/questions/231767/the-python-yield-keyword-explained
+[16:31:58] <MrMakeIt> how many people are used in the karma table?
+[16:33:46] <groovecoder> MrMakeIt: hmm ... I don't think I like where this is going ;) you planning to karma bomb the bot?
+[16:34:16] <groovecoder> MrMakeIt: oh wait ... are you talking about yield in python or ruby?
+[16:34:35] <MrMakeIt> python
+[16:34:55] <MrMakeIt> and no im not
+[16:35:22] <groovecoder> MrMakeIt: oh okay.
+[16:35:22] <percent20> !karma?
+[16:35:42] <groovecoder> and here comes everyone to check their dings in the channel ;)
+[16:38:41] <MrMakeIt> so what if, when karma is updated, if it equals 0 the bot removes it from the list?  that would mean just zeroing karma for mistakes.  which shouldn't be hard if it's only 1.
+[16:39:17] <groovecoder> hmm ...
+[16:39:56] <MrMakeIt> is there a simple command to remove a entry from an array?
+[16:40:22] <groovecoder> not sure in ruby ...
+[16:40:24] <MrMakeIt> or is that not an array?
+[16:40:25] <groovecoder> I'm sure there is
+[16:40:30] <groovecoder> zerokarmaleft: ?
+[16:45:55] <MrMakeIt> !destos--
+[16:46:19] <MrMakeIt> !karma? MrMakeit
+[16:48:08] <MrMakeIt> i wonder if forcing all names lowercase will work?
+[17:09:24] <zerokarmaleft> groovecoder, MrMakeIt: scores are stored in-memory as a hash
+[17:11:30] <zerokarmaleft> the yield statement in ruby is to pass control to a block
+[17:11:35] <zerokarmaleft> https://github.com/zerokarmaleft/cinch-karma/blob/master/karma.rb#L26
+[17:12:02] <zerokarmaleft> https://github.com/zerokarmaleft/cinch-karma/blob/master/karma.rb#L38
+[17:14:58] <zerokarmaleft> MrMakeIt: my idea was to create a Seen plugin that could be queried by other plugins
+[17:15:35] <zerokarmaleft> and before adding a new k-v pair to the scores hash, check to see if the nick has ever been seen in the channel

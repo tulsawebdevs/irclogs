@@ -1,0 +1,73 @@
+[07:26:11] <zerokarmaleft> http://www.census.gov/developers/
+[07:30:50] <groovecoder> zerokarmaleft: yeah, federal agencies are rocking the open data
+[07:31:23] <zerokarmaleft> has al gore tried to take all the credit yet?
+[07:41:15] <zerokarmaleft> groovecoder: do you ever do any remote pairing?
+[07:41:29] <groovecoder> rarely
+[07:41:47] <groovecoder> we mostly do peer/code reviews in the form of github PR's
+[07:42:00] <groovecoder> why?
+[07:42:26] <zerokarmaleft> just curious what you use when you have to pair remotely? e.g. screen/tmux or something else entirely
+[07:54:59] <zerokarmaleft> groovecoder: also, i'm curious about seeing if we could do something like seajure's swarm-coding at one of our meetings
+[08:02:40] <groovecoder> zerokarmaleft: when I do it at all, I usually just do screen + vim
+[08:03:17] <zerokarmaleft> that's basically what swarm-coding is, just taken to the next step
+[08:03:38] <groovecoder> zerokarmaleft: that sounds awesome
+[08:03:48] <zerokarmaleft> a shared tmux session, and mix between structured and chaotic collaborative hacking
+[08:04:19] <groovecoder> zerokarmaleft: do you want to do swarm-coding at June meeting? you can take the last smaller room for it
+[08:04:47] <groovecoder> so far we have Productive Programmer & Freelance Tools tech talks going on
+[08:05:00] <groovecoder> but i2E has 3 spaces we can use
+[08:05:03] <zerokarmaleft> i have summer classes that overlap with the meeting time unfortunately
+[08:05:17] <zerokarmaleft> so i can only show up for the last 20-30 mins
+[08:05:23] <groovecoder> well that sucks. so we won't see you at a meeting for a while? :(
+[08:06:28] <zerokarmaleft> the class gets out at 7:20 on mondays, but so far it's ended early
+[08:06:46] <zerokarmaleft> i should at least be able to poke my head
+[08:06:54] <zerokarmaleft> in*
+[08:09:14] <zerokarmaleft> groovecoder: i could do some more research and maybe run a short tooling workshop at the next meeting
+[08:09:56] <groovecoder> zerokarmaleft: yeah that'd be cool. it may also make a good blog post or something. as we start doing multiple topics/talks at each meeting, we'll have to see how much people are torn between them
+[10:42:53] <percent2_> http://weblogs.asp.net/scottgu/archive/2012/06/07/meet-the-new-windows-azure.aspx
+[11:32:15] <percent20_> *sigh* i am downtown now for a few hours. :(
+[11:35:32] <groovecoder> percent20_: dang, Azure looks pretty sweet.
+[11:35:58] <percent20_> groovecoder: they did a good job on the metro themeing.
+[11:36:35] <groovecoder> I more mean the platform features - node.js, php, python
+[11:36:41] <groovecoder> git deployment
+[11:36:45] <groovecoder> integrated with WebMatrix
+[11:36:49] <groovecoder> very nice
+[11:36:58] <percent20_> I shouldn't be surprised ScottGu is amazing at what ever he does. He really knows the pulse of developers
+[11:37:26] <percent20_> groovecoder: yeah you can use Azure as a PaaS or an IaaS or a mix of both.
+[11:40:02] <groovecoder> percent20_ if I can move up to 10 WordPress blogs up there for free I'll be happy :)
+[11:40:14] <groovecoder> though I don't use WebMatrix so I lose some of that niceness
+[11:40:38] <percent20_> I have never been a fan of the webmatrix
+[11:40:47] <percent20_> except back in the .NET 1.0 days
+[11:45:35] <jwhitlock> http://blog.rightscale.com/2012/06/06/rightscale-azure/
+[11:46:12] <jwhitlock> sad that people think PaaS and IaaS don't need explainations
+[11:47:21] <percent20_> wow the azure site is using disqus
+[12:13:29] <Destos> don't let your guard down! remember IE!
+[12:26:33] <percent20_> http://fedscoop.com/is-github-governments-next-big-thing/
+[12:27:18] <percent20_> Doing some .NET code. I forgot how nice the .NET framework is. It is very well organized and layed out, and logical.
+[12:29:18] <zerokarmaleft> percent20_: the standard library?
+[12:29:27] <percent20_> zerokarmaleft: yes
+[12:34:21] <percent20_> groovecoder: ouch that article calls sourceforge a github alternative.
+[12:37:45] <groovecoder> percent20_: it also calls SourceForge "a pioneer of open source repository platforms."
+[12:37:50] <groovecoder> ;)
+[12:37:54] <groovecoder> which is pretty much accurate
+[12:38:48] <percent20_> agreed, but it relegates the importance of sourceforge, imo, to nothingness.
+[12:39:03] <percent20_> that phrasing sucks.
+[13:25:28] <zerokarmaleft> http://www.vooza.com/
+[13:29:14] <percent20> so the question is.. is that a parody or clever marketing.
+[13:56:54] <groovecoder> lulz. I just remembered my clipper ran out of battery last night, so I'm still walking around with only a half-shaved head
+[14:00:13] <percent20> lol
+[14:27:38] <percent20> groovecoder: I have hit a point in writing tests where I need to do some refactoring of common tasks. Any ideas on something I can read that can point me in the right direction?
+[14:34:17] <groovecoder> "refactoring of common tasks" example?
+[14:35:58] <zerokarmaleft> wow, steve yegge's js2-mode implements a complete javascript parser
+[14:42:27] <groovecoder> percent20: you coming to coworking tomorrow? need you to sign TCF stuff
+[14:42:43] <percent20> groovecoder: yes I will be there.
+[14:42:50] <percent20> groovecoder: and yes on the refactoring.
+[14:44:07] <groovecoder> percent20: well, what's an example of a common task you're refactoring?
+[14:45:06] <percent20> basically adding data to the database and haivng a reference to the object.
+[14:45:52] <percent20> some of the objects have like over 10 seperate properties to fill populate. Am not wanting to use fixtures because i can't get them to work half the time.
+[14:48:11] <groovecoder> percent20: I've used _create_some_required_data() methods before
+[14:48:38] <groovecoder> just in your test class, def _create_german_doc(self): blah blah
+[14:48:48] <groovecoder> then in your test, self._create_german_doc()
+[14:48:51] <groovecoder> something like that?
+[14:49:41] <groovecoder> if you want to share it between test classes, you can either stick it in a tests/utils.py module, or you could make a super-class with the method
+[14:49:54] <groovecoder> and use the super-class as either the parent or a mixin
+[14:51:39] <percent20> okay. i'll mess around with that.
+[15:27:15] <percent20> http://www.codeproject.com/Articles/389676/Arduino-and-the-Web-using-NodeJS-and-SerialPort2

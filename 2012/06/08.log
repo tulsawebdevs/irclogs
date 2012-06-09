@@ -1,0 +1,88 @@
+[08:36:15] <keith__> hallo
+[08:39:51] <groovecoder> keith__: yo
+[08:40:04] <keith__> magic
+[08:40:13] <groovecoder> keith__: how's GuRuStu ?
+[08:40:22] <keith__> lovely'
+[08:40:27] <keith__> i enjoy air conditioning
+[08:40:34] <groovecoder> isn't Adam over there? ask him why he's never in IRC. ;)
+[08:40:51] <keith__> he is camping today
+[08:41:14] <keith__> do you know things about wordpress
+[08:42:26] <groovecoder> keith__: a little. but Destos is the resident WordPress expert
+[08:42:35] <groovecoder> also Carlos, Saif, and/or Trisha, but they're never on IRC
+[08:42:44] <keith__> haha ok
+[08:53:09] <Destos> what is this WordPress
+[08:53:12] <Destos> you speak of
+[08:53:21] <keith__> lol
+[08:53:33] <keith__> i can't seem to figure out how to reference images
+[08:53:42] <keith__> from the "images" folder
+[08:53:44] <keith__> in my theme
+[08:54:27] <Destos> just a FYI I used to work at gurustu, so I'm conflicted on whether or not I should help you
+[08:54:44] <Destos> >:D
+[08:54:50] <keith__> lol
+[08:55:26] <Destos> say happy belated b-day to carlos forme
+[08:55:26] <keith__> I'm switching from rails, so I'm ending up smashing my face on every little thing… its super fun
+[08:55:35] <keith__> will do
+[08:55:36] <Destos> yeah… that sounds like fun
+[08:55:51] <keith__> ill go with that word you used
+[08:55:52] <keith__> fun.
+[08:55:55] <Destos> so are you trying to ref them within CSS?
+[08:56:09] <Destos> or insert them into the html
+[08:56:21] <keith__> i was just playing with it using html
+[08:56:28] <keith__> I'm just trying to throw a logo in the header currently
+[08:56:53] <Destos> do if via CSS
+[08:56:54] <keith__> i actually got the background image to show up in the application.scss file
+[08:56:56] <keith__> ok
+[08:57:21] <Destos> the logo should be replacing what is in the header h1 if there is any
+[08:57:30] <Destos> the only images in your hmtl should be related to content
+[08:57:36] <Destos> so posts or pages
+[08:57:37] <keith__> ok
+[08:57:41] <keith__> right that makes sense
+[08:58:17] <Destos> so some advice, don't get personal with stu, he'll treat you better if you aren't chummy. He walks over you less.
+[08:58:36] <keith__> alright
+[08:58:54] <keith__> he seems to be gone most of the time
+[08:59:37] <Destos> lucky
+[09:00:14] <percent20> so install linux on mac os x lion == (damn near impossible || way to long and complicated to be worth it)
+[09:03:16] <groovecoder> percent20: umm ... what? how does one even install "linux on mac os x lion" ?
+[09:03:25] <keith__> voodoo
+[09:03:57] <percent20> well maybe not on, but along side.
+[09:04:11] <percent20> or even supplementary to OS X.
+[09:04:41] <groovecoder> percent20: ah. like Microsoft's "Genuine Software Only"™ crap ?
+[09:04:47] <groovecoder> (afk a bit)
+[09:05:04] <percent20> no more like apple requires you to install Windows 7 only with bootcamp
+[09:05:20] <percent20> then you have to overwrite windows with linux later.
+[09:06:30] <Destos> percent20: there are probably easier ways?
+[09:06:45] <Destos> maybe duck duck go sucks for searching OSX related questions?!?!? :P
+[09:07:03] <percent20> heh have been swaping between it and google.
+[10:46:10] <jgmize> anyone over there at the fab lab have lunch plans? the CA crew is planning on heading down there soon
+[10:48:23] <percent20> groovecoder1: http://www.billboard.com/photos/stylus/501850-nicki-minaj-cover-617-409.jpg
+[10:48:53] <groovecoder> jgmize: Cancun sound good?
+[10:49:25] <jgmize> sounds good to us, we'll just stop on the way to get cash
+[10:49:34] <jgmize> see you soon
+[12:50:51] <percent20> groovecoder: http://static.divbyzero.nl/facepalm/doublefacepalm.jpg
+[13:44:02] <keith__> anyone watching the euros?
+[13:50:31] <groovecoder> keith__: I watched a little of POL v. GRE
+[13:54:33] <keith__> yeah i was at lunch so got to see some of that match
+[13:54:50] <keith__> i think the pk was pretty harsh, it didn't look like he had any chance of scoring after the first touch
+[13:54:55] <keith__> was a really bad touch
+[15:38:39] <percent20> !github
+[15:38:46] <percent20> !github repos
+[15:40:08] <percent20> !github al
+[15:55:28] <percent20> !hello
+[15:57:43] <DJMakeIt> percent20: https://github.com/alaingilbert/Turntable-API
+[16:47:51] <DJMakeIt> !hello
+[16:48:54] <DJMakeIt> !hello
+[16:50:20] <DJMakeIt> !hello
+[16:51:32] <DJMakeIt> !hello
+[16:51:42] <DJMakeIt> !hello
+[16:52:21] <DJMakeIt> !hello
+[16:52:22] <tulsabot_test> こんにちは
+[21:43:28] <DJMakeIt> percent20: I'm liking less and less the idea of trying to push logs to github.
+[21:44:47] <DJMakeIt> it looks like i'd either have to access the git client, or try to interface with the github api.  neither sound fun.
+[22:41:22] <DJMakeIt> !hello
+[22:41:24] <tulsabot_test1> こんにちはDJMakeItお元気ですか。時間は11:41:22 pm
+[22:42:20] <DJMakeIt> !hello
+[22:42:20] <tulsabot_test1> こんにちはDJMakeItお元気ですか。時間は11:42:20 pm
+[22:44:05] <DJMakeIt> !hello
+[22:44:06] <tulsabot_test> こんにちはDJMakeItお元気ですか。時間は4:44:05 am
+[22:47:36] <DJMakeIt> !hello
+[22:47:36] <tulsabot_test> こんにちはDJMakeItお元気ですか。時間は4:47:35 am

@@ -1,0 +1,264 @@
+[00:00:43] <DJMakeIt> so ya, guess i don't need to be worried.
+[00:01:11] <DJMakeIt> i'll talk to you guys tomorrow.
+[00:01:15] <groovecoder> ciao
+[00:21:45] <DJMakeIt> percent20: almost forgot, github webhook.  bet we could use that for commit integration.
+[00:23:09] <percent20> DJMakeIt: definitely.
+[00:23:22] <DJMakeIt> cool. good night.
+[00:25:22] <DJMakeIt> gah, cant stop.  found an irc hook on github.
+[00:25:27] <percent20> this is a fail for privacy :( http://www.neowin.net/news/could-the-w3c-stop-ie-10s-do-not-track-plans
+[00:25:52] <percent20> DJMakeIt: cool. I haven't looked in the github hooks in a long time not sure what all is there anymore.
+[00:27:53] <percent20> groovecoder: ^^
+[00:30:58] <github-twd> [node-ircbot] none pushed 2 new commits to master: http://git.io/Ph9O7w
+[00:30:58] <github-twd> [node-ircbot/master] Added plugins: hello, logging, turntable - Blixa Morgan
+[00:30:58] <github-twd> [node-ircbot/master] forgot moment() in logging for time - Blixa Morgan
+[00:35:28] <DJMakeIt> !dj
+[14:48:52] <DJMakeIt> !hello
+[14:48:52] <tulsabot_test> こんにちはDJMakeItお元気ですか。時間は8:48:51 pm
+[15:25:32] <percent20> Destos: you around?
+[15:26:21] <DJMakeIt> ya
+[15:26:28] <DJMakeIt> Woooo
+[15:26:29] <tulsabot_test> DJ Wooooo refuses to come.
+[15:47:30] <DJMakeIt> percent20: you there?
+[15:47:41] <DJMakeIt> Destos: you needed something?
+[15:48:06] <DJMakeIt> !listen
+[15:48:13] <DJMakeIt> !dj
+[15:56:36] <DJMakeIt> i am testing the logging system on irc
+[15:59:19] <DJMakeIt> i am (again) testing the logging system on irc
+[16:01:18] <DJMakeIt> !listen
+[16:01:25] <DJMakeIt> !dj
+[16:01:59] <DJMakeIt> Finally got logging working with download option.
+[16:02:21] <DJMakeIt> percent20:  logs can be collected with a web service.
+[16:09:00] <DJMakeIt> and logs can be viewed at tulsalogs.jit.su/logs
+[16:09:19] <Destos> canot get!
+[16:09:43] <DJMakeIt> url is /logs/service(irc,tt)/year(12)/month(06)/day(09)/
+[16:09:59] <DJMakeIt> eg. /logs/irc/12/06/09/
+[16:10:28] <DJMakeIt> !dj
+[16:14:06] <DJMakeIt> wow jitsu is throwing error after error on port problems.
+[16:14:41] <DJMakeIt> Destos: try http://tulsalogs.jit.su/logs/irc/12/06/09/
+[16:15:35] <Destos> nify
+[16:15:51] <DJMakeIt> and turntable logs just replace irc with tt
+[16:15:58] <DJMakeIt> eg. http://tulsalogs.jit.su/logs/tt/12/06/09/
+[16:16:20] <DJMakeIt> percent20: you there?
+[16:16:33] <Destos> percent20: I put impact in our shared folder, its still syncing
+[16:30:26] <DJMakeIt> !listen
+[16:32:34] <DJMakeIt> bop
+[16:32:34] <tulsabot_test> The great DJ accepts!
+[16:32:56] <DJMakeIt> 1dj
+[16:32:58] <DJMakeIt> !dj
+[16:33:14] <DJMakeIt> debop
+[16:33:15] <tulsabot_test> The great DJ accepts!
+[16:33:54] <DJMakeIt> i think that fixes everything.  for now.
+[16:37:52] <DJMakeIt> Destos: would you mind trying to kill the webserver?  just abuse test it?
+[16:38:16] <Destos> wit wit? what server we talking about?
+[16:38:49] <DJMakeIt> try to crash the log server with whatever you can.  the one at tulsalogs.jit.su
+[16:39:01] <DJMakeIt> stress and abuse testing/
+[16:39:11] <Destos> yeah I probably can't without some sorta scripts, which I do not have
+[16:47:26] <DJMakeIt> i think im done here
+[16:55:08] <DJMakeIt> !karma?
+[16:55:31] <DJMakeIt> "💩 has 4 awesome points." ??
+[16:55:42] <Destos> lolz
+[16:56:28] <DJMakeIt> percent20: what plugin is next?
+[16:57:14] <DJMakeIt> well the bot didnt like that.
+[18:50:40] <MrMakeIt> !tulsabot_
+[18:50:46] <MrMakeIt> !tulsabot_++
+[18:52:52] <MrMakeIt> !zerokarmaleft++
+[18:55:22] <MrMakeIt> !zerokarmaleft++
+[18:55:57] <MrMakeIt> !zerokarmaleft--
+[19:00:14] <MrMakeIt> !zerokarmaleft--
+[19:00:14] <tulsabot_test> zerokarmaleft has no awsome points. How sad.
+[19:01:00] <MrMakeIt> !zerokarmaleft--
+[19:01:01] <tulsabot_test> zerokarmaleft has no awsome points. How sad.
+[19:01:23] <MrMakeIt> !zerokarmaleft++
+[19:01:23] <tulsabot_test> zerokarmaleft has no awsome points. How sad.
+[19:02:45] <MrMakeIt> !zerokarmaleft++
+[19:02:45] <tulsabot_test> zerokarmaleft has 1awesome points.
+[19:03:16] <MrMakeIt> !zerokarmaleft++
+[19:03:16] <tulsabot_test> zerokarmaleft has 2 awesome points.
+[19:03:24] <MrMakeIt> !zerokarmaleft--
+[19:03:24] <tulsabot_test> zerokarmaleft has 1 awesome points.
+[19:03:31] <MrMakeIt> !zerokarmaleft--
+[19:03:31] <tulsabot_test> zerokarmaleft has no more karma.
+[19:03:58] <MrMakeIt> !danf1_--
+[19:03:58] <tulsabot_test> danf1_ has -1 awesome points.
+[19:04:18] <MrMakeIt> !percent20--
+[19:04:18] <tulsabot_test> percent20 has -1 awesome points.
+[19:04:23] <MrMakeIt> !percent20--
+[19:04:24] <tulsabot_test> percent20 has -2 awesome points.
+[19:04:44] <MrMakeIt> !karma?
+[19:31:32] <MrMakeIt> !karma?
+[19:31:33] <tulsabot_test> undefined has no awsome points. How sad.
+[19:31:33] <tulsabot_test> undefined has no awsome points. How sad.
+[19:32:27] <MrMakeIt> !karma?
+[19:32:27] <tulsabot_test> danf1_ has -1 awesome points.
+[19:32:27] <tulsabot_test> percent20 has -2 awesome points.
+[19:32:54] <MrMakeIt> !karma? percent20
+[19:32:55] <tulsabot_test> percent20 has -2 awesome points.
+[19:33:10] <MrMakeIt> !karma? danf1_
+[19:33:10] <tulsabot_test> danf1_ has -1 awesome points.
+[19:33:19] <MrMakeIt> !danf1--
+[19:33:20] <tulsabot_test> danf1 has -1 awesome points.
+[19:33:28] <MrMakeIt> !danf1++
+[19:33:28] <tulsabot_test> danf1 has no more karma.
+[19:34:05] <MrMakeIt> danf1_++
+[19:34:15] <MrMakeIt> !danf1_++
+[19:34:15] <tulsabot_test> danf1_ has no more karma.
+[19:34:23] <MrMakeIt> !danf1++
+[19:34:23] <tulsabot_test> danf1 has 1 awesome points.
+[19:34:29] <MrMakeIt> !danf1--
+[19:34:29] <tulsabot_test> danf1 has no more karma.
+[19:34:32] <MrMakeIt> !karma?
+[19:34:32] <tulsabot_test> percent20 has -2 awesome points.
+[19:35:35] <MrMakeIt> !karma?
+[19:35:35] <tulsabot_test> percent20 has -2 awesome points.
+[19:35:35] <tulsabot_test> mrmakeit has 1000 awesome points.
+[19:36:44] <MrMakeIt> there. karma plugin done.
+[19:36:58] <MrMakeIt> percent20:  where are you getting weather data?
+[19:52:00] <MrMakeIt> percent20: I can't currently find a weather module for node. if you find/make one i can include it in the plugins.
+[19:52:35] <MrMakeIt> !botsnack
+[19:53:18] <MrMakeIt> !botsnack
+[19:53:18] <tulsabot_test> yum! thank youmrmakeit
+[19:59:10] <MrMakeIt> !mrmakeit++
+[19:59:10] <tulsabot_test> Just keep patting yourself on the back there, sport.
+[19:59:21] <MrMakeIt> !mrmakeit++
+[19:59:21] <tulsabot_test> Just keep patting yourself on the back there, sport.
+[19:59:47] <MrMakeIt> percent20: Hey! i think tulsabot is broken.
+[20:02:06] <MrMakeIt> !mrmakeit++
+[20:02:07] <tulsabot_test> Just keep telling yourself that.
+[20:02:53] <MrMakeIt> !karma?
+[20:03:06] <MrMakeIt> !karma?
+[20:03:24] <MrMakeIt> !mrmakeit++
+[20:03:25] <tulsabot> Just keep telling yourself that.
+[20:03:38] <MrMakeIt> !jwhitlock++
+[20:03:38] <tulsabot> jwhitlock has 1 awesome points.
+[20:03:46] <MrMakeIt> !codelahoma++
+[20:03:47] <tulsabot> codelahoma has 1 awesome points.
+[20:05:12] <MrMakeIt> !sephillips++
+[20:05:13] <tulsabot> sephillips has 1 awesome points.
+[20:05:21] <MrMakeIt> !SeanW122++
+[20:05:21] <tulsabot> seanw122 has 1 awesome points.
+[20:05:30] <MrMakeIt> Shat++
+[20:05:35] <MrMakeIt> !shat++
+[20:05:35] <tulsabot> shat has 1 awesome points.
+[20:05:42] <MrMakeIt> !jsatt++
+[20:05:43] <tulsabot> jsatt has 1 awesome points.
+[20:05:49] <MrMakeIt> !Ziggythehamster++
+[20:05:49] <tulsabot> ziggythehamster has 1 awesome points.
+[20:05:54] <MrMakeIt> !timmorgan++
+[20:05:55] <tulsabot> timmorgan has 1 awesome points.
+[20:06:00] <MrMakeIt> !danf1++
+[20:06:01] <tulsabot> danf1 has 1 awesome points.
+[20:06:06] <MrMakeIt> !mrmakeit++
+[20:06:06] <tulsabot> Just keep telling yourself that.
+[20:06:16] <MrMakeIt> !percent20++
+[20:06:17] <tulsabot> percent20 has 1 awesome points.
+[20:06:30] <MrMakeIt> !zerokarmaleft++
+[20:06:30] <tulsabot> zerokarmaleft has 1 awesome points.
+[20:06:34] <MrMakeIt> !Destos++
+[20:06:35] <tulsabot> destos has 1 awesome points.
+[20:06:43] <MrMakeIt> !codelahoma++
+[20:06:44] <tulsabot> codelahoma has 2 awesome points.
+[20:07:45] <MrMakeIt> !ziggythehamster++
+[20:07:45] <tulsabot> ziggythehamster has 2 awesome points.
+[20:08:42] <MrMakeIt> !karma?
+[20:08:43] <tulsabot> jwhitlock has 1 awesome points.
+[20:08:43] <tulsabot> codelahoma has 2 awesome points.
+[20:08:43] <tulsabot> sephillips has 1 awesome points.
+[20:08:43] <tulsabot> seanw122 has 1 awesome points.
+[20:08:43] <tulsabot> esdev has 1 awesome points.
+[20:08:43] <tulsabot> shat has 1 awesome points.
+[20:08:43] <tulsabot> jsatt has 1 awesome points.
+[20:08:44] <tulsabot> ziggythehamster has 2 awesome points.
+[20:08:44] <tulsabot> timmorgan has 1 awesome points.
+[20:08:45] <tulsabot> danf1 has 1 awesome points.
+[20:08:45] <tulsabot> percent20 has -700 awesome points.
+[20:08:46] <tulsabot> zerokarmaleft has 1 awesome points.
+[20:09:09] <MrMakeIt> anyone see a significant performance difference?
+[20:09:17] <MrMakeIt> :P
+[20:10:49] <MrMakeIt> final log fix.  i think
+[20:11:12] <MrMakeIt> test
+[20:12:12] <MrMakeIt> test for 9 oclock.  does it work?
+[20:12:31] <MrMakeIt> BOOM! YA!
+[20:13:48] <MrMakeIt> logs should be correct tomarrow.
+[20:38:44] <MrMakeIt> hey keith
+[20:39:00] <MrMakeIt> does anyone know what percent20 is doing?
+[20:48:33] <MrMakeIt> Say hello to the new tulsabot!
+[20:48:57] <MrMakeIt> just waiting for the percent20 seal of approval
+[20:49:27] <keith__> what ddi you change
+[20:49:48] <MrMakeIt> it's all node and connected with turntable
+[20:50:03] <MrMakeIt> and uses mongodb instead of files
+[20:50:35] <trisha> Hi guys
+[20:50:42] <trisha> anyone here know php?
+[20:50:49] <MrMakeIt> kinda.
+[20:50:58] <trisha> ah
+[20:51:12] <trisha> im wanting to run a file with an include but not sure if it will work
+[20:51:17] <trisha> its wordpress/bbpress
+[20:51:37] <MrMakeIt> ya, im not that far along
+[20:51:55] <MrMakeIt> ps, sorry for all the extra stuff in the chat. just testing the bot
+[20:51:57] <trisha> it's all good...I'm waiting for a reply over on the bbpress channel
+[20:52:01] <MrMakeIt> !karma?
+[20:52:01] <tulsabot> jwhitlock has 1 awesome points.
+[20:52:01] <tulsabot> codelahoma has 2 awesome points.
+[20:52:01] <tulsabot> esdev has 1 awesome points.
+[20:52:01] <tulsabot> sephillips has 1 awesome points.
+[20:52:01] <tulsabot> seanw122 has 1 awesome points.
+[20:52:01] <tulsabot> shat has 1 awesome points.
+[20:52:02] <tulsabot> jsatt has 1 awesome points.
+[20:52:02] <tulsabot> ziggythehamster has 2 awesome points.
+[20:52:03] <tulsabot> timmorgan has 1 awesome points.
+[20:52:03] <MrMakeIt> !hello
+[20:52:03] <trisha> oh that's cool
+[20:52:03] <tulsabot> danf1 has 1 awesome points.
+[20:52:04] <tulsabot> percent20 has 2 awesome points.
+[20:52:04] <tulsabot> zerokarmaleft has 1 awesome points.
+[20:52:16] <MrMakeIt> !karma?
+[20:52:16] <tulsabot> jwhitlock has 1 awesome points.
+[20:52:16] <tulsabot> codelahoma has 2 awesome points.
+[20:52:16] <tulsabot> sephillips has 1 awesome points.
+[20:52:16] <tulsabot> seanw122 has 1 awesome points.
+[20:52:16] <tulsabot> esdev has 1 awesome points.
+[20:52:17] <tulsabot> shat has 1 awesome points.
+[20:52:17] <tulsabot> jsatt has 1 awesome points.
+[20:52:18] <tulsabot> ziggythehamster has 2 awesome points.
+[20:52:18] <tulsabot> timmorgan has 1 awesome points.
+[20:52:18] <MrMakeIt> !hello
+[20:52:18] <tulsabot> danf1 has 1 awesome points.
+[20:52:19] <tulsabot> percent20 has 2 awesome points.
+[20:52:19] <tulsabot> zerokarmaleft has 1 awesome points.
+[20:52:59] <MrMakeIt> !hello
+[20:52:59] <tulsabot> こんにちはmrmakeitお元気ですか。時間は8:52:59 pm
+[20:53:28] <MrMakeIt> all looks good.
+[20:53:34] <MrMakeIt> !tulsabot++
+[20:53:35] <tulsabot> Are you trying to rip a hole in the space-time continuum?
+[20:53:49] <MrMakeIt> looks like old tulsabot it breaking
+[20:53:55] <MrMakeIt> *is
+[20:54:07] <MrMakeIt> !trisha++
+[20:54:07] <tulsabot> trisha has 1 awesome points.
+[20:54:23] <MrMakeIt> !karma? trisha
+[20:54:24] <tulsabot> trisha has 1 awesome points.
+[20:54:30] <MrMakeIt> !trisha--
+[20:54:30] <tulsabot> trisha has no more karma.
+[20:54:37] <MrMakeIt> !karma? trisha
+[20:54:37] <tulsabot> trisha has no awsome points. How sad.
+[20:54:43] <MrMakeIt> !karma?
+[20:54:43] <tulsabot> jwhitlock has 1 awesome points.
+[20:54:44] <tulsabot> codelahoma has 2 awesome points.
+[20:54:44] <tulsabot> esdev has 1 awesome points.
+[20:54:44] <tulsabot> sephillips has 1 awesome points.
+[20:54:44] <tulsabot> seanw122 has 1 awesome points.
+[20:54:44] <tulsabot> shat has 1 awesome points.
+[20:54:44] <tulsabot> jsatt has 1 awesome points.
+[20:54:45] <tulsabot> ziggythehamster has 2 awesome points.
+[20:54:45] <tulsabot> timmorgan has 1 awesome points.
+[20:54:46] <tulsabot> danf1 has 1 awesome points.
+[20:54:46] <tulsabot> percent20 has 2 awesome points.
+[20:54:47] <tulsabot> zerokarmaleft has 1 awesome points.
+[20:54:47] <tulsabot> destos has 1 awesome points.
+[20:54:51] <trisha> lol that is sad
+[20:54:56] <trisha> my mac is growling
+[20:55:03] <MrMakeIt> !trisha++
+[20:55:03] <tulsabot> trisha has 1 awesome points.
+[20:55:14] <MrMakeIt> complementary awesome points
+[20:55:25] <MrMakeIt> and it will when your nick is mentioned
+[20:56:36] <MrMakeIt> gtg see you guys later
+[22:03:25] <zerokarmaleft> holy crap
+[22:03:31] <zerokarmaleft> test locally, dude

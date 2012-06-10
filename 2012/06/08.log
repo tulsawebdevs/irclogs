@@ -86,3 +86,87 @@
 [22:44:06] <tulsabot_test> こんにちはDJMakeItお元気ですか。時間は4:44:05 am
 [22:47:36] <DJMakeIt> !hello
 [22:47:36] <tulsabot_test> こんにちはDJMakeItお元気ですか。時間は4:47:35 am
+[23:04:48] <DJMakeIt> !hello
+[23:04:49] <tulsabot_test> こんにちはDJMakeItお元気ですか。時間は12:04:48 am
+[23:17:50] <groovecoder> DJMakeIt: https://github.com/ajaxorg/node-github for accessing github api from node ?
+[23:18:21] <DJMakeIt> ya. tried that. but started getting really messy.
+[23:18:37] <DJMakeIt> trying a mongoDB now
+[23:19:07] <DJMakeIt> seems alot easyer
+[23:19:50] <DJMakeIt> and i clearly need to learn to spell.
+[23:20:04] <DJMakeIt> or to not try typing at 12 at night
+[23:21:36] <DJMakeIt> !listen
+[23:21:44] <DJMakeIt> !dj
+[23:21:58] <DJMakeIt> yay cross connection. And logging!
+[23:22:48] <DJMakeIt> think i'll call it a night
+[23:24:04] <percent20> woohoo my password wasn't one of the ones gotten from linked in
+[23:28:17] <DJMakeIt> percent20: would it be a bad idea to move the irc logs to a mongo database?
+[23:28:38] <percent20> DJMakeIt: yes, because they are on github.
+[23:28:49] <percent20> heh I just want them to endup in the github repo
+[23:29:17] <percent20> we could write a cron job on my server to pull from mongodb and submit a log to github
+[23:29:36] <DJMakeIt> maybe.  but why not just host them from the node?
+[23:29:42] <DJMakeIt> *app
+[23:30:06] <percent20> because i want to browse them on github.
+[23:30:30] <DJMakeIt> alright i guess you could do that
+[23:30:49] <DJMakeIt> but i figured since we were moving the karma to mongo
+[23:30:52] <DJMakeIt> ...
+[23:31:05] <percent20> The entire reason for the bot in the first place was to put logs on github.
+[23:31:11] <DJMakeIt> right.
+[23:31:24] <percent20> we can do both that way we can query the mongo db for log entries.
+[23:31:33] <percent20> maybe do some analytics as well on our conversation history.
+[23:31:53] <DJMakeIt> there you go.
+[23:31:58] <DJMakeIt> good idea.
+[23:32:37] <DJMakeIt> i have it currently set up with logs taged with a year, month, day, and the time of the action.
+[23:32:56] <DJMakeIt> so pulling to a log file shouldn't be hard
+[23:33:05] <percent20> okay.
+[23:33:53] <DJMakeIt> also, were you leaving the file open as you wrote to it?
+[23:34:06] <DJMakeIt> or did you close after each write?
+[23:35:05] <percent20> I think I was closing it.
+[23:35:56] <percent20> it automatically closes it when the block ends.
+[23:35:59] <DJMakeIt> k.  sent you a pull request.
+[23:36:48] <DJMakeIt> closing.  alright.
+[23:39:08] <DJMakeIt> now we'll see just how long this last.
+[23:40:23] <percent20> !hello
+[23:40:24] <tulsabot_test> こんにちはpercent20お元気ですか。時間は5:40:23 am
+[23:40:55] <DJMakeIt> i wonder if jitsu is on a different time zone?
+[23:41:19] <DJMakeIt> nvm, it's UTC
+[23:41:20] <percent20> they might be GMT
+[23:41:23] <percent20> or that.
+[23:42:19] <DJMakeIt> remind me to check and see if moment/nodejitsu has an easy way to change time zones
+[23:42:20] <percent20> I'll checkout your code tomorrow and do some testing.
+[23:42:34] <DJMakeIt> k. sound cool. see you later
+[23:42:46] <DJMakeIt> should i leave it running?
+[23:43:36] <percent20> DJMakeIt: yeah leave it running just to see how it does.
+[23:43:56] <DJMakeIt> k.  also what do we do about the db password?
+[23:43:58] <percent20> also moment.js does do timezone with the stringformat.
+[23:44:15] <percent20> that was one of the things I was going to mess with when I did some testing of it tomorrow.
+[23:44:23] <DJMakeIt> k.
+[23:46:03] <DJMakeIt> what's a good e-mail address to reach you at?
+[23:46:21] <DJMakeIt> I'll send you the nodejitsu db stuff.
+[23:46:55] <DJMakeIt> correction: mongolab's
+[23:47:05] <percent20> buddy at buddylindsey dot com
+[23:47:10] <DJMakeIt> got it
+[23:48:31] <groovecoder> DJMakeIt: mongolab? why not mongohq?
+[23:48:45] <groovecoder> mongohq is run by a former Tulsa Web Dev
+[23:49:13] <DJMakeIt> well, cause i hadn't heard of mongohq, and buddy told me about mongolab
+[23:50:15] <DJMakeIt> and i'll probably not use either in the end and just use nodejitsu's db's.
+[23:50:27] <percent20> groovecoder: I use mongolab
+[23:50:46] <groovecoder> DJMakeIt: ok. we have free credit w/ mongohq though if you ever hit the free cap on either nodejitsu or mongolab
+[23:51:01] <DJMakeIt> sound good to me.
+[23:52:12] <DJMakeIt> for testing i don't think we'll hit the 250 mb limit
+[23:52:34] <groovecoder> bah, I can't remember the mongohq username/pw anyway :(
+[23:52:36] <percent20> in production I don't think we'll hit 250 mb limit. That is a LOT of data.
+[23:53:40] <DJMakeIt> idk, the current db is 3kb with just 5 entries.
+[23:55:06] <DJMakeIt> nvm, i cant figure out the statistics on this site.  one says 16mb and one says 7 kb
+[23:55:33] <percent20> yeah. I am curios do they charge for the big one or the actual data
+[23:56:18] <percent20> I have 3003 records hitting 48 meg for the total file size.
+[23:56:24] <percent20> for my twitter images app.
+[23:56:24] <DJMakeIt> all i see is file size 16mb and data 7kb. and how do you get a 16mb file from 7 kb of data?
+[23:56:39] <percent20> not sure. might be indexing and stuff.
+[23:57:11] <DJMakeIt> i read some where about buffers to keep updates nice.
+[23:57:43] <DJMakeIt> still cant see adding 10000x data for either.
+[23:58:26] <percent20> heh. yeah not that worried.
+[23:59:45] <DJMakeIt> *facepalm* "
+[23:59:48] <DJMakeIt>               The first file allocated is 16MB, the second 32MB, the third 64MB ... until 512MB
+[23:59:50] <DJMakeIt>               is reached at which point each subsequent file is 512MB.
+[23:59:52] <DJMakeIt>             "
+[23:59:59] <DJMakeIt> straight from help

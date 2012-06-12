@@ -1,0 +1,83 @@
+[10:53:06] <Destos> 8 minutes guyszzz
+[11:11:47] <DJMakeIt> Destos: yo.
+[11:34:29] <groovecoder> Destos: I assume you meant 8 minutes until the 2nd half of the ENG v. FRA game?
+[11:34:38] <Destos> of course
+[11:34:46] <Destos> ACTION drools over new mac
+[11:35:02] <groovecoder> I must be the only developer in the world who doesn't follow WWDC live
+[11:35:30] <Destos> probably not
+[11:35:51] <groovecoder> Destos: how do you follow? engadget?
+[11:36:04] <Destos> the verge is doing a really good job
+[11:36:09] <Destos> http://live.theverge.com/wwdc-2012-live-blog/
+[11:37:03] <groovecoder> a multi-touch trackpad?! gtfo!
+[11:37:56] <Destos> holy shit right
+[11:38:58] <Destos> it looks like I won't be able to transfer my old SDD easily into the new MBP
+[11:40:46] <Destos> lol they designed the fan to reduce noise, I bet jobs was a part of that design :P
+[11:45:45] <percent20> are there any other big tech conferences going right now?
+[11:51:27] <percent20> with the retina display will I be able to have my 15" mac almost usable resolution I want?
+[12:14:00] <groovecoder> lol @ game center
+[12:14:34] <percent20> did you see the Sarfari in Mountain Lion will have Dot Not Track?
+[12:14:51] <groovecoder> everyone's doing Do Not Track now. even Google
+[12:15:54] <percent20> yeah Microsoft really pushed that way out front and Google and Apple were like uhhhhhhhhhh Me Too.
+[12:16:01] <percent20> I am glad to see it.
+[12:17:47] <percent20> *note to self* stop buying less computer than what you _really_ want.
+[12:20:21] <groovecoder> anyone with sed/regex fu can help with this?
+[12:20:22] <groovecoder> https://gist.github.com/2911473
+[12:20:29] <groovecoder> jgmize: jsatt: jwhitlock: ^ ?
+[12:21:24] <groovecoder> I want to change devmo_url(_('/en/.*')) to just 'docs/$1'
+[12:33:19] <jwhitlock> groovecoder: sorry, I just write regex, I don't read it
+[12:53:18] <Destos> :(
+[12:53:30] <MattGalloway> Why so sad?
+[12:54:21] <groovecoder> Destos: WWDC got you down?
+[12:54:42] <Destos> my Mac keeps crashing…
+[12:54:50] <Destos> its as if it knows
+[12:55:51] <zerokarmaleft> time to get a new MBP
+[12:56:23] <jwhitlock> my MBP has been making 'oh I'm working so hard' noises for a few months now
+[12:57:51] <Destos> its been doing that for a couple years now
+[12:57:53] <MattGalloway> I've been heads down is a project for 4 days which was to culminate in a product demo on the client's iPad at 2pm today. I totally forgot about WWDC...until I couldn't log in to get a provisioning profile because their updating the site with iOS6 Beta. Doh! Bastards.
+[12:58:04] <Destos> and its your fan puttering its last breaths
+[13:01:15] <jwhitlock> It's my fan saying 'Huh, that's a pretty big chunk of lint' 3000 times a minute.  I cleaned it out once, but it takes a hour to disassemble to that point...
+[13:02:06] <groovecoder> MattGalloway: I've deployed a couple of website changes so far today without any troubles. ;)
+[13:02:11] <MattGalloway> That's why I never use my laptop if I'm wearing a sweater.
+[13:02:31] <MattGalloway> groovecoder: touche
+[13:02:44] <MattGalloway> !groovecoder++
+[13:02:44] <tulsabot_node> groovecoder has 1 awesome points.
+[13:03:07] <groovecoder> tulsabot_node: you're not remembering correctly
+[13:03:41] <MattGalloway> Huh? Has the bot gone all Sybil?
+[13:04:00] <zerokarmaleft> the original bot is built on ruby
+[13:04:20] <zerokarmaleft> DJMakeIt hacked up the other one in node, i think, over the last week
+[13:04:35] <zerokarmaleft> hence the *_node nick
+[13:04:50] <zerokarmaleft> and the karma testing spam :P
+[13:19:25] <percent20> the node one is integrated into our turntable.fm as well, and all data is persisted to MongoDB
+[13:21:04] <groovecoder> percent20: so it's web scale
+[13:21:23] <percent20> exactly.
+[13:21:36] <percent20> and its on one of those computers on the internet.
+[13:32:03] <mrmakeit> http://poof.hksr.us/ttafkyby lol!
+[13:34:47] <groovecoder> mrmakeit: what the?
+[13:37:32] <mrmakeit> hackasaurus
+[14:11:26] <groovecoder> mrmakeit_afk: yeah, but what's the hack? replacing everything with google logo?
+[14:18:55] <zerokarmaleft> woot, 5-7 days
+[14:19:13] <groovecoder> 5-7 days?
+[14:19:21] <groovecoder> zerokarmaleft: you order one?
+[14:19:57] <zerokarmaleft> groovecoder: yep
+[14:20:02] <groovecoder> dang
+[14:26:42] <mrmakeit_afk> 5 - 7 for what?
+[14:27:04] <zerokarmaleft> one of the new MBPs
+[14:27:11] <mrmakeit> groovecoder: look a little closer.
+[14:27:32] <mrmakeit> zerokarmaleft: looks nice.  wish i could afford one.
+[14:29:43] <zerokarmaleft> mrmakeit: did you push your node-ircbot to github?
+[14:29:51] <mrmakeit> ya
+[14:30:10] <mrmakeit> still waiting for percent20 to pull it.
+[14:30:12] <zerokarmaleft> oh, it hasn't been merged
+[14:30:22] <mrmakeit> right
+[14:37:41] <zerokarmaleft> mrmakeit: nicely done :D
+[14:37:50] <mrmakeit> thanks
+[14:38:16] <mrmakeit> who's in charge of merging?
+[14:42:52] <zerokarmaleft> percent20 created that repo,
+[14:49:58] <groovecoder> percent20: sounds like Mozilla Webdev wants to put together a quick "How to fix a Mozilla website bug" screencast sometime?
+[14:50:04] <groovecoder> https://wiki.mozilla.org/Contribute/Webdev/Group_06_11_12
+[15:30:34] <DJMakeIt> so i subscribed to receive notice of the apc presale yesterday and this morning they're avalible.  wow.
+[15:37:42] <DJMakeIt> !karma? groovecoder
+[15:37:43] <tulsabot_node> groovecoder has 1 awesome points.
+[17:50:39] <mrmakeit> percent20:  can you merge node-ircbot?
+[17:52:51] <percent20> mrmakeit: yeah.
+[17:53:21] <mrmakeit> thanks

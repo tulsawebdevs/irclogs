@@ -1,0 +1,451 @@
+[07:11:34] <groovecoder> percent20: you there? what date is the node.js thing?
+[08:58:23] <groovecoder> me and tulsabot are rockin' out in turntable
+[08:58:29] <groovecoder> tulsabot_node: botsnack
+[09:16:30] <zerokarmaleft> wow, project name fail: http://gkz.github.com/LiveScript/
+[09:20:10] <groovecoder> zerokarmaleft: why?
+[09:21:07] <zerokarmaleft> JavaScript used to be called LiveScript once
+[09:23:51] <zerokarmaleft> i must be showing my age, knowing that :-/
+[09:48:23] <Destos> totally skipped groovecoder's song :x
+[09:48:28] <groovecoder> np
+[09:55:38] <DJMakeIt>  bop
+[09:55:38] <tulsabot_node> The great DJ accepts!
+[09:57:41] <groovecoder> tulsabot_node: help
+[09:57:49] <groovecoder> tulsabot_node: commands
+[09:58:01] <DJMakeIt> there is no help for you. >:)
+[10:03:10] <Destos> this bot isn't very nice
+[10:03:15] <Destos> bop
+[10:03:15] <tulsabot_node> The great DJ accepts!
+[10:03:28] <Destos> there is to be much bop spam
+[10:03:28] <tulsabot_node> The great DJ accepts!
+[10:03:44] <DJMakeIt> only works once.
+[10:04:04] <groovecoder> what is bop anyway?
+[10:04:04] <tulsabot_node> The great DJ accepts!
+[10:04:50] <groovecoder> hey, we just heard this
+[10:04:55] <DJMakeIt> never could find it.
+[10:04:59] <Destos> it makes the djbot like your song
+[10:05:09] <Destos> debop
+[10:05:09] <tulsabot_node> The great DJ accepts!
+[10:05:14] <DJMakeIt> we know that.  not sure what the origin is.
+[10:05:25] <Destos> oh
+[10:09:13] <groovecoder> I didn't know it made the bot like your song :)
+[10:12:08] <DJMakeIt> bopobop
+[10:12:09] <tulsabot_node> The great DJ accepts!
+[10:13:50] <DJMakeIt> anyone know how to regex for whole words?
+[10:14:22] <DJMakeIt> id like to include debop but i would need to find the whole word with surrounding spaces.
+[10:14:22] <tulsabot_node> The great DJ accepts!
+[10:14:26] <DJMakeIt> see
+[10:17:09] <DJMakeIt> bobobobobopbobobo
+[10:17:09] <tulsabot_node> The great DJ accepts!
+[10:18:15] <groovecoder> wait, did he just say "automatic circumcisers" ?
+[10:18:36] <DJMakeIt> yes
+[10:18:36] <groovecoder> that's worth a vote all by itself
+[10:18:37] <DJMakeIt> yes he did
+[10:20:49] <DJMakeIt> !dj
+[10:21:08] <DJMakeIt> bop
+[10:21:08] <tulsabot_node> The great DJ accepts!
+[10:21:43] <Destos> lol groovecoder yeah weird all trys to slide in a weird thing or two every now and then…
+[10:23:15] <groovecoder> alright, I'm laming. this is too many times
+[10:23:32] <groovecoder> DJMakeIt: the bot is stuck on white & nerdy
+[10:23:54] <DJMakeIt> !listen
+[10:23:59] <DJMakeIt> fixed
+[10:24:29] <DJMakeIt> groovecoder: sorry he has a limited library. need to add more songs with !add?
+[10:26:11] <zerokarmaleft> groovecoder: is firefox going to be retina-display-aware?
+[10:26:37] <groovecoder> zerokarmaleft: no idea.
+[10:26:50] <groovecoder> zerokarmaleft: *I'm* not even retina-display-aware
+[10:27:20] <DJMakeIt> music plugin is ready for tulsabot
+[10:27:21] <zerokarmaleft> kind of curious if font rendering is going to be jacked on everything but safari
+[10:27:48] <groovecoder> zerokarmaleft: wouldn't surprise me. Apple is notorious for doing WTF they want and screwing everyone else
+[10:28:14] <Destos> it appears from articles its jacked in chrome so it probably will be for a while
+[10:30:34] <tulsabot_node> Current song: Sugalumps by Flight Of The Conchords
+[10:30:43] <DJMakeIt> !song
+[10:30:43] <tulsabot_node> Current song: Sugalumps
+[10:31:14] <groovecoder> !zerokarmaleft++
+[10:31:14] <tulsabot_node> zerokarmaleft has 1 awesome points.
+[10:31:35] <groovecoder> tulsabot_node: you're still not remembering correctly
+[10:31:41] <zerokarmaleft> the ladies, they hustle to ruffle my truffle!
+[10:31:45] <groovecoder> after-dinner mints. <3
+[10:32:45] <tulsabot_node> Current song: Don't Panic by Coldplay
+[10:32:56] <DJMakeIt> groovecoder: tulsabot_node has all awesome points reset.  to balance them back out.
+[10:33:11] <DJMakeIt> !karma? percent20
+[10:33:12] <tulsabot_node> percent20 has no awsome points. How sad.
+[10:33:26] <DJMakeIt> point and  case.
+[10:33:48] <zerokarmaleft> percent20 is the guy that ran his own BBS back in the day and cheated at Trade Wars 2002
+[10:33:58] <zerokarmaleft> ACTION shakes fist
+[10:34:52] <DJMakeIt> well whenever hes ready to switch tulsabots i'm ready.
+[10:35:02] <tulsabot_node> Current song: 40 Day Dream by Edward Sharpe & The Magnetic Zeros
+[10:38:49] <DJMakeIt> carlos needs some points.
+[10:38:57] <tulsabot_node> Current song: Sorcerary by Mojo
+[10:43:18] <tulsabot_node> Current song: The Time Of Times by Badly Drawn Boy
+[10:46:34] <tulsabot_node> Current song: A Boy Named Sue by Johnny Cash
+[10:50:33] <tulsabot_node> Current song: Polish Girl by Neon Indian
+[10:50:58] <Destos> bop
+[10:50:58] <groovecoder> is that Carlos?
+[10:50:59] <tulsabot_node> The great DJ accepts!
+[10:51:01] <Destos> yeah
+[10:51:12] <groovecoder> Carlos Moreno? why isn't he on IRC?
+[10:51:13] <Destos> Carlos Angon, diff carlos
+[10:51:27] <Destos> he works are gurustu
+[10:51:31] <Destos> at*
+[10:51:42] <mrmakeit> they are too>
+[10:54:08] <mrmakeit> they 'are' too.
+[10:54:57] <tulsabot_node> Current song: Fifty Kilowatt Tree by The Bobs
+[10:55:21] <tulsabot_node> Current song: Bullet With Butterfly Wings by The Smashing Pumpkins
+[10:55:44] <mrmakeit> WHAT?!
+[10:55:47] <Destos> haha
+[10:55:52] <groovecoder> mrmakeit: lol. xmas song?!
+[10:56:23] <mrmakeit> !destos--
+[10:56:23] <tulsabot_node> destos has -1 awesome points.
+[10:56:27] <mrmakeit> !groovecoder--
+[10:56:27] <tulsabot_node> groovecoder has no more karma.
+[10:56:47] <Destos> someone's being childish
+[10:56:49] <groovecoder> lulz
+[10:57:12] <groovecoder> yeah, IRC karma != turntable points
+[10:57:43] <mrmakeit> i should change that.  but your rignt
+[10:57:47] <mrmakeit> !groovecoder++
+[10:57:47] <tulsabot_node> groovecoder has 1 awesome points.
+[10:58:11] <groovecoder> !Destos++
+[10:58:12] <tulsabot_node> destos has 11 awesome points.
+[10:58:29] <groovecoder> ooo, is tulsabot_node not case-sensitive?
+[10:58:41] <mrmakeit> no he isn't
+[10:58:50] <mrmakeit> |)
+[10:59:02] <mrmakeit> that isnt the right emote.
+[10:59:37] <tulsabot_node> Current song: Loose Ends by Imogen Heap
+[11:00:17] <Destos> it hurts to be down voted :<
+[11:00:35] <Destos> heading out to lunch soon but I'll be back
+[11:00:49] <mrmakeit> !destos++
+[11:00:50] <tulsabot_node> destos has 21 awesome points.
+[11:01:14] <mrmakeit> no downvotes for you.
+[11:01:33] <Destos> yay
+[11:02:53] <mrmakeit> tulsabot_ needs to get with the picture.
+[11:03:16] <tulsabot_node> Current song: Short Skirt\/Long Jacket by Cake
+[11:06:41] <tulsabot_node> Current song: You're A Wolf by Sea Wolf
+[11:10:16] <tulsabot_node> Current song: Renegade by Styx
+[11:16:10] <mrmakeit> noo. where is everyone?
+[11:18:32] <tulsabot_node> Current song: Gimme Shelter by The Rolling Stones
+[11:23:03] <tulsabot_node> Current song: Spontaneous Human Combustion by The Bobs
+[11:24:20] <groovecoder> mrmakeit: we might want to change that to "Recently heard on http://turntable.fm/tulsawebdevs :" and make it only happen every 20-30m ?
+[11:24:58] <groovecoder> so it only pings the channel once or maybe twice an hour
+[11:25:03] <mrmakeit> what about a silence option?  either one works.  or maybe only when a person requests
+[11:25:17] <groovecoder> whichever is easiest first
+[11:25:19] <groovecoder> :)
+[11:26:06] <tulsabot_node> Current song: The Distance by Cake
+[11:26:30] <mrmakeit> well, someone is on a cake run. :P
+[11:29:06] <tulsabot_node> Current song: Square One by Coldplay
+[11:29:44] <groovecoder> mrmakeit: the last one was actually zerokarmaleft ; I just followed his lead
+[11:29:57] <mrmakeit> ah
+[11:33:53] <tulsabot_node> Current song: Jamming by Bob Marley & The Wailers
+[11:37:25] <tulsabot_node> Current song: Sparks by Coldplay
+[11:41:10] <tulsabot_node> Current song: Boulevard Of Broken Dreams by Green Day
+[11:45:55] <tulsabot_node> Current song: American Idiot by Green Day
+[11:48:10] <mrmakeit> there.  fewer pings.
+[11:48:57] <groovecoder> mrmakeit: nice
+[11:49:02] <groovecoder> !mrmakeit++
+[11:49:02] <tulsabot_node> mrmakeit has 1 awesome points.
+[11:49:24] <mrmakeit> should only update every 4 songs.
+[11:49:31] <mrmakeit> bop
+[11:49:32] <tulsabot_node> The great DJ accepts!
+[11:58:44] <mrmakeit> bop
+[11:58:44] <tulsabot_node> The great DJ accepts!
+[12:02:33] <mrmakeit> !song
+[12:02:33] <tulsabot_node> Current song: Robots by Flight Of The Conchords
+[12:02:52] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[12:02:52] <tulsabot_node> Everlong by Foo Fighters
+[12:02:53] <tulsabot_node> Lorelei by Styx
+[12:02:53] <tulsabot_node> Robots by Flight Of The Conchords
+[12:02:53] <tulsabot_node> Blaze Of Glory by Jon Bon Jovi
+[12:04:34] <mrmakeit> !song
+[12:04:34] <tulsabot_node> Current song: undefined by undefined
+[12:04:45] <mrmakeit> :P
+[12:05:47] <mrmakeit> hey Destos
+[12:05:54] <Destos> hey hey hey mrmakeit
+[12:06:06] <mrmakeit> what are you up to?
+[12:06:10] <mrmakeit> !song
+[12:06:10] <tulsabot_node> Current song: undefined by undefined
+[12:06:13] <Destos> slacking off
+[12:06:40] <mrmakeit> :-(|)
+[12:09:12] <mrmakeit> What do you guys thing of "Linux Service Desk" as a company?
+[12:09:21] <mrmakeit> *think
+[12:11:22] <mrmakeit> !song
+[12:11:22] <tulsabot_node> Current song: Tom Sawyer by Rush
+[12:11:42] <mrmakeit> groovecoder: who has topic permissions?
+[12:13:54] <mrmakeit> !song
+[12:13:54] <tulsabot_node> Current song: Blue Collar Man (Long Nights) by Styx
+[12:15:08] <Destos> could be named better
+[12:15:15] <mrmakeit> ?
+[12:16:35] <mrmakeit> !karma?
+[12:16:35] <tulsabot_node> zerokarmaleft has 1 awesome points.
+[12:16:35] <tulsabot_node> destos has 1 awesome points.
+[12:16:35] <tulsabot_node> groovecoder has 1 awesome points.
+[12:16:35] <tulsabot_node> mrmakeit has 1 awesome points.
+[12:20:01] <mrmakeit> Destos: what do you mean?
+[12:21:00] <Destos> its descriptive yes, but it isn't a very brand able name
+[12:21:28] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[12:22:14] <mrmakeit> well...
+[12:23:55] <mrmakeit> some numbers are so finicky.
+[12:24:25] <mrmakeit> Destos: B-)
+[12:24:35] <mrmakeit> that's why it's a joke.
+[12:25:18] <mrmakeit> all workers live by it's acronym.
+[12:29:01] <mrmakeit> !song
+[12:29:01] <tulsabot_node> Current song: Ghosts 'N' Stuff (Nero Remix) (Feat. Rob Swire) by Deadmau5
+[12:35:57] <Destos> !song
+[12:35:57] <tulsabot_node> Current song: be human by Yoko Kanno
+[12:48:05] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[12:48:05] <tulsabot_node> Are You The One? by The Presets
+[12:48:05] <tulsabot_node> Blue (Da Ba Dee)(Dance Mix) by D.J. Disco Dance
+[12:48:05] <tulsabot_node> Dragostea Din Tei (Original Romanian Version) by O-Zone
+[12:48:05] <tulsabot_node> be human by Yoko Kanno
+[12:52:50] <groovecoder> !song
+[12:52:50] <tulsabot_node> Current song: Weapon Of Choice by Fatboy Slim
+[12:54:37] <mrmakeit> you guy's having fun abusing the bot?
+[12:58:02] <mrmakeit> !song
+[12:58:02] <tulsabot_node> Current song: X-Project (100% Pure Mix) by DJ Fresh (Breakbeat Kaos)
+[13:05:43] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:05:43] <tulsabot_node> Harder, Better, Faster, Stronger by Daft Punk
+[13:05:43] <tulsabot_node> Right Here, Right Now by Fatboy Slim
+[13:05:43] <tulsabot_node> X-Project (100% Pure Mix) by DJ Fresh (Breakbeat Kaos)
+[13:05:43] <tulsabot_node> Summer In The City by The Lovin' Spoonful
+[13:07:16] <mrmakeit> bop
+[13:07:16] <tulsabot_node> The great DJ accepts!
+[13:08:01] <mrmakeit> groovecoder: you've almost got a upgrade!
+[13:11:17] <groovecoder> mrmakeit: I'm super-excited!
+[13:11:39] <groovecoder> I should get extra points for this next track - it's a connection by title and by style
+[13:12:29] <mrmakeit> !song
+[13:12:30] <tulsabot_node> Current song: Onyx by Cold Storage
+[13:12:59] <percent20> groovecoder: doesn't look like we are going to be able to do a Node.js training this month. Not enough stuff fell into place. Will try again for later this year. I'll give a Node.js talk next month though.
+[13:20:57] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:20:57] <tulsabot_node> Remind Me by Röyksopp
+[13:20:57] <tulsabot_node> Technologic by Daft Punk
+[13:20:57] <tulsabot_node> Sandstorm (Radio Edit) by Darude
+[13:20:57] <tulsabot_node> Dragostea Din Tei (Original Romanian Version) by O-Zone
+[13:23:38] <Destos> speaking of node.js, I got it up and running on my iPhone
+[13:24:04] <Destos> so it appears I could write a web app that is hosted locally and interacts with the backend via sockets
+[13:24:15] <Destos> :D
+[13:24:52] <zerokarmaleft> Destos: jailbroken?
+[13:25:02] <Destos> yes
+[13:35:47] <groovecoder> percent20: okay :(
+[13:36:27] <groovecoder> Destos: you can just send your HTML, CSS, & JavaScript to any iPhone right?
+[13:37:09] <Destos> from another iPhone hosting the files? probably if they were on the same network
+[13:37:44] <groovecoder> from a url. iOS Safari supports appCache, localStorage, and websockets
+[13:37:55] <groovecoder> what do you need from node?
+[13:39:03] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:39:03] <tulsabot_node> Why by The Beatles
+[13:39:04] <tulsabot_node> Maps by Yeah Yeah Yeahs
+[13:39:04] <tulsabot_node> Jet Age by Ladytron
+[13:39:04] <tulsabot_node> Too Much Time On My Hands by Styx
+[13:39:05] <Destos> Oh, you have the potential to interact with native abilities, vibration, contacts, ect
+[13:46:20] <groovecoder> !bop
+[13:46:21] <tulsabot_node> The great DJ accepts!
+[13:46:24] <groovecoder> heh
+[13:46:41] <groovecoder> Destos: w/ node?
+[13:47:07] <groovecoder> Destos: also, just tell Apple to implement http://www.w3.org/TR/vibration/
+[13:47:32] <groovecoder> and while they're at it, how about all of this stuff: http://arewemobileyet.com/#
+[13:48:23] <groovecoder> navigator.vibrate(1000);
+[13:48:25] <groovecoder> much easier
+[13:55:40] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:55:40] <tulsabot_node> Supermassive Black Hole by Muse
+[13:55:40] <tulsabot_node> Alice by Pogo
+[13:55:40] <tulsabot_node> Everything You Know Is Wrong by 'Weird Al' Yankovic
+[13:55:40] <tulsabot_node> Extreme Ways by Moby
+[14:05:01] <groovecoder> mrmakeit: what's the timeout there? 15m?
+[14:05:27] <groovecoder> !bop
+[14:05:27] <tulsabot_node> The great DJ accepts!
+[14:17:46] <Destos> groovecoder: 1 point till you're at 100!
+[14:19:06] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[14:19:06] <tulsabot_node> flashback memory stick by Origa
+[14:19:06] <tulsabot_node> Derezzed (Remixed By The Glitch Mob) by Daft Punk
+[14:19:06] <tulsabot_node> Jacksonville by Sufjan Stevens
+[14:19:06] <tulsabot_node> Bonus Track: A Jagged Gorgeous Winter (Rock Band 2 Mix) by The Main Drag
+[14:30:14] <groovecoder> !bop
+[14:30:14] <tulsabot_node> The great DJ accepts!
+[14:30:20] <groovecoder> w00t
+[14:30:23] <groovecoder> new avatar!
+[14:30:27] <Destos> demonic!
+[14:38:25] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[14:38:25] <tulsabot_node> Clubbed To Death (The Matrix) by Robert D
+[14:38:26] <tulsabot_node> Parade [パレード] by Susumu Hirasawa
+[14:38:26] <tulsabot_node> Sunday Bloody Sunday by U2
+[14:38:26] <tulsabot_node> particles by workbench
+[14:54:00] <groovecoder> mrmakeit: is tulsabot_node alerting every 4 songs? can we make it just list the last 4 songs every hour?
+[14:54:23] <groovecoder> ooo, or can it record what were the most "awesome" songs of the last hour? ;)
+[14:55:58] <zerokarmaleft> even that would be too spammy
+[14:56:15] <groovecoder> zerokarmaleft: once per hour?
+[14:56:59] <zerokarmaleft> maybe format it as a single message
+[14:57:50] <zerokarmaleft> or just make it queryable
+[14:58:34] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[14:58:34] <tulsabot_node> Dare by Gorillaz
+[14:58:34] <tulsabot_node> Do You Want To by Franz Ferdinand
+[14:58:34] <tulsabot_node> Hold On by Holy Ghost!
+[14:58:34] <tulsabot_node> Wake Up by Rage Against The Machine
+[15:19:36] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[15:19:37] <tulsabot_node> Foreplay\/Long Time by Boston
+[15:19:37] <tulsabot_node> Loose Ends by Imogen Heap
+[15:19:37] <tulsabot_node> Teardrop by Massive Attack
+[15:19:37] <tulsabot_node> be human by Yoko Kanno
+[15:37:53] <mrmakeit> groovecoder: i can set it to hourly instead.  but that will be a little while.  my dev-top is down.
+[15:38:02] <groovecoder> mrmakeit: np
+[15:38:11] <groovecoder> mrmakeit: is there a silence option yet?
+[15:38:12] <mrmakeit> can webdevs look at putting together a TCC android app?
+[15:38:16] <mrmakeit> no
+[15:38:18] <groovecoder> dag
+[15:38:22] <groovecoder> ok
+[15:39:05] <mrmakeit> TCC recently listed a iPhone app, but seem instant that android is not nessecary,  could you get something together for that?
+[15:39:47] <Destos> no one important uses android
+[15:39:56] <Destos> only nerds, and no one cares about nerds
+[15:40:10] <Destos> ( also the vast majority of smart phone buyers )
+[15:44:16] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[15:44:16] <tulsabot_node> Don't Speak (I Came to Make a Bang) by Eagles Of Death Metal
+[15:44:16] <tulsabot_node> Sail by AWOLNATION
+[15:44:16] <tulsabot_node> All Star by Smash Mouth
+[15:44:17] <tulsabot_node> Wanted Dead Or Alive by Bon Jovi
+[15:50:44] <jwhitlock> !tulsabot_node--
+[15:50:44] <tulsabot_node> I wouldn't do that if I were you...
+[15:51:08] <jwhitlock> !tulsabot_--
+[15:51:09] <tulsabot_node> tulsabot_ has -1 awesome points.
+[15:51:17] <jwhitlock> !tulsabot_++
+[15:51:18] <tulsabot_node> tulsabot_ has no more karma.
+[15:51:50] <jwhitlock> ACTION thinking about infinite loops
+[15:51:59] <jwhitlock> !!tulsabot_++
+[15:51:59] <tulsabot_node> !tulsabot_ has 1 awesome points.
+[15:52:08] <jwhitlock> !!tulsabot_++++
+[15:52:08] <tulsabot_node> !tulsabot_++ has 1 awesome points.
+[15:52:09] <tulsabot_node> Just keep telling yourself that.
+[15:52:11] <mrmakeit> stop that.
+[15:52:24] <jwhitlock> !!tulsabot_node++++
+[15:52:24] <tulsabot_node> !tulsabot_node++ has 1 awesome points.
+[15:52:24] <tulsabot_node> Are you trying to rip a hole in the space-time continuum?
+[15:52:39] <mrmakeit> just because it is easy to fix does not mean you should do that.
+[15:52:46] <jwhitlock> !!jwhitlock++++
+[15:52:46] <tulsabot_node> !jwhitlock++ has 1 awesome points.
+[15:52:46] <tulsabot_node> jwhitlock has 1 awesome points.
+[15:53:11] <jwhitlock> !!!jwhitlock++++++
+[15:53:12] <tulsabot_node> !!jwhitlock++++ has 1 awesome points.
+[15:53:12] <tulsabot_node> !jwhitlock++ has 2 awesome points.
+[15:53:12] <tulsabot_node> jwhitlock has 2 awesome points.
+[15:53:44] <jwhitlock> !karma?
+[15:53:44] <tulsabot_node> zerokarmaleft has 1 awesome points.
+[15:53:44] <tulsabot_node> destos has 1 awesome points.
+[15:53:44] <tulsabot_node> groovecoder has 1 awesome points.
+[15:53:44] <tulsabot_node> mrmakeit has 1 awesome points.
+[15:53:44] <tulsabot_node> !tulsabot_ has 1 awesome points.
+[15:53:44] <tulsabot_node> !tulsabot_++ has 1 awesome points.
+[15:53:44] <tulsabot_node> !tulsabot_node++ has 1 awesome points.
+[15:53:45] <tulsabot_node> !jwhitlock++ has 2 awesome points.
+[15:53:45] <tulsabot_node> jwhitlock has -100000 awesome points.
+[15:53:46] <tulsabot_node> !!jwhitlock++++ has 1 awesome points.
+[15:53:46] <tulsabot_node> Are you trying to rip a hole in the space-time continuum?
+[15:53:47] <tulsabot_node> Just keep telling yourself that.
+[15:54:30] <tulsabot_node> jwhitlock has -99998 awesome points.
+[15:54:38] <mrmakeit> groovecoder: can we kick jwhit
+[15:54:42] <mrmakeit> ?
+[15:54:51] <mrmakeit> he's hurting the poor bot.
+[15:55:27] <groovecoder> mrmakeit: I'd sooner kick the bots than kick jwhitlock ;)
+[15:55:56] <jwhitlock> Does the !jwhitlock++ have to be at the front of the line?
+[15:56:01] <jwhitlock> I guess so
+[15:56:03] <mrmakeit> tulsabot_node has a loop protection but tulsabot_ is breaking.
+[15:56:11] <mrmakeit> the protection
+[15:56:26] <groovecoder> mrmakeit: awesome
+[15:56:31] <groovecoder> !jwhitlock++
+[15:56:31] <tulsabot_node> jwhitlock has -99997 awesome points.
+[15:56:45] <mrmakeit> i dont want to keep cleaning it up with each !karma? call
+[15:56:50] <jwhitlock> If I say !!karma?++ everything is broken forever
+[15:57:00] <jwhitlock> like this:
+[15:57:02] <groovecoder> lol
+[15:57:09] <mrmakeit> thanks
+[15:57:15] <groovecoder> I didn't kick him :) he left
+[15:57:19] <mrmakeit> oh
+[15:57:23] <mrmakeit> whew
+[15:58:18] <mrmakeit> jwhitlock: but only if tulsabot_ is here
+[15:58:45] <mrmakeit> where is percent20?
+[16:01:37] <jwhitlock> !karma? jwhitlock
+[16:01:37] <tulsabot_node> jwhitlock has -99997 awesome points.
+[16:01:49] <jwhitlock> !karma? !jwhitlock++
+[16:01:49] <tulsabot_node> !jwhitlock++ has no awsome points. How sad.
+[16:01:49] <tulsabot_node> jwhitlock has -99996 awesome points.
+[16:02:13] <jwhitlock> !!karma? !jwhitlock++++
+[16:02:22] <jwhitlock> !!karma?\ !jwhitlock++++
+[16:02:25] <mrmakeit> B-]
+[16:02:33] <mrmakeit> B-)
+[16:02:36] <jsatt> !!karma?++
+[16:02:36] <tulsabot_node> !karma? has 1 awesome points.
+[16:02:36] <tulsabot_node> has has no awsome points. How sad.
+[16:02:56] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[16:02:56] <tulsabot_node> I will follow you by eLeCtRo
+[16:02:56] <tulsabot_node> I'm A Believer by Smash Mouth
+[16:02:56] <tulsabot_node> Livin' On A Prayer by Bon Jovi
+[16:02:56] <tulsabot_node> The Yeah Yeah Yeah Song by The Flaming Lips
+[16:02:57] <jwhitlock> !!karma?%20!jwhitlock++++
+[16:02:58] <tulsabot_node> !karma?%20!jwhitlock++ has 1 awesome points.
+[16:02:58] <tulsabot_node> %20!jwhitlock++ has no awsome points. How sad.
+[16:02:58] <tulsabot_node> karma?%20!jwhitlock has 1 awesome points.
+[16:03:47] <Destos> ta ta for now
+[16:04:11] <jgmize> !jwhitlock++
+[16:04:12] <tulsabot_node> jwhitlock has -99995 awesome points.
+[16:04:36] <mrmakeit> !karma? jwhitlock
+[16:04:37] <tulsabot_node> jwhitlock has I HATE YOU awesome points.
+[16:04:51] <mrmakeit> !jwhitlock--
+[16:04:51] <tulsabot_node> jwhitlock has NaN awesome points.
+[16:05:00] <mrmakeit> !jwhitlock++
+[16:05:00] <tulsabot_node> jwhitlock has NaN awesome points.
+[16:06:03] <mrmakeit> !karma? jwhitlock
+[16:06:03] <tulsabot_node> jwhitlock has I HATE YOU awesome points.
+[16:06:09] <mrmakeit> groovecoder: ^
+[16:07:17] <groovecoder> heh
+[16:07:43] <mrmakeit> jwhitlock: ^^^
+[16:09:14] <mrmakeit> the beauty that is JS variables
+[16:10:08] <groovecoder> yeah, the best is typeof(NaN) == "number" // true
+[16:10:19] <groovecoder> wtf?
+[16:10:59] <mrmakeit> "number" = number but not A number
+[16:11:25] <groovecoder> NaN is a number type that means "not a number"
+[16:11:31] <groovecoder> javascript rocks so hard
+[16:13:40] <mrmakeit> YA. JS rules!
+[16:15:50] <mrmakeit> there stop jwhitlock's antics
+[16:16:24] <mrmakeit> >:)
+[16:16:47] <mrmakeit> jwhitlock_zzz: Hit me with your best shot.
+[16:17:14] <mrmakeit> !!jwhitlock++++
+[16:17:14] <tulsabot_node> mrmakeit, What do you think your doing?
+[16:17:14] <tulsabot_node> jwhitlock has NaN awesome points.
+[16:18:32] <mrmakeit> !!jwhitlock++++
+[16:18:32] <tulsabot_node> mrmakeit, What do you think your doing?
+[16:18:32] <tulsabot_node> jwhitlock has I HATE YOU1 awesome points.
+[16:19:29] <mrmakeit> !jwhitlock++
+[16:19:30] <tulsabot_node> jwhitlock has I HATE YOU1 awesome points.
+[16:19:37] <mrmakeit> !jwhitlock++
+[16:19:37] <tulsabot_node> jwhitlock has I HATE YOU11 awesome points.
+[16:26:31] <mrmakeit> !jwhitlock++
+[16:26:31] <tulsabot_node> jwhitlock has I HATE YOU1 awesome points.
+[16:27:50] <mrmakeit> !jwhitlock--
+[16:27:50] <tulsabot_node> jwhitlock has I HATE YOU1 awesome points.
+[16:28:01] <mrmakeit> a well
+[16:28:04] <mrmakeit> *ah
+[16:28:22] <mrmakeit> he cant break it now
+[16:29:28] <groovecoder> !bop
+[16:29:28] <tulsabot_node> The great DJ accepts!
+[16:30:14] <mrmakeit> !groovecoder++
+[16:30:14] <tulsabot_node> groovecoder has 2 awesome points.
+[17:07:37] <mrmakeit> tulsabot_node now waits for 2 up votes before adding to the list.  shows list hourly if more than 4 songs are on it.
+[17:08:50] <mrmakeit> gahh!  i Hate UPS
+[17:10:01] <mrmakeit> is it posible for a client to force a cookie to be good forever?
+[17:12:31] <mrmakeit> gtg see ya guys later.
+[17:15:43] <mrmakeit_afk> !song
+[17:15:43] <tulsabot_node> Current song: undefined by undefined
+[17:19:59] <mrmakeit_afk> !song
+[17:19:59] <tulsabot_node> Current song: undefined by undefined
+[17:46:42] <mrmakeit_afk> !song
+[17:46:42] <tulsabot_node> Current song: Around The World by Daft Punk
+[18:17:35] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[19:17:35] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[20:17:36] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[20:55:31] <DJMakeIt> !song
+[20:55:31] <tulsabot_node> Current song: undefined by undefined
+[21:06:04] <percent20> That is why wwdc was yesterday. It was Teched
+[21:17:57] <mrmakeit_afk> hey
+[21:54:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[22:23:48] <mrmakeit> bop
+[22:23:48] <tulsabot_node> The great DJ accepts!
+[22:24:14] <mrmakeit> bop
+[22:24:14] <tulsabot_node> The great DJ accepts!
+[22:54:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[22:54:48] <tulsabot_node> Some Chords by Deadmau5
+[22:54:48] <tulsabot_node> Clint Eastwood by Gorillaz
+[22:54:49] <tulsabot_node> Fluffy's Master Plan for World Domination by Bobs
+[22:54:49] <tulsabot_node> Da Funk by Daft Punk

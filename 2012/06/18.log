@@ -1,0 +1,92 @@
+[00:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[01:39:26] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[02:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[03:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[04:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[05:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[06:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[07:37:57] <zerokarmaleft> morning all
+[07:39:26] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[08:10:32] <groovecoder> percent20: did you see the jenkins/status battle in #mdndev a bit ago?
+[08:11:40] <groovecoder> percent20: it's like tulsabot_ vs. tulsabot_node
+[08:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[08:39:27] <tulsabot_node> Walkin' On The Sun by Smash Mouth
+[09:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[09:39:27] <tulsabot_node> Derezzed (Remixed By The Glitch Mob) by Daft Punk
+[09:39:27] <tulsabot_node> More Than A Feeling by Boston
+[09:39:27] <tulsabot_node> On Melancholy Hill by Gorillaz
+[09:39:27] <tulsabot_node> All Star by Smash Mouth
+[09:39:27] <tulsabot_node> Club Foot by Kasabian
+[09:39:27] <tulsabot_node> Feel Good Inc. by Gorillaz
+[09:39:28] <tulsabot_node> Come Out And Play by The Offspring
+[10:22:37] <MattGalloway> Hey guys, qrimp
+[10:22:59] <MattGalloway> Nevermind.
+[10:31:19] <groovecoder> MattGalloway: heh, what?
+[10:31:23] <groovecoder> MattGalloway: coming tonight?
+[10:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[10:39:27] <tulsabot_node> Block Rockin' Beats by The Chemical Brothers
+[10:39:27] <tulsabot_node> You Give Love A Bad Name by Bon Jovi
+[10:39:27] <tulsabot_node> Intergalactic by Beastie Boys
+[10:39:27] <tulsabot_node> 15 Step by Radiohead
+[10:39:27] <tulsabot_node> Smooth Criminal by Alien Ant Farm
+[10:39:27] <tulsabot_node> Race For The Prize by The Flaming Lips
+[10:39:28] <tulsabot_node> Padrino by Smash Mouth
+[10:39:28] <tulsabot_node> The Distance by Cake
+[10:39:29] <tulsabot_node> Needing\/Getting by OK Go
+[10:39:29] <tulsabot_node> Gold On The Ceiling by The Black Keys
+[10:39:30] <tulsabot_node> Sorcerary by Mojo
+[11:03:01] <MattGalloway> groovecoder: Nope. I'm so underwater is not even funny.
+[11:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[11:39:27] <tulsabot_node> Devil's Dance Floor by Flogging Molly
+[11:39:27] <tulsabot_node> Weapon Of Choice by Fatboy Slim
+[11:39:27] <tulsabot_node> Combat Baby by Metric
+[11:39:27] <tulsabot_node> The Rockafeller Skank by Fatboy Slim
+[11:39:27] <tulsabot_node> Youth Without Youth by Metric
+[11:39:27] <tulsabot_node> Dirty Harry by Gorillaz
+[11:39:28] <tulsabot_node> Bullet With Butterfly Wings by The Smashing Pumpkins
+[11:39:28] <tulsabot_node> Jellybelly by The Smashing Pumpkins
+[11:39:29] <tulsabot_node> Short Skirt\/Long Jacket by Cake
+[12:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[12:39:27] <tulsabot_node> Brand New Colony by The Postal Service
+[12:39:27] <tulsabot_node> Name Of The Game by Crystal Method
+[12:39:27] <tulsabot_node> Song 2 by Blur
+[12:39:27] <tulsabot_node> Too Many Dicks (On The Dancefloor) by Flight Of The Conchords
+[12:39:27] <tulsabot_node> All Star by Smash Mouth
+[12:39:27] <tulsabot_node> Wrong Way by Sublime
+[13:10:26] <groovecoder> !skip
+[13:16:22] <percent20> btw I now know how to do gunicorn+nginx :D
+[13:20:33] <groovecoder> percent20: cool
+[13:25:02] <groovecoder> percent20: hmm .... very close to "lame" this ...
+[13:25:30] <percent20> nah this is a bit of a pick me up after all the slower songs
+[13:25:37] <groovecoder> heh
+[13:26:46] <percent20> groovecoder: in django i have an my slot object and i want to get every entry where that slot has a only a specific group associated with it. How would you do that query?
+[13:29:53] <groovecoder> percent20: is slot:group a M:1 relationship? or a M:M?
+[13:30:13] <percent20> M:1
+[13:30:57] <groovecoder> g = Group.objects.get(pk=1)
+[13:30:57] <groovecoder> slots = Slot.objects.get(group=g)
+[13:30:57] <groovecoder> ?
+[13:32:26] <percent20> hrm. k
+[13:32:45] <percent20> so my assumption should be correct I am just doing something wrong somewhere else.
+[13:34:45] <groovecoder> percent20: try it in django shell?
+[13:35:20] <percent20> ahhh found myproblem, I think. I never actually add a user to a group.
+[13:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:39:27] <tulsabot_node> The Most Beautiful Girl (In The Room) by Flight Of The Conchords
+[13:39:27] <tulsabot_node> Hardware Store by 'Weird Al' Yankovic
+[13:39:27] <tulsabot_node> Feel Good Inc. by Gorillaz
+[13:39:27] <tulsabot_node> Somebody That I Used To Know by Gotye
+[13:39:27] <tulsabot_node> Technologic by Daft Punk
+[13:39:27] <tulsabot_node> Backin Up Song by Walk Off The Earth
+[13:39:28] <tulsabot_node> Party Rock Anthem (Feat. All About Maggie) by Walk Off The Earth
+[13:39:28] <tulsabot_node> Runaway by Bon Jovi
+[14:39:27] <tulsabot_node> Turn Me On (Feat. Nicki Minaj) by David Guetta
+[14:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[14:48:36] <tulsabot_node> The tunes have stopped.
+[15:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[16:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[17:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[18:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[19:13:04] <tulsabot_node> The tunes have stopped.
+[19:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[20:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[21:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[22:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap

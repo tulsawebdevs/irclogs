@@ -1,0 +1,96 @@
+[00:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[01:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[02:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[03:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[04:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[05:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[06:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[07:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[08:27:42] <tulsabot_node> The tunes have stopped.
+[08:28:21] <zerokarmaleft> ok, so there's officially too damn much bon jovi on tulsabot's playlist
+[08:39:27] <tulsabot_node> Sugalumps by Flight Of The Conchords
+[08:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[08:39:27] <tulsabot_node> Sabotage by Beastie Boys
+[08:53:17] <Destos> luv my sugalumps
+[09:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[10:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[11:17:10] <tulsabot_node> The tunes have stopped.
+[11:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[11:39:27] <tulsabot_node> Short Skirt\/Long Jacket by Cake
+[11:39:27] <tulsabot_node> Uninvisible by Medeski, Martin & Wood
+[12:39:27] <tulsabot_node> Hash Pipe by Weezer
+[12:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:39:27] <tulsabot_node> Devil's Dance Floor by Flogging Molly
+[13:39:27] <tulsabot_node> Jellybelly by The Smashing Pumpkins
+[13:39:29] <tulsabot_node> Wake Up by The Arcade Fire
+[13:39:29] <tulsabot_node> The Most Beautiful Girl (In The Room) by Flight Of The Conchords
+[13:39:29] <tulsabot_node> Hardware Store by 'Weird Al' Yankovic
+[13:39:29] <tulsabot_node> A Kiss Is Not A Contract by Flight Of The Conchords
+[14:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[14:39:27] <tulsabot_node> Ladies Of The World by Flight Of The Conchords
+[14:39:27] <tulsabot_node> Sabotage by Beastie Boys
+[14:39:27] <tulsabot_node> Through The Fire And Flames by Dragonforce
+[14:39:27] <tulsabot_node> Drowning (Feat. Laura V) (Avicii Remix) by Armin Van Buuren
+[14:39:28] <tulsabot_node> DOA by Foo Fighters
+[14:39:28] <tulsabot_node> Misty Mountain Hop by Led Zeppelin
+[14:39:29] <tulsabot_node> No One Knows by Queens Of The Stone Age
+[14:39:29] <tulsabot_node> Fuck You by Cee-Lo Green
+[14:39:30] <tulsabot_node> Firestarter by The Prodigy
+[14:39:30] <tulsabot_node> Block Rockin' Beats by The Chemical Brothers
+[14:39:31] <tulsabot_node> 15 Step by Radiohead
+[14:39:31] <tulsabot_node> Race For The Prize by The Flaming Lips
+[14:39:32] <tulsabot_node> Needing\/Getting by OK Go
+[14:40:01] <groovecoder> hey all, sorry I didn't get to broadcast my OKC.js talk today :(
+[14:40:26] <groovecoder> I was running out of time even putting it all together so I never asked them to set up the ustream. :( I'll make a screencast out of it
+[14:43:09] <zerokarmaleft> groovecoder: what was the title of the talk?
+[14:43:24] <groovecoder> zerokarmaleft: http://okcjs.com/blog/2012/06/18/meeting-june-19-final-fox-the-future-of-the-web/
+[14:47:51] <zerokarmaleft> a talk like that needs to last at least 120 hours and have a built-in trading card game
+[14:48:41] <groovecoder> zerokarmaleft: good point
+[15:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[15:39:27] <tulsabot_node> Gold On The Ceiling by The Black Keys
+[15:39:27] <tulsabot_node> Devil's Dance Floor by Flogging Molly
+[15:39:27] <tulsabot_node> Combat Baby by Metric
+[15:39:27] <tulsabot_node> Youth Without Youth by Metric
+[15:39:28] <tulsabot_node> Jellybelly by The Smashing Pumpkins
+[15:39:28] <tulsabot_node> You Are A Tourist by Death Cab For Cutie
+[15:39:29] <tulsabot_node> Wtf? by OK Go
+[15:39:29] <tulsabot_node> Brand New Colony by The Postal Service
+[15:39:30] <tulsabot_node> Wake Up by The Arcade Fire
+[15:39:30] <tulsabot_node> Song 2 by Blur
+[16:36:55] <tulsabot_node> The tunes have stopped.
+[16:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[16:48:24] <percent20> groovecoder: did Mozilla do their own custom game engine for browserquest or did they use another one?
+[16:54:37] <groovecoder> percent20: made their own, but I think a lot of it is now part of gladius and/or paladin?
+[16:56:16] <percent20> groovecoder: okay. I was looking at gladius and it seems to just be a 3d engine
+[16:56:48] <groovecoder> percent20: maybe ... check https://wiki.mozilla.org/Paladin to see if the 2d part has been "liberated"
+[16:57:38] <groovecoder> percent20: https://wiki.mozilla.org/Platform/AreWeFunYet#High-level_2D_Graphics
+[17:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[17:40:29] <percent20> groovecoder: I setup alfred, my launcher, to let me search django documentation via the launcher so it opens up a browser and does a search.
+[18:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[19:34:23] <PhatBoyG> Weanus
+[19:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[19:43:43] <PhatBoyG> WHA
+[19:43:47] <PhatBoyG> UP
+[19:45:14] <percent20> not a lot just doing some coding
+[19:45:15] <percent20> you?
+[19:47:36] <PhatBoyG> turntabling
+[19:47:41] <PhatBoyG> watching the game
+[19:49:28] <percent20> cool.
+[19:49:42] <percent20> I am at coffee shop so I can't really listen :(
+[19:50:22] <PhatBoyG> oh of sho
+[19:52:54] <Destos> chris is secret gangsta
+[19:54:33] <PhatBoyG> for real
+[19:54:40] <PhatBoyG> I roll like that
+[19:54:43] <PhatBoyG> 20 deep
+[20:20:47] <groovecoder> percent20: http://algeri-wong.com/yishan/great-unsolved-problems-in-computer-science.html
+[20:28:38] <percent20> groovecoder: I can stop after the second line :D someone agrees with me
+[20:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[20:42:07] <percent20> groovecoder: where did you dig that up?
+[20:42:22] <groovecoder> percent20: ashort linked it in #webdev
+[20:43:15] <percent20> hahaha I am glad to see I am not insane, and that smarter people than me agree.
+[21:19:35] <tulsabot_node> The tunes have stopped.
+[21:30:01] <zerokarmaleft> percent20, groovecoder: joda-time.
+[21:30:47] <zerokarmaleft> curious what gcal uses under the surface
+[21:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[22:39:27] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap

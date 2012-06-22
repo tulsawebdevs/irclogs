@@ -1,0 +1,91 @@
+[00:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[01:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[02:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[03:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[04:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[05:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[06:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[07:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[08:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[09:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[10:00:25] <tulsabot_node> The tunes have stopped.
+[10:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[11:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[12:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[12:35:17] <tulsabot_node> Misty Mountain Hop by Led Zeppelin
+[12:35:17] <tulsabot_node> Fuck You by Cee-Lo Green
+[12:35:17] <tulsabot_node> Block Rockin' Beats by The Chemical Brothers
+[12:47:32] <percent20> groovecoder: you around?
+[12:47:58] <groovecoder> yup
+[12:48:10] <groovecoder> and I'll actually *stay* around, though you might have to groovecoder: ping me again ;)
+[12:48:20] <percent20> okay.
+[12:48:37] <percent20> groovecoder: was curios the mozilla webdev meeting next monday are you going to be participating in that?
+[12:49:25] <groovecoder> percent20: I guess? but it's not on my cal
+[12:50:23] <percent20> groovecoder: https://wiki.mozilla.org/Contribute/Webdev/Group_06_25_12 <- that one where I am supposed to be involved.
+[12:50:40] <groovecoder> ah, webdev stewards meeting, yeah
+[12:50:58] <groovecoder> you may have to remind me on Monday though :)
+[12:51:03] <percent20> groovecoder: is that a vidyo meeting?
+[12:51:10] <groovecoder> yeah
+[12:51:15] <groovecoder> it will have guest access
+[12:51:21] <percent20> ah okay.
+[12:51:22] <groovecoder> but you'll want to d/l vidyo
+[12:51:43] <percent20> okay.
+[12:52:19] <percent20> just wanted to check if I needed to get vidyo or if we needed to get together so I could joni.
+[12:52:21] <percent20> join*
+[13:09:12] <percent20> reverse url look up is just awesome.
+[13:25:30] <tulsabot_node> The tunes have stopped.
+[13:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:35:17] <tulsabot_node> Gold On The Ceiling by The Black Keys
+[13:35:17] <tulsabot_node> Bodies by Drowning Pool
+[13:35:17] <tulsabot_node> Devil's Dance Floor by Flogging Molly
+[13:35:17] <tulsabot_node> Code Monkey by Jonathan Coulton
+[13:35:17] <tulsabot_node> Youth Without Youth by Metric
+[13:35:17] <tulsabot_node> Somebody That I Used To Know by Gotye
+[13:35:18] <tulsabot_node> You Are A Tourist by Death Cab For Cutie
+[13:35:18] <tulsabot_node> Don't Trust Me by 3OH!3
+[13:41:53] <groovecoder> is it weird that when I'm feeling introverted I even avoid turntable.fm ?
+[13:43:58] <percent20> groovecoder: I do too.
+[13:44:09] <percent20> or when I don't have time to pay attention to my play list
+[13:44:30] <percent20> like right now I am installing jenkins on my netbook so i can have a ci-server
+[14:10:07] <zerokarmaleft> point farming works well as a solitary activity :P
+[14:27:20] <percent20> agreed.
+[14:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[14:35:17] <tulsabot_node> Brand New Colony by The Postal Service
+[14:35:17] <tulsabot_node> The Most Beautiful Girl (In The Room) by Flight Of The Conchords
+[14:35:17] <tulsabot_node> Conquest by The White Stripes
+[14:35:17] <tulsabot_node> Sabotage by Beastie Boys
+[14:35:17] <tulsabot_node> Short Skirt\/Long Jacket by Cake
+[14:35:17] <tulsabot_node> Uninvisible by Medeski, Martin & Wood
+[14:35:18] <tulsabot_node> Hash Pipe by Weezer
+[14:35:18] <tulsabot_node> DOA by Foo Fighters
+[14:35:19] <tulsabot_node> California Love by 2Pac
+[14:35:19] <tulsabot_node> The Seed (2.0) (Album Version (Explicit)) by The Roots
+[14:36:32] <zerokarmaleft> turntable's main interface shows i have 299 pts, iOS app shows i have 300 pts, choose avatar screen shows i have 297
+[14:37:03] <zerokarmaleft> hooray for consistency
+[14:48:35] <tulsabot_node> The tunes have stopped.
+[15:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[15:35:18] <tulsabot_node> No One Knows by Queens Of The Stone Age
+[15:35:18] <tulsabot_node> Misty Mountain Hop by Led Zeppelin
+[15:35:18] <tulsabot_node> Fuck You by Cee-Lo Green
+[15:35:18] <tulsabot_node> Firestarter by The Prodigy
+[15:52:22] <groovecoder> that looks like zerokarmaleft and tulsabot_ playlist :)
+[15:52:50] <groovecoder> zerokarmaleft: $10 says it's using mongodb. it's great for writes. reads - not as great
+[15:53:33] <groovecoder> lulz. I called it: http://www.10gen.com/presentations/nymug-2011-turntablefm-mongo-gotchas
+[15:54:27] <grooveabuser> !groovecoder++
+[15:54:28] <tulsabot_node> groovecoder Can not receive karma. reason: Nirvana
+[15:54:37] <grooveabuser> !groovecoder++
+[15:54:37] <tulsabot_node> groovecoder Can not receive karma. reason: Nirvana
+[16:20:17] <zerokarmaleft> groovecoder: haha
+[16:22:30] <zerokarmaleft> groovecoder: i wonder how they handle caching
+[16:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[17:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[18:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[19:26:48] <groovecoder> hey cliffpaulick_
+[19:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[19:52:36] <tulsabot_node> The tunes have stopped.
+[20:00:56] <cliffpaulick_> hi
+[20:04:24] <cliffpaulick_> bye
+[20:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[20:35:17] <tulsabot_node> California Gurls (Feat. Snoop Dogg) by Katy Perry
+[21:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[22:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap

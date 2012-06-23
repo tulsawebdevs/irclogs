@@ -1,0 +1,143 @@
+[00:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[01:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[02:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[03:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[04:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[05:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[06:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[07:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[08:34:29] <jwhitlock> I'm much happier with #tulsawebdevs after settings /ignore tulsabot_
+[08:34:50] <jwhitlock> But, I don't know how to unignore, so I can't screw with them anymore :(
+[08:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[08:35:20] <Destos> so sad
+[08:35:29] <zerokarmaleft> jwhitlock: indeed
+[08:37:09] <jwhitlock> ah  - '/ignore' opens ignore list.  LimeChat hides it in the Server Properties
+[08:38:28] <zerokarmaleft> i guess i could submit a patch to make it less annoying
+[08:46:25] <jwhitlock> There are a lot of options - I can ignore by content of message for instance
+[08:47:17] <jwhitlock> I think the bot is OK for the folks that want the info, and the rest can ignore or /ignore
+[08:49:02] <Destos> doing it up if anyone wants to join
+[08:49:12] <Destos> DJing*
+[09:35:19] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[09:35:19] <tulsabot_node> Moar Ghosts N Stuff by Deadmau5
+[09:35:19] <tulsabot_node> Sour Times by Portishead
+[09:35:19] <tulsabot_node> flashback memory stick by Origa
+[10:33:35] <groovecoder> jsatt: lunching?
+[10:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[10:42:25] <groovecoder> !skip
+[10:43:20] <groovecoder> !listen
+[10:52:49] <Destos> looks like not groovecoder :(
+[10:52:56] <groovecoder> huh?
+[10:53:00] <groovecoder> oh, no lunch?
+[10:53:01] <Destos> lunch
+[11:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[11:35:17] <tulsabot_node> A\/B Machines by Sleigh Bells
+[11:35:17] <tulsabot_node> Sugalumps by Flight Of The Conchords
+[11:35:17] <tulsabot_node> be human by Yoko Kanno
+[11:35:17] <tulsabot_node> Head Over Heels by Tears For Fears
+[11:35:17] <tulsabot_node> New Sensation by INXS
+[11:35:18] <tulsabot_node> Loose Ends by Imogen Heap
+[11:35:18] <tulsabot_node> Wake Me Up When September Ends by Green Day
+[11:35:18] <tulsabot_node> 68 State by Gorillaz
+[11:35:19] <tulsabot_node> Gimme Shelter by The Rolling Stones
+[11:57:03] <percent20> *sigh* not sure I am liking linux
+[12:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[12:35:17] <tulsabot_node> Bonus Track: A Jagged Gorgeous Winter (Rock Band 2 Mix) by The Main Drag
+[12:35:17] <tulsabot_node> Are You The One? by The Presets
+[12:35:17] <tulsabot_node> Behind Blue Eyes by The Who
+[12:35:17] <tulsabot_node> Somebody That I Used To Know by Gotye
+[12:47:01] <percent20> I saw groovecoder head moving on that song
+[12:47:04] <percent20> he likes it
+[13:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:35:17] <tulsabot_node> Firework by Katy Perry
+[13:35:17] <tulsabot_node> On The Sly by Metric
+[13:35:17] <tulsabot_node> Animus Vox by The Glitch Mob
+[13:35:17] <tulsabot_node> Remind Me by Röyksopp
+[13:35:17] <tulsabot_node> On Her Majesty's Secret Service by Propellerheads
+[13:35:17] <tulsabot_node> Around The World by Daft Punk
+[13:35:18] <tulsabot_node> Brooklyn Is Burning by Head Automatica
+[13:35:19] <tulsabot_node> Boten Anna (Radio Edit) by Basshunter
+[13:35:19] <tulsabot_node> Youth Without Youth by Metric
+[13:35:19] <tulsabot_node> Meet In The Middle by Diamond Rio
+[13:35:20] <tulsabot_node> Walkin' On The Sun by Smash Mouth
+[13:57:59] <groovecoder> zerokarmaleft: I have a big data html5 project for you
+[14:18:21] <zerokarmaleft> groovecoder: eh?
+[14:18:34] <groovecoder> zerokarmaleft: it's on the whiteboard here at fab lab
+[14:18:40] <groovecoder> w/ percent20 and I
+[14:18:45] <zerokarmaleft> heh
+[14:19:12] <zerokarmaleft> put a DNE at the bottom and i might be able to get there on monday :P
+[14:19:24] <zerokarmaleft> send me a picture, i guess?
+[14:19:31] <groovecoder> zerokarmaleft: you have to sign an NDA :)
+[14:20:19] <zerokarmaleft> ah, future ridiculously overvalued IPO at stake eh? :D
+[14:21:21] <groovecoder> zerokarmaleft: it's not that complex. build a better data-powered caniuse.com 1. stand up a graphite + statsd server at something like willitwork.com 2. add code to modernizr to post user-agent/feature:1|0 to the server 3. create tables of user-agent/feature support data
+[14:22:28] <jwhitlock> percent20: you are making me question my 'always upvote on tulsawebdevs turntable' strategy
+[14:22:54] <percent20> hahaha what don't you like about this? its awesome.
+[14:24:08] <groovecoder> jwhitlock++
+[14:24:14] <groovecoder> !jwhitlock++
+[14:24:14] <tulsabot_node> jwhitlock has -11 awesome points.
+[14:27:25] <zerokarmaleft> groovecoder: when do you gather data for a specific browser instance?
+[14:28:50] <percent20> garrrr linux is driving me nuts as I adjust to it.
+[14:29:03] <groovecoder> zerokarmaleft: you/we add code to modernizr when it does its if (Modernizr.canvas) check
+[14:29:34] <zerokarmaleft> no i get that, what's the user story
+[14:30:15] <zerokarmaleft> they visit willitwork.com and modernizr digs for features and appends to the dataset?
+[14:32:03] <percent20> it keeps the site more up-to-date on working "stuff" in browsers instead of digging through dev docs.
+[14:32:27] <percent20> zerokarmaleft, as my understanding yes.
+[14:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[14:35:17] <tulsabot_node> Gabriel by Lamb
+[14:35:17] <tulsabot_node> Robots by Flight Of The Conchords
+[14:35:17] <tulsabot_node> Passion by Utada
+[14:35:17] <tulsabot_node> Burning Down The House by Talking Heads
+[14:35:17] <tulsabot_node> More Than A Feeling by Boston
+[14:35:17] <tulsabot_node> Rapture by iiO
+[14:35:18] <tulsabot_node> Disco Science by Mirwais
+[14:35:18] <tulsabot_node> Brick House by The Commodores
+[14:35:19] <tulsabot_node> Sailor Song by Regina Spektor
+[14:35:20] <tulsabot_node> All Star by Smash Mouth
+[14:35:20] <tulsabot_node> The Twist by Metric
+[14:38:46] <jwhitlock> percent20: should there be a rating limit today?  I don't want to play any R stuff if there are kids at FabLab
+[14:40:24] <jwhitlock> groovecoder?
+[14:40:40] <groovecoder> jwhitlock: you're good
+[14:40:53] <jwhitlock> c
+[14:41:09] <jwhitlock> (that was for ipdb, not irc)
+[14:42:29] <zerokarmaleft> groovecoder, percent20: i've got a situation that's escalating to put it lightly
+[14:42:38] <groovecoder> zerokarmaleft: heh okay
+[14:42:39] <zerokarmaleft> maybe we can meet over lunch or something next week
+[14:43:07] <groovecoder> zerokarmaleft: like Friday next week? :)
+[14:43:20] <percent20> jwhitlock, there are no kids here atm.
+[14:44:05] <zerokarmaleft> fridays are volatile, unfortunately, or i'd try to be at coworking every once in awhile
+[14:46:49] <groovecoder> jwhitlock: I'll follow your r-rated song lead
+[14:47:20] <percent20> watashimo
+[15:02:37] <groovecoder> Destos: zzzzz
+[15:02:48] <Destos> pshawww
+[15:02:52] <Destos> goat chill out sometimes
+[15:03:43] <jwhitlock> !percent20--
+[15:03:44] <tulsabot_node> percent20 has null awesome points.
+[15:04:22] <groovecoder> jwhitlock: I like that you did "awesome" in turntable but did -- in here
+[15:35:17] <tulsabot_node> DotA (Radio Edit) by Basshunter
+[15:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[15:35:17] <tulsabot_node> sunflower by workbench
+[15:35:17] <tulsabot_node> Code Monkey by Jonathan Coulton
+[15:35:17] <tulsabot_node> Sexy M.F. by Prince
+[15:35:17] <tulsabot_node> First of May by Jonathan Coulton
+[15:35:17] <tulsabot_node> Good Grief by Urban Dance Squad
+[15:35:18] <tulsabot_node> The Neden Game by Insane Clown Posse
+[15:35:18] <tulsabot_node> Turning Japanese by The Vapors
+[15:35:19] <tulsabot_node> Jamming by Bob Marley & The Wailers
+[15:35:19] <tulsabot_node> This Place Is A Prison by The Postal Service
+[15:35:20] <tulsabot_node> Dare by Gorillaz
+[16:19:51] <tulsabot_node> The tunes have stopped.
+[16:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[16:35:17] <tulsabot_node> Halcyon And On And On (Live) by Orbital
+[16:35:17] <tulsabot_node> You Spin Me Right Round (Like A Record) 2009 by Dead Or Alive
+[16:35:17] <tulsabot_node> Bodies by Drowning Pool
+[16:35:17] <tulsabot_node> Jacksonville by Sufjan Stevens
+[16:35:17] <tulsabot_node> Tik Tok by Ke$ha
+[16:35:17] <tulsabot_node> After In The Dark \/ Voices \/ Alone In Kyoto (Yoko Kanno \/ Air) by Paul Rahme
+[16:35:18] <tulsabot_node> Last Friday Night (T.G.I.F.) by Katy Perry
+[16:38:24] <tulsabot_node> The tunes have stopped.
+[17:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[18:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[19:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[20:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[21:16:01] <tulsabot_node> The tunes have stopped.
+[21:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[22:35:17] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap

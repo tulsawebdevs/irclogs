@@ -1,0 +1,219 @@
+[00:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[00:45:51] <tulsabot_node1> Your http://turntable.fm/tulsawebdevs recap
+[01:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[01:45:51] <tulsabot_node1> Your http://turntable.fm/tulsawebdevs recap
+[02:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[02:45:51] <tulsabot_node1> Your http://turntable.fm/tulsawebdevs recap
+[03:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[03:45:51] <tulsabot_node1> Your http://turntable.fm/tulsawebdevs recap
+[04:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[04:45:51] <tulsabot_node1> Your http://turntable.fm/tulsawebdevs recap
+[05:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[05:45:51] <tulsabot_node1> Your http://turntable.fm/tulsawebdevs recap
+[06:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[06:45:51] <tulsabot_node1> Your http://turntable.fm/tulsawebdevs recap
+[07:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[07:20:09] <groovecoder> jwhitlock_zzz: wow
+[07:24:02] <groovecoder> jwhitlock_zzz: you see Harold's latest?
+[07:26:11] <zerokarmaleft> morning all
+[07:29:41] <groovecoder> morning!
+[07:40:47] <zerokarmaleft> holy crap, Strata Conf is freakin expensive
+[07:41:49] <groovecoder> :%s/Strata Conf/Conf/g
+[07:45:51] <tulsabot_node1> Your http://turntable.fm/tulsawebdevs recap
+[07:57:43] <andmakeit> I'm begining to question the stability of nodejitsu.
+[07:58:06] <groovecoder1> andmakeit: have you tried node on heroku?
+[07:58:45] <andmakeit> I'm going to as soon as I can set it up and close nodejitsu
+[07:59:25] <andmakeit> My concern was web sockets.  The playlist page uses them.
+[08:05:32] <andmakeit> Destos: good morning.
+[08:05:43] <Destos> mornin
+[08:10:21] <andmakeit> Destos: have you had a lot of trouble with nodejitsu instances hanging?
+[08:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[08:16:10] <Destos> andmakeit: not sure, I don't watch them like a hawk and only have run potential running
+[08:16:25] <Destos> http://tulsa-agenda.jit.su/agenda.json
+[08:16:35] <andmakeit> Ah
+[08:17:22] <andmakeit> Well this is the third time I've had to ask them to kill it
+[08:18:50] <groovecoder1> andmakeit: you have to ask them to kill it? that's a problem
+[09:12:31] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[09:15:54] <groovecoder1> was anyone wanting to go to OKC for WordPress meetup this afternoon/evening? I'm leave at 2pm
+[09:16:11] <groovecoder1> percent20: I'm going to barely make it for the webdev contributor stewards meeting :)
+[09:26:20] <andmakeit> Groovecoder: the instances keep freezing when I restart it.
+[09:26:58] <andmakeit> Groovecoder1: ^
+[09:27:26] <groovecoder> andmakeit: yeah that sucks
+[09:28:09] <andmakeit> Ya.  As soon as they kill it, I'm going to try heroku
+[09:48:02] <zerokarmaleft> heh, TDD in clojure with lazy, infinite sequences leads to some fun test failures
+[09:49:00] <danf1> This is beautiful: http://www.infopackets.com/news/business/microsoft/2012/20120619_use_internet_explorer_7_pay_extra_retailer.htm
+[09:49:04] <zerokarmaleft> i've blown the stack *and* the heap on the same test
+[10:00:53] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[11:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[11:00:48] <tulsabot_node> A City In Florida by Deadmau5
+[11:00:48] <tulsabot_node> New Math by Tom Lehrer
+[11:00:48] <tulsabot_node> All Star by Smash Mouth
+[11:00:48] <tulsabot_node> Minecraft: The Song by Bobby Yarsulik
+[11:00:49] <tulsabot_node> Dragostea Din Tei (Original Romanian Version) by O-Zone
+[11:00:49] <tulsabot_node> Walkin' On The Sun by Smash Mouth
+[11:58:50] <percent20> groovecoder, okay. I'll be there. Is it at 3:30 our time or 4:30 our time?
+[11:58:59] <groovecoder> 3:30 our time
+[11:59:19] <percent20> okay. so 2.5 hours.
+[12:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[12:00:48] <tulsabot_node> Technologic by Daft Punk
+[12:00:48] <tulsabot_node> Java Life by Java Life
+[12:00:48] <tulsabot_node> Padrino by Smash Mouth
+[12:00:48] <tulsabot_node> Sail by AWOLNATION
+[12:00:49] <tulsabot_node> Little Bad Girl (Feat. Taio Cruz & Ludacris) by David Guetta
+[12:00:49] <tulsabot_node> Why by The Beatles
+[12:00:50] <tulsabot_node> Harder, Better, Faster, Stronger by Daft Punk
+[12:00:50] <tulsabot_node> Dare by Gorillaz
+[12:00:51] <tulsabot_node> Da Funk by Daft Punk
+[12:00:53] <percent20> groovecoder, oh, linux on my mac still works with external monitor with lid closed, and bluetooth keyboard and mouse right out of the box.
+[12:02:11] <zerokarmaleft> groovecoder: are any of your vagrant setups clustered?
+[12:03:28] <groovecoder> zerokarmaleft: not that I know. vagrant is a dev tool, not a deployment tool
+[12:03:41] <groovecoder> @ mozilla I mean
+[12:05:02] <zerokarmaleft> there's support for multi-vm environments
+[12:05:07] <groovecoder> percent20: this afternoon can you help me test my vidyo room sharing & recording ?
+[12:05:40] <percent20> groovecoder, sure when would be a good time to do that? I can help in about an hour.
+[12:06:13] <groovecoder> percent20: I'll be traveling 2pm-3:30pm
+[12:06:13] <zerokarmaleft> groovecoder: at some point, i'm going to work on setting up a minimal hadoop cluster consisting entirely of VMs
+[12:06:30] <groovecoder> zerokarmaleft: just as an experiment? :)
+[12:06:38] <percent20> groovecoder, oh. are you wanting to do it before or after the meeting?
+[12:06:51] <groovecoder> percent20: we can do it after. it's for tonight's WP meeting
+[12:06:53] <zerokarmaleft> groovecoder: to simulate nodes crashing, etc.
+[12:07:00] <groovecoder> zerokarmaleft: ah, cool
+[12:07:03] <groovecoder> zerokarmaleft: good idea
+[12:07:03] <percent20> groovecoder, ah okay.
+[12:08:09] <zerokarmaleft> also, REPL access to a cluster behaves differently than locally
+[12:10:50] <MrMakeIt> bop
+[12:10:50] <tulsabot_node> The great DJ accepts!
+[12:13:27] <MrMakeIt> groovecoder: when do you leave for the okc wordpress meeting?
+[12:25:27] <tulsabot_node> The tunes have stopped.
+[12:36:54] <MrMakeIt> groovecoder: is it posible i could get a ride?
+[12:37:11] <percent20_> am i online?
+[12:39:28] <MrMakeIt> yes
+[12:39:32] <MrMakeIt> yes you are
+[12:42:18] <percent20_> awesome.
+[12:42:25] <percent20_> having some odd issues.
+[12:42:59] <tulsabot_node> The tunes have stopped.
+[12:44:15] <groovecoder> MrMakeIt: sorry I've got to head straight there
+[12:44:26] <MrMakeIt> oh.  that's ok.
+[12:44:31] <groovecoder> MrMakeIt: but it looks like I'll have a vidyo link to share
+[12:44:40] <groovecoder> MrMakeIt: if you can d/l vidyo you can join in
+[12:44:42] <MrMakeIt> cool
+[12:44:44] <tulsabot_node> The tunes have stopped.
+[12:44:46] <MrMakeIt> already have it
+[12:45:14] <groovecoder> MrMakeIt: cool, craig and jake and I are going to test the vidyo connection stuff early at about 6pm or so
+[12:45:24] <MrMakeIt> sounds good.
+[12:45:33] <MrMakeIt> ping me when you start
+[13:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:00:48] <tulsabot_node> looking for heroes by eLeCtRo
+[13:00:48] <tulsabot_node> Somebody That I Used To Know by Gotye
+[13:00:48] <tulsabot_node> Dirty Harry by Gorillaz
+[13:00:48] <tulsabot_node> Starships (Edited Version) by Nicki Minaj
+[13:00:49] <tulsabot_node> Song 2 by Blur
+[13:00:49] <tulsabot_node> Wanted Dead Or Alive by Bon Jovi
+[13:00:50] <tulsabot_node> I Kissed A Girl by Katy Perry
+[13:00:50] <tulsabot_node> Meet In The Middle by Diamond Rio
+[13:00:51] <tulsabot_node> Passion by Utada
+[13:41:24] <jonathan__> Anyone here have experience with Arduino and Lego NXT?  Looking for a birthday present for my 10-year-old.
+[13:41:44] <jonathan__> I have the opportunity to get an NXT 1 for $50, but his computer is Linux.  I didn't know if Arduino would be too much for him.
+[13:42:20] <jonathan__> But the pieces to NXT seem to be expensive, and on Linux its a bit of a hack-job anyway.  or can you start with NXT and add regular non-Lego components?
+[13:42:22] <percent20> MrMakeIt ^
+[13:44:27] <MrMakeIt> My recommendation would be the ntx. they're easier for kids to work with hardware wise.  If you have too much trouble with the Linux version, wine support is high.
+[13:44:34] <MrMakeIt> *nxt
+[13:46:18] <jonathan__> Cool.  Thanks!
+[14:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[14:00:48] <tulsabot_node> Immigrant Song by Led Zeppelin
+[14:00:48] <tulsabot_node> Brick House by The Commodores
+[14:00:48] <tulsabot_node> Bent by Matchbox Twenty
+[14:00:48] <tulsabot_node> My Home Town by Tom Lehrer
+[14:00:49] <tulsabot_node> Super Bass by Nicki Minaj
+[14:00:49] <tulsabot_node> Disco Duck by The Hit Co.
+[14:00:50] <tulsabot_node> Code Monkey by Jonathan Coulton
+[14:00:50] <tulsabot_node> Lights by Ellie Goulding
+[14:00:51] <tulsabot_node> Bodies by Drowning Pool
+[14:00:51] <tulsabot_node> Tik Tok by Ke$ha
+[14:00:52] <tulsabot_node> Sexy And I Know It by LMFAO
+[14:23:31] <tulsabot_node> The tunes have stopped.
+[15:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[15:00:48] <tulsabot_node> Last Friday Night (T.G.I.F.) by Katy Perry
+[15:00:48] <tulsabot_node> Axel F (Radio Mix) by Crazy Frog
+[15:00:49] <tulsabot_node> Turn Me On (Feat. Nicki Minaj) by David Guetta
+[15:15:56] <groovecoder> percent20: drive took longer than I wanted. how was the contributor stewards call?
+[15:23:29] <MrMakeIt> bop
+[15:23:29] <tulsabot_node> The great DJ accepts!
+[15:24:02] <percent20> groovecoder, good. Going to do a video that is me behind a camera talking. heh.
+[15:25:49] <jwhitlock> groovecoder: read Harry's email.  sad.
+[15:26:34] <MrMakeIt> when will the link be available?
+[15:26:43] <MrMakeIt> bop
+[15:26:44] <tulsabot_node> The great DJ accepts!
+[15:27:04] <percent20> harry?
+[15:31:21] <jwhitlock> Harry is the Tulsa Transit guy
+[15:32:53] <jwhitlock> To paraphrase, the contract with Trapeze limits how much they can tell us about Trapeze, especially around data and GUI
+[15:33:05] <groovecoder> !trapeze--
+[15:33:05] <tulsabot_node> trapeze has null awesome points.
+[15:33:19] <groovecoder> !botsnack
+[15:33:19] <tulsabot_node> yum! thank yougroovecoder
+[15:33:29] <groovecoder> you're so wise, tulsabot
+[15:34:05] <jwhitlock> So, we can probably continue with the project, but it looks like we're in Chinese wall situation: http://en.wikipedia.org/wiki/Chinese_wall
+[15:38:06] <groovecoder> a Trapeze wall
+[15:39:06] <jwhitlock> creative, and probably less racist
+[15:39:26] <zerokarmaleft> that sucks :(
+[15:40:18] <MrMakeIt> bop
+[15:40:18] <tulsabot_node> The great DJ accepts!
+[15:55:12] <MrMakeIt> is there a vidyo link available?bop
+[15:55:13] <tulsabot_node> The great DJ accepts!
+[16:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[16:00:48] <tulsabot_node> A City In Florida by Deadmau5
+[16:00:48] <tulsabot_node> Parade [パレード] by Susumu Hirasawa
+[16:00:48] <tulsabot_node> Raise Your Weapon by Deadmau5
+[16:00:48] <tulsabot_node> Don't Trust Me by 3OH!3
+[16:00:49] <tulsabot_node> My Favorite Things (Minecraft) by Pedro Esparza
+[16:00:49] <tulsabot_node> Hold On by Holy Ghost!
+[16:00:50] <tulsabot_node> Ghost N Stuff by Deadmau5
+[16:00:50] <tulsabot_node> Don't Panic by Coldplay
+[16:00:51] <tulsabot_node> The Emo Girl's Favorite Things by Project Sisyphus
+[16:00:51] <tulsabot_node> Minecraft Universe by Eric Fullerton
+[16:00:52] <tulsabot_node> be human by Yoko Kanno
+[16:18:13] <MrMakeIt> bop
+[16:18:14] <tulsabot_node> The great DJ accepts!
+[16:24:11] <groovecoder> MrMakeIt: try this? https://v.mozilla.com/flex.html?roomdirect.html&key=qP17NVpseHvy
+[16:41:33] <groovecoder> percent20: or anyone else want to try https://v.mozilla.com/flex.html?roomdirect.html&key=qP17NVpseHvy ?
+[16:47:21] <MrMakeIt> trying now
+[16:47:52] <MrMakeIt> bop
+[16:47:52] <tulsabot_node> The great DJ accepts!
+[16:49:07] <groovecoder> MrMakeIt: we can hear you - you hear us?
+[16:49:25] <groovecoder> we can hear each other - got your sound on?
+[16:56:19] <tulsabot_node> The great DJ accepts!
+[16:56:19] <timmorgan> I looked up bop in an Internet slang dictionary... I don't think you know what it means
+[16:56:45] <groovecoder> MrMakeIt: not sure how nav to room w/ android
+[16:59:16] <MrMakeIt> groovecoder: is there a guest account i could use?
+[16:59:36] <groovecoder> MrMakeIt: no, I don't think so. what happens if you just skip logging in?
+[16:59:52] <MrMakeIt> cant on the android app
+[16:59:57] <groovecoder> MrMakeIt: also, if you want, just join #okc-wp on irc.mozilla.org
+[17:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[17:00:48] <tulsabot_node> Sofi Needs A Ladder by Deadmau5
+[17:00:48] <tulsabot_node> On Melancholy Hill by Gorillaz
+[17:00:48] <tulsabot_node> Minecraft: The Song by Bobby Yarsulik
+[17:00:48] <tulsabot_node> Feel Good Inc. by Gorillaz
+[17:00:49] <tulsabot_node> Til Kingdom Come (Hidden CD Track) by Coldplay
+[17:00:49] <tulsabot_node> Renegade by Styx
+[17:00:50] <tulsabot_node> Technologic by Daft Punk
+[17:00:50] <tulsabot_node> Padrino by Smash Mouth
+[17:00:51] <tulsabot_node> With Or Without You by U2
+[17:00:51] <tulsabot_node> Where The Streets Have No Name by U2
+[17:15:17] <tulsabot_node> The tunes have stopped.
+[18:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[18:00:48] <tulsabot_node> Da Funk by Daft Punk
+[19:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[20:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[21:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[21:00:48] <tulsabot_node> Demon Days by Gorillaz
+[21:00:48] <tulsabot_node> El Manana by Gorillaz
+[21:00:48] <tulsabot_node> Yellow by Coldplay
+[21:00:48] <tulsabot_node> Lorelei by Styx
+[21:00:49] <tulsabot_node> Ghosts 'N' Stuff (Nero Remix) (Feat. Rob Swire) by Deadmau5
+[22:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[22:00:48] <tulsabot_node> Blue (Da Ba Dee)(Dance Mix) by D.J. Disco Dance
+[22:00:48] <tulsabot_node> Are You The One? by The Presets
+[22:00:48] <tulsabot_node> Green Eyes by Coldplay
+[22:00:48] <tulsabot_node> Dragostea Din Tei (Original Romanian Version) by O-Zone
+[22:00:49] <tulsabot_node> Too Much Time On My Hands by Styx
+[22:00:49] <tulsabot_node> Why by The Beatles

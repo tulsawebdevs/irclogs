@@ -1,0 +1,176 @@
+[00:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[00:00:48] <tulsabot_node> Minecraft: The Song by Bobby Yarsulik
+[01:00:49] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[02:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[03:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[04:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[05:00:49] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[06:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[07:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[08:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[09:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[10:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[10:43:26] <djmakeit> is there a hackathon this weekend?
+[10:44:38] <groovecoder> djmakeit: no :(
+[10:45:39] <djmakeit> Dan says there is a listing on the fab lab calender
+[10:46:07] <zerokarmaleft> probably, it got cancelled though
+[10:47:25] <groovecoder> djmakeit: oh yeah, tell them they can remove that
+[10:51:06] <djmakeit> did
+[10:53:17] <zerokarmaleft> anybody interested in doing a group TDD code kata session at a future meeting?
+[10:58:53] <groovecoder> zerokarmaleft: yeah. ask in facebook too though
+[11:00:48] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[11:19:56] <zerokarmaleft> man, i hate that i can't edit Facebook posts to fix typos ><
+[11:53:15] <djmakeit> groovecoder: can you access browserid through a different service from the one you sign up with?
+[11:54:04] <groovecoder> djmakeit: I don't understand the q
+[11:54:25] <groovecoder> specific example?
+[11:54:39] <djmakeit> example I sign up with Mozilla, then on a different comp use my service to get the key.
+[11:55:01] <djmakeit> *another service
+[11:55:43] <groovecoder> djmakeit: so you register djmakeit@djmakeit.com at browserid.org, then you run your own service and register djmakeit@djmakeit.com on that service?
+[11:56:06] <djmakeit> yes
+[11:56:45] <groovecoder> in theory, that should work but I've not seen an example of it. it's just a fancy verified email protocol
+[11:57:20] <groovecoder> whichever service you use to verify your email address, you'll get a token that says "Yes, this client actually owns and controls djmakeit@djmakeit.com"
+[11:57:47] <groovecoder> and you send that token to the relying party site and they verify its validity
+[11:58:00] <djmakeit> is the token the same from any service?
+[11:58:16] <groovecoder> that I'm not sure about, but I imagine so.
+[11:58:25] <groovecoder> otherwise it wouldn't validate?
+[11:58:35] <groovecoder> but you'd have to try it to be sure.
+[11:58:49] <groovecoder> and submit bugs if it doesn't work the way you expect ;)
+[11:59:03] <djmakeit> I'm thinking what if a service you verify goes down
+[11:59:20] <djmakeit> *with
+[11:59:38] <groovecoder> if you still have your token it shouldn't matter
+[12:00:12] <djmakeit> what if you lose your token?
+[12:00:33] <groovecoder> you have to generate a new one, which would require a service
+[12:01:25] <NetMakeIt> and you would be able to login to sites with that token, as the same user?
+[12:02:10] <NetMakeIt> and if the tokens are the same, whos to say you couldnt just generate a token yourself of someone else?
+[12:02:46] <groovecoder> to properly generate someone else's token, you have to have control of their email address
+[12:02:59] <groovecoder> that's baked into the protocol
+[12:03:42] <groovecoder> NetMakeIt: djmakeit: you should really be asking this stuff in #identity on irc.mozilla.org :)
+[12:03:52] <NetMakeIt> good idea.
+[12:05:23] <NetMakeIt> does anyone here know keith sparks? from tulsa opensource hardware?
+[12:09:54] <djmakeit> bop
+[12:09:54] <tulsabot_node> The great DJ accepts!
+[12:13:10] <djmakeit> bop
+[12:13:10] <tulsabot_node> The great DJ accepts!
+[12:17:36] <djmakeit> bop
+[12:17:36] <tulsabot_node> The great DJ accepts!
+[12:26:55] <djmakeit> bop
+[12:26:55] <tulsabot_node> The great DJ accepts!
+[12:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[12:49:54] <tulsabot_node> Moar Ghosts N Stuff by Deadmau5
+[12:49:54] <tulsabot_node> A City In Florida by Deadmau5
+[12:49:54] <tulsabot_node> All Star by Smash Mouth
+[12:49:54] <tulsabot_node> Dragostea Din Tei (Original Romanian Version) by O-Zone
+[12:49:54] <tulsabot_node> Java Life by Java Life
+[12:49:55] <tulsabot_node> Too Much Time On My Hands by Styx
+[12:49:56] <tulsabot_node> Little Bad Girl (Feat. Taio Cruz & Ludacris) by David Guetta
+[12:49:56] <tulsabot_node> Sail by AWOLNATION
+[12:49:56] <tulsabot_node> Why by The Beatles
+[12:49:57] <tulsabot_node> Some Chords by Deadmau5
+[12:49:57] <tulsabot_node> Brianstorm by Arctic Monkeys
+[12:54:50] <djmakeit> bop
+[12:54:50] <tulsabot_node> The great DJ accepts!
+[13:01:18] <djmakeit> bop
+[13:01:18] <tulsabot_node> The great DJ accepts!
+[13:14:45] <tulsabot_node> The tunes have stopped.
+[13:17:14] <djmakeit> !dj
+[13:23:43] <djmakeit> bop
+[13:23:43] <tulsabot_node> The great DJ accepts!
+[13:30:34] <djmakeit> !dj
+[13:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[13:49:54] <tulsabot_node> Stylo (Album Version) (Feat. Mos Def And Bobby Womack) by Gorillaz
+[13:49:54] <tulsabot_node> Starships (Edited Version) by Nicki Minaj
+[13:49:54] <tulsabot_node> Yellow Submarine by The Beatles
+[13:49:54] <tulsabot_node> Wanted Dead Or Alive by Bon Jovi
+[13:49:55] <tulsabot_node> My Home Town by Tom Lehrer
+[13:49:55] <tulsabot_node> Parade [パレード] by Susumu Hirasawa
+[13:49:56] <tulsabot_node> Ghost N Stuff by Deadmau5
+[13:49:56] <tulsabot_node> Parade [パレード] by Susumu Hirasawa
+[13:49:56] <tulsabot_node> be human by Yoko Kanno
+[14:15:57] <Destos> who stole all my music
+[14:25:22] <groovecoder> Destos: http://www.youtube.com/watch?v=IeTybKL1pM4
+[14:26:02] <Destos> humbug
+[14:45:33] <zerokarmaleft> http://app.kodowa.com/playground <= LightTable early access...mostly ClojureScript and webkit talking over web sockets
+[14:45:58] <tulsabot_node> The tunes have stopped.
+[14:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[14:49:54] <tulsabot_node> Feel Good Inc. by Gorillaz
+[14:49:54] <tulsabot_node> Padrino by Smash Mouth
+[14:49:54] <tulsabot_node> Da Funk by Daft Punk
+[14:49:54] <tulsabot_node> Runaway by Bon Jovi
+[15:32:32] <tulsabot_node> The tunes have stopped.
+[15:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[15:49:54] <tulsabot_node> Square One by Coldplay
+[16:06:34] <tulsabot_node> The tunes have stopped.
+[16:20:01] <tulsabot_node> The tunes have stopped.
+[16:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[16:49:54] <tulsabot_node> Speed Of Sound by Coldplay
+[16:51:30] <NetMakeIt> bop
+[16:51:30] <tulsabot_node> The great DJ accepts!
+[17:29:19] <NetMakeIt> bop
+[17:29:19] <tulsabot_node> The great DJ accepts!
+[17:36:24] <NetMakeIt> bop
+[17:36:24] <tulsabot_node> The great DJ accepts!
+[17:49:43] <NetMakeIt> bop
+[17:49:43] <tulsabot_node> The great DJ accepts!
+[17:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[17:49:54] <tulsabot_node> Padrino by Smash Mouth
+[17:49:55] <tulsabot_node> Blaze Of Glory by Jon Bon Jovi
+[17:49:55] <tulsabot_node> Blue (Da Ba Dee)(Dance Mix) by D.J. Disco Dance
+[17:49:55] <tulsabot_node> I'm A Believer by Smash Mouth
+[17:49:55] <tulsabot_node> Are You The One? by The Presets
+[17:49:55] <tulsabot_node> Summer In The City by The Lovin' Spoonful
+[17:49:55] <tulsabot_node> You Give Love A Bad Name by Bon Jovi
+[17:49:56] <tulsabot_node> Technologic by Daft Punk
+[18:10:48] <NetMakeIt> bop
+[18:10:48] <tulsabot_node> The great DJ accepts!
+[18:10:50] <NetMakeIt> bop
+[18:10:51] <tulsabot_node> The great DJ accepts!
+[18:39:33] <NetMakeIt> bop
+[18:39:33] <tulsabot_node> The great DJ accepts!
+[18:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[18:49:54] <tulsabot_node> Harder, Better, Faster, Stronger by Daft Punk
+[18:49:54] <tulsabot_node> Padrino by Smash Mouth
+[18:49:54] <tulsabot_node> In Search Of Diamonds by Eric Fullerton
+[18:49:54] <tulsabot_node> Runaway by Bon Jovi
+[18:49:55] <tulsabot_node> Robots by Flight Of The Conchords
+[18:49:55] <tulsabot_node> Da Funk by Daft Punk
+[18:49:55] <tulsabot_node> New Math by Tom Lehrer
+[18:49:56] <tulsabot_node> Strobe (Club Edit) by Deadmau5
+[18:49:56] <tulsabot_node> Minecraft: The Song by Bobby Yarsulik
+[18:49:57] <tulsabot_node> Moar Ghosts N Stuff by Deadmau5
+[18:49:57] <tulsabot_node> Dragostea Din Tei (Original Romanian Version) by O-Zone
+[19:03:59] <tulsabot_node> The tunes have stopped.
+[19:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[19:49:54] <tulsabot_node> Too Much Time On My Hands by Styx
+[19:49:54] <tulsabot_node> Little Bad Girl (Feat. Taio Cruz & Ludacris) by David Guetta
+[19:49:54] <tulsabot_node> Why by The Beatles
+[19:49:54] <tulsabot_node> Sail by AWOLNATION
+[19:49:54] <tulsabot_node> Some Chords by Deadmau5
+[19:49:55] <tulsabot_node> Brianstorm by Arctic Monkeys
+[19:49:55] <tulsabot_node> Livin' On A Prayer by Bon Jovi
+[19:49:56] <tulsabot_node> I will follow you by eLeCtRo
+[19:49:56] <tulsabot_node> looking for heroes by eLeCtRo
+[20:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[20:49:54] <tulsabot_node> Parade [パレード] by Susumu Hirasawa
+[20:49:54] <tulsabot_node> Hold On by Holy Ghost!
+[20:49:54] <tulsabot_node> Sofi Needs A Ladder by Deadmau5
+[20:49:54] <tulsabot_node> be human by Yoko Kanno
+[20:49:54] <tulsabot_node> Yummy by Meital Dohan
+[20:49:55] <tulsabot_node> Song 2 by Blur
+[20:49:55] <tulsabot_node> Parade [パレード] by Susumu Hirasawa
+[20:49:56] <tulsabot_node> Bounce (Feat. N.O.R.E. & Isis) by MSTRKRFT
+[21:40:04] <tulsabot_node> The tunes have stopped.
+[21:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[21:49:54] <tulsabot_node> Life In Technicolor II by Coldplay
+[21:49:54] <tulsabot_node> All Star by Smash Mouth
+[21:49:54] <tulsabot_node> Til Kingdom Come (Hidden CD Track) by Coldplay
+[21:49:54] <tulsabot_node> Untitled by Unknown
+[21:49:54] <tulsabot_node> Walkin' On The Sun by Smash Mouth
+[21:49:55] <tulsabot_node> Renegade by Styx
+[21:49:55] <tulsabot_node> Untitled by Unknown
+[21:49:56] <tulsabot_node> Square One by Coldplay
+[21:49:56] <tulsabot_node> Technologic by Daft Punk
+[21:49:57] <tulsabot_node> Padrino by Smash Mouth
+[21:49:57] <tulsabot_node> Runaway by Bon Jovi
+[22:49:54] <tulsabot_node> Your http://turntable.fm/tulsawebdevs recap
+[22:49:54] <tulsabot_node> It's My Life by Bon Jovi
+[22:49:54] <tulsabot_node> Da Funk by Daft Punk

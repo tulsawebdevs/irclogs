@@ -1,1 +1,24 @@
-post count:undefined
+post count:23
+(12:00:02 am) percent20: projects = project
+(12:03:34 am) percent20: http://www.youtube.com/watch?v=-n3WHPknszw via #tulsalug
+(12:04:46 am) percent20: http://www.youtube.com/watch?v=x9LinzE_85I&feature=relmfu
+(12:06:28 am) groovecoder: hah
+(12:14:14 am) percent20: after going to the vidyo website i see adverts for them everywhere.
+(12:20:14 am) percent20: http://www.youtube.com/watch?feature=player_detailpage&v=or2GH3CHXqY#t=181s
+(12:33:49 am) shanecowherd: http://www.youtube.com/watch?v=RSS1zh45Fts&feature=related\
+(12:33:51 am) shanecowherd: http://www.youtube.com/watch?v=RSS1zh45Fts&feature=related
+(12:39:38 am) percent20: I like programming
+(12:39:43 am) percent20: sometimes.
+(12:12:00 pm) groovecoder: !skip
+(02:17:30 pm) percent20: groovecoder, you around?
+(02:19:52 pm) groovecoder: percent20: yeah but mostly unavailable ...
+(02:20:17 pm) percent20: can i put a gist together you glance at it and tell my what is wrong?
+(02:31:31 pm) percent20: groovecoder, if you have a chance: https://gist.github.com/3055899 just trying to deal with urls issue
+(04:39:10 pm) mrmakeit_web: !karma?
+(04:39:34 pm) mrmakeit_web: !recent
+(04:41:46 pm) mrmakeit_web: groovecoder: is there any chance the lab could get us to build a mobile webpage for the tulsa maker fair?
+(05:08:54 pm) groovecoder: mrmakeit_web: we can float it to the group ...
+(05:09:14 pm) groovecoder: mrmakeit_web: a mobile page on the fab lab site? or a separate site?
+(05:10:07 pm) mrmakeit_web: separate site
+(05:14:22 pm) mrmakeit_web: cool thanks
+(05:33:55 pm) mrmakeit_web: percent20: could you review the logs and tell me when they stopped?  mongolabs changed db logins to one connection per user.  so some of the logs did not update.

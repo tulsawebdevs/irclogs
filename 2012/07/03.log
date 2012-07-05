@@ -1,1 +1,55 @@
-post count:undefined
+post count:54
+(03:06:01 pm) zerokarmaleft: timmorgan: ping
+(03:06:15 pm) timmorgan: zerokarmaleft: hi
+(03:06:30 pm) zerokarmaleft: timmorgan: do you do any headless TDD in node.js?
+(03:07:03 pm) timmorgan: no, that's an area I haven't invested a lot in
+(03:07:07 pm) zerokarmaleft: rather, any TDD/BDD with node.js
+(03:07:15 pm) timmorgan: I've used Jasmine in the browser to test Backbone
+(03:07:22 pm) timmorgan: but not TDD on node.js yet
+(03:08:15 pm) timmorgan: ok, I lied, I've done a itsy bitsy bit: https://github.com/seven1m/sooner.io/blob/master/spec/formHelpersSpec.coffee
+(03:08:45 pm) timmorgan: https://github.com/seven1m/sooner.io/blob/master/spec/sandboxSpec.coffee
+(03:10:30 pm) timmorgan: zerokarmaleft: and you?
+(03:10:35 pm) zerokarmaleft: timmorgan: related: did you see the topics for the july meeting?
+(03:10:40 pm) timmorgan: nope not yet
+(03:11:26 pm) zerokarmaleft: i suggested doing a simple code kata in different languages
+(03:11:55 pm) timmorgan: nice
+(03:12:08 pm) zerokarmaleft: we have such a varying skill level in the group
+(03:12:18 pm) zerokarmaleft: it'd be nice to do something accessible to everyone
+(03:12:34 pm) timmorgan: indeed
+(03:12:42 pm) zerokarmaleft: whether it be foundational TDD or just learning some new tools
+(03:12:53 pm) timmorgan: tulsawebdevs.org is not responding for me
+(03:13:01 pm) zerokarmaleft: it's on facebook
+(03:13:21 pm) zerokarmaleft: i'm not sure how it would work out with multiple presenters/multiple languages
+(03:14:17 pm) zerokarmaleft: but if we went that route, it'd make more sense if you or Destos or someone else with more node under their belt would lead that
+(03:14:41 pm) timmorgan: I just hope it wouldn't degenerate into 'who can make the most obfuscated one-liner in their favorite language'
+(03:14:47 pm) timmorgan: ok
+(03:15:02 pm) zerokarmaleft: the other option is to just go javascript
+(03:15:11 pm) zerokarmaleft: and do something like a swarm-coding session
+(03:15:28 pm) zerokarmaleft: http://technomancy.us/162
+(03:16:38 pm) timmorgan: that could be cool
+(03:16:55 pm) zerokarmaleft: i think that's actually the way we should go
+(03:17:00 pm) timmorgan: though I tend to prefer code that's prepared before-hand -- watching someone type can get very tiring
+(03:17:30 pm) zerokarmaleft: that shouldn't be as big of a deal with a code kata
+(03:17:47 pm) zerokarmaleft: the point is to get people familiar with thinking through the solution, even going down wrong paths
+(03:17:50 pm) timmorgan: either option sounds awesome though!
+(03:18:06 pm) timmorgan: yeah, that could really be helpful
+(03:22:06 pm) zerokarmaleft: anyway, food for though...i'm crashing my way through jasmine atm
+(03:22:12 pm) zerokarmaleft: s/though/thought*
+(03:27:39 pm) groovecoder: zerokarmaleft: I bet beginner + intermediate + advanced javascript code-swarming would be really good
+(03:28:06 pm) groovecoder: i.e., set up a beginner, an intermediate, and an advanced javascript coding exercise
+(03:28:17 pm) groovecoder: everyone loves teh javascript
+(03:33:19 pm) Destos: its the best worst language out there!
+(03:33:29 pm) zerokarmaleft: Destos: so true :-/
+(03:34:54 pm) groovecoder: Destos: you in the zed shaw school now?
+(03:44:31 pm) zerokarmaleft: groovecoder: maybe a tooling workshop+really simple example would work well as a beginner track, and a more thorough example as an intermediate track?
+(03:45:32 pm) groovecoder: zerokarmaleft: you thinking all this is node.js stuff?
+(03:45:58 pm) groovecoder: we might get buddy to convert his "Intro to node" talk into a "intro to node" kata
+(03:46:15 pm) zerokarmaleft: groovecoder: atm i'm using jasmine-node, but it's not TDD for writing node apps per se
+(03:46:36 pm) zerokarmaleft: i wanted to separate focus from that, otherwise it's too much cognitive load
+(03:47:26 pm) zerokarmaleft: jasmine-node basically gives you a traditional console test runner output
+(03:47:42 pm) zerokarmaleft: instead of running in browser, which just feels utterly wrong to me
+(03:47:56 pm) groovecoder: zerokarmaleft: heh
+(03:48:37 pm) zerokarmaleft: TDD for node.js services might be a topic worth investigating in the future, though
+(04:44:16 pm) Destos: zerokarmaleft: I'm looking at testem recently, going to try and integrate that into our testing env
+(04:44:19 pm) Destos: https://github.com/airportyh/testem
+(04:44:56 pm) Destos: allows you to test on all installed browsers with your preferred testing framework

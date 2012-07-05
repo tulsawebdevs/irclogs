@@ -1,1 +1,100 @@
-post count:undefined
+post count:99
+(11:47:26 am) zerokarmaleft: hmm, mocha is pretty nice too
+(11:29:56 pm) percent20: shanecowherd, wow you are in irc :D
+(11:30:09 pm) percent20: groovecoder, you around by chance?
+(11:30:16 pm) groovecoder: yup, what's up?
+(11:30:24 pm) percent20: django question.
+(11:30:34 pm) percent20: I am trying to do a test and use reverse shortcut
+(11:31:01 pm) percent20: my url is: url(r'^(?P<username>[-\w]+)/$', 'accounts.views.profile', name="profile"),
+(11:31:16 pm) percent20: but i don't know how to use the reverse shortcut to call that and pass username as well.
+(11:31:51 pm) groovecoder: percent20: reverse('profile', args=[username]) I think
+(11:32:48 pm) percent20: okay i'll try that. also does my view function for doing a url like that supposed to look like this: def profile(request, username):
+(11:32:57 pm) groovecoder: yup
+(11:33:12 pm) shanecowherd: hiya
+(11:33:14 pm) percent20: okay. something feels odd about that, but if that is how it works is probably me just staring at it to long
+(11:33:29 pm) percent20: shanecowherd, wasup. Played with node.js anymore?
+(11:33:59 pm) shanecowherd: just got back from spiderman and foster the people concert
+(11:34:03 pm) shanecowherd: havent touched it
+(11:34:16 pm) percent20: groovecoder, since it looks like shanecowherd is wanting to do more node.js I am wanting to volunteer him to come back and do a training ;)
+(11:34:19 pm) percent20: shanecowherd, gotcha.
+(11:34:31 pm) percent20: shanecowherd, what did you think of spiderman?
+(11:34:40 pm) shanecowherd: great reboot
+(11:35:00 pm) percent20: cool.
+(11:35:03 pm) groovecoder: just seems too soon to reboot spider-man
+(11:35:13 pm) shanecowherd: they did a great job
+(11:35:20 pm) groovecoder: I mean, the 3rd spider man was terrible ... maybe that's a good enough reason to reboot it
+(11:35:41 pm) percent20: hahaha as long as they did a good job then i don't mind i guess. heh.
+(11:36:38 pm) percent20: shanecowherd, oh the cat is out of the bag about melissa. I invited her over for our family 4th of july outing since she didn't have any other plans. shocked the family too. lol.
+(11:36:57 pm) shanecowherd: are you all finished?
+(11:37:14 pm) percent20: ???
+(11:37:20 pm) shanecowherd: your online
+(11:37:25 pm) shanecowherd: its still 4th of july lol
+(11:37:32 pm) percent20: oh. yeah. been home since like 6
+(11:37:37 pm) shanecowherd: o ok
+(11:37:47 pm) percent20: my head got sunburned and it hurts
+(11:37:56 pm) shanecowherd: lol
+(11:38:32 pm) percent20: not used to sunburn pain. Also looks like I might be going to lake eufala saturday with Melissa and some of her friends. So going to need to get the sunscreen out for that.
+(11:38:41 pm) percent20: groovecoder, we still on for lunch at anspire on friday?
+(11:38:50 pm) groovecoder: percent20: yeah
+(11:39:04 pm) shanecowherd: percent20, are you still on ubuntu
+(11:39:27 pm) percent20: groovecoder, awesome. just thought i would double check. Also who is the girl on facebook asking about new technologies people want to learn?
+(11:39:29 pm) percent20: shanecowherd, yes.
+(11:40:38 pm) percent20: shanecowherd, booted into OS X yesterday to watch a netflix movie and hook it up to a TV. booted so fast I thought my computer was broke. lol.
+(11:41:06 pm) shanecowherd: lol
+(11:41:12 pm) shanecowherd: moonlight?
+(11:41:36 pm) percent20: doesn't work with the DRM stuff of netflix
+(11:41:41 pm) shanecowherd: interesting
+(11:41:44 pm) shanecowherd: virtual machine?
+(11:41:53 pm) percent20: quicker to reboot
+(11:41:55 pm) shanecowherd: kk
+(11:42:09 pm) percent20: and not going to be doing anything else while its hooked to a 70" tv
+(11:42:48 pm) percent20: jkkjjkk
+(11:42:55 pm) percent20: lol. this isn't vim.
+(11:44:37 pm) percent20: groovecoder, do you have any specific way you organize your imports in django?
+(11:44:55 pm) percent20: like do you group them or do by string length?
+(11:45:08 pm) percent20: btw my brain is moving at 100 mph right now.
+(11:45:22 pm) shanecowherd: percent20, can you add a feature to the bot
+(11:45:26 pm) groovecoder: I group. top group is standard python libs, then 3rd-party python libs, then django libs, then 3rd-party django libs, then my modules
+(11:45:55 pm) percent20: groovecoder, I like that. I shall adopt that
+(11:46:00 pm) percent20: shanecowherd, what feature?
+(11:46:10 pm) shanecowherd: i want to be able to say
+(11:46:23 pm) shanecowherd: bot count percent20 django
+(11:46:29 pm) shanecowherd: and it will tell me how many times you have said django
+(11:46:41 pm) percent20: that would be cool.
+(11:47:58 pm) groovecoder: shanecowherd: git clone git://github.com/tulsawebdevs/irclogs.git && grep -r "percent20" irclogs && grep "django" | wc -l
+(11:48:16 pm) groovecoder: how's that for some taco bell programming? ;)
+(11:48:21 pm) percent20: groovecoder, nice taco belling.
+(11:48:21 pm) shanecowherd: lol
+(11:48:25 pm) percent20: hahaha lol.
+(11:48:36 pm) percent20: I was just going to paste this: echo "<html><body>sorry page doesn't exist</body></html>" >> templates/404.html
+(11:48:52 pm) percent20: I did that one to get a test to pass for not having a 404 page.
+(11:49:17 pm) percent20: shanecowherd, did you ever checkout my canvas thing?
+(11:49:45 pm) groovecoder: shanecowherd: percent20: 105 times
+(11:49:50 pm) percent20: shanecowherd, oh and you left your squash over here you need to drive back and pick it up.
+(11:49:57 pm) percent20: groovecoder, lol. how many for you?
+(11:49:58 pm) shanecowherd: lol yeah
+(11:50:05 pm) groovecoder: and the corrected command is: git clone git://github.com/tulsawebdevs/irclogs.git && grep -r "percent20" irclogs | grep "django" | wc -l
+(11:50:21 pm) groovecoder: percent20: 62
+(11:50:44 pm) percent20: groovecoder, you need to make an official tulsawebdevs gist for stuff like this.
+(11:51:17 pm) percent20: that way we can compile thing of commands so we can all learn more commands others are using.
+(11:51:28 pm) percent20: then point jgmize to it. lol.
+(11:52:55 pm) groovecoder: percent20: Tiffany says it's bed-time
+(11:53:25 pm) shanecowherd: happy fourth
+(11:53:32 pm) percent20: groovecoder, booo wives suck. say no.
+(11:53:40 pm) percent20: groovecoder, lol have a good evening. ttyl.
+(11:53:51 pm) groovecoder: percent20: no, she says it's *your* bed-time
+(11:54:08 pm) groovecoder: she says everyone should be done coding and it should be time for bed
+(11:54:15 pm) percent20: lol.
+(11:54:31 pm) percent20: I am never done coding.
+(11:54:44 pm) groovecoder: she knows better than try to stop me coding
+(11:54:48 pm) percent20: hahaha
+(11:55:02 pm) percent20: what you working on? THD?
+(11:55:29 pm) groovecoder: nah. I'm waiting on them to get back to me. I'm working on this: https://github.com/mozilla/kuma/pull/342
+(11:56:01 pm) groovecoder: yeah you best be runnin'
+(11:56:44 pm) percent20: lol your link killed xchat
+(11:56:50 pm) groovecoder: hah
+(11:56:56 pm) groovecoder: is limechat not on linux?
+(11:57:00 pm) percent20: so you are doing work work.
+(11:57:10 pm) percent20: groovecoder, dunno. I am so used to xchat on linux i didn't even think to look.
+(11:57:19 pm) groovecoder: percent20: yeah. also that was funny to see you drop from #webdev and #mdndev too
+(11:59:18 pm) percent20: groovecoder, friday can you peruse some of my tests on my projects and give me some pointers on how to make them better

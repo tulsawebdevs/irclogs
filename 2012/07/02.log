@@ -1,1 +1,42 @@
-post count:undefined
+post count:41
+(10:57:02 am) groovecoder: zerokarmaleft: it's sad but true that really the only brand mozilla can use effectively is "Firefox" ...
+(10:57:25 am) groovecoder: it's a huge club to swing around
+(11:00:06 am) zerokarmaleft: the tail makes a convenient handle/kung fu grip
+(11:00:54 am) zerokarmaleft: but yea, grandma and joe user doesn't know wtf Gecko is
+(11:02:37 am) groovecoder: yeah, Android vs. iOS vs. Windows Phone vs. Blackberry vs. Boot to Gecko is ... an up-hill battle
+(11:03:32 am) zerokarmaleft: on ice skates
+(11:04:11 am) zerokarmaleft: groovecoder: https://github.com/technomancy/swarming <= swarm coding
+(11:04:32 am) zerokarmaleft: er, http://technomancy.us/162 <= meant to link his blog post about it
+(11:05:57 am) groovecoder: zerokarmaleft: I need to learn tmux
+(11:06:01 am) groovecoder: more* tmux
+(11:06:34 am) zerokarmaleft: yea, that's where i'm at now...trying to switch permanently from screen for the second or third time
+(11:32:45 am) percent20: groovecoder, http://buddylindsey.github.com/javascript-goofing/game/
+(11:32:58 am) percent20: use your arrow keys
+(11:33:24 am) groovecoder: percent20: thanks now I have the Hyrule anthem stuck in my head
+(11:33:36 am) percent20: glad I can help.
+(11:33:53 am) groovecoder: http://www.hark.com/clips/dzljsvwgzz-hyrule-kingdom-theme-song
+(11:33:53 am) zerokarmaleft: groovecoder: better than saria's song
+(11:33:58 am) groovecoder: now everyone can have it
+(11:34:12 am) zerokarmaleft: http://www.youtube.com/watch?v=RVlqk9yZf2c
+(11:34:38 am) groovecoder: zerokarmaleft: fun fact: I actually *bought* an ocarina and learned a bunch of those songs on it ><
+(11:35:09 am) zerokarmaleft: left right up! left right up!
+(11:35:51 am) percent20: I did that all with javscript and canvas. No libraries at all.
+(11:35:52 am) Destos: dedication
+(11:36:16 am) percent20: and Destos saved me on the image flickering as well.
+(11:36:31 am) Destos: you would've figured it out
+(11:36:39 am) Destos: with enough frustration and anger!
+(11:36:59 am) percent20: It was about to go on stackoverflow
+(11:37:23 am) zerokarmaleft: just gotta turn it into a proper sprite now with alpha blending :D
+(11:37:41 am) percent20: heh.
+(11:37:52 am) percent20: there is a lot to do if I want to take it any further.
+(11:38:13 am) zerokarmaleft: i did something like this many years ago with Terra from Final Fantasy VI
+(11:39:31 am) zerokarmaleft: it was part of a larger project to make a multiplayer game where you raced through a maze
+(11:40:11 am) percent20: that is cool. You should remake that with HTML5
+(11:40:47 am) zerokarmaleft: oddly enough, i've been studying maze generation again lately
+(11:41:52 am) zerokarmaleft: http://weblog.jamisbuck.org/2011/2/7/maze-generation-algorithm-recap <= specifically, wilson's algorithm in clojure, but these javascript demos are fun to watch
+(11:42:20 am) zerokarmaleft: the actual generation algorithms are in ruby, and the visualizations are coffeescript
+(11:43:42 am) zerokarmaleft: also, fun may be a subjective term for people that also find enjoyment from watching a disk defragger at work
+(12:43:57 pm) percent20: http://buddylindsey.com/starting-an-html-5-tile-based-canvas-game-game-area-and-character/
+(03:55:38 pm) zerokarmaleft: !played
+(03:56:10 pm) zerokarmaleft: er
+(03:56:12 pm) zerokarmaleft: !recent
